@@ -366,6 +366,29 @@ public:
         }
         count = 0;
     }
+
+    // Iterator support for traversing all elements
+    template<typename Func>
+    void forEach(Func func) {
+        for (int i = 0; i < TableSize; i++) {
+            Node* curr = table[i];
+            while (curr != nullptr) {
+                func(curr->key, curr->value);
+                curr = curr->next;
+            }
+        }
+    }
+
+    template<typename Func>
+    void forEach(Func func) const {
+        for (int i = 0; i < TableSize; i++) {
+            Node* curr = table[i];
+            while (curr != nullptr) {
+                func(curr->key, curr->value);
+                curr = curr->next;
+            }
+        }
+    }
 };
 
 #endif // HASHTABLE_HPP

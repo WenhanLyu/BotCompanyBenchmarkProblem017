@@ -1,13 +1,60 @@
 #include <iostream>
 #include <string>
 #include <cstring>
+#include <fstream>
+#include <cstdio>
 #include "types.hpp"
 #include "hashtable.hpp"
+#include "fileio.hpp"
 
 // User database and session management
 StringHashTable<User> users;
 StringHashTable<bool> logged_in_users;  // Track logged-in users
 int user_count = 0;  // Track total number of users
+
+// Persistence functions
+void save_users() {
+    std::ofstream out("users.dat", std::ios::binary);
+    if (!out) return;
+
+    // Write user count
+    out.write(reinterpret_cast<const char*>(&user_count), sizeof(int));
+
+    // Write each user by iterating through the hash table
+    users.forEach([&out](const char* key, const User& user) {
+        out.write(reinterpret_cast<const char*>(&user), sizeof(User));
+    });
+
+    out.close();
+}
+
+void load_users() {
+    std::ifstream in("users.dat", std::ios::binary);
+    if (!in) return;  // File doesn't exist yet
+
+    // Read user count
+    int saved_count;
+    in.read(reinterpret_cast<char*>(&saved_count), sizeof(int));
+
+    // Validate read
+    if (in.fail() || saved_count < 0 || saved_count > 1000000) {
+        in.close();
+        return;
+    }
+
+    // Read each user
+    for (int i = 0; i < saved_count; i++) {
+        User user;
+        in.read(reinterpret_cast<char*>(&user), sizeof(User));
+        if (in.fail()) {
+            break;
+        }
+        users.insert(user.username, user);
+    }
+
+    user_count = saved_count;
+    in.close();
+}
 
 // Parse command parameters
 // Format: command -key1 value1 -key2 value2 ...
@@ -116,6 +163,7 @@ int cmd_add_user(const CommandParser& parser) {
         User new_user(username, password, name, mail, privilege);
         users.insert(username, new_user);
         user_count++;
+        save_users();
         return 0;
     }
 
@@ -145,6 +193,9 @@ int cmd_add_user(const CommandParser& parser) {
     User new_user(username, password, name, mail, privilege);
     users.insert(username, new_user);
     user_count++;
+
+    // Save users to disk
+    save_users();
 
     return 0;
 }
@@ -308,6 +359,9 @@ int cmd_modify_profile(const CommandParser& parser) {
     // Update the user in the hash table
     users.insert(username, updated_user);
 
+    // Save users to disk
+    save_users();
+
     // Output modified user information
     std::cout << updated_user.username << " "
               << updated_user.name << " "
@@ -321,10 +375,17 @@ int cmd_clean() {
     users.clear();
     logged_in_users.clear();
     user_count = 0;
+
+    // Delete the persistence file
+    std::remove("users.dat");
+
     return 0;
 }
 
 int main() {
+    // Load user data from disk at startup
+    load_users();
+
     std::string command;
     std::string line;
 
