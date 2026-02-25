@@ -151,10 +151,111 @@ private:
         return new_leaf.self_pos;
     }
 
+    // Find parent of a given node
+    bool findParent(std::streampos child_pos, Node& parent, int& child_index) {
+        if (child_pos == header.root_pos) return false;  // Root has no parent
+
+        std::streampos current_pos = header.root_pos;
+        Node current;
+
+        while (true) {
+            if (!loadNode(current, current_pos)) return false;
+            if (current.is_leaf) return false;  // Shouldn't reach leaf without finding parent
+
+            // Check if any child matches
+            for (int i = 0; i <= current.key_count; i++) {
+                if (current.children[i] == child_pos) {
+                    parent = current;
+                    child_index = i;
+                    return true;
+                }
+            }
+
+            // Find which child to descend to
+            // Load first child to check if it's a leaf (would be parent level)
+            Node first_child;
+            if (loadNode(first_child, current.children[0])) {
+                if (first_child.is_leaf) {
+                    // Current is parent of leaves, but child not found
+                    return false;
+                }
+            }
+
+            // Descend to appropriate child (this is crude but works for finding parent)
+            // We need to search all children at this level
+            for (int i = 0; i <= current.key_count; i++) {
+                if (current.children[i] >= 0) {
+                    Node check_child;
+                    if (loadNode(check_child, current.children[i])) {
+                        // Check if child_pos is in subtree
+                        if (!check_child.is_leaf) {
+                            // Recursively search this subtree
+                            if (findParentInSubtree(current.children[i], child_pos, parent, child_index)) {
+                                return true;
+                            }
+                        }
+                    }
+                }
+            }
+
+            return false;
+        }
+    }
+
+    // Helper to find parent in subtree
+    bool findParentInSubtree(std::streampos subtree_root, std::streampos child_pos, Node& parent, int& child_index) {
+        Node current;
+        if (!loadNode(current, subtree_root)) return false;
+
+        // Check if this node is the parent
+        for (int i = 0; i <= current.key_count; i++) {
+            if (current.children[i] == child_pos) {
+                parent = current;
+                child_index = i;
+                return true;
+            }
+        }
+
+        // If not leaf, check children
+        if (!current.is_leaf) {
+            for (int i = 0; i <= current.key_count; i++) {
+                if (current.children[i] >= 0) {
+                    if (findParentInSubtree(current.children[i], child_pos, parent, child_index)) {
+                        return true;
+                    }
+                }
+            }
+        }
+
+        return false;
+    }
+
+    // Split internal node
+    std::streampos splitInternal(Node& node, Key& up_key) {
+        Node new_node = createNode(false);
+        int mid = node.key_count / 2;
+
+        // Key that goes up to parent
+        up_key = node.keys[mid];
+
+        // Move keys and children to new node
+        new_node.key_count = node.key_count - mid - 1;
+        for (int i = 0; i < new_node.key_count; i++) {
+            new_node.keys[i] = node.keys[mid + 1 + i];
+            new_node.children[i] = node.children[mid + 1 + i];
+        }
+        new_node.children[new_node.key_count] = node.children[node.key_count];
+
+        node.key_count = mid;
+
+        saveNode(node);
+        saveNode(new_node);
+
+        return new_node.self_pos;
+    }
+
     // Insert entry into parent
     bool insertIntoParent(std::streampos left_pos, const Key& key, std::streampos right_pos) {
-        // This is a simplified version - full implementation would handle internal node splits
-        // For now, we'll handle simple cases
         Node left;
         if (!loadNode(left, left_pos)) return false;
 
@@ -172,7 +273,88 @@ private:
             return true;
         }
 
-        return true;
+        // Find parent of left node
+        Node parent;
+        int child_index;
+        if (!findParent(left_pos, parent, child_index)) return false;
+
+        // Insert key and right_pos into parent
+        // Find insertion position
+        int i = parent.key_count;
+        while (i > child_index && parent.keys[i - 1] > key) {
+            i--;
+        }
+
+        // Check if parent has space
+        if (parent.key_count < MAX_KEYS) {
+            // Shift keys and children to make room
+            for (int j = parent.key_count; j > i; j--) {
+                parent.keys[j] = parent.keys[j - 1];
+                parent.children[j + 1] = parent.children[j];
+            }
+
+            parent.keys[i] = key;
+            parent.children[i + 1] = right_pos;
+            parent.key_count++;
+
+            return saveNode(parent);
+        }
+
+        // Parent is full, need to split
+        // Create temporary arrays to hold all keys and children
+        Key temp_keys[MAX_KEYS + 1];
+        std::streampos temp_children[Degree + 1];
+
+        // Copy all existing children first
+        for (int k = 0; k <= parent.key_count; k++) {
+            temp_children[k] = parent.children[k];
+        }
+
+        // Copy all existing keys
+        for (int k = 0; k < parent.key_count; k++) {
+            temp_keys[k] = parent.keys[k];
+        }
+
+        // Shift keys and children to make room for new entry at position i
+        for (int k = parent.key_count; k > i; k--) {
+            temp_keys[k] = temp_keys[k - 1];
+            temp_children[k + 1] = temp_children[k];
+        }
+
+        // Insert new key and child pointer
+        temp_keys[i] = key;
+        temp_children[i + 1] = right_pos;
+
+        // Now temp_keys has (parent.key_count + 1) keys
+        // and temp_children has (parent.key_count + 2) children
+        int total_keys = parent.key_count + 1;
+
+        // Split at middle
+        int mid = total_keys / 2;
+        Key up_key = temp_keys[mid];
+
+        // Update left parent: keys [0..mid), children [0..mid]
+        parent.key_count = mid;
+        for (int k = 0; k < mid; k++) {
+            parent.keys[k] = temp_keys[k];
+            parent.children[k] = temp_children[k];
+        }
+        parent.children[mid] = temp_children[mid];
+
+        // Create new right parent: keys [mid+1..total_keys), children [mid+1..total_keys]
+        Node new_parent = createNode(false);
+        new_parent.key_count = total_keys - mid - 1;
+        for (int k = 0; k < new_parent.key_count; k++) {
+            new_parent.keys[k] = temp_keys[mid + 1 + k];
+            new_parent.children[k] = temp_children[mid + 1 + k];
+        }
+        new_parent.children[new_parent.key_count] = temp_children[total_keys];
+
+        saveNode(parent);
+        saveNode(new_parent);
+
+        // Recursively insert into parent's parent
+        return insertIntoParent(parent.self_pos, up_key, new_parent.self_pos);
     }
 
     // Save header to disk
@@ -242,19 +424,62 @@ public:
         }
 
         // Leaf is full, need to split
-        // For simplicity, we'll just insert without splitting in this basic version
-        // A full implementation would handle splits properly
-        if (leaf.key_count > 0) {
-            // Find position and replace if needed
-            for (int i = 0; i < leaf.key_count; i++) {
-                if (leaf.keys[i] == key) {
-                    leaf.values[i] = value;
-                    return saveNode(leaf);
-                }
-            }
+        // Create temporary arrays to hold all keys and values including new one
+        Key temp_keys[MAX_KEYS + 1];
+        Value temp_values[MAX_KEYS + 1];
+
+        // Find insertion position and copy data
+        int insert_pos = 0;
+        while (insert_pos < leaf.key_count && leaf.keys[insert_pos] < key) {
+            insert_pos++;
         }
 
-        return false;
+        // Check if key already exists (update case)
+        if (insert_pos < leaf.key_count && leaf.keys[insert_pos] == key) {
+            leaf.values[insert_pos] = value;
+            return saveNode(leaf);
+        }
+
+        // Copy keys and values, inserting new one at correct position
+        for (int i = 0; i < insert_pos; i++) {
+            temp_keys[i] = leaf.keys[i];
+            temp_values[i] = leaf.values[i];
+        }
+        temp_keys[insert_pos] = key;
+        temp_values[insert_pos] = value;
+        for (int i = insert_pos; i < leaf.key_count; i++) {
+            temp_keys[i + 1] = leaf.keys[i];
+            temp_values[i + 1] = leaf.values[i];
+        }
+
+        // Split point
+        int original_count = leaf.key_count;
+        int mid = (original_count + 1) / 2;
+
+        // Update left leaf
+        leaf.key_count = mid;
+        for (int i = 0; i < mid; i++) {
+            leaf.keys[i] = temp_keys[i];
+            leaf.values[i] = temp_values[i];
+        }
+
+        // Create new right leaf
+        Node new_leaf = createNode(true);
+        new_leaf.key_count = (original_count + 1) - mid;
+        for (int i = 0; i < new_leaf.key_count; i++) {
+            new_leaf.keys[i] = temp_keys[mid + i];
+            new_leaf.values[i] = temp_values[mid + i];
+        }
+
+        // Update leaf links
+        new_leaf.next_leaf = leaf.next_leaf;
+        leaf.next_leaf = new_leaf.self_pos;
+
+        saveNode(leaf);
+        saveNode(new_leaf);
+
+        // Insert separator key (first key of right leaf) into parent
+        return insertIntoParent(leaf.self_pos, new_leaf.keys[0], new_leaf.self_pos);
     }
 
     // Find value by key
