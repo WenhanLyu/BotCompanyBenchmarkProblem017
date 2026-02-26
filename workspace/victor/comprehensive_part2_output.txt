@@ -1,0 +1,10 @@
+0
+alice Alice alice@test.com 10
+0
+-1
+-1
+-1
+-1
+-1
+-1
+bye

@@ -1,0 +1,13 @@
+add_user -c dummy -u alice -p pass123 -n Alice -m alice@test.com -g 100
+add_user -c dummy -u bob -p bobpass -n Bob -m bob@test.com -g 50
+add_user -c dummy -u charlie -p charlie123 -n Charlie -m charlie@test.com -g 75
+login -u alice -p pass123
+query_profile -c alice -u alice
+logout -u alice
+login -u bob -p bobpass
+query_profile -c bob -u bob
+logout -u bob
+login -u charlie -p charlie123
+query_profile -c charlie -u charlie
+logout -u charlie
+exit

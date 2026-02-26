@@ -1,0 +1,4 @@
+login -u alice -p pass123
+query_profile -c alice -u bob
+logout -u alice
+exit

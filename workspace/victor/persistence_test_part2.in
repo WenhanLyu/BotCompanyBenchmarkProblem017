@@ -1,0 +1,8 @@
+login -u victor_test1 -p test123
+query_profile -c victor_test1 -u victor_test1
+query_profile -c victor_test1 -u victor_test2
+login -u victor_test2 -p pass456
+query_profile -c victor_test2 -u victor_test2
+logout -u victor_test1
+logout -u victor_test2
+exit

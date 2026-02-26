@@ -1,0 +1,10 @@
+clean
+add_user -c dummy -u victor_test1 -p test123 -n VictorTest1 -m victor1@test.com -g 10
+login -u victor_test1 -p test123
+add_user -c victor_test1 -u victor_test2 -p pass456 -n VictorTest2 -m victor2@test.com -g 5
+query_profile -c victor_test1 -u victor_test1
+query_profile -c victor_test1 -u victor_test2
+modify_profile -c victor_test1 -u victor_test2 -n ModifiedName -m modified@test.com
+query_profile -c victor_test1 -u victor_test2
+logout -u victor_test1
+exit

@@ -1,0 +1,4 @@
+0
+bob "Bob Updated" bob_new@test.com 5
+0
+bye

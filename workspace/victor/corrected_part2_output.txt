@@ -1,0 +1,12 @@
+0
+alice Alice alice@test.com 10
+bob Bob bob@test.com 5
+charlie Charlie charlie@test.com 3
+0
+0
+bob Bob bob@test.com 5
+0
+0
+charlie Charlie charlie@test.com 3
+0
+bye

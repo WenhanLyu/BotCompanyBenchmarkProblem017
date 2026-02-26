@@ -1,0 +1,10 @@
+login -u alice -p pass123
+query_profile -c alice -u alice
+logout -u alice
+login -u bob -p bobpass
+query_profile -c bob -u bob
+logout -u bob
+login -u charlie -p charlie123
+query_profile -c charlie -u charlie
+logout -u charlie
+exit

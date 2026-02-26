@@ -1,0 +1,5 @@
+login -u alice -p pass123
+modify_profile -c alice -u bob -n "Bob Updated" -m bob_new@test.com
+query_profile -c alice -u bob
+logout -u alice
+exit
