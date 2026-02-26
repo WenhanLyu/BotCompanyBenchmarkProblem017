@@ -892,8 +892,19 @@ int cmd_query_ticket(const CommandParser& parser) {
             result.leaving_time = leaving_at_from;
             result.arriving_time = arriving_at_to;
             result.price = cumulative_price;
-            int avail = checkAvailableSeats(train.trainID, start_date, from_idx, to_idx);
-            result.seat = (avail > 0) ? avail : train.seatNum;
+
+            // Check seat availability - need to distinguish between "no data" and "0 seats"
+            SeatKey seat_key(train.trainID, start_date);
+            SeatAvailability* seat_data = seats.find(seat_key);
+            if (seat_data) {
+                // Seat tracking data exists, use actual availability
+                int avail = checkAvailableSeats(train.trainID, start_date, from_idx, to_idx);
+                result.seat = avail;
+            } else {
+                // No seat tracking data yet (no tickets sold), use full capacity
+                result.seat = train.seatNum;
+            }
+
             result.travel_minutes = travel_minutes;
         }
     });

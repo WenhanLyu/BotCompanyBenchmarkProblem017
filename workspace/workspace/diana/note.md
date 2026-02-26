@@ -1,60 +1,70 @@
 # Diana's Implementation Notes
 
-## Completed Tasks
+## Issue #25: query_ticket Seat Calculation Bug - FIXED
 
-### Train Management Commands (Previous Cycle)
+### Problem
+The "price calculation bug" in query_ticket was actually a seat availability calculation bug. The code always returned `train.seatNum` (full capacity) instead of showing reduced availability after ticket purchases.
 
-Successfully implemented all 4 train management commands in main.cpp:
+### Root Cause
+In `cmd_query_ticket` (main.cpp:895-896):
+```cpp
+int avail = checkAvailableSeats(train.trainID, start_date, from_idx, to_idx);
+result.seat = (avail > 0) ? avail : train.seatNum;
+```
 
+This logic couldn't distinguish between:
+1. No seat tracking data exists → should use `train.seatNum`
+2. Seat data exists with reduced availability → should use actual `avail`
+
+### Fix Applied
+Modified code to explicitly check if seat data exists:
+```cpp
+SeatKey seat_key(train.trainID, start_date);
+SeatAvailability* seat_data = seats.find(seat_key);
+if (seat_data) {
+    int avail = checkAvailableSeats(train.trainID, start_date, from_idx, to_idx);
+    result.seat = avail;  // Use actual availability
+} else {
+    result.seat = train.seatNum;  // No purchases yet
+}
+```
+
+### Status
+✅ Fix complete and compiles successfully
+⏳ Full verification requires `buy_ticket` implementation (not yet done)
+
+### Test Case Reference
+- basic_3/1.in line 197: `query_ticket -s 新疆塔城市 -t 浙江省慈溪市 -d 07-01 -p time`
+- Expected seat count: 75921 (after 22385 tickets sold)
+- Was showing: 98306 (full capacity - wrong!)
+- Will show: 75921 (once buy_ticket works)
+
+---
+
+## Previous Work (From Earlier Cycles)
+
+### Train Management Commands
+Successfully implemented all 4 train management commands:
 1. **add_train** - Parses and stores train data
 2. **delete_train** - Deletes unreleased trains
-3. **release_train** - Marks trains as released
+3. **release_train** - Marks trains as released, initializes seat tracking
 4. **query_train** - Queries train schedule by trainID and date
 
-### query_ticket Command (Current Cycle)
+### query_ticket Command
+Successfully implemented query_ticket with:
+- BPTree forEach method for iterating all trains
+- Route finding between two stations
+- Date/time calculations for departures and arrivals
+- Sorting by time or cost
+- Seat availability checking (NOW FIXED)
 
-Successfully implemented query_ticket command with the following features:
+### Key Data Structures
+- **BPTree<TrainKey, Train>** for persistent train storage
+- **BPTree<SeatKey, SeatAvailability>** for tracking sold seats per date/train
+- **TicketResult** struct for query results
+- All data persists across program restarts
 
-#### Implementation Details
-
-1. **Added forEach method to BPTree** (bptree.hpp):
-   - Iterates through all leaf nodes using next_leaf pointers
-   - Enables efficient traversal of all trains in the database
-
-2. **Implemented cmd_query_ticket** (main.cpp):
-   - Parses parameters: -s (from), -t (to), -d (date), -p (sort type)
-   - Searches all released trains for routes containing both stations
-   - Calculates departure date from starting station based on departure date from -s
-   - Validates starting date is within train's sale range
-   - Computes leaving time from -s and arriving time at -t
-   - Calculates cumulative price from -s to -t
-   - Sorts results by time or cost as specified
-   - Output format matches specification exactly
-
-#### Key Implementation Points
-
-- **Date Calculation**: Works backwards from departure date at station -s to find the actual starting date, accounting for travel times and stopovers
-- **Leaving Time**: Includes stopover time at departure station (arrival time + stopover = leaving time)
-- **Arriving Time**: Does not include stopover at destination station
-- **Sorting**: Supports both time-based and cost-based sorting with trainID as tiebreaker
-- **Edge Cases**: Properly handles unreleased trains, non-existent stations, dates outside sale range
-
-#### Testing
-
-Verified with multiple test cases:
-- README example: matches expected output exactly
-- Multiple trains: sorting works correctly for both time and cost
-- Edge cases: returns -1 for invalid queries
-- NOT_RELEASED trains are correctly excluded from results
-
-## Key Data Structures
-
-- **TicketResult struct**: Stores query results with trainID, stations, times, price, seats
-- **BPTree forEach**: Template function for iterating all key-value pairs
-- **Sorting**: Simple bubble sort (sufficient for typical number of results)
-
-## Next Steps
-
-- Integration testing with full test suite
-- Coordinate with other agents for end-to-end testing
-- May need to optimize sorting if performance becomes an issue
+### Known Dependencies
+- **buy_ticket** not yet implemented (blocks full testing)
+- **query_order** not yet implemented
+- **refund_ticket** not yet implemented
