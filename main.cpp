@@ -3,6 +3,8 @@
 #include <cstring>
 #include <fstream>
 #include <cstdio>
+#include <vector>
+#include <algorithm>
 #include "types.hpp"
 #include "hashtable.hpp"
 #include "fileio.hpp"
@@ -1123,25 +1125,65 @@ int cmd_query_order(const CommandParser& parser) {
         return -1;
     }
 
-    // First count the orders
-    int count = 0;
+    // Collect all orders into a vector
+    std::vector<Order> order_list;
     queryUserOrders(username, [&](const Order& order) {
-        count++;
+        order_list.push_back(order);
     });
 
     // If no orders, output 0 and return
-    if (count == 0) {
+    if (order_list.empty()) {
         std::cout << "0" << std::endl;
         return 0;
     }
 
     // Output count
-    std::cout << count << std::endl;
+    std::cout << order_list.size() << std::endl;
 
-    // Output each order
-    queryUserOrders(username, [&](const Order& order) {
-        // Format: [timestamp] [trainID] [from_station] [to_station] [status] [total_price] [ticket_count]
-        // Status: s=success, p=pending, r=refunded
+    // Reverse to get newest-to-oldest (queryUserOrders returns oldest-to-newest)
+    std::reverse(order_list.begin(), order_list.end());
+
+    // Output each order with calculated times
+    for (const Order& order : order_list) {
+        // Get train details
+        TrainKey key(order.trainID);
+        Train* train = trains.find(key);
+
+        // If train not found, skip this order (shouldn't happen in valid data)
+        if (!train) {
+            continue;
+        }
+
+        // Calculate leaving time at from_station
+        // departure_date is the date the train departs from its starting station
+        DateTime leaving_time(order.departure_date, train->startTime);
+
+        // Add travel time to from_station
+        int minutes_to_from = 0;
+        for (int i = 0; i < order.from_idx; i++) {
+            minutes_to_from += train->travelTimes[i];
+            if (i > 0) {
+                minutes_to_from += train->stopoverTimes[i - 1];
+            }
+        }
+        // Add stopover time at from_station (if not the first station)
+        if (order.from_idx > 0) {
+            minutes_to_from += train->stopoverTimes[order.from_idx - 1];
+        }
+        leaving_time.addMinutes(minutes_to_from);
+
+        // Calculate arriving time at to_station
+        DateTime arriving_time(order.departure_date, train->startTime);
+        int minutes_to_to = 0;
+        for (int i = 0; i < order.to_idx; i++) {
+            minutes_to_to += train->travelTimes[i];
+            if (i > 0) {
+                minutes_to_to += train->stopoverTimes[i - 1];
+            }
+        }
+        arriving_time.addMinutes(minutes_to_to);
+
+        // Format status
         const char* status_str;
         if (order.status == 's') {
             status_str = "success";
@@ -1151,14 +1193,27 @@ int cmd_query_order(const CommandParser& parser) {
             status_str = "refunded";
         }
 
-        std::cout << order.timestamp << " "
+        // Format dates and times
+        char leaving_date[6], leaving_time_str[6];
+        char arriving_date[6], arriving_time_str[6];
+        leaving_time.date.format(leaving_date);
+        leaving_time.time.format(leaving_time_str);
+        arriving_time.date.format(arriving_date);
+        arriving_time.time.format(arriving_time_str);
+
+        // Calculate single ticket price
+        int single_ticket_price = order.total_price / order.ticket_count;
+
+        // Output: [<STATUS>] <trainID> <FROM> <LEAVING_TIME> -> <TO> <ARRIVING_TIME> <PRICE> <NUM>
+        std::cout << "[" << status_str << "] "
                   << order.trainID << " "
                   << order.from_station << " "
+                  << leaving_date << " " << leaving_time_str << " -> "
                   << order.to_station << " "
-                  << status_str << " "
-                  << order.total_price << " "
+                  << arriving_date << " " << arriving_time_str << " "
+                  << single_ticket_price << " "
                   << order.ticket_count << std::endl;
-    });
+    }
 
     return 0;
 }
