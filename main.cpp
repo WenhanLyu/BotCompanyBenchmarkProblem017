@@ -935,6 +935,169 @@ int cmd_query_ticket(const CommandParser& parser) {
     return 0;
 }
 
+int cmd_buy_ticket(const CommandParser& parser) {
+    const char* username = parser.get('u');
+    const char* trainID = parser.get('i');
+    const char* date_str = parser.get('d');
+    const char* num_str = parser.get('n');
+    const char* from_station = parser.get('f');
+    const char* to_station = parser.get('t');
+    const char* queue_str = parser.get('q');
+
+    // Validate parameters
+    if (!username || !trainID || !date_str || !num_str || !from_station || !to_station) {
+        return -1;
+    }
+
+    // Parse ticket count
+    int ticket_count = std::atoi(num_str);
+    if (ticket_count <= 0) {
+        return -1;
+    }
+
+    // Parse queue flag (default false)
+    bool allow_queue = false;
+    if (queue_str && strcmp(queue_str, "true") == 0) {
+        allow_queue = true;
+    }
+
+    // Check if user is logged in
+    bool* is_logged_in = logged_in_users.find(username);
+    if (!is_logged_in || !(*is_logged_in)) {
+        return -1;
+    }
+
+    // Find the train
+    TrainKey key(trainID);
+    Train* train = trains.find(key);
+    if (!train) {
+        return -1;
+    }
+
+    // Check if train is released
+    if (!train->released) {
+        return -1;
+    }
+
+    // Find station indices
+    int from_idx = -1;
+    int to_idx = -1;
+    for (int i = 0; i < train->stationNum; i++) {
+        if (strcmp(train->stations[i].name, from_station) == 0) {
+            from_idx = i;
+        }
+        if (strcmp(train->stations[i].name, to_station) == 0) {
+            to_idx = i;
+        }
+    }
+
+    // Validate stations
+    if (from_idx == -1 || to_idx == -1 || from_idx >= to_idx) {
+        return -1;
+    }
+
+    // Parse the date (this is the departure date from from_station)
+    Date departure_date(date_str);
+
+    // Calculate starting date (need to reverse engineer like query_ticket)
+    // Calculate time offset from starting station to DEPARTURE from from_station
+    int minutes_to_from = 0;
+    for (int i = 0; i < from_idx; i++) {
+        minutes_to_from += train->travelTimes[i];
+        if (i > 0) {
+            minutes_to_from += train->stopoverTimes[i - 1];
+        }
+    }
+    if (from_idx > 0) {
+        minutes_to_from += train->stopoverTimes[from_idx - 1];
+    }
+
+    // Calculate the starting date
+    const int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    int days_to_subtract = minutes_to_from / (24 * 60);
+    Date start_date = departure_date;
+
+    while (days_to_subtract > 0) {
+        if (start_date.day > days_to_subtract) {
+            start_date.day -= days_to_subtract;
+            break;
+        } else {
+            days_to_subtract -= start_date.day;
+            start_date.month--;
+            if (start_date.month < 6) {
+                return -1;  // Out of range
+            }
+            start_date.day = days_in_month[start_date.month];
+        }
+    }
+
+    // Fine-tune the start_date
+    DateTime leaving_at_from(start_date, train->startTime);
+    leaving_at_from.addMinutes(minutes_to_from);
+
+    while (leaving_at_from.date < departure_date) {
+        start_date.day++;
+        if (start_date.day > days_in_month[start_date.month]) {
+            start_date.day = 1;
+            start_date.month++;
+            if (start_date.month > 8) {
+                return -1;  // Out of range
+            }
+        }
+        leaving_at_from = DateTime(start_date, train->startTime);
+        leaving_at_from.addMinutes(minutes_to_from);
+    }
+
+    while (leaving_at_from.date > departure_date) {
+        start_date.day--;
+        if (start_date.day < 1) {
+            start_date.month--;
+            if (start_date.month < 6) {
+                return -1;  // Out of range
+            }
+            start_date.day = days_in_month[start_date.month];
+        }
+        leaving_at_from = DateTime(start_date, train->startTime);
+        leaving_at_from.addMinutes(minutes_to_from);
+    }
+
+    // Check if start_date is within sale range
+    if (start_date < train->saleDate[0] || start_date > train->saleDate[1]) {
+        return -1;
+    }
+
+    // Calculate total price (n tickets * sum of segment prices)
+    int price_per_ticket = 0;
+    for (int i = from_idx; i < to_idx; i++) {
+        price_per_ticket += train->prices[i];
+    }
+    int total_price = price_per_ticket * ticket_count;
+
+    // Check seat availability
+    int available = checkAvailableSeats(trainID, start_date, from_idx, to_idx);
+
+    if (available >= ticket_count) {
+        // Enough seats - reserve and create order
+        if (reserveSeats(trainID, start_date, from_idx, to_idx, ticket_count)) {
+            createOrder(username, trainID, start_date, from_station, to_station,
+                       from_idx, to_idx, ticket_count, total_price, 's');
+            std::cout << total_price << std::endl;
+            return 0;
+        } else {
+            return -1;
+        }
+    } else if (allow_queue) {
+        // Not enough seats, but queuing is allowed
+        createOrder(username, trainID, start_date, from_station, to_station,
+                   from_idx, to_idx, ticket_count, total_price, 'p');
+        std::cout << "queue" << std::endl;
+        return 0;
+    } else {
+        // Not enough seats and queuing not allowed
+        return -1;
+    }
+}
+
 int main() {
     // Load user data from disk at startup
     load_users();
@@ -1015,6 +1178,14 @@ int main() {
             CommandParser parser;
             parser.parse(line);
             int result = cmd_query_ticket(parser);
+            if (result == -1) {
+                std::cout << "-1" << std::endl;
+            }
+        } else if (command == "buy_ticket") {
+            std::getline(std::cin, line);
+            CommandParser parser;
+            parser.parse(line);
+            int result = cmd_buy_ticket(parser);
             if (result == -1) {
                 std::cout << "-1" << std::endl;
             }
