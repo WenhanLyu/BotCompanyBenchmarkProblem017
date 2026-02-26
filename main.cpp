@@ -1066,6 +1066,12 @@ int cmd_buy_ticket(const CommandParser& parser) {
         return -1;
     }
 
+    // Validate ticket count doesn't exceed train capacity
+    // Per FAQ: "If the number of tickets purchased is greater than the maximum number of seats on the train, can you still wait? No."
+    if (ticket_count > train->seatNum) {
+        return -1;
+    }
+
     // Calculate total price (n tickets * sum of segment prices)
     int price_per_ticket = 0;
     for (int i = from_idx; i < to_idx; i++) {
