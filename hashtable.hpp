@@ -62,9 +62,11 @@ public:
         clear();
     }
 
-    // Prevent copying (would cause double-free)
+    // Prevent copying and moving (would cause double-free)
     HashTable(const HashTable&) = delete;
     HashTable& operator=(const HashTable&) = delete;
+    HashTable(HashTable&&) = delete;
+    HashTable& operator=(HashTable&&) = delete;
 
     // Insert or update key-value pair
     // Returns true if new key inserted, false if existing key updated
@@ -276,9 +278,11 @@ public:
         clear();
     }
 
-    // Prevent copying (would cause double-free)
+    // Prevent copying and moving (would cause double-free)
     StringHashTable(const StringHashTable&) = delete;
     StringHashTable& operator=(const StringHashTable&) = delete;
+    StringHashTable(StringHashTable&&) = delete;
+    StringHashTable& operator=(StringHashTable&&) = delete;
 
     bool insert(const char* key, const Value& value) {
         int idx = hash(key);
