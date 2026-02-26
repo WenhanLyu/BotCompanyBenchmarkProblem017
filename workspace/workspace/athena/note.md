@@ -1,59 +1,114 @@
-# Athena - Post-Deadline Evaluation (Cycle 2)
+# Athena - M3.1 Milestone Definition (Cycle 3)
 
 **Date**: 2026-02-26
-**Phase**: Planning - Independent Evaluation Phase
+**Phase**: Planning - Milestone Definition
 **Situation**: Ares used 12/12 cycles, M3 incomplete
 
 ---
 
-## Situation Summary
+## Evaluation Complete
 
-**Ares's 12 Cycles - What Was Done:**
-- ✅ query_ticket implemented (Diana) - 79-100% working
-- ✅ buy_ticket implemented (Diana) - Working
-- ❌ query_order NOT implemented - Critical blocker for basic_3
-- ❌ refund_ticket NOT implemented
+My workers (Sophie, Magnus, Iris) completed independent blind evaluation:
 
-**Root Cause of Failure:**
-1. Scope creep: Implemented buy_ticket (M4 scope) instead of staying focused on M3
-2. Over-optimization: Spent multiple cycles debugging query_ticket to perfection
-3. Lost focus: Never implemented query_order (F frequency, blocks basic_3)
-4. No prioritization: buy_ticket is less critical than query_order
+### Sophie's Findings (Issue #31)
+- ✅ query_ticket price calculation is **100% CORRECT**
+- ⚠️ Seat availability bug exists (21% error rate) but **LOW priority**
+- 🔥 query_order is CRITICAL blocker (100% failure, returns -1)
+- **Recommendation**: Fix query_order FIRST, seat bug LATER
 
-**Test Results:**
-- basic_3: 1,522/8,542 lines (18% pass) - 140 query_order commands return -1
-- Sam claims query_ticket is "PRODUCTION-READY"
-- Maya found 21% price calculation errors in query_ticket
+### Magnus's Findings (Issue #32)
+- ✅ All infrastructure for query_order EXISTS
+  - Order struct with necessary fields
+  - OrderKey for B+ tree indexing
+  - queryUserOrders() helper function
+- **Estimate**: ~1.5 hours implementation time
+- **Risk**: LOW - straightforward implementation
+- **Memory**: ~220 KB per call (within budget)
+- **Performance**: ~1ms per call (acceptable for F frequency)
 
----
-
-## Current Action: Independent Evaluation
-
-Before defining M3.1, I'm conducting blind evaluation with my team:
-
-**Issues Created:**
-- Sophie: Review query_ticket price calculation bug
-- Magnus: Analyze query_order requirements and complexity
-- Iris: Verify basic_3 test status and command frequency
-
-All workers running in blind mode to get unbiased assessment.
+### Iris's Findings (Issue #33)
+- ⚠️ basic_3 test fails at first command (data cleanup issue)
+- **Command frequency analysis**:
+  - query_profile: 1,560 (27.6%)
+  - query_ticket: 1,533 (27.1%)
+  - buy_ticket: 1,505 (26.6%)
+  - query_order: Expected but returns -1
+- **Impact**: 82% test failure due to cascading issues
 
 ---
 
-## Next Steps
+## Root Cause of M3 Failure
 
-After worker reports:
-1. Review findings and cross-check with Ares team claims
-2. Decide on M3.1 scope: Fix query_ticket prices OR implement query_order first?
-3. Define focused milestone with realistic cycle budget
-4. Consider breaking work into smaller sub-milestones (M3.1, M3.2, etc.)
+**What Ares's Team Did:**
+1. ✅ Implemented query_ticket (M3 scope)
+2. ✅ Implemented buy_ticket (M4 scope) - **SCOPE CREEP**
+3. ⚠️ Over-optimized query_ticket bugs
+4. ❌ Never implemented query_order
+
+**Why It Failed:**
+1. **Scope creep**: Wandered into M4 territory
+2. **Wrong priorities**: buy_ticket (S frequency) before query_order (F frequency)
+3. **Over-optimization**: Perfecting query_ticket instead of completing milestone
+4. **No focus**: 12 cycles without clear single objective
 
 ---
 
-## Lessons for Milestone Definition
+## M3.1 Decision: Implement query_order ONLY
 
-- **ONE feature per milestone** - No scope creep
-- **Prioritize by test impact** - query_order (F freq) > query_ticket debugging
-- **Budget conservatively** - 12 cycles wasn't enough for unfocused work
-- **Test-driven approach** - Define acceptance criteria upfront
-- **Focus on blockers** - What prevents tests from passing?
+**Scope**: ONE command - query_order
+
+**Rationale**:
+- F frequency (critical for OJ performance grade)
+- Blocks basic_3 test (140+ commands)
+- Low risk, all infrastructure exists
+- Straightforward: ~1.5 hours per Magnus
+- Prevents scope creep with single-command focus
+
+**Success Criteria**:
+1. query_order returns order list (not -1)
+2. Orders sorted by timestamp
+3. Correct output format per README
+4. Handles edge cases (no orders, invalid user)
+
+**Cycle Budget**: 2 cycles
+- Cycle 1: Implementation + basic testing
+- Cycle 2: Edge case handling + verification
+
+**Next Steps After M3.1**:
+- M3.2: Fix remaining bugs (query_ticket seat availability, buy_ticket edge cases)
+- M3.3: Implement refund_ticket
+- M4: Transfer queries
+
+---
+
+## Roadmap Updated
+
+Updated roadmap.md with:
+- M3 marked as FAILED with detailed post-mortem
+- M3.1 defined with focused scope
+- Lessons learned documented
+
+---
+
+## Milestone Output
+
+Outputting M3.1 milestone for Ares's team with 2-cycle budget.
+
+**Key Instructions for Ares**:
+- **ONLY implement query_order** - no other features
+- Do NOT fix query_ticket bugs - separate milestone
+- Do NOT implement refund_ticket - separate milestone
+- Focus on passing basic_3 query_order commands
+
+---
+
+**Next Cycle Context**:
+When I wake again, I'll either:
+1. Evaluate M3.1 completion (if Ares succeeds)
+2. Break down further (M3.1.1, M3.1.2) if deadline missed again
+3. Consider team restructuring if repeated failures occur
+
+---
+
+**Status**: Milestone defined, ready to output
+**Confidence**: HIGH - clear scope, low risk, proven infrastructure

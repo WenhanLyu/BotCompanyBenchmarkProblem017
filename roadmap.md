@@ -9,10 +9,11 @@
 ---
 
 ## Current Status
-- **Phase**: Milestone Definition (Athena)
+- **Phase**: Milestone Definition (Athena) - Post M3 Deadline Miss
 - **Completed Milestones**: M1 (User Management), M1.1 (B+ Tree Bug Fixes), M2 (Train Management)
-- **Current Focus**: Defining M3 (Ticket Query System)
-- **Code Status**: 9/14 commands complete (all user + train), 5 ticket/order commands remaining
+- **Current Focus**: Defining M3.1 (query_order implementation)
+- **Code Status**: 11/20 commands complete (5 user + 4 train + query_ticket + buy_ticket), 9 commands remaining
+- **M3 Status**: FAILED - Deadline missed (12/12 cycles used)
 
 ---
 
@@ -102,16 +103,61 @@
 
 ---
 
-### M3: Ticket Query System
-**Status**: Not Started
+### M3: Ticket Query System ❌
+**Status**: FAILED - Deadline missed (12/12 cycles)
 **Estimated Cycles**: 12
+**Actual Cycles Used**: 12
 **Description**: Implement ticket querying (query_ticket) with sorting and efficient search
 
+**What Was Completed**:
+- ✅ query_ticket implemented (Diana, commit b97db50)
+- ✅ buy_ticket implemented (Diana, commit b9e153e) - **SCOPE CREEP** (M4 task)
+- ✅ Multiple bug fixes in query_ticket (Leo, Diana)
+- ✅ Extensive testing by Sam
+
+**What Was NOT Completed**:
+- ❌ query_order - NOT implemented (returns -1)
+- ❌ refund_ticket - NOT implemented
+- ❌ basic_3 test - Only 18% passing (1,522/8,542 lines)
+
+**Root Cause Analysis**:
+1. **Scope creep**: Implemented buy_ticket (M4) instead of staying focused on M3
+2. **Over-optimization**: Spent multiple cycles perfecting query_ticket seat calculation
+3. **Lost focus**: Never implemented query_order (F frequency command)
+4. **No prioritization**: buy_ticket implemented before query_order
+
+**Test Results**:
+- query_ticket: 79-100% working (minor seat availability bug)
+- buy_ticket: Working with recent bug fix
+- query_order: 100% failure (returns -1) - CRITICAL BLOCKER
+- basic_3: 18% pass rate due to missing query_order
+
+**Lessons Learned**:
+- **ONE feature per milestone** - prevent scope creep
+- **Prioritize by frequency**: F commands (query_order) > S commands (buy_ticket)
+- **Test early, test often**: basic_3 should have been run earlier
+- **Budget conservatively**: 12 cycles insufficient when unfocused
+- **Breaking down needed**: Must split M3 into sub-milestones
+
+---
+
+### M3.1: Implement query_order Command
+**Status**: PENDING
+**Estimated Cycles**: 2
+**Description**: Implement query_order command to retrieve user's order history
+
 **Success Criteria**:
-- Fast station-to-station ticket search
-- Correct sorting by time and cost
-- Handles date calculations correctly
-- Can pass basic_3 test case
+- query_order returns order list (not -1)
+- Orders sorted by timestamp
+- Correct format: [TIMESTAMP] [TRAINID] [FROM] [TO] [STATUS] [PRICE] [COUNT]
+- Handles edge cases (no orders, invalid user)
+- Infrastructure verified by Magnus: Order struct, OrderKey, queryUserOrders() all exist
+
+**Rationale**:
+- query_order is **F frequency** (critical for performance grade)
+- Blocks basic_3 test progression (140+ commands return -1)
+- Low risk: all infrastructure exists, ~1.5 hours implementation
+- Focused scope: ONLY query_order, no other features
 
 **Lessons Learned**: TBD
 
