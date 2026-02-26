@@ -65,6 +65,73 @@ Successfully implemented query_ticket with:
 - All data persists across program restarts
 
 ### Known Dependencies
-- **buy_ticket** not yet implemented (blocks full testing)
 - **query_order** not yet implemented
 - **refund_ticket** not yet implemented
+
+---
+
+## Cycle: buy_ticket Implementation - COMPLETE ✅
+
+### Task
+Implement buy_ticket command according to README.md spec (lines 339-365).
+
+### Implementation Details
+
+Successfully implemented `cmd_buy_ticket` in main.cpp with full functionality:
+
+1. **Parameter parsing**: -u, -i, -d, -n, -f, -t, -q (queue flag, default false)
+
+2. **Validation**:
+   - User logged in check
+   - Train exists and is released
+   - Stations exist and in correct order (from before to)
+   - Date within train's sale range (after calculating start_date)
+
+3. **Date calculation**:
+   - Reverse-engineers start_date from departure date at departure station
+   - Same algorithm as query_ticket for consistency
+   - Handles multi-day travel correctly
+
+4. **Price calculation**:
+   - `price_per_ticket = sum(train->prices[from_idx..to_idx-1])`
+   - `total_price = price_per_ticket * ticket_count`
+
+5. **Seat management** (uses order_system.hpp):
+   - `checkAvailableSeats()` - finds minimum across all segments
+   - `reserveSeats()` - updates SeatAvailability BPTree
+   - Properly reduces seat counts for all segments in journey
+
+6. **Order creation**:
+   - Uses `createOrder()` with unique timestamp
+   - Status 's' for successful purchases
+   - Status 'p' for pending (queued) orders
+
+7. **Return behavior**:
+   - Success: outputs total_price, returns 0
+   - Queue: outputs "queue", returns 0
+   - Failure: returns -1 (main prints "-1")
+
+### Test Results
+
+**Simple test**: 10 tickets A→C, price 300 each
+- ✅ Outputs: 3000
+- ✅ Seats reduce: 1000 → 990
+
+**Maya's query_ticket_test_30.in** (lines 159-197):
+- ✅ Line 161: buy_ticket returns 7142328 (was -1)
+- ✅ Line 162: buy_ticket returns 53744575 (was -1)
+- ✅ Line 186: buy_ticket returns 22150297 (was -1)
+- ✅ **Line 197: query_ticket shows 75921 seats (reduced from 98306)** ← KEY SUCCESS
+
+### Success Criteria Met ✅
+
+From assignment:
+> "Success means buy_ticket commands return order prices instead of -1, and subsequent query_ticket commands show reduced seat availability."
+
+Both criteria achieved:
+1. ✅ buy_ticket returns prices (not -1)
+2. ✅ query_ticket shows reduced availability (75921 vs 98306)
+
+### Commit
+- Hash: b9e153e
+- Message: "[Diana] Implement buy_ticket command with seat reservation and order creation"
