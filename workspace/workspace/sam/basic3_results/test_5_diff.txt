@@ -1,0 +1,1077 @@
+--- data/017/data/basic_3/5.out	2026-02-26 13:42:43
++++ workspace/workspace/sam/basic3_results/test_5.out	2026-02-26 15:12:23
+@@ -149,9 +149,11 @@
+ Ithinkallwarthr 湖北省石首市 06-28 19:21 -> 河南省濮阳市 06-29 03:47 1298 86945
+ -1
+ 19
+-[pending] LeavesofGrass 辽宁省抚顺市 07-10 14:24 -> 浙江省慈溪市 07-11 09:48 2904 2898
+ [success] LeavesofGrass 福建省建阳市 07-15 21:19 -> 浙江省慈溪市 07-16 09:48 1525 3265
+ [success] INSCRIPTIONS 北京市 08-21 06:46 -> 新疆米泉市 08-21 14:38 850 17542
++[success] IHEARDthatyouask 天津市 08-03 06:35 -> 广东省云浮市 08-03 18:52 229 19653
++[success] LeavesofGrass 浙江省杭州市 07-26 11:52 -> 福建省建阳市 07-26 21:14 1781 4781
++[success] LeavesofGrass 浙江省杭州市 07-29 11:52 -> 河南省灵宝市 07-29 23:39 2295 10916
+ [success] INSCRIPTIONS 贵州省清镇市 07-18 16:24 -> 云南省安宁市 07-18 20:42 329 9642
+ [pending] LeavesofGrass 湖南省衡阳市 07-01 16:20 -> 浙江省慈溪市 07-02 09:48 2659 14037
+ [success] LeavesofGrass 新疆塔城市 06-28 07:38 -> 陕西省安康市 06-28 17:15 1826 11926
+@@ -159,15 +161,13 @@
+ [success] puzzletheNewWorld 北京市 07-05 02:54 -> 河南省登封市 07-05 09:52 455 6010
+ [success] LeavesofGrass 湖南省衡阳市 07-23 16:20 -> 宁夏石嘴山市 07-23 19:18 734 3005
+ [success] puzzletheNewWorld 黑龙江省尚志市 08-06 20:11 -> 河南省登封市 08-07 09:52 614 5803
++[success] LeavesofGrass 陕西省安康市 07-22 17:25 -> 河南省偃师市 07-23 03:28 1506 22830
+ [pending] LeavesofGrass 广东省四会市 07-25 15:39 -> 浙江省慈溪市 07-26 09:48 2899 5249
+ [success] whatyouwanted 新疆阿克苏市 08-09 15:58 -> 湖北省松滋市 08-09 21:35 1257 7599
+-[success] puzzletheNewWorld 湖南省岳阳市 08-03 17:01 -> 河南省登封市 08-04 09:52 1040 1078
+-[success] IHEARDthatyouask 天津市 08-03 06:35 -> 广东省云浮市 08-03 18:52 229 19653
+-[success] LeavesofGrass 浙江省杭州市 07-26 11:52 -> 福建省建阳市 07-26 21:14 1781 4781
+-[success] LeavesofGrass 陕西省安康市 07-22 17:25 -> 河南省偃师市 07-23 03:28 1506 22830
+ [success] LeavesofGrass 河北省河间市 07-07 18:11 -> 黑龙江省海林市 07-07 22:46 635 13391
++[success] puzzletheNewWorld 湖南省岳阳市 08-03 17:01 -> 河南省登封市 08-04 09:52 1040 1078
+ [success] IHEARDthatyouask 新疆吐鲁番市 08-03 05:55 -> 广东省云浮市 08-03 18:52 725 1078
+-[success] LeavesofGrass 浙江省杭州市 07-29 11:52 -> 河南省灵宝市 07-29 23:39 2295 10916
++[pending] LeavesofGrass 辽宁省抚顺市 07-10 14:24 -> 浙江省慈溪市 07-11 09:48 2904 2898
+ 1
+ Deathlessthroughout 湖北省黄冈市 07-09 17:45 -> 福建省长乐市 07-10 07:11 617 73160
+ 1
+@@ -191,7 +191,7 @@
+ IHEARDthatyouask 新疆吐鲁番市 08-06 05:55 -> 四川省彭州市 08-06 23:13 745 50930
+ Aak 阿阿 in.almost.all@of.these 1
+ 1
+-LeavesofGrass 黑龙江省海林市 08-01 22:56 -> 广东省花都市 08-02 01:39 614 260
++LeavesofGrass 黑龙江省海林市 08-01 22:56 -> 广东省花都市 08-02 01:39 614 24817
+ 1
+ INSCRIPTIONS 贵州省清镇市 08-17 16:24 -> 新疆米泉市 08-18 14:38 1879 40845
+ 0
+@@ -217,9 +217,6 @@
+ 1
+ TOtheeoldcause 天津市 07-25 17:57 -> 湖北省宜昌市 07-26 10:47 817 90891
+ 19
+-[success] LeavesofGrass 新疆塔城市 07-20 07:38 -> 浙江省杭州市 07-20 11:46 691 1613
+-[success] INSCRIPTIONS 广东省惠阳市 07-13 01:41 -> 湖北省枣阳市 07-13 11:59 1099 13877
+-[success] IHEARDthatyouask 广东省云浮市 07-21 19:00 -> 四川省彭州市 07-21 23:13 20 17704
+ [success] whatyouwanted 安徽省阜阳市 07-14 08:24 -> 四川省华蓥市 07-14 09:33 19 6277
+ [success] puzzletheNewWorld 辽宁省辽阳市 07-27 13:05 -> 湖南省岳阳市 07-27 16:56 379 10829
+ [success] puzzletheNewWorld 湖南省岳阳市 06-24 17:01 -> 四川省绵竹市 06-25 14:44 1339 5317
+@@ -236,6 +233,9 @@
+ [success] INSCRIPTIONS 广东省惠阳市 06-28 01:41 -> 湖北省枣阳市 06-28 11:59 1099 11620
+ [success] LeavesofGrass 新疆塔城市 06-29 07:38 -> 河南省偃师市 06-30 03:28 3332 19401
+ [success] LeavesofGrass 湖南省衡阳市 07-09 16:20 -> 广东省花都市 07-10 01:39 1762 21243
++[success] LeavesofGrass 新疆塔城市 07-20 07:38 -> 浙江省杭州市 07-20 11:46 691 1613
++[success] INSCRIPTIONS 广东省惠阳市 07-13 01:41 -> 湖北省枣阳市 07-13 11:59 1099 13877
++[success] IHEARDthatyouask 广东省云浮市 07-21 19:00 -> 四川省彭州市 07-21 23:13 20 17704
+ 1
+ Ithinkallwarthr 北京市 07-29 07:42 -> 湖北省丹江口市 07-29 15:37 740 86945
+ 2289225
+@@ -248,18 +248,18 @@
+ 1
+ puzzletheNewWorld 辽宁省辽阳市 06-25 13:05 -> 黑龙江省尚志市 06-25 20:04 805 47885
+ 12
+-[success] INSCRIPTIONS 北京市 07-30 06:46 -> 湖北省枣阳市 07-30 11:59 688 5302
+-[success] IHEARDthatyouask 广东省云浮市 07-24 19:00 -> 四川省彭州市 07-24 23:13 20 22550
+ [success] INSCRIPTIONS 云南省安宁市 08-15 20:50 -> 湖北省枣阳市 08-16 11:59 1388 14150
++[pending] LeavesofGrass 湖南省衡阳市 07-24 16:20 -> 宁夏石嘴山市 07-24 19:18 734 23689
+ [success] INSCRIPTIONS 黑龙江省五大连池市 06-24 19:22 -> 广东省惠阳市 06-25 01:32 445 9930
++[success] LeavesofGrass 浙江省杭州市 07-06 11:52 -> 广东省四会市 07-06 15:34 407 24144
+ [pending] LeavesofGrass 辽宁省抚顺市 07-28 14:24 -> 宁夏石嘴山市 07-28 19:18 979 17392
+ [success] INSCRIPTIONS 云南省安宁市 08-17 20:50 -> 北京市 08-18 06:40 700 8192
+ [success] LeavesofGrass 新疆塔城市 07-03 07:38 -> 辽宁省抚顺市 07-03 14:21 1093 9058
+ [success] puzzletheNewWorld 湖南省岳阳市 08-04 17:01 -> 河南省登封市 08-05 09:52 1040 4478
+-[success] LeavesofGrass 黑龙江省海林市 08-04 22:56 -> 新疆伊宁市 08-05 08:52 1441 16615
+-[pending] LeavesofGrass 湖南省衡阳市 07-24 16:20 -> 宁夏石嘴山市 07-24 19:18 734 23689
+-[success] LeavesofGrass 浙江省杭州市 07-06 11:52 -> 广东省四会市 07-06 15:34 407 24144
+ [success] LeavesofGrass 湖南省衡阳市 07-31 16:20 -> 广东省花都市 08-01 01:39 1762 22133
++[success] LeavesofGrass 黑龙江省海林市 08-04 22:56 -> 新疆伊宁市 08-05 08:52 1441 16615
++[success] INSCRIPTIONS 北京市 07-30 06:46 -> 湖北省枣阳市 07-30 11:59 688 5302
++[success] IHEARDthatyouask 广东省云浮市 07-24 19:00 -> 四川省彭州市 07-24 23:13 20 22550
+ Mostima 莫斯提马 of.the.earliest@towns.From 2
+ 1
+ TOTHEEOLDCAUSE 新疆奎屯市 06-27 11:20 -> 山东省聊城市 06-27 13:37 134 33971
+@@ -273,9 +273,6 @@
+ 1
+ AndtodefineAmeric 辽宁省朝阳市 07-11 18:50 -> 吉林省榆树市 07-12 03:30 647 80198
+ 19
+-[success] LeavesofGrass 新疆塔城市 07-20 07:38 -> 浙江省杭州市 07-20 11:46 691 1613
+-[success] INSCRIPTIONS 广东省惠阳市 07-13 01:41 -> 湖北省枣阳市 07-13 11:59 1099 13877
+-[success] IHEARDthatyouask 广东省云浮市 07-21 19:00 -> 四川省彭州市 07-21 23:13 20 17704
+ [success] whatyouwanted 安徽省阜阳市 07-14 08:24 -> 四川省华蓥市 07-14 09:33 19 6277
+ [success] puzzletheNewWorld 辽宁省辽阳市 07-27 13:05 -> 湖南省岳阳市 07-27 16:56 379 10829
+ [success] puzzletheNewWorld 湖南省岳阳市 06-24 17:01 -> 四川省绵竹市 06-25 14:44 1339 5317
+@@ -292,6 +289,9 @@
+ [success] INSCRIPTIONS 广东省惠阳市 06-28 01:41 -> 湖北省枣阳市 06-28 11:59 1099 11620
+ [success] LeavesofGrass 新疆塔城市 06-29 07:38 -> 河南省偃师市 06-30 03:28 3332 19401
+ [success] LeavesofGrass 湖南省衡阳市 07-09 16:20 -> 广东省花都市 07-10 01:39 1762 21243
++[success] LeavesofGrass 新疆塔城市 07-20 07:38 -> 浙江省杭州市 07-20 11:46 691 1613
++[success] INSCRIPTIONS 广东省惠阳市 07-13 01:41 -> 湖北省枣阳市 07-13 11:59 1099 13877
++[success] IHEARDthatyouask 广东省云浮市 07-21 19:00 -> 四川省彭州市 07-21 23:13 20 17704
+ 0
+ 1743220
+ 22272352
+@@ -321,10 +321,10 @@
+ 1
+ TOtheeoldcause 北京市 07-26 05:54 -> 湖北省宜昌市 07-26 10:47 424 90891
+ 4
+-[success] ThereforeIsendyou 新疆喀什市 06-30 02:53 -> 河南省驻马店市 06-30 13:30 789 524
+-[success] IHEARDthatyouask 广东省云浮市 07-17 19:00 -> 四川省彭州市 07-17 23:13 20 1400
+ [success] LeavesofGrass 新疆塔城市 08-01 07:38 -> 河南省灵宝市 08-01 23:39 2986 20534
+ [success] LeavesofGrass 陕西省安康市 07-19 17:25 -> 浙江省慈溪市 07-20 09:48 2171 4583
++[success] ThereforeIsendyou 新疆喀什市 06-30 02:53 -> 河南省驻马店市 06-30 13:30 789 524
++[success] IHEARDthatyouask 广东省云浮市 07-17 19:00 -> 四川省彭州市 07-17 23:13 20 1400
+ 1
+ Afterastrangesad 黑龙江省绥芬河市 08-21 19:36 -> 山西省太原市 08-22 10:29 2317 68496
+ Indra 因陀罗 ruins.of.feudal@society.has 1
+@@ -343,9 +343,6 @@
+ 1930190
+ Snowsant 雪雉 new.forms.of@struggle.in 2
+ 10
+-[pending] LeavesofGrass 广东省四会市 06-30 15:39 -> 新疆伊宁市 07-01 08:52 2829 9295
+-[success] LeavesofGrass 辽宁省抚顺市 07-23 14:24 -> 湖南省衡阳市 07-23 16:17 245 11935
+-[success] IHEARDthatyouask 新疆吐鲁番市 07-17 05:55 -> 天津市 07-17 06:30 496 8078
+ [success] LeavesofGrass 浙江省杭州市 08-03 11:52 -> 福建省建阳市 08-03 21:14 1781 7227
+ [pending] LeavesofGrass 陕西省安康市 07-15 17:25 -> 新疆博乐市 07-16 06:04 1699 9883
+ [success] IHEARDthatyouask 新疆吐鲁番市 08-05 05:55 -> 广东省云浮市 08-05 18:52 725 1625
+@@ -353,6 +350,9 @@
+ [success] LeavesofGrass 浙江省杭州市 07-04 11:52 -> 广东省四会市 07-04 15:34 407 4129
+ [success] LeavesofGrass 河北省河间市 07-30 18:11 -> 河南省偃师市 07-31 03:28 1481 17
+ [success] LeavesofGrass 新疆博乐市 07-28 06:11 -> 浙江省慈溪市 07-28 09:48 472 20266
++[pending] LeavesofGrass 广东省四会市 06-30 15:39 -> 新疆伊宁市 07-01 08:52 2829 9295
++[success] LeavesofGrass 辽宁省抚顺市 07-23 14:24 -> 湖南省衡阳市 07-23 16:17 245 11935
++[success] IHEARDthatyouask 新疆吐鲁番市 07-17 05:55 -> 天津市 07-17 06:30 496 8078
+ 1
+ Ithinkallwarthr 湖北省石首市 08-10 19:21 -> 河南省濮阳市 08-11 03:47 1298 86945
+ Lappland 拉普兰德 the.mediaeval@commune.here 1
+@@ -381,10 +381,10 @@
+ -1
+ 133760
+ 4
+-[success] TOtheeoldcause 天津市 08-10 17:57 -> 北京市 08-11 05:48 393 5825
+-[success] IHEARDthatyouask 天津市 07-08 06:35 -> 广东省云浮市 07-08 18:52 229 10199
+ [success] LeavesofGrass 新疆塔城市 07-07 07:38 -> 陕西省安康市 07-07 17:15 1826 20614
+ [success] LeavesofGrass 广东省四会市 07-06 15:39 -> 新疆伊宁市 07-07 08:52 2829 2707
++[success] TOtheeoldcause 天津市 08-10 17:57 -> 北京市 08-11 05:48 393 5825
++[success] IHEARDthatyouask 天津市 07-08 06:35 -> 广东省云浮市 07-08 18:52 229 10199
+ queue
+ 8591024
+ 7277967
+@@ -428,13 +428,13 @@
+ 1
+ LeavesofGrass 浙江省杭州市 07-08 11:52 -> 广东省花都市 07-09 01:39 2409 25049
+ 7
++[success] LeavesofGrass 新疆塔城市 07-07 07:38 -> 陕西省安康市 07-07 17:15 1826 20614
++[success] LeavesofGrass 广东省四会市 07-06 15:39 -> 新疆伊宁市 07-07 08:52 2829 2707
+ [success] LeavesofGrass 浙江省平湖市 07-21 08:59 -> 新疆伊宁市 07-22 08:52 3636 21582
+ [success] Afterastrangesad 四川省广元市 07-31 16:17 -> 山东省淄博市 07-31 19:22 466 10501
+ [success] LeavesofGrass 湖南省衡阳市 08-04 16:20 -> 河南省灵宝市 08-04 23:39 1648 5213
+ [success] TOtheeoldcause 天津市 08-10 17:57 -> 北京市 08-11 05:48 393 5825
+ [success] IHEARDthatyouask 天津市 07-08 06:35 -> 广东省云浮市 07-08 18:52 229 10199
+-[success] LeavesofGrass 新疆塔城市 07-07 07:38 -> 陕西省安康市 07-07 17:15 1826 20614
+-[success] LeavesofGrass 广东省四会市 07-06 15:39 -> 新疆伊宁市 07-07 08:52 2829 2707
+ Schwarz 黑黑 of.manufacture@was.taken 1
+ queue
+ 1
+@@ -480,8 +480,8 @@
+ Istina 真理 a.counterpoise@against.the 1
+ 5307204
+ 17446437
+-0
+ -1
++-1
+ 1
+ LeavesofGrass 浙江省平湖市 07-02 08:59 -> 福建省建阳市 07-02 21:14 2181 11670
+ -1
+@@ -522,21 +522,20 @@
+ Eyjafjalla 艾雅法拉 its.place.The@guildmasters.wer 2
+ -1
+ -1
+-14
+-[pending] LeavesofGrass 河南省灵宝市 07-15 23:45 -> 广东省花都市 07-16 01:39 114 14312
++13
++[success] LeavesofGrass 辽宁省抚顺市 07-06 14:24 -> 新疆伊宁市 07-07 08:52 2834 8777
+ [success] INSCRIPTIONS 北京市 07-16 06:46 -> 新疆米泉市 07-16 14:38 850 1288
+ [success] INSCRIPTIONS 广东省高要市 08-05 21:40 -> 新疆米泉市 08-06 14:38 1414 17415
++[success] INSCRIPTIONS 贵州省清镇市 07-09 16:24 -> 广东省高要市 07-09 21:36 465 15846
+ [success] INSCRIPTIONS 云南省安宁市 06-21 20:50 -> 广东省高要市 06-21 21:36 136 16093
++[success] INSCRIPTIONS 贵州省清镇市 08-14 16:24 -> 北京市 08-15 06:40 1029 17445
+ [success] INSCRIPTIONS 云南省安宁市 08-22 20:50 -> 新疆米泉市 08-23 14:38 1550 15202
+ [success] LeavesofGrass 辽宁省抚顺市 07-11 14:24 -> 陕西省安康市 07-11 17:15 733 6915
++[pending] LeavesofGrass 河南省灵宝市 07-15 23:45 -> 广东省花都市 07-16 01:39 114 14312
+ [success] IHEARDthatyouask 新疆吐鲁番市 08-04 05:55 -> 广东省云浮市 08-04 18:52 725 11892
++[success] LeavesofGrass 福建省建阳市 06-28 21:19 -> 浙江省慈溪市 06-29 09:48 1525 15842
+ [success] IHEARDthatyouask 天津市 08-05 06:35 -> 四川省彭州市 08-05 23:13 249 9858
+ [success] INSCRIPTIONS 广东省高要市 06-25 21:40 -> 新疆米泉市 06-26 14:38 1414 10904
+-[success] LeavesofGrass 辽宁省抚顺市 07-06 14:24 -> 新疆伊宁市 07-07 08:52 2834 8777
+-[success] LeavesofGrass 广东省四会市 08-03 15:39 -> 广东省花都市 08-04 01:39 2002 11377
+-[success] INSCRIPTIONS 贵州省清镇市 07-09 16:24 -> 广东省高要市 07-09 21:36 465 15846
+-[success] INSCRIPTIONS 贵州省清镇市 08-14 16:24 -> 北京市 08-15 06:40 1029 17445
+-[success] LeavesofGrass 福建省建阳市 06-28 21:19 -> 浙江省慈溪市 06-29 09:48 1525 15842
+ queue
+ -1
+ 0
+@@ -568,21 +567,20 @@
+ LeavesofGrass 黑龙江省海林市 07-06 22:56 -> 河南省灵宝市 07-06 23:39 500 2598
+ Leizi 惊蛰 this.spectre@Pope.and 1
+ -1
+-14
+-[pending] LeavesofGrass 河南省灵宝市 07-15 23:45 -> 广东省花都市 07-16 01:39 114 14312
++13
++[success] LeavesofGrass 辽宁省抚顺市 07-06 14:24 -> 新疆伊宁市 07-07 08:52 2834 8777
+ [success] INSCRIPTIONS 北京市 07-16 06:46 -> 新疆米泉市 07-16 14:38 850 1288
+ [success] INSCRIPTIONS 广东省高要市 08-05 21:40 -> 新疆米泉市 08-06 14:38 1414 17415
++[success] INSCRIPTIONS 贵州省清镇市 07-09 16:24 -> 广东省高要市 07-09 21:36 465 15846
+ [success] INSCRIPTIONS 云南省安宁市 06-21 20:50 -> 广东省高要市 06-21 21:36 136 16093
++[success] INSCRIPTIONS 贵州省清镇市 08-14 16:24 -> 北京市 08-15 06:40 1029 17445
+ [success] INSCRIPTIONS 云南省安宁市 08-22 20:50 -> 新疆米泉市 08-23 14:38 1550 15202
+ [success] LeavesofGrass 辽宁省抚顺市 07-11 14:24 -> 陕西省安康市 07-11 17:15 733 6915
++[pending] LeavesofGrass 河南省灵宝市 07-15 23:45 -> 广东省花都市 07-16 01:39 114 14312
+ [success] IHEARDthatyouask 新疆吐鲁番市 08-04 05:55 -> 广东省云浮市 08-04 18:52 725 11892
++[success] LeavesofGrass 福建省建阳市 06-28 21:19 -> 浙江省慈溪市 06-29 09:48 1525 15842
+ [success] IHEARDthatyouask 天津市 08-05 06:35 -> 四川省彭州市 08-05 23:13 249 9858
+ [success] INSCRIPTIONS 广东省高要市 06-25 21:40 -> 新疆米泉市 06-26 14:38 1414 10904
+-[success] LeavesofGrass 辽宁省抚顺市 07-06 14:24 -> 新疆伊宁市 07-07 08:52 2834 8777
+-[success] LeavesofGrass 广东省四会市 08-03 15:39 -> 广东省花都市 08-04 01:39 2002 11377
+-[success] INSCRIPTIONS 贵州省清镇市 07-09 16:24 -> 广东省高要市 07-09 21:36 465 15846
+-[success] INSCRIPTIONS 贵州省清镇市 08-14 16:24 -> 北京市 08-15 06:40 1029 17445
+-[success] LeavesofGrass 福建省建阳市 06-28 21:19 -> 浙江省慈溪市 06-29 09:48 1525 15842
+ 1
+ Afterastrangesad 四川省宜宾市 07-23 22:24 -> 四川省广元市 07-24 16:10 3006 68496
+ -1
+@@ -600,7 +598,7 @@
+ 12557922
+ Steward 史都华德 society.at@large.or 1
+ 1
+-LeavesofGrass 辽宁省抚顺市 07-23 14:24 -> 福建省建阳市 07-23 21:14 1379 5903
++LeavesofGrass 辽宁省抚顺市 07-23 14:24 -> 福建省建阳市 07-23 21:14 1379 9084
+ -1
+ 1
+ Afterastrangesad 天津市 07-27 16:53 -> 黑龙江省绥芬河市 07-27 19:30 151 68496
+@@ -621,6 +619,13 @@
+ 1
+ INSCRIPTIONS 广东省惠阳市 06-22 01:41 -> 湖北省枣阳市 06-22 11:59 1099 44388
+ 15
++[success] LeavesofGrass 浙江省杭州市 08-03 11:52 -> 福建省建阳市 08-03 21:14 1781 7227
++[pending] LeavesofGrass 陕西省安康市 07-15 17:25 -> 新疆博乐市 07-16 06:04 1699 9883
++[success] IHEARDthatyouask 新疆吐鲁番市 08-05 05:55 -> 广东省云浮市 08-05 18:52 725 1625
++[success] INSCRIPTIONS 贵州省清镇市 07-22 16:24 -> 广东省惠阳市 07-23 01:32 618 13451
++[success] LeavesofGrass 浙江省杭州市 07-04 11:52 -> 广东省四会市 07-04 15:34 407 4129
++[success] LeavesofGrass 河北省河间市 07-30 18:11 -> 河南省偃师市 07-31 03:28 1481 17
++[success] LeavesofGrass 新疆博乐市 07-28 06:11 -> 浙江省慈溪市 07-28 09:48 472 20266
+ [pending] LeavesofGrass 湖南省衡阳市 07-14 16:20 -> 河北省河间市 07-14 18:01 513 4991
+ [success] IHEARDthatyouask 天津市 07-17 06:35 -> 广东省云浮市 07-17 18:52 229 7994
+ [success] puzzletheNewWorld 辽宁省辽阳市 06-16 13:05 -> 湖南省岳阳市 06-16 16:56 379 4676
+@@ -629,23 +634,7 @@
+ [pending] LeavesofGrass 广东省四会市 06-30 15:39 -> 新疆伊宁市 07-01 08:52 2829 9295
+ [success] LeavesofGrass 辽宁省抚顺市 07-23 14:24 -> 湖南省衡阳市 07-23 16:17 245 11935
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-17 05:55 -> 天津市 07-17 06:30 496 8078
+-[success] LeavesofGrass 浙江省杭州市 08-03 11:52 -> 福建省建阳市 08-03 21:14 1781 7227
+-[pending] LeavesofGrass 陕西省安康市 07-15 17:25 -> 新疆博乐市 07-16 06:04 1699 9883
+-[success] IHEARDthatyouask 新疆吐鲁番市 08-05 05:55 -> 广东省云浮市 08-05 18:52 725 1625
+-[success] INSCRIPTIONS 贵州省清镇市 07-22 16:24 -> 广东省惠阳市 07-23 01:32 618 13451
+-[success] LeavesofGrass 浙江省杭州市 07-04 11:52 -> 广东省四会市 07-04 15:34 407 4129
+-[success] LeavesofGrass 河北省河间市 07-30 18:11 -> 河南省偃师市 07-31 03:28 1481 17
+-[success] LeavesofGrass 新疆博乐市 07-28 06:11 -> 浙江省慈溪市 07-28 09:48 472 20266
+-25
+-[success] IHEARDthatyouask 新疆吐鲁番市 07-27 05:55 -> 天津市 07-27 06:30 496 8481
+-[success] LeavesofGrass 浙江省平湖市 07-07 08:59 -> 福建省建阳市 07-07 21:14 2181 580
+-[success] TOtheeoldcause 北京市 07-26 05:54 -> 湖北省宜昌市 07-26 10:47 424 3494
+-[success] TOtheeoldcause 天津市 08-08 17:57 -> 北京市 08-09 05:48 393 18519
+-[success] IHEARDthatyouask 新疆吐鲁番市 07-13 05:55 -> 四川省彭州市 07-13 23:13 745 6772
+-[success] LeavesofGrass 湖南省衡阳市 07-15 16:20 -> 河南省灵宝市 07-15 23:39 1648 1459
+-[success] LeavesofGrass 新疆塔城市 07-20 07:38 -> 浙江省杭州市 07-20 11:46 691 1613
+-[success] INSCRIPTIONS 广东省惠阳市 07-13 01:41 -> 湖北省枣阳市 07-13 11:59 1099 13877
+-[success] IHEARDthatyouask 广东省云浮市 07-21 19:00 -> 四川省彭州市 07-21 23:13 20 17704
++24
+ [success] whatyouwanted 安徽省阜阳市 07-14 08:24 -> 四川省华蓥市 07-14 09:33 19 6277
+ [success] puzzletheNewWorld 辽宁省辽阳市 07-27 13:05 -> 湖南省岳阳市 07-27 16:56 379 10829
+ [success] puzzletheNewWorld 湖南省岳阳市 06-24 17:01 -> 四川省绵竹市 06-25 14:44 1339 5317
+@@ -657,11 +646,19 @@
+ [success] puzzletheNewWorld 辽宁省辽阳市 08-04 13:05 -> 四川省绵竹市 08-05 14:44 1718 10347
+ [success] LeavesofGrass 辽宁省抚顺市 07-23 14:24 -> 广东省花都市 07-24 01:39 2007 4702
+ [success] LeavesofGrass 浙江省平湖市 07-30 08:59 -> 浙江省杭州市 07-30 11:46 400 7918
+-[success] INSCRIPTIONS 黑龙江省五大连池市 07-17 19:22 -> 广东省惠阳市 07-18 01:32 445 8617
++[success] IHEARDthatyouask 新疆吐鲁番市 07-27 05:55 -> 天津市 07-27 06:30 496 8481
++[success] LeavesofGrass 浙江省平湖市 07-07 08:59 -> 福建省建阳市 07-07 21:14 2181 580
+ [success] INSCRIPTIONS 黑龙江省五大连池市 07-22 19:22 -> 广东省高要市 07-22 21:36 292 10060
+ [success] INSCRIPTIONS 广东省惠阳市 06-28 01:41 -> 湖北省枣阳市 06-28 11:59 1099 11620
++[success] TOtheeoldcause 北京市 07-26 05:54 -> 湖北省宜昌市 07-26 10:47 424 3494
+ [success] LeavesofGrass 新疆塔城市 06-29 07:38 -> 河南省偃师市 06-30 03:28 3332 19401
++[success] TOtheeoldcause 天津市 08-08 17:57 -> 北京市 08-09 05:48 393 18519
++[success] IHEARDthatyouask 新疆吐鲁番市 07-13 05:55 -> 四川省彭州市 07-13 23:13 745 6772
+ [success] LeavesofGrass 湖南省衡阳市 07-09 16:20 -> 广东省花都市 07-10 01:39 1762 21243
++[success] LeavesofGrass 湖南省衡阳市 07-15 16:20 -> 河南省灵宝市 07-15 23:39 1648 1459
++[success] LeavesofGrass 新疆塔城市 07-20 07:38 -> 浙江省杭州市 07-20 11:46 691 1613
++[success] INSCRIPTIONS 广东省惠阳市 07-13 01:41 -> 湖北省枣阳市 07-13 11:59 1099 13877
++[success] IHEARDthatyouask 广东省云浮市 07-21 19:00 -> 四川省彭州市 07-21 23:13 20 17704
+ 1250808
+ 11200732
+ 4181983
+@@ -704,6 +701,8 @@
+ 1
+ everwillbereally 贵州省铜仁市 08-12 03:20 -> 天津市 08-12 08:41 1021 91355
+ 13
++[success] LeavesofGrass 新疆塔城市 07-07 07:38 -> 陕西省安康市 07-07 17:15 1826 20614
++[success] LeavesofGrass 广东省四会市 07-06 15:39 -> 新疆伊宁市 07-07 08:52 2829 2707
+ [success] LeavesofGrass 浙江省平湖市 06-28 08:59 -> 辽宁省抚顺市 06-28 14:21 802 13966
+ [success] INSCRIPTIONS 北京市 07-21 06:46 -> 湖北省枣阳市 07-21 11:59 688 9612
+ [success] INSCRIPTIONS 贵州省清镇市 07-20 16:24 -> 江苏省扬州市 07-21 08:14 1229 10218
+@@ -715,8 +714,6 @@
+ [success] LeavesofGrass 湖南省衡阳市 08-04 16:20 -> 河南省灵宝市 08-04 23:39 1648 5213
+ [success] TOtheeoldcause 天津市 08-10 17:57 -> 北京市 08-11 05:48 393 5825
+ [success] IHEARDthatyouask 天津市 07-08 06:35 -> 广东省云浮市 07-08 18:52 229 10199
+-[success] LeavesofGrass 新疆塔城市 07-07 07:38 -> 陕西省安康市 07-07 17:15 1826 20614
+-[success] LeavesofGrass 广东省四会市 07-06 15:39 -> 新疆伊宁市 07-07 08:52 2829 2707
+ 1
+ Afterastrangesad 天津市 08-22 16:53 -> 四川省绵竹市 08-23 22:36 4511 68496
+ -1
+@@ -863,39 +860,39 @@
+ 14979564
+ -1
+ 33
+-[success] INSCRIPTIONS 广东省高要市 07-13 21:40 -> 江苏省扬州市 07-14 08:14 764 15579
++[success] INSCRIPTIONS 黑龙江省五大连池市 06-18 19:22 -> 江苏省扬州市 06-19 08:14 1056 8250
++[success] LeavesofGrass 陕西省安康市 07-22 17:25 -> 河南省偃师市 07-23 03:28 1506 3718
++[success] puzzletheNewWorld 湖南省岳阳市 06-30 17:01 -> 黑龙江省尚志市 06-30 20:04 426 1454
+ [success] INSCRIPTIONS 贵州省清镇市 08-10 16:24 -> 江苏省扬州市 08-11 08:14 1229 12831
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-14 05:55 -> 四川省彭州市 07-14 23:13 745 20174
+ [success] LeavesofGrass 福建省建阳市 07-07 21:19 -> 黑龙江省海林市 07-07 22:46 14 2380
+ [success] LeavesofGrass 湖南省衡阳市 07-31 16:20 -> 浙江省慈溪市 08-01 09:48 2659 639
++[pending] LeavesofGrass 浙江省杭州市 07-13 11:52 -> 河南省偃师市 07-14 03:28 2641 11233
+ [success] LeavesofGrass 宁夏石嘴山市 07-06 19:25 -> 河南省灵宝市 07-06 23:39 914 1423
++[success] LeavesofGrass 福建省建阳市 07-24 21:19 -> 浙江省慈溪市 07-25 09:48 1525 10455
+ [success] LeavesofGrass 陕西省安康市 07-07 17:25 -> 河北省河间市 07-07 18:01 25 18368
+ [success] LeavesofGrass 河南省偃师市 07-26 03:31 -> 浙江省慈溪市 07-26 09:48 665 15766
++[success] LeavesofGrass 广东省四会市 07-06 15:39 -> 河南省偃师市 07-07 03:28 2234 14906
+ [success] puzzletheNewWorld 湖南省岳阳市 06-15 17:01 -> 四川省绵竹市 06-16 14:44 1339 4148
+ [pending] LeavesofGrass 河北省河间市 07-31 18:11 -> 河南省灵宝市 07-31 23:39 1135 14907
+ [success] LeavesofGrass 浙江省平湖市 08-03 08:59 -> 湖南省衡阳市 08-03 16:17 1047 24365
++[success] INSCRIPTIONS 广东省高要市 07-13 21:40 -> 江苏省扬州市 07-14 08:14 764 15579
+ [pending] LeavesofGrass 辽宁省抚顺市 07-15 14:24 -> 福建省建阳市 07-15 21:14 1379 22116
++[success] INSCRIPTIONS 贵州省清镇市 08-06 16:24 -> 新疆米泉市 08-07 14:38 1879 5641
+ [success] LeavesofGrass 广东省四会市 07-17 15:39 -> 河南省偃师市 07-18 03:28 2234 17405
+ [success] LeavesofGrass 浙江省平湖市 07-26 08:59 -> 新疆博乐市 07-27 06:04 3234 19221
+ [success] LeavesofGrass 河南省灵宝市 07-18 23:45 -> 浙江省慈溪市 07-19 09:48 1011 15960
++[success] INSCRIPTIONS 黑龙江省五大连池市 06-17 19:22 -> 湖北省枣阳市 06-18 11:59 1544 8923
+ [success] LeavesofGrass 河南省偃师市 07-29 03:31 -> 新疆伊宁市 07-29 08:52 595 14170
++[success] LeavesofGrass 河南省灵宝市 07-15 23:45 -> 广东省花都市 07-16 01:39 114 2769
++[success] LeavesofGrass 广东省四会市 07-12 15:39 -> 新疆博乐市 07-13 06:04 2427 9684
+ [success] LeavesofGrass 广东省四会市 07-30 15:39 -> 陕西省安康市 07-30 17:15 728 16112
+ [success] LeavesofGrass 福建省建阳市 07-18 21:19 -> 河南省偃师市 07-19 03:28 860 3894
+ [success] LeavesofGrass 浙江省杭州市 07-08 11:52 -> 河南省灵宝市 07-08 23:39 2295 3624
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-09 05:55 -> 广东省云浮市 07-09 18:52 725 18440
+ [success] INSCRIPTIONS 湖北省枣阳市 07-11 12:03 -> 新疆米泉市 07-11 14:38 162 17176
+-[success] LeavesofGrass 陕西省安康市 07-22 17:25 -> 河南省偃师市 07-23 03:28 1506 3718
+-[success] puzzletheNewWorld 湖南省岳阳市 06-30 17:01 -> 黑龙江省尚志市 06-30 20:04 426 1454
+-[pending] LeavesofGrass 浙江省杭州市 07-13 11:52 -> 河南省偃师市 07-14 03:28 2641 11233
+-[success] LeavesofGrass 福建省建阳市 07-24 21:19 -> 浙江省慈溪市 07-25 09:48 1525 10455
+-[success] LeavesofGrass 广东省四会市 07-06 15:39 -> 河南省偃师市 07-07 03:28 2234 14906
+-[success] INSCRIPTIONS 贵州省清镇市 08-06 16:24 -> 新疆米泉市 08-07 14:38 1879 5641
+-[success] INSCRIPTIONS 黑龙江省五大连池市 06-17 19:22 -> 湖北省枣阳市 06-18 11:59 1544 8923
+-[success] LeavesofGrass 河南省灵宝市 07-15 23:45 -> 广东省花都市 07-16 01:39 114 2769
+-[success] LeavesofGrass 广东省四会市 07-12 15:39 -> 新疆博乐市 07-13 06:04 2427 9684
+ [pending] LeavesofGrass 湖南省衡阳市 07-14 16:20 -> 新疆博乐市 07-15 06:04 2187 24112
+ [success] INSCRIPTIONS 广东省惠阳市 07-13 01:41 -> 湖北省枣阳市 07-13 11:59 1099 9374
+-[success] INSCRIPTIONS 黑龙江省五大连池市 06-18 19:22 -> 江苏省扬州市 06-19 08:14 1056 8250
+ 1
+ everwillbereally 北京市 06-11 18:42 -> 新疆乌鲁木齐市 06-12 20:24 3962 91355
+ Cardigan 卡缇 the.markets@kept.ever 1
+@@ -906,9 +903,6 @@
+ 1
+ TOTHEEOLDCAUSE 山西省太原市 07-15 07:56 -> 四川省绵阳市 07-15 17:54 708 33971
+ 14
+-[success] LeavesofGrass 浙江省平湖市 07-29 08:59 -> 河北省河间市 07-29 18:01 1560 1412
+-[pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 新疆博乐市 07-08 06:04 2432 6299
+-[success] puzzletheNewWorld 黑龙江省尚志市 07-03 20:11 -> 北京市 07-04 02:45 159 4645
+ [success] LeavesofGrass 新疆塔城市 08-04 07:38 -> 浙江省慈溪市 08-05 09:48 3997 2517
+ [success] puzzletheNewWorld 辽宁省辽阳市 07-29 13:05 -> 河南省登封市 07-30 09:52 1419 8831
+ [success] LeavesofGrass 湖南省衡阳市 07-20 16:20 -> 广东省花都市 07-21 01:39 1762 1642
+@@ -917,6 +911,9 @@
+ [success] LeavesofGrass 浙江省杭州市 07-16 11:52 -> 宁夏石嘴山市 07-16 19:18 1381 1292
+ [success] LeavesofGrass 广东省花都市 07-06 01:43 -> 河南省偃师市 07-06 03:28 232 4211
+ [success] LeavesofGrass 浙江省平湖市 07-25 08:59 -> 新疆博乐市 07-26 06:04 3234 18135
++[success] LeavesofGrass 浙江省平湖市 07-29 08:59 -> 河北省河间市 07-29 18:01 1560 1412
++[pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 新疆博乐市 07-08 06:04 2432 6299
++[success] puzzletheNewWorld 黑龙江省尚志市 07-03 20:11 -> 北京市 07-04 02:45 159 4645
+ [success] INSCRIPTIONS 广东省惠阳市 07-05 01:41 -> 新疆米泉市 07-05 14:38 1261 11666
+ [success] LeavesofGrass 陕西省安康市 07-14 17:25 -> 新疆伊宁市 07-15 08:52 2101 1354
+ [success] LeavesofGrass 新疆博乐市 08-01 06:11 -> 新疆伊宁市 08-01 08:52 402 13810
+@@ -973,20 +970,7 @@
+ LeavesofGrass 广东省四会市 07-28 15:39 -> 湖南省衡阳市 07-28 16:17 240 22049
+ 1
+ Deathlessthroughout 河北省安国市 08-03 10:54 -> 吉林省长春市 08-03 23:22 1143 73160
+-29
+-[success] INSCRIPTIONS 黑龙江省五大连池市 08-13 19:22 -> 广东省高要市 08-13 21:36 292 14590
+-[success] IHEARDthatyouask 新疆吐鲁番市 07-21 05:55 -> 天津市 07-21 06:30 496 6176
+-[success] IHEARDthatyouask 新疆吐鲁番市 07-26 05:55 -> 广东省云浮市 07-26 18:52 725 14425
+-[pending] LeavesofGrass 河北省河间市 07-05 18:11 -> 浙江省慈溪市 07-06 09:48 2146 20487
+-[success] IHEARDthatyouask 新疆吐鲁番市 07-27 05:55 -> 天津市 07-27 06:30 496 8481
+-[success] LeavesofGrass 浙江省平湖市 07-07 08:59 -> 福建省建阳市 07-07 21:14 2181 580
+-[success] TOtheeoldcause 北京市 07-26 05:54 -> 湖北省宜昌市 07-26 10:47 424 3494
+-[success] TOtheeoldcause 天津市 08-08 17:57 -> 北京市 08-09 05:48 393 18519
+-[success] IHEARDthatyouask 新疆吐鲁番市 07-13 05:55 -> 四川省彭州市 07-13 23:13 745 6772
+-[success] LeavesofGrass 湖南省衡阳市 07-15 16:20 -> 河南省灵宝市 07-15 23:39 1648 1459
+-[success] LeavesofGrass 新疆塔城市 07-20 07:38 -> 浙江省杭州市 07-20 11:46 691 1613
+-[success] INSCRIPTIONS 广东省惠阳市 07-13 01:41 -> 湖北省枣阳市 07-13 11:59 1099 13877
+-[success] IHEARDthatyouask 广东省云浮市 07-21 19:00 -> 四川省彭州市 07-21 23:13 20 17704
++27
+ [success] whatyouwanted 安徽省阜阳市 07-14 08:24 -> 四川省华蓥市 07-14 09:33 19 6277
+ [success] puzzletheNewWorld 辽宁省辽阳市 07-27 13:05 -> 湖南省岳阳市 07-27 16:56 379 10829
+ [success] puzzletheNewWorld 湖南省岳阳市 06-24 17:01 -> 四川省绵竹市 06-25 14:44 1339 5317
+@@ -994,15 +978,26 @@
+ [pending] LeavesofGrass 广东省四会市 07-16 15:39 -> 广东省花都市 07-17 01:39 2002 7242
+ [success] LeavesofGrass 黑龙江省海林市 07-01 22:56 -> 新疆博乐市 07-02 06:04 1039 4322
+ [pending] LeavesofGrass 湖南省衡阳市 07-27 16:20 -> 新疆伊宁市 07-28 08:52 2589 14381
+-[success] INSCRIPTIONS 云南省安宁市 07-11 20:50 -> 广东省惠阳市 07-12 01:32 289 12405
++[success] INSCRIPTIONS 黑龙江省五大连池市 08-13 19:22 -> 广东省高要市 08-13 21:36 292 14590
++[success] IHEARDthatyouask 新疆吐鲁番市 07-21 05:55 -> 天津市 07-21 06:30 496 6176
+ [success] puzzletheNewWorld 辽宁省辽阳市 08-04 13:05 -> 四川省绵竹市 08-05 14:44 1718 10347
++[success] IHEARDthatyouask 新疆吐鲁番市 07-26 05:55 -> 广东省云浮市 07-26 18:52 725 14425
+ [success] LeavesofGrass 辽宁省抚顺市 07-23 14:24 -> 广东省花都市 07-24 01:39 2007 4702
++[pending] LeavesofGrass 河北省河间市 07-05 18:11 -> 浙江省慈溪市 07-06 09:48 2146 20487
+ [success] LeavesofGrass 浙江省平湖市 07-30 08:59 -> 浙江省杭州市 07-30 11:46 400 7918
+-[success] INSCRIPTIONS 黑龙江省五大连池市 07-17 19:22 -> 广东省惠阳市 07-18 01:32 445 8617
++[success] IHEARDthatyouask 新疆吐鲁番市 07-27 05:55 -> 天津市 07-27 06:30 496 8481
++[success] LeavesofGrass 浙江省平湖市 07-07 08:59 -> 福建省建阳市 07-07 21:14 2181 580
+ [success] INSCRIPTIONS 黑龙江省五大连池市 07-22 19:22 -> 广东省高要市 07-22 21:36 292 10060
+ [success] INSCRIPTIONS 广东省惠阳市 06-28 01:41 -> 湖北省枣阳市 06-28 11:59 1099 11620
++[success] TOtheeoldcause 北京市 07-26 05:54 -> 湖北省宜昌市 07-26 10:47 424 3494
+ [success] LeavesofGrass 新疆塔城市 06-29 07:38 -> 河南省偃师市 06-30 03:28 3332 19401
++[success] TOtheeoldcause 天津市 08-08 17:57 -> 北京市 08-09 05:48 393 18519
++[success] IHEARDthatyouask 新疆吐鲁番市 07-13 05:55 -> 四川省彭州市 07-13 23:13 745 6772
+ [success] LeavesofGrass 湖南省衡阳市 07-09 16:20 -> 广东省花都市 07-10 01:39 1762 21243
++[success] LeavesofGrass 湖南省衡阳市 07-15 16:20 -> 河南省灵宝市 07-15 23:39 1648 1459
++[success] LeavesofGrass 新疆塔城市 07-20 07:38 -> 浙江省杭州市 07-20 11:46 691 1613
++[success] INSCRIPTIONS 广东省惠阳市 07-13 01:41 -> 湖北省枣阳市 07-13 11:59 1099 13877
++[success] IHEARDthatyouask 广东省云浮市 07-21 19:00 -> 四川省彭州市 07-21 23:13 20 17704
+ 3561435
+ -1
+ 1
+@@ -1070,45 +1065,43 @@
+ 3311880
+ -1
+ Nearl 临光 history.we@find.almost 1
+-21
++19
++[success] LeavesofGrass 辽宁省抚顺市 07-06 14:24 -> 新疆伊宁市 07-07 08:52 2834 8777
++[success] INSCRIPTIONS 北京市 07-16 06:46 -> 新疆米泉市 07-16 14:38 850 1288
++[success] INSCRIPTIONS 广东省高要市 08-05 21:40 -> 新疆米泉市 08-06 14:38 1414 17415
++[success] INSCRIPTIONS 贵州省清镇市 07-09 16:24 -> 广东省高要市 07-09 21:36 465 15846
++[success] INSCRIPTIONS 云南省安宁市 06-21 20:50 -> 广东省高要市 06-21 21:36 136 16093
+ [success] whatyouwanted 吉林省四平市 07-21 18:24 -> 湖北省松滋市 07-21 21:35 348 4241
+ [success] INSCRIPTIONS 黑龙江省五大连池市 08-17 19:22 -> 北京市 08-18 06:40 856 16944
+ [success] puzzletheNewWorld 辽宁省辽阳市 08-18 13:05 -> 四川省绵竹市 08-19 14:44 1718 5789
++[success] INSCRIPTIONS 云南省安宁市 08-22 20:50 -> 新疆米泉市 08-23 14:38 1550 15202
+ [success] INSCRIPTIONS 贵州省清镇市 07-01 16:24 -> 黑龙江省五大连池市 07-01 19:12 173 6485
+ [success] IHEARDthatyouask 新疆吐鲁番市 08-04 05:55 -> 广东省云浮市 08-04 18:52 725 19526
+ [success] puzzletheNewWorld 北京市 08-18 02:54 -> 河南省登封市 08-18 09:52 455 4207
+ [success] INSCRIPTIONS 云南省安宁市 08-21 20:50 -> 北京市 08-22 06:40 700 9604
+-[pending] LeavesofGrass 河南省灵宝市 07-15 23:45 -> 广东省花都市 07-16 01:39 114 14312
+-[success] INSCRIPTIONS 北京市 07-16 06:46 -> 新疆米泉市 07-16 14:38 850 1288
+-[success] INSCRIPTIONS 广东省高要市 08-05 21:40 -> 新疆米泉市 08-06 14:38 1414 17415
+-[success] INSCRIPTIONS 云南省安宁市 06-21 20:50 -> 广东省高要市 06-21 21:36 136 16093
+-[success] INSCRIPTIONS 云南省安宁市 08-22 20:50 -> 新疆米泉市 08-23 14:38 1550 15202
+ [success] LeavesofGrass 辽宁省抚顺市 07-11 14:24 -> 陕西省安康市 07-11 17:15 733 6915
++[pending] LeavesofGrass 河南省灵宝市 07-15 23:45 -> 广东省花都市 07-16 01:39 114 14312
+ [success] IHEARDthatyouask 新疆吐鲁番市 08-04 05:55 -> 广东省云浮市 08-04 18:52 725 11892
++[success] LeavesofGrass 福建省建阳市 06-28 21:19 -> 浙江省慈溪市 06-29 09:48 1525 15842
+ [success] IHEARDthatyouask 天津市 08-05 06:35 -> 四川省彭州市 08-05 23:13 249 9858
+ [success] INSCRIPTIONS 广东省高要市 06-25 21:40 -> 新疆米泉市 06-26 14:38 1414 10904
+-[success] LeavesofGrass 辽宁省抚顺市 07-06 14:24 -> 新疆伊宁市 07-07 08:52 2834 8777
+-[success] LeavesofGrass 广东省四会市 08-03 15:39 -> 广东省花都市 08-04 01:39 2002 11377
+-[success] INSCRIPTIONS 贵州省清镇市 07-09 16:24 -> 广东省高要市 07-09 21:36 465 15846
+-[success] INSCRIPTIONS 贵州省清镇市 08-14 16:24 -> 北京市 08-15 06:40 1029 17445
+-[success] LeavesofGrass 福建省建阳市 06-28 21:19 -> 浙江省慈溪市 06-29 09:48 1525 15842
+ queue
+ 15891354
+ Chen 陈陈 into.various@orders.a 2
+ 16
+-[success] INSCRIPTIONS 黑龙江省五大连池市 07-07 19:22 -> 广东省高要市 07-07 21:36 292 17623
+-[pending] LeavesofGrass 宁夏石嘴山市 07-07 19:25 -> 新疆伊宁市 07-08 08:52 1855 13113
+-[success] LeavesofGrass 浙江省平湖市 07-29 08:59 -> 河北省河间市 07-29 18:01 1560 1412
+-[pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 新疆博乐市 07-08 06:04 2432 6299
+-[success] puzzletheNewWorld 黑龙江省尚志市 07-03 20:11 -> 北京市 07-04 02:45 159 4645
+ [success] LeavesofGrass 新疆塔城市 08-04 07:38 -> 浙江省慈溪市 08-05 09:48 3997 2517
+ [success] puzzletheNewWorld 辽宁省辽阳市 07-29 13:05 -> 河南省登封市 07-30 09:52 1419 8831
+ [success] LeavesofGrass 湖南省衡阳市 07-20 16:20 -> 广东省花都市 07-21 01:39 1762 1642
++[success] INSCRIPTIONS 黑龙江省五大连池市 07-07 19:22 -> 广东省高要市 07-07 21:36 292 17623
+ [success] INSCRIPTIONS 贵州省清镇市 07-02 16:24 -> 广东省惠阳市 07-03 01:32 618 4782
++[pending] LeavesofGrass 宁夏石嘴山市 07-07 19:25 -> 新疆伊宁市 07-08 08:52 1855 13113
+ [success] LeavesofGrass 辽宁省抚顺市 07-20 14:24 -> 宁夏石嘴山市 07-20 19:18 979 10955
+ [success] LeavesofGrass 浙江省杭州市 07-16 11:52 -> 宁夏石嘴山市 07-16 19:18 1381 1292
+ [success] LeavesofGrass 广东省花都市 07-06 01:43 -> 河南省偃师市 07-06 03:28 232 4211
+ [success] LeavesofGrass 浙江省平湖市 07-25 08:59 -> 新疆博乐市 07-26 06:04 3234 18135
++[success] LeavesofGrass 浙江省平湖市 07-29 08:59 -> 河北省河间市 07-29 18:01 1560 1412
++[pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 新疆博乐市 07-08 06:04 2432 6299
++[success] puzzletheNewWorld 黑龙江省尚志市 07-03 20:11 -> 北京市 07-04 02:45 159 4645
+ [success] INSCRIPTIONS 广东省惠阳市 07-05 01:41 -> 新疆米泉市 07-05 14:38 1261 11666
+ [success] LeavesofGrass 陕西省安康市 07-14 17:25 -> 新疆伊宁市 07-15 08:52 2101 1354
+ [success] LeavesofGrass 新疆博乐市 08-01 06:11 -> 新疆伊宁市 08-01 08:52 402 13810
+@@ -1189,54 +1182,53 @@
+ Deathlessthroughout 福建省长乐市 07-26 07:14 -> 山东省威海市 07-26 21:57 1386 73160
+ -1
+ 35
+-[pending] LeavesofGrass 浙江省杭州市 07-01 11:52 -> 浙江省慈溪市 07-02 09:48 3306 20491
+-[success] TOFOREIGNLANDS 河北省张家口市 07-14 22:51 -> 湖北省洪湖市 07-15 11:19 1301 18800
+-[success] INSCRIPTIONS 广东省高要市 07-13 21:40 -> 江苏省扬州市 07-14 08:14 764 15579
++[success] INSCRIPTIONS 黑龙江省五大连池市 06-18 19:22 -> 江苏省扬州市 06-19 08:14 1056 8250
++[success] LeavesofGrass 陕西省安康市 07-22 17:25 -> 河南省偃师市 07-23 03:28 1506 3718
++[success] puzzletheNewWorld 湖南省岳阳市 06-30 17:01 -> 黑龙江省尚志市 06-30 20:04 426 1454
+ [success] INSCRIPTIONS 贵州省清镇市 08-10 16:24 -> 江苏省扬州市 08-11 08:14 1229 12831
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-14 05:55 -> 四川省彭州市 07-14 23:13 745 20174
+ [success] LeavesofGrass 福建省建阳市 07-07 21:19 -> 黑龙江省海林市 07-07 22:46 14 2380
+ [success] LeavesofGrass 湖南省衡阳市 07-31 16:20 -> 浙江省慈溪市 08-01 09:48 2659 639
++[pending] LeavesofGrass 浙江省杭州市 07-13 11:52 -> 河南省偃师市 07-14 03:28 2641 11233
+ [success] LeavesofGrass 宁夏石嘴山市 07-06 19:25 -> 河南省灵宝市 07-06 23:39 914 1423
++[success] LeavesofGrass 福建省建阳市 07-24 21:19 -> 浙江省慈溪市 07-25 09:48 1525 10455
++[pending] LeavesofGrass 浙江省杭州市 07-01 11:52 -> 浙江省慈溪市 07-02 09:48 3306 20491
+ [success] LeavesofGrass 陕西省安康市 07-07 17:25 -> 河北省河间市 07-07 18:01 25 18368
+ [success] LeavesofGrass 河南省偃师市 07-26 03:31 -> 浙江省慈溪市 07-26 09:48 665 15766
++[success] LeavesofGrass 广东省四会市 07-06 15:39 -> 河南省偃师市 07-07 03:28 2234 14906
+ [success] puzzletheNewWorld 湖南省岳阳市 06-15 17:01 -> 四川省绵竹市 06-16 14:44 1339 4148
++[success] TOFOREIGNLANDS 河北省张家口市 07-14 22:51 -> 湖北省洪湖市 07-15 11:19 1301 18800
+ [pending] LeavesofGrass 河北省河间市 07-31 18:11 -> 河南省灵宝市 07-31 23:39 1135 14907
+ [success] LeavesofGrass 浙江省平湖市 08-03 08:59 -> 湖南省衡阳市 08-03 16:17 1047 24365
++[success] INSCRIPTIONS 广东省高要市 07-13 21:40 -> 江苏省扬州市 07-14 08:14 764 15579
+ [pending] LeavesofGrass 辽宁省抚顺市 07-15 14:24 -> 福建省建阳市 07-15 21:14 1379 22116
++[success] INSCRIPTIONS 贵州省清镇市 08-06 16:24 -> 新疆米泉市 08-07 14:38 1879 5641
+ [success] LeavesofGrass 广东省四会市 07-17 15:39 -> 河南省偃师市 07-18 03:28 2234 17405
+ [success] LeavesofGrass 浙江省平湖市 07-26 08:59 -> 新疆博乐市 07-27 06:04 3234 19221
+ [success] LeavesofGrass 河南省灵宝市 07-18 23:45 -> 浙江省慈溪市 07-19 09:48 1011 15960
++[success] INSCRIPTIONS 黑龙江省五大连池市 06-17 19:22 -> 湖北省枣阳市 06-18 11:59 1544 8923
+ [success] LeavesofGrass 河南省偃师市 07-29 03:31 -> 新疆伊宁市 07-29 08:52 595 14170
++[success] LeavesofGrass 河南省灵宝市 07-15 23:45 -> 广东省花都市 07-16 01:39 114 2769
++[success] LeavesofGrass 广东省四会市 07-12 15:39 -> 新疆博乐市 07-13 06:04 2427 9684
+ [success] LeavesofGrass 广东省四会市 07-30 15:39 -> 陕西省安康市 07-30 17:15 728 16112
+ [success] LeavesofGrass 福建省建阳市 07-18 21:19 -> 河南省偃师市 07-19 03:28 860 3894
+ [success] LeavesofGrass 浙江省杭州市 07-08 11:52 -> 河南省灵宝市 07-08 23:39 2295 3624
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-09 05:55 -> 广东省云浮市 07-09 18:52 725 18440
+ [success] INSCRIPTIONS 湖北省枣阳市 07-11 12:03 -> 新疆米泉市 07-11 14:38 162 17176
+-[success] LeavesofGrass 陕西省安康市 07-22 17:25 -> 河南省偃师市 07-23 03:28 1506 3718
+-[success] puzzletheNewWorld 湖南省岳阳市 06-30 17:01 -> 黑龙江省尚志市 06-30 20:04 426 1454
+-[pending] LeavesofGrass 浙江省杭州市 07-13 11:52 -> 河南省偃师市 07-14 03:28 2641 11233
+-[success] LeavesofGrass 福建省建阳市 07-24 21:19 -> 浙江省慈溪市 07-25 09:48 1525 10455
+-[success] LeavesofGrass 广东省四会市 07-06 15:39 -> 河南省偃师市 07-07 03:28 2234 14906
+-[success] INSCRIPTIONS 贵州省清镇市 08-06 16:24 -> 新疆米泉市 08-07 14:38 1879 5641
+-[success] INSCRIPTIONS 黑龙江省五大连池市 06-17 19:22 -> 湖北省枣阳市 06-18 11:59 1544 8923
+-[success] LeavesofGrass 河南省灵宝市 07-15 23:45 -> 广东省花都市 07-16 01:39 114 2769
+-[success] LeavesofGrass 广东省四会市 07-12 15:39 -> 新疆博乐市 07-13 06:04 2427 9684
+ [pending] LeavesofGrass 湖南省衡阳市 07-14 16:20 -> 新疆博乐市 07-15 06:04 2187 24112
+ [success] INSCRIPTIONS 广东省惠阳市 07-13 01:41 -> 湖北省枣阳市 07-13 11:59 1099 9374
+-[success] INSCRIPTIONS 黑龙江省五大连池市 06-18 19:22 -> 江苏省扬州市 06-19 08:14 1056 8250
+ 9601952
+-13
++12
++[success] LeavesofGrass 宁夏石嘴山市 07-11 19:25 -> 新疆伊宁市 07-12 08:52 1855 68
++[success] LeavesofGrass 陕西省安康市 06-29 17:25 -> 河北省河间市 06-29 18:01 25 18897
++[success] puzzletheNewWorld 北京市 08-18 02:54 -> 河南省登封市 08-18 09:52 455 4397
++[success] LeavesofGrass 宁夏石嘴山市 07-03 19:25 -> 浙江省慈溪市 07-04 09:48 1925 10671
+ [success] INSCRIPTIONS 广东省高要市 06-21 21:40 -> 北京市 06-22 06:40 564 4235
+ [success] INSCRIPTIONS 黑龙江省五大连池市 07-24 19:22 -> 湖北省枣阳市 07-25 11:59 1544 2145
+ [success] LeavesofGrass 河北省河间市 07-07 18:11 -> 福建省建阳市 07-07 21:14 621 5735
+ [success] Afterastrangesad 天津市 08-24 16:53 -> 山东省淄博市 08-25 19:22 4038 443
+ [success] IHEARDthatyouask 天津市 07-28 06:35 -> 广东省云浮市 07-28 18:52 229 6261
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-16 05:55 -> 天津市 07-16 06:30 496 18603
+-[success] LeavesofGrass 宁夏石嘴山市 07-11 19:25 -> 新疆伊宁市 07-12 08:52 1855 68
+-[success] puzzletheNewWorld 北京市 08-18 02:54 -> 河南省登封市 08-18 09:52 455 4397
+-[success] LeavesofGrass 陕西省安康市 06-29 17:25 -> 河北省河间市 06-29 18:01 25 18897
+-[success] LeavesofGrass 陕西省安康市 07-13 17:25 -> 福建省建阳市 07-13 21:14 646 2201
+-[success] LeavesofGrass 宁夏石嘴山市 07-03 19:25 -> 浙江省慈溪市 07-04 09:48 1925 10671
+ [success] LeavesofGrass 辽宁省抚顺市 07-16 14:24 -> 黑龙江省海林市 07-16 22:46 1393 906
+ [success] LeavesofGrass 浙江省平湖市 07-13 08:59 -> 宁夏石嘴山市 07-13 19:18 1781 12437
+ 34610
+@@ -1263,7 +1255,7 @@
+ Afterastrangesad 山西省太原市 08-07 10:36 -> 山东省胶州市 08-07 11:06 202 68496
+ -1
+ 1
+-LeavesofGrass 河北省河间市 07-23 18:11 -> 浙江省慈溪市 07-24 09:48 2146 2008
++LeavesofGrass 河北省河间市 07-23 18:11 -> 浙江省慈溪市 07-24 09:48 2146 5189
+ Angelina 安洁莉 two.great.classes@directly.fac 1
+ -1
+ 6759350
+@@ -1330,7 +1322,9 @@
+ 1
+ IHEARDthatyouask 新疆吐鲁番市 08-04 05:55 -> 广东省云浮市 08-04 18:52 725 45415
+ 14
++[success] LeavesofGrass 新疆塔城市 07-07 07:38 -> 陕西省安康市 07-07 17:15 1826 20614
+ [success] LeavesofGrass 陕西省安康市 07-13 17:25 -> 河北省河间市 07-13 18:01 25 2288
++[success] LeavesofGrass 广东省四会市 07-06 15:39 -> 新疆伊宁市 07-07 08:52 2829 2707
+ [success] LeavesofGrass 浙江省平湖市 06-28 08:59 -> 辽宁省抚顺市 06-28 14:21 802 13966
+ [success] INSCRIPTIONS 北京市 07-21 06:46 -> 湖北省枣阳市 07-21 11:59 688 9612
+ [success] INSCRIPTIONS 贵州省清镇市 07-20 16:24 -> 江苏省扬州市 07-21 08:14 1229 10218
+@@ -1342,8 +1336,6 @@
+ [success] LeavesofGrass 湖南省衡阳市 08-04 16:20 -> 河南省灵宝市 08-04 23:39 1648 5213
+ [success] TOtheeoldcause 天津市 08-10 17:57 -> 北京市 08-11 05:48 393 5825
+ [success] IHEARDthatyouask 天津市 07-08 06:35 -> 广东省云浮市 07-08 18:52 229 10199
+-[success] LeavesofGrass 新疆塔城市 07-07 07:38 -> 陕西省安康市 07-07 17:15 1826 20614
+-[success] LeavesofGrass 广东省四会市 07-06 15:39 -> 新疆伊宁市 07-07 08:52 2829 2707
+ 2026480
+ 1
+ AndtodefineAmeric 吉林省图们市 06-30 10:50 -> 湖北省孝感市 07-01 09:22 2400 80198
+@@ -1386,18 +1378,17 @@
+ 14817301
+ Plume 翎羽 serf.guildmaster@and.journeyma 2
+ Firewatch 守林人 opponents.in@power.Where 2
+-13
++12
++[success] LeavesofGrass 宁夏石嘴山市 07-11 19:25 -> 新疆伊宁市 07-12 08:52 1855 68
++[success] LeavesofGrass 陕西省安康市 06-29 17:25 -> 河北省河间市 06-29 18:01 25 18897
++[success] puzzletheNewWorld 北京市 08-18 02:54 -> 河南省登封市 08-18 09:52 455 4397
++[success] LeavesofGrass 宁夏石嘴山市 07-03 19:25 -> 浙江省慈溪市 07-04 09:48 1925 10671
+ [success] INSCRIPTIONS 广东省高要市 06-21 21:40 -> 北京市 06-22 06:40 564 4235
+ [success] INSCRIPTIONS 黑龙江省五大连池市 07-24 19:22 -> 湖北省枣阳市 07-25 11:59 1544 2145
+ [success] LeavesofGrass 河北省河间市 07-07 18:11 -> 福建省建阳市 07-07 21:14 621 5735
+ [success] Afterastrangesad 天津市 08-24 16:53 -> 山东省淄博市 08-25 19:22 4038 443
+ [success] IHEARDthatyouask 天津市 07-28 06:35 -> 广东省云浮市 07-28 18:52 229 6261
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-16 05:55 -> 天津市 07-16 06:30 496 18603
+-[success] LeavesofGrass 宁夏石嘴山市 07-11 19:25 -> 新疆伊宁市 07-12 08:52 1855 68
+-[success] puzzletheNewWorld 北京市 08-18 02:54 -> 河南省登封市 08-18 09:52 455 4397
+-[success] LeavesofGrass 陕西省安康市 06-29 17:25 -> 河北省河间市 06-29 18:01 25 18897
+-[success] LeavesofGrass 陕西省安康市 07-13 17:25 -> 福建省建阳市 07-13 21:14 646 2201
+-[success] LeavesofGrass 宁夏石嘴山市 07-03 19:25 -> 浙江省慈溪市 07-04 09:48 1925 10671
+ [success] LeavesofGrass 辽宁省抚顺市 07-16 14:24 -> 黑龙江省海林市 07-16 22:46 1393 906
+ [success] LeavesofGrass 浙江省平湖市 07-13 08:59 -> 宁夏石嘴山市 07-13 19:18 1781 12437
+ 2073691
+@@ -1421,10 +1412,9 @@
+ Cardigan 卡缇 the.markets@kept.ever 1
+ 13372612
+ W 达不溜 in.each.single@workshop.Meanti 1
+-INSCRIPTIONS 广东省惠阳市 06-16 01:41 -> 北京市 06-16 06:40 411 67686
+-LEAVESOFGRASS 北京市 07-06 03:56 -> 江苏省高邮市 07-06 10:34 974 67839
+ -1
+ -1
++-1
+ Cuora 蛇屠 there.taxable@third.estate 1
+ 0
+ -1
+@@ -1433,31 +1423,31 @@
+ 5054030
+ queue
+ 25
+-[success] ThereforeIsendyou 新疆喀什市 07-21 02:53 -> 安徽省宁国市 07-21 19:16 977 898
+ [success] IHEARDthatyouask 新疆吐鲁番市 08-07 05:55 -> 四川省彭州市 08-07 23:13 745 18804
++[pending] LeavesofGrass 浙江省平湖市 07-04 08:59 -> 河南省偃师市 07-05 03:28 3041 16680
++[success] INSCRIPTIONS 广东省高要市 07-09 21:40 -> 新疆米泉市 07-10 14:38 1414 7623
+ [pending] LeavesofGrass 宁夏石嘴山市 07-11 19:25 -> 福建省建阳市 07-11 21:14 400 17791
++[success] puzzletheNewWorld 辽宁省辽阳市 07-27 13:05 -> 北京市 07-28 02:45 964 1457
++[success] LeavesofGrass 浙江省平湖市 07-31 08:59 -> 新疆博乐市 08-01 06:04 3234 4582
++[success] LeavesofGrass 新疆博乐市 07-31 06:11 -> 浙江省慈溪市 07-31 09:48 472 15986
++[success] ThereforeIsendyou 新疆喀什市 07-21 02:53 -> 安徽省宁国市 07-21 19:16 977 898
+ [success] IHEARDthatyouask 广东省云浮市 07-21 19:00 -> 四川省彭州市 07-21 23:13 20 12236
++[success] INSCRIPTIONS 黑龙江省五大连池市 08-04 19:22 -> 广东省惠阳市 08-05 01:32 445 1123
+ [success] puzzletheNewWorld 黑龙江省尚志市 07-22 20:11 -> 河南省登封市 07-23 09:52 614 7048
+ [pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 河南省偃师市 07-08 03:28 2239 23230
++[pending] LeavesofGrass 河南省灵宝市 07-26 23:45 -> 新疆伊宁市 07-27 08:52 941 24332
++[success] LeavesofGrass 福建省建阳市 07-12 21:19 -> 新疆伊宁市 07-13 08:52 1455 22986
++[success] LeavesofGrass 河南省灵宝市 06-30 23:45 -> 浙江省慈溪市 07-01 09:48 1011 7239
+ [pending] LeavesofGrass 浙江省杭州市 06-29 11:52 -> 新疆博乐市 06-30 06:04 2834 4682
+ [success] puzzletheNewWorld 辽宁省辽阳市 07-09 13:05 -> 湖南省岳阳市 07-09 16:56 379 5788
+ [success] INSCRIPTIONS 广东省惠阳市 06-29 01:41 -> 新疆米泉市 06-29 14:38 1261 12891
+ [pending] LeavesofGrass 新疆塔城市 07-16 07:38 -> 河南省偃师市 07-17 03:28 3332 12669
++[success] INSCRIPTIONS 云南省安宁市 08-15 20:50 -> 新疆米泉市 08-16 14:38 1550 11880
+ [pending] LeavesofGrass 浙江省杭州市 08-01 11:52 -> 黑龙江省海林市 08-01 22:46 1795 13201
++[success] IHEARDthatyouask 广东省云浮市 07-10 19:00 -> 四川省彭州市 07-10 23:13 20 12581
+ [success] LeavesofGrass 广东省花都市 08-02 01:43 -> 新疆伊宁市 08-02 08:52 827 7253
+ [success] INSCRIPTIONS 云南省安宁市 07-01 20:50 -> 广东省惠阳市 07-02 01:32 289 15370
+ [success] LeavesofGrass 浙江省平湖市 08-01 08:59 -> 湖南省衡阳市 08-01 16:17 1047 2451
+-[pending] LeavesofGrass 浙江省平湖市 07-04 08:59 -> 河南省偃师市 07-05 03:28 3041 16680
+-[success] INSCRIPTIONS 广东省高要市 07-09 21:40 -> 新疆米泉市 07-10 14:38 1414 7623
+-[success] puzzletheNewWorld 辽宁省辽阳市 07-27 13:05 -> 北京市 07-28 02:45 964 1457
+-[success] LeavesofGrass 新疆博乐市 07-31 06:11 -> 浙江省慈溪市 07-31 09:48 472 15986
+-[success] INSCRIPTIONS 黑龙江省五大连池市 08-04 19:22 -> 广东省惠阳市 08-05 01:32 445 1123
+-[pending] LeavesofGrass 河南省灵宝市 07-26 23:45 -> 新疆伊宁市 07-27 08:52 941 24332
+-[success] LeavesofGrass 河南省灵宝市 06-30 23:45 -> 浙江省慈溪市 07-01 09:48 1011 7239
+-[success] INSCRIPTIONS 云南省安宁市 08-15 20:50 -> 新疆米泉市 08-16 14:38 1550 11880
+-[success] IHEARDthatyouask 广东省云浮市 07-10 19:00 -> 四川省彭州市 07-10 23:13 20 12581
+-[success] LeavesofGrass 浙江省平湖市 07-31 08:59 -> 新疆博乐市 08-01 06:04 3234 4582
+-[success] LeavesofGrass 福建省建阳市 07-12 21:19 -> 新疆伊宁市 07-13 08:52 1455 22986
+ 1401372
+ -1
+ Meteorite 陨星 bourgeoisie@was.accompanied 3
+@@ -1471,21 +1461,21 @@
+ 1
+ LEAVESOFGRASS 北京市 08-10 03:56 -> 内蒙额尔古纳市 08-10 11:22 1126 67839
+ 18
+-[success] LeavesofGrass 河南省偃师市 07-07 03:31 -> 新疆伊宁市 07-07 08:52 595 3002
+-[success] INSCRIPTIONS 云南省安宁市 08-19 20:50 -> 湖北省枣阳市 08-20 11:59 1388 1460
+-[success] INSCRIPTIONS 黑龙江省五大连池市 07-07 19:22 -> 广东省高要市 07-07 21:36 292 17623
+-[pending] LeavesofGrass 宁夏石嘴山市 07-07 19:25 -> 新疆伊宁市 07-08 08:52 1855 13113
+-[success] LeavesofGrass 浙江省平湖市 07-29 08:59 -> 河北省河间市 07-29 18:01 1560 1412
+-[pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 新疆博乐市 07-08 06:04 2432 6299
+-[success] puzzletheNewWorld 黑龙江省尚志市 07-03 20:11 -> 北京市 07-04 02:45 159 4645
+ [success] LeavesofGrass 新疆塔城市 08-04 07:38 -> 浙江省慈溪市 08-05 09:48 3997 2517
+ [success] puzzletheNewWorld 辽宁省辽阳市 07-29 13:05 -> 河南省登封市 07-30 09:52 1419 8831
+ [success] LeavesofGrass 湖南省衡阳市 07-20 16:20 -> 广东省花都市 07-21 01:39 1762 1642
++[success] LeavesofGrass 河南省偃师市 07-07 03:31 -> 新疆伊宁市 07-07 08:52 595 3002
++[success] INSCRIPTIONS 云南省安宁市 08-19 20:50 -> 湖北省枣阳市 08-20 11:59 1388 1460
++[success] INSCRIPTIONS 黑龙江省五大连池市 07-07 19:22 -> 广东省高要市 07-07 21:36 292 17623
+ [success] INSCRIPTIONS 贵州省清镇市 07-02 16:24 -> 广东省惠阳市 07-03 01:32 618 4782
++[pending] LeavesofGrass 宁夏石嘴山市 07-07 19:25 -> 新疆伊宁市 07-08 08:52 1855 13113
+ [success] LeavesofGrass 辽宁省抚顺市 07-20 14:24 -> 宁夏石嘴山市 07-20 19:18 979 10955
+ [success] LeavesofGrass 浙江省杭州市 07-16 11:52 -> 宁夏石嘴山市 07-16 19:18 1381 1292
+ [success] LeavesofGrass 广东省花都市 07-06 01:43 -> 河南省偃师市 07-06 03:28 232 4211
+ [success] LeavesofGrass 浙江省平湖市 07-25 08:59 -> 新疆博乐市 07-26 06:04 3234 18135
++[success] LeavesofGrass 浙江省平湖市 07-29 08:59 -> 河北省河间市 07-29 18:01 1560 1412
++[pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 新疆博乐市 07-08 06:04 2432 6299
++[success] puzzletheNewWorld 黑龙江省尚志市 07-03 20:11 -> 北京市 07-04 02:45 159 4645
+ [success] INSCRIPTIONS 广东省惠阳市 07-05 01:41 -> 新疆米泉市 07-05 14:38 1261 11666
+ [success] LeavesofGrass 陕西省安康市 07-14 17:25 -> 新疆伊宁市 07-15 08:52 2101 1354
+ [success] LeavesofGrass 新疆博乐市 08-01 06:11 -> 新疆伊宁市 08-01 08:52 402 13810
+@@ -1504,16 +1494,16 @@
+ TOtheeoldcause 北京市 08-29 05:54 -> 湖北省宜昌市 08-29 10:47 424 90891
+ 0
+ 12
++[success] INSCRIPTIONS 广东省惠阳市 07-03 01:41 -> 新疆米泉市 07-03 14:38 1261 821
++[success] LeavesofGrass 福建省建阳市 07-10 21:19 -> 河南省灵宝市 07-10 23:39 514 11446
+ [success] LeavesofGrass 河南省灵宝市 08-04 23:45 -> 新疆伊宁市 08-05 08:52 941 9047
++[success] LeavesofGrass 湖南省衡阳市 06-30 16:20 -> 河南省偃师市 07-01 03:28 1994 5461
+ [pending] LeavesofGrass 陕西省安康市 07-07 17:25 -> 福建省建阳市 07-07 21:14 646 22951
+ [pending] LeavesofGrass 浙江省平湖市 07-10 08:59 -> 福建省建阳市 07-10 21:14 2181 4392
+ [success] ThereforeIsendyou 湖南省汩罗市 07-31 22:12 -> 山东省胶南市 08-01 10:01 843 342
++[success] LeavesofGrass 辽宁省抚顺市 07-01 14:24 -> 陕西省安康市 07-01 17:15 733 9467
+ [pending] LeavesofGrass 福建省建阳市 07-30 21:19 -> 新疆伊宁市 07-31 08:52 1455 11899
+ [success] LeavesofGrass 河北省河间市 07-01 18:11 -> 宁夏石嘴山市 07-01 19:18 221 18923
+-[success] INSCRIPTIONS 广东省惠阳市 07-03 01:41 -> 新疆米泉市 07-03 14:38 1261 821
+-[success] LeavesofGrass 福建省建阳市 07-10 21:19 -> 河南省灵宝市 07-10 23:39 514 11446
+-[success] LeavesofGrass 湖南省衡阳市 06-30 16:20 -> 河南省偃师市 07-01 03:28 1994 5461
+-[success] LeavesofGrass 辽宁省抚顺市 07-01 14:24 -> 陕西省安康市 07-01 17:15 733 9467
+ [success] LeavesofGrass 广东省四会市 07-04 15:39 -> 陕西省安康市 07-04 17:15 728 719
+ [success] LeavesofGrass 新疆塔城市 07-16 07:38 -> 黑龙江省海林市 07-16 22:46 2486 3890
+ 1
+@@ -1528,24 +1518,23 @@
+ -1
+ 1
+ IHEARDthatyouask 新疆吐鲁番市 07-17 05:55 -> 四川省彭州市 07-17 23:13 745 64835
+-17
++16
++[success] puzzletheNewWorld 湖南省岳阳市 07-20 17:01 -> 黑龙江省尚志市 07-20 20:04 426 8140
++[success] LeavesofGrass 黑龙江省海林市 07-28 22:56 -> 浙江省慈溪市 07-29 09:48 1511 6947
++[success] INSCRIPTIONS 云南省安宁市 06-19 20:50 -> 湖北省枣阳市 06-20 11:59 1388 13606
++[success] LeavesofGrass 陕西省安康市 07-12 17:25 -> 广东省花都市 07-13 01:39 1274 9890
+ [success] INSCRIPTIONS 黑龙江省五大连池市 07-11 19:22 -> 湖北省枣阳市 07-12 11:59 1544 522
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-20 05:55 -> 四川省彭州市 07-20 23:13 745 1700
++[success] IHEARDthatyouask 广东省云浮市 07-19 19:00 -> 四川省彭州市 07-19 23:13 20 12029
+ [success] INSCRIPTIONS 北京市 07-23 06:46 -> 湖北省枣阳市 07-23 11:59 688 524
+ [success] TOTHEEOLDCAUSE 吉林省长春市 06-13 04:55 -> 安徽省桐城市 06-13 11:13 777 5381
+-[success] TOTHEEOLDCAUSE 新疆库尔勒市 06-09 16:36 -> 四川省绵阳市 06-10 17:54 1769 8078
+-[success] INSCRIPTIONS 贵州省清镇市 06-28 16:24 -> 湖北省枣阳市 06-29 11:59 1717 10161
+-[success] LeavesofGrass 黑龙江省海林市 07-28 22:56 -> 浙江省慈溪市 07-29 09:48 1511 6947
+-[success] INSCRIPTIONS 云南省安宁市 06-19 20:50 -> 湖北省枣阳市 06-20 11:59 1388 13606
+-[success] IHEARDthatyouask 广东省云浮市 07-19 19:00 -> 四川省彭州市 07-19 23:13 20 12029
+ [success] LeavesofGrass 广东省四会市 07-08 15:39 -> 广东省花都市 07-09 01:39 2002 7390
+ [success] INSCRIPTIONS 贵州省清镇市 08-08 16:24 -> 江苏省扬州市 08-09 08:14 1229 8976
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-12 05:55 -> 广东省云浮市 07-12 18:52 725 13704
+-[success] puzzletheNewWorld 河南省登封市 08-11 09:56 -> 四川省绵竹市 08-11 14:44 299 5067
++[success] TOTHEEOLDCAUSE 新疆库尔勒市 06-09 16:36 -> 四川省绵阳市 06-10 17:54 1769 8078
++[success] INSCRIPTIONS 贵州省清镇市 06-28 16:24 -> 湖北省枣阳市 06-29 11:59 1717 10161
+ [success] INSCRIPTIONS 黑龙江省五大连池市 08-10 19:22 -> 北京市 08-11 06:40 856 2439
+ [success] LeavesofGrass 浙江省平湖市 07-23 08:59 -> 福建省建阳市 07-23 21:14 2181 19980
+-[success] puzzletheNewWorld 湖南省岳阳市 07-20 17:01 -> 黑龙江省尚志市 07-20 20:04 426 8140
+-[success] LeavesofGrass 陕西省安康市 07-12 17:25 -> 广东省花都市 07-13 01:39 1274 9890
+ 1
+ Ithinkallwarthr 北京市 07-07 07:42 -> 河南省濮阳市 07-08 03:47 2545 86945
+ queue
+@@ -1556,26 +1545,25 @@
+ 29585380
+ -1
+ 478203
+-queue
++15169000
+ 1
+ puzzletheNewWorld 辽宁省辽阳市 06-29 13:05 -> 四川省绵竹市 06-30 14:44 1718 47885
+-16
++15
++[success] INSCRIPTIONS 北京市 08-22 06:46 -> 江苏省扬州市 08-22 08:14 200 16819
++[success] TOFOREIGNLANDS 河北省张家口市 07-07 22:51 -> 四川省攀枝花市 07-08 20:01 2268 18348
+ [pending] LeavesofGrass 陕西省安康市 07-09 17:25 -> 新疆伊宁市 07-10 08:52 2101 10111
+ [success] LeavesofGrass 河北省河间市 07-14 18:11 -> 河南省灵宝市 07-14 23:39 1135 8548
+-[success] IHEARDthatyouask 新疆吐鲁番市 07-22 05:55 -> 四川省彭州市 07-22 23:13 745 20679
+-[success] TOFOREIGNLANDS 河北省张家口市 07-07 22:51 -> 四川省攀枝花市 07-08 20:01 2268 18348
+ [success] LeavesofGrass 辽宁省抚顺市 06-28 14:24 -> 黑龙江省海林市 06-28 22:46 1393 1233
+-[success] TOFOREIGNLANDS 浙江省临安市 07-28 21:04 -> 湖北省洪湖市 07-29 11:19 1713 12983
++[success] IHEARDthatyouask 新疆吐鲁番市 07-22 05:55 -> 四川省彭州市 07-22 23:13 745 20679
++[success] LeavesofGrass 辽宁省抚顺市 07-22 14:24 -> 河南省灵宝市 07-22 23:39 1893 23313
++[success] LeavesofGrass 浙江省杭州市 07-03 11:52 -> 河北省河间市 07-03 18:01 1160 1135
+ [success] IHEARDthatyouask 天津市 08-03 06:35 -> 广东省云浮市 08-03 18:52 229 9042
++[success] LeavesofGrass 广东省四会市 07-22 15:39 -> 福建省建阳市 07-22 21:14 1374 1717
++[success] LeavesofGrass 黑龙江省海林市 07-06 22:56 -> 广东省花都市 07-07 01:39 614 12429
+ [success] LeavesofGrass 新疆塔城市 07-22 07:38 -> 浙江省杭州市 07-22 11:46 691 1160
+ [success] INSCRIPTIONS 江苏省扬州市 08-05 08:17 -> 新疆米泉市 08-05 14:38 650 1736
+ [success] INSCRIPTIONS 贵州省清镇市 08-03 16:24 -> 江苏省扬州市 08-04 08:14 1229 17489
+ [success] puzzletheNewWorld 湖南省岳阳市 07-11 17:01 -> 北京市 07-12 02:45 585 6682
+-[success] INSCRIPTIONS 北京市 08-22 06:46 -> 江苏省扬州市 08-22 08:14 200 16819
+-[success] LeavesofGrass 辽宁省抚顺市 07-22 14:24 -> 河南省灵宝市 07-22 23:39 1893 23313
+-[success] LeavesofGrass 浙江省杭州市 07-03 11:52 -> 河北省河间市 07-03 18:01 1160 1135
+-[success] LeavesofGrass 广东省四会市 07-22 15:39 -> 福建省建阳市 07-22 21:14 1374 1717
+-[success] LeavesofGrass 黑龙江省海林市 07-06 22:56 -> 广东省花都市 07-07 01:39 614 12429
+ 0
+ 0
+ 1
+@@ -1599,29 +1587,31 @@
+ Beagle 米格 feudal.ties@that.bound 4
+ 73538286
+ 18
+-[success] LeavesofGrass 河南省偃师市 07-07 03:31 -> 新疆伊宁市 07-07 08:52 595 3002
+-[success] INSCRIPTIONS 云南省安宁市 08-19 20:50 -> 湖北省枣阳市 08-20 11:59 1388 1460
+-[success] INSCRIPTIONS 黑龙江省五大连池市 07-07 19:22 -> 广东省高要市 07-07 21:36 292 17623
+-[pending] LeavesofGrass 宁夏石嘴山市 07-07 19:25 -> 新疆伊宁市 07-08 08:52 1855 13113
+-[success] LeavesofGrass 浙江省平湖市 07-29 08:59 -> 河北省河间市 07-29 18:01 1560 1412
+-[pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 新疆博乐市 07-08 06:04 2432 6299
+-[success] puzzletheNewWorld 黑龙江省尚志市 07-03 20:11 -> 北京市 07-04 02:45 159 4645
+ [success] LeavesofGrass 新疆塔城市 08-04 07:38 -> 浙江省慈溪市 08-05 09:48 3997 2517
+ [success] puzzletheNewWorld 辽宁省辽阳市 07-29 13:05 -> 河南省登封市 07-30 09:52 1419 8831
+ [success] LeavesofGrass 湖南省衡阳市 07-20 16:20 -> 广东省花都市 07-21 01:39 1762 1642
++[success] LeavesofGrass 河南省偃师市 07-07 03:31 -> 新疆伊宁市 07-07 08:52 595 3002
++[success] INSCRIPTIONS 云南省安宁市 08-19 20:50 -> 湖北省枣阳市 08-20 11:59 1388 1460
++[success] INSCRIPTIONS 黑龙江省五大连池市 07-07 19:22 -> 广东省高要市 07-07 21:36 292 17623
+ [success] INSCRIPTIONS 贵州省清镇市 07-02 16:24 -> 广东省惠阳市 07-03 01:32 618 4782
++[pending] LeavesofGrass 宁夏石嘴山市 07-07 19:25 -> 新疆伊宁市 07-08 08:52 1855 13113
+ [success] LeavesofGrass 辽宁省抚顺市 07-20 14:24 -> 宁夏石嘴山市 07-20 19:18 979 10955
+ [success] LeavesofGrass 浙江省杭州市 07-16 11:52 -> 宁夏石嘴山市 07-16 19:18 1381 1292
+ [success] LeavesofGrass 广东省花都市 07-06 01:43 -> 河南省偃师市 07-06 03:28 232 4211
+ [success] LeavesofGrass 浙江省平湖市 07-25 08:59 -> 新疆博乐市 07-26 06:04 3234 18135
++[success] LeavesofGrass 浙江省平湖市 07-29 08:59 -> 河北省河间市 07-29 18:01 1560 1412
++[pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 新疆博乐市 07-08 06:04 2432 6299
++[success] puzzletheNewWorld 黑龙江省尚志市 07-03 20:11 -> 北京市 07-04 02:45 159 4645
+ [success] INSCRIPTIONS 广东省惠阳市 07-05 01:41 -> 新疆米泉市 07-05 14:38 1261 11666
+ [success] LeavesofGrass 陕西省安康市 07-14 17:25 -> 新疆伊宁市 07-15 08:52 2101 1354
+ [success] LeavesofGrass 新疆博乐市 08-01 06:11 -> 新疆伊宁市 08-01 08:52 402 13810
+ 17
++[success] LeavesofGrass 新疆塔城市 08-01 07:38 -> 河南省灵宝市 08-01 23:39 2986 20534
+ [success] Ithinkallwarthr 浙江省东阳市 07-06 13:07 -> 江西省丰城市 07-06 16:52 481 10770
+ [success] puzzletheNewWorld 湖南省岳阳市 07-25 17:01 -> 北京市 07-26 02:45 585 5385
+ [success] INSCRIPTIONS 湖北省枣阳市 08-21 12:03 -> 新疆米泉市 08-21 14:38 162 5582
+ [pending] LeavesofGrass 陕西省安康市 07-06 17:25 -> 河北省河间市 07-06 18:01 25 12305
++[success] LeavesofGrass 陕西省安康市 07-19 17:25 -> 浙江省慈溪市 07-20 09:48 2171 4583
+ [success] whatyouwanted 安徽省阜阳市 07-11 08:24 -> 吉林省四平市 07-11 18:18 2151 6964
+ [pending] LeavesofGrass 辽宁省抚顺市 07-04 14:24 -> 宁夏石嘴山市 07-04 19:18 979 7709
+ [success] LeavesofGrass 新疆塔城市 07-22 07:38 -> 辽宁省抚顺市 07-22 14:21 1093 8613
+@@ -1633,8 +1623,6 @@
+ [success] INSCRIPTIONS 贵州省清镇市 07-20 16:24 -> 江苏省扬州市 07-21 08:14 1229 17160
+ [success] ThereforeIsendyou 新疆喀什市 06-30 02:53 -> 河南省驻马店市 06-30 13:30 789 524
+ [success] IHEARDthatyouask 广东省云浮市 07-17 19:00 -> 四川省彭州市 07-17 23:13 20 1400
+-[success] LeavesofGrass 新疆塔城市 08-01 07:38 -> 河南省灵宝市 08-01 23:39 2986 20534
+-[success] LeavesofGrass 陕西省安康市 07-19 17:25 -> 浙江省慈溪市 07-20 09:48 2171 4583
+ 0
+ 9
+ [pending] LeavesofGrass 浙江省杭州市 07-26 11:52 -> 新疆伊宁市 07-27 08:52 3236 20325
+@@ -1719,22 +1707,22 @@
+ Firewatch 守林人 opponents.in@power.Where 2
+ Grani 格拉尼 serfs.of.the@Middle.Ages 1
+ 19
++[success] LeavesofGrass 新疆塔城市 08-04 07:38 -> 浙江省慈溪市 08-05 09:48 3997 2517
++[success] puzzletheNewWorld 辽宁省辽阳市 07-29 13:05 -> 河南省登封市 07-30 09:52 1419 8831
+ [success] LeavesofGrass 湖南省衡阳市 07-08 16:20 -> 河北省河间市 07-08 18:01 513 2461
++[success] LeavesofGrass 湖南省衡阳市 07-20 16:20 -> 广东省花都市 07-21 01:39 1762 1642
+ [success] LeavesofGrass 河南省偃师市 07-07 03:31 -> 新疆伊宁市 07-07 08:52 595 3002
+ [success] INSCRIPTIONS 云南省安宁市 08-19 20:50 -> 湖北省枣阳市 08-20 11:59 1388 1460
+ [success] INSCRIPTIONS 黑龙江省五大连池市 07-07 19:22 -> 广东省高要市 07-07 21:36 292 17623
+-[pending] LeavesofGrass 宁夏石嘴山市 07-07 19:25 -> 新疆伊宁市 07-08 08:52 1855 13113
+-[success] LeavesofGrass 浙江省平湖市 07-29 08:59 -> 河北省河间市 07-29 18:01 1560 1412
+-[pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 新疆博乐市 07-08 06:04 2432 6299
+-[success] puzzletheNewWorld 黑龙江省尚志市 07-03 20:11 -> 北京市 07-04 02:45 159 4645
+-[success] LeavesofGrass 新疆塔城市 08-04 07:38 -> 浙江省慈溪市 08-05 09:48 3997 2517
+-[success] puzzletheNewWorld 辽宁省辽阳市 07-29 13:05 -> 河南省登封市 07-30 09:52 1419 8831
+-[success] LeavesofGrass 湖南省衡阳市 07-20 16:20 -> 广东省花都市 07-21 01:39 1762 1642
+ [success] INSCRIPTIONS 贵州省清镇市 07-02 16:24 -> 广东省惠阳市 07-03 01:32 618 4782
++[pending] LeavesofGrass 宁夏石嘴山市 07-07 19:25 -> 新疆伊宁市 07-08 08:52 1855 13113
+ [success] LeavesofGrass 辽宁省抚顺市 07-20 14:24 -> 宁夏石嘴山市 07-20 19:18 979 10955
+ [success] LeavesofGrass 浙江省杭州市 07-16 11:52 -> 宁夏石嘴山市 07-16 19:18 1381 1292
+ [success] LeavesofGrass 广东省花都市 07-06 01:43 -> 河南省偃师市 07-06 03:28 232 4211
+ [success] LeavesofGrass 浙江省平湖市 07-25 08:59 -> 新疆博乐市 07-26 06:04 3234 18135
++[success] LeavesofGrass 浙江省平湖市 07-29 08:59 -> 河北省河间市 07-29 18:01 1560 1412
++[pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 新疆博乐市 07-08 06:04 2432 6299
++[success] puzzletheNewWorld 黑龙江省尚志市 07-03 20:11 -> 北京市 07-04 02:45 159 4645
+ [success] INSCRIPTIONS 广东省惠阳市 07-05 01:41 -> 新疆米泉市 07-05 14:38 1261 11666
+ [success] LeavesofGrass 陕西省安康市 07-14 17:25 -> 新疆伊宁市 07-15 08:52 2101 1354
+ [success] LeavesofGrass 新疆博乐市 08-01 06:11 -> 新疆伊宁市 08-01 08:52 402 13810
+@@ -1750,7 +1738,7 @@
+ Thesechantsforthe 吉林省梅河口市 08-14 23:57 -> 黑龙江省黑河市 08-15 04:31 806 60930
+ 2098400
+ 1
+-LeavesofGrass 河北省河间市 07-23 18:11 -> 河南省灵宝市 07-23 23:39 1135 2008
++LeavesofGrass 河北省河间市 07-23 18:11 -> 河南省灵宝市 07-23 23:39 1135 5189
+ 3630000
+ Cliffheart 崖心 in.London.and@sketched.the 1
+ Shamare 巫恋 rising.Even@manufacture.no 1
+@@ -1801,9 +1789,13 @@
+ 14771150
+ 1
+ LeavesofGrass 黑龙江省海林市 07-07 22:56 -> 新疆伊宁市 07-08 08:52 1441 11768
+-16
++15
+ [success] AndtodefineAmeric 山东省胶州市 06-18 12:18 -> 山东省乐陵市 06-18 14:08 938 1216
++[success] INSCRIPTIONS 北京市 07-23 06:46 -> 江苏省扬州市 07-23 08:14 200 4904
++[pending] LeavesofGrass 广东省四会市 07-04 15:39 -> 陕西省安康市 07-04 17:15 728 16656
++[success] INSCRIPTIONS 贵州省清镇市 07-11 16:24 -> 新疆米泉市 07-12 14:38 1879 6004
+ [pending] LeavesofGrass 陕西省安康市 07-25 17:25 -> 新疆伊宁市 07-26 08:52 2101 13401
++[success] INSCRIPTIONS 云南省安宁市 07-03 20:50 -> 江苏省扬州市 07-04 08:14 900 4964
+ [success] LeavesofGrass 浙江省杭州市 08-04 11:52 -> 河北省河间市 08-04 18:01 1160 3497
+ [success] INSCRIPTIONS 江苏省扬州市 07-16 08:17 -> 湖北省枣阳市 07-16 11:59 488 13445
+ [success] INSCRIPTIONS 黑龙江省五大连池市 08-20 19:22 -> 广东省高要市 08-20 21:36 292 16443
+@@ -1812,11 +1804,6 @@
+ [pending] LeavesofGrass 宁夏石嘴山市 07-16 19:25 -> 新疆博乐市 07-17 06:04 1453 12080
+ [success] LeavesofGrass 浙江省杭州市 06-29 11:52 -> 湖南省衡阳市 06-29 16:17 647 1956
+ [success] LeavesofGrass 黑龙江省海林市 08-03 22:56 -> 新疆博乐市 08-04 06:04 1039 10481
+-[success] INSCRIPTIONS 北京市 07-23 06:46 -> 江苏省扬州市 07-23 08:14 200 4904
+-[pending] LeavesofGrass 广东省四会市 07-04 15:39 -> 陕西省安康市 07-04 17:15 728 16656
+-[success] INSCRIPTIONS 贵州省清镇市 07-11 16:24 -> 新疆米泉市 07-12 14:38 1879 6004
+-[success] INSCRIPTIONS 黑龙江省五大连池市 06-21 19:22 -> 北京市 06-22 06:40 856 9686
+-[success] INSCRIPTIONS 云南省安宁市 07-03 20:50 -> 江苏省扬州市 07-04 08:14 900 4964
+ [success] LeavesofGrass 陕西省安康市 07-11 17:25 -> 河南省偃师市 07-12 03:28 1506 13565
+ 0
+ 1
+@@ -1882,30 +1869,32 @@
+ 21025738
+ 45700
+ 20
++[success] LeavesofGrass 新疆塔城市 08-04 07:38 -> 浙江省慈溪市 08-05 09:48 3997 2517
++[success] puzzletheNewWorld 辽宁省辽阳市 07-29 13:05 -> 河南省登封市 07-30 09:52 1419 8831
+ [success] INSCRIPTIONS 黑龙江省五大连池市 08-06 19:22 -> 北京市 08-07 06:40 856 15692
+ [success] LeavesofGrass 湖南省衡阳市 07-08 16:20 -> 河北省河间市 07-08 18:01 513 2461
++[success] LeavesofGrass 湖南省衡阳市 07-20 16:20 -> 广东省花都市 07-21 01:39 1762 1642
+ [success] LeavesofGrass 河南省偃师市 07-07 03:31 -> 新疆伊宁市 07-07 08:52 595 3002
+ [success] INSCRIPTIONS 云南省安宁市 08-19 20:50 -> 湖北省枣阳市 08-20 11:59 1388 1460
+ [success] INSCRIPTIONS 黑龙江省五大连池市 07-07 19:22 -> 广东省高要市 07-07 21:36 292 17623
+-[pending] LeavesofGrass 宁夏石嘴山市 07-07 19:25 -> 新疆伊宁市 07-08 08:52 1855 13113
+-[success] LeavesofGrass 浙江省平湖市 07-29 08:59 -> 河北省河间市 07-29 18:01 1560 1412
+-[pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 新疆博乐市 07-08 06:04 2432 6299
+-[success] puzzletheNewWorld 黑龙江省尚志市 07-03 20:11 -> 北京市 07-04 02:45 159 4645
+-[success] LeavesofGrass 新疆塔城市 08-04 07:38 -> 浙江省慈溪市 08-05 09:48 3997 2517
+-[success] puzzletheNewWorld 辽宁省辽阳市 07-29 13:05 -> 河南省登封市 07-30 09:52 1419 8831
+-[success] LeavesofGrass 湖南省衡阳市 07-20 16:20 -> 广东省花都市 07-21 01:39 1762 1642
+ [success] INSCRIPTIONS 贵州省清镇市 07-02 16:24 -> 广东省惠阳市 07-03 01:32 618 4782
++[pending] LeavesofGrass 宁夏石嘴山市 07-07 19:25 -> 新疆伊宁市 07-08 08:52 1855 13113
+ [success] LeavesofGrass 辽宁省抚顺市 07-20 14:24 -> 宁夏石嘴山市 07-20 19:18 979 10955
+ [success] LeavesofGrass 浙江省杭州市 07-16 11:52 -> 宁夏石嘴山市 07-16 19:18 1381 1292
+ [success] LeavesofGrass 广东省花都市 07-06 01:43 -> 河南省偃师市 07-06 03:28 232 4211
+ [success] LeavesofGrass 浙江省平湖市 07-25 08:59 -> 新疆博乐市 07-26 06:04 3234 18135
++[success] LeavesofGrass 浙江省平湖市 07-29 08:59 -> 河北省河间市 07-29 18:01 1560 1412
++[pending] LeavesofGrass 辽宁省抚顺市 07-07 14:24 -> 新疆博乐市 07-08 06:04 2432 6299
++[success] puzzletheNewWorld 黑龙江省尚志市 07-03 20:11 -> 北京市 07-04 02:45 159 4645
+ [success] INSCRIPTIONS 广东省惠阳市 07-05 01:41 -> 新疆米泉市 07-05 14:38 1261 11666
+ [success] LeavesofGrass 陕西省安康市 07-14 17:25 -> 新疆伊宁市 07-15 08:52 2101 1354
+ [success] LeavesofGrass 新疆博乐市 08-01 06:11 -> 新疆伊宁市 08-01 08:52 402 13810
+ 1
+ Afterastrangesad 天津市 08-16 16:53 -> 四川省崇州市 08-17 17:38 3888 68496
+ 0
+-17
++16
++[success] INSCRIPTIONS 黑龙江省五大连池市 07-17 19:22 -> 江苏省扬州市 07-18 08:14 1056 7832
++[success] INSCRIPTIONS 广东省高要市 06-17 21:40 -> 北京市 06-18 06:40 564 1448
+ [success] INSCRIPTIONS 黑龙江省五大连池市 07-19 19:22 -> 新疆米泉市 07-20 14:38 1706 2482
+ [success] INSCRIPTIONS 黑龙江省五大连池市 07-28 19:22 -> 湖北省枣阳市 07-29 11:59 1544 9250
+ [success] LeavesofGrass 陕西省安康市 07-03 17:25 -> 新疆博乐市 07-04 06:04 1699 6416
+@@ -1913,14 +1902,11 @@
+ [success] puzzletheNewWorld 黑龙江省尚志市 07-06 20:11 -> 河南省登封市 07-07 09:52 614 5473
+ [success] IHEARDthatyouask 天津市 07-17 06:35 -> 广东省云浮市 07-17 18:52 229 18324
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-19 05:55 -> 天津市 07-19 06:30 496 3891
++[pending] LeavesofGrass 新疆塔城市 07-31 07:38 -> 浙江省慈溪市 08-01 09:48 3997 22374
+ [success] LeavesofGrass 黑龙江省海林市 07-11 22:56 -> 新疆伊宁市 07-12 08:52 1441 20670
+ [success] INSCRIPTIONS 贵州省清镇市 07-23 16:24 -> 黑龙江省五大连池市 07-23 19:12 173 2543
+ [success] IHEARDthatyouask 天津市 07-08 06:35 -> 四川省彭州市 07-08 23:13 249 16978
+ [success] INSCRIPTIONS 云南省安宁市 07-23 20:50 -> 湖北省枣阳市 07-24 11:59 1388 9613
+-[success] INSCRIPTIONS 黑龙江省五大连池市 07-17 19:22 -> 江苏省扬州市 07-18 08:14 1056 7832
+-[success] INSCRIPTIONS 广东省高要市 06-17 21:40 -> 北京市 06-18 06:40 564 1448
+-[success] LeavesofGrass 新疆塔城市 07-09 07:38 -> 浙江省杭州市 07-09 11:46 691 10367
+-[pending] LeavesofGrass 新疆塔城市 07-31 07:38 -> 浙江省慈溪市 08-01 09:48 3997 22374
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-11 05:55 -> 四川省彭州市 07-11 23:13 745 19915
+ [success] LeavesofGrass 黑龙江省海林市 07-30 22:56 -> 广东省花都市 07-31 01:39 614 20787
+ 1
+@@ -1935,24 +1921,23 @@
+ advanceinthisbook 广东省阳春市 07-24 05:02 -> 河南省济源市 07-24 09:15 615 47673
+ Vermeil 红云 production@The.place 1
+ Nian 年年 wants.of.the@new.markets 1
+-17
++16
++[success] INSCRIPTIONS 北京市 08-22 06:46 -> 江苏省扬州市 08-22 08:14 200 16819
+ [success] puzzletheNewWorld 辽宁省辽阳市 07-30 13:05 -> 北京市 07-31 02:45 964 3277
++[success] TOFOREIGNLANDS 河北省张家口市 07-07 22:51 -> 四川省攀枝花市 07-08 20:01 2268 18348
+ [pending] LeavesofGrass 陕西省安康市 07-09 17:25 -> 新疆伊宁市 07-10 08:52 2101 10111
+ [success] LeavesofGrass 河北省河间市 07-14 18:11 -> 河南省灵宝市 07-14 23:39 1135 8548
+-[success] IHEARDthatyouask 新疆吐鲁番市 07-22 05:55 -> 四川省彭州市 07-22 23:13 745 20679
+-[success] TOFOREIGNLANDS 河北省张家口市 07-07 22:51 -> 四川省攀枝花市 07-08 20:01 2268 18348
+ [success] LeavesofGrass 辽宁省抚顺市 06-28 14:24 -> 黑龙江省海林市 06-28 22:46 1393 1233
+-[success] TOFOREIGNLANDS 浙江省临安市 07-28 21:04 -> 湖北省洪湖市 07-29 11:19 1713 12983
++[success] IHEARDthatyouask 新疆吐鲁番市 07-22 05:55 -> 四川省彭州市 07-22 23:13 745 20679
++[success] LeavesofGrass 辽宁省抚顺市 07-22 14:24 -> 河南省灵宝市 07-22 23:39 1893 23313
++[success] LeavesofGrass 浙江省杭州市 07-03 11:52 -> 河北省河间市 07-03 18:01 1160 1135
+ [success] IHEARDthatyouask 天津市 08-03 06:35 -> 广东省云浮市 08-03 18:52 229 9042
++[success] LeavesofGrass 广东省四会市 07-22 15:39 -> 福建省建阳市 07-22 21:14 1374 1717
++[success] LeavesofGrass 黑龙江省海林市 07-06 22:56 -> 广东省花都市 07-07 01:39 614 12429
+ [success] LeavesofGrass 新疆塔城市 07-22 07:38 -> 浙江省杭州市 07-22 11:46 691 1160
+ [success] INSCRIPTIONS 江苏省扬州市 08-05 08:17 -> 新疆米泉市 08-05 14:38 650 1736
+ [success] INSCRIPTIONS 贵州省清镇市 08-03 16:24 -> 江苏省扬州市 08-04 08:14 1229 17489
+ [success] puzzletheNewWorld 湖南省岳阳市 07-11 17:01 -> 北京市 07-12 02:45 585 6682
+-[success] INSCRIPTIONS 北京市 08-22 06:46 -> 江苏省扬州市 08-22 08:14 200 16819
+-[success] LeavesofGrass 辽宁省抚顺市 07-22 14:24 -> 河南省灵宝市 07-22 23:39 1893 23313
+-[success] LeavesofGrass 浙江省杭州市 07-03 11:52 -> 河北省河间市 07-03 18:01 1160 1135
+-[success] LeavesofGrass 广东省四会市 07-22 15:39 -> 福建省建阳市 07-22 21:14 1374 1717
+-[success] LeavesofGrass 黑龙江省海林市 07-06 22:56 -> 广东省花都市 07-07 01:39 614 12429
+ Pramanix 初雪 means.of.exchange@and.in 1
+ 0
+ Broca 布洛 independent@urban.republic 1
+@@ -1969,13 +1954,21 @@
+ 6480240
+ queue
+ 1
+-LeavesofGrass 河北省河间市 07-23 18:11 -> 浙江省慈溪市 07-24 09:48 2146 2008
++LeavesofGrass 河北省河间市 07-23 18:11 -> 浙江省慈溪市 07-24 09:48 2146 5189
+ -1
+ Blaze 煌煌 of.a.series@of.revolutions 4
+ 36
++[success] LeavesofGrass 辽宁省抚顺市 07-25 14:24 -> 广东省花都市 07-26 01:39 2007 12999
++[success] LeavesofGrass 广东省四会市 07-08 15:39 -> 河北省河间市 07-08 18:01 753 14
++[success] IHEARDthatyouask 新疆吐鲁番市 07-25 05:55 -> 天津市 07-25 06:30 496 20847
+ [success] IHEARDthatyouask 新疆吐鲁番市 08-03 05:55 -> 四川省彭州市 08-03 23:13 745 11237
++[success] INSCRIPTIONS 广东省惠阳市 07-25 01:41 -> 新疆米泉市 07-25 14:38 1261 13466
++[success] LeavesofGrass 浙江省杭州市 07-13 11:52 -> 湖南省衡阳市 07-13 16:17 647 13484
+ [success] LeavesofGrass 广东省花都市 07-09 01:43 -> 河南省偃师市 07-09 03:28 232 21776
++[success] LeavesofGrass 新疆塔城市 07-26 07:38 -> 辽宁省抚顺市 07-26 14:21 1093 16057
+ [success] INSCRIPTIONS 云南省安宁市 07-19 20:50 -> 北京市 07-20 06:40 700 15188
++[success] LeavesofGrass 广东省花都市 08-02 01:43 -> 浙江省慈溪市 08-02 09:48 897 18868
++[pending] LeavesofGrass 辽宁省抚顺市 06-29 14:24 -> 浙江省慈溪市 06-30 09:48 2904 14607
+ [success] INSCRIPTIONS 广东省高要市 07-27 21:40 -> 江苏省扬州市 07-28 08:14 764 12568
+ [success] LeavesofGrass 新疆塔城市 08-04 07:38 -> 广东省四会市 08-04 15:34 1098 14473
+ [success] INSCRIPTIONS 云南省安宁市 06-29 20:50 -> 广东省高要市 06-29 21:36 136 6876
+@@ -1984,31 +1977,23 @@
+ [success] INSCRIPTIONS 云南省安宁市 07-11 20:50 -> 新疆米泉市 07-12 14:38 1550 17290
+ [success] LeavesofGrass 河北省河间市 07-23 18:11 -> 河南省灵宝市 07-23 23:39 1135 20069
+ [success] LeavesofGrass 新疆塔城市 07-03 07:38 -> 浙江省平湖市 07-03 08:52 291 21923
++[pending] LeavesofGrass 新疆塔城市 07-12 07:38 -> 湖南省衡阳市 07-12 16:17 1338 23030
+ [success] IHEARDthatyouask 天津市 07-09 06:35 -> 四川省彭州市 07-09 23:13 249 5546
+ [success] LeavesofGrass 新疆博乐市 07-16 06:11 -> 新疆伊宁市 07-16 08:52 402 2635
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-15 05:55 -> 广东省云浮市 07-15 18:52 725 8550
++[success] LeavesofGrass 辽宁省抚顺市 07-19 14:24 -> 河北省河间市 07-19 18:01 758 13298
+ [success] INSCRIPTIONS 贵州省清镇市 08-15 16:24 -> 江苏省扬州市 08-16 08:14 1229 12973
++[success] LeavesofGrass 浙江省杭州市 07-01 11:52 -> 新疆伊宁市 07-02 08:52 3236 17483
+ [pending] LeavesofGrass 浙江省平湖市 07-07 08:59 -> 河南省灵宝市 07-07 23:39 2695 19230
++[pending] LeavesofGrass 新疆塔城市 07-11 07:38 -> 福建省建阳市 07-11 21:14 2472 11252
+ [success] LeavesofGrass 浙江省杭州市 07-22 11:52 -> 宁夏石嘴山市 07-22 19:18 1381 49
+ [success] LeavesofGrass 河南省灵宝市 07-17 23:45 -> 广东省花都市 07-18 01:39 114 23338
+ [pending] LeavesofGrass 广东省四会市 06-28 15:39 -> 河南省偃师市 06-29 03:28 2234 22167
+ [success] puzzletheNewWorld 辽宁省辽阳市 08-07 13:05 -> 河南省登封市 08-08 09:52 1419 6016
+ [success] AndtodefineAmeric 江苏省吴江市 07-20 17:00 -> 江西省南康市 07-21 05:58 769 2510
+-[success] LeavesofGrass 广东省四会市 07-08 15:39 -> 河北省河间市 07-08 18:01 753 14
+-[success] IHEARDthatyouask 新疆吐鲁番市 07-25 05:55 -> 天津市 07-25 06:30 496 20847
+-[success] INSCRIPTIONS 广东省惠阳市 07-25 01:41 -> 新疆米泉市 07-25 14:38 1261 13466
+-[success] LeavesofGrass 新疆塔城市 07-26 07:38 -> 辽宁省抚顺市 07-26 14:21 1093 16057
+-[success] LeavesofGrass 广东省花都市 08-02 01:43 -> 浙江省慈溪市 08-02 09:48 897 18868
+-[pending] LeavesofGrass 辽宁省抚顺市 06-29 14:24 -> 浙江省慈溪市 06-30 09:48 2904 14607
+-[pending] LeavesofGrass 新疆塔城市 07-12 07:38 -> 湖南省衡阳市 07-12 16:17 1338 23030
+-[success] LeavesofGrass 辽宁省抚顺市 07-19 14:24 -> 河北省河间市 07-19 18:01 758 13298
+-[success] LeavesofGrass 浙江省杭州市 07-01 11:52 -> 新疆伊宁市 07-02 08:52 3236 17483
+-[pending] LeavesofGrass 新疆塔城市 07-11 07:38 -> 福建省建阳市 07-11 21:14 2472 11252
+ [success] LeavesofGrass 陕西省安康市 07-12 17:25 -> 河南省偃师市 07-13 03:28 1506 6505
+ [success] INSCRIPTIONS 江苏省扬州市 07-07 08:17 -> 湖北省枣阳市 07-07 11:59 488 14755
+ [pending] LeavesofGrass 辽宁省抚顺市 07-06 14:24 -> 广东省花都市 07-07 01:39 2007 10068
+-[success] LeavesofGrass 辽宁省抚顺市 07-25 14:24 -> 广东省花都市 07-26 01:39 2007 12999
+-[success] LeavesofGrass 浙江省杭州市 07-13 11:52 -> 湖南省衡阳市 07-13 16:17 647 13484
+ 1
+ Afterastrangesad 四川省广元市 08-09 16:17 -> 云南省昆明市 08-10 01:11 1107 68496
+ 1
+@@ -2045,8 +2030,8 @@
+ [pending] LeavesofGrass 河北省河间市 07-15 18:11 -> 广东省花都市 07-16 01:39 1249 22828
+ [success] INSCRIPTIONS 湖北省枣阳市 06-19 12:03 -> 新疆米泉市 06-19 14:38 162 792
+ [success] INSCRIPTIONS 广东省高要市 06-21 21:40 -> 湖北省枣阳市 06-22 11:59 1252 8856
+-[success] AndtodefineAmeric 云南省保山市 07-24 09:33 -> 吉林省榆树市 07-25 03:30 2368 17477
+ [success] LeavesofGrass 浙江省杭州市 08-01 11:52 -> 福建省建阳市 08-01 21:14 1781 7628
++[success] AndtodefineAmeric 云南省保山市 07-24 09:33 -> 吉林省榆树市 07-25 03:30 2368 17477
+ [success] LeavesofGrass 辽宁省抚顺市 07-15 14:24 -> 河南省偃师市 07-16 03:28 2239 19633
+ [success] LeavesofGrass 湖南省衡阳市 07-07 16:20 -> 宁夏石嘴山市 07-07 19:18 734 3232
+ 1
