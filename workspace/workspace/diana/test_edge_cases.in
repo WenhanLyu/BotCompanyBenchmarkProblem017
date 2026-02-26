@@ -1,0 +1,8 @@
+clean
+add_train -i TEST_TRAIN -n 3 -m 500 -s 上院|中院|下院 -p 150|200 -x 06:00 -t 120|120 -o 5 -d 06-01|08-31 -y G
+add_train -i NOT_RELEASED -n 3 -m 500 -s 上院|中院|下院 -p 150|200 -x 06:00 -t 120|120 -o 5 -d 06-01|08-31 -y G
+release_train -i TEST_TRAIN
+query_ticket -s 中院 -t 下院 -d 08-17 -p time
+query_ticket -s 不存在站 -t 下院 -d 08-17 -p time
+query_ticket -s 中院 -t 下院 -d 05-01 -p time
+exit

@@ -555,6 +555,37 @@ public:
     int nodeCount() const {
         return header.node_count;
     }
+
+    // Iterate through all key-value pairs
+    template<typename Func>
+    void forEach(Func func) {
+        if (header.root_pos < 0) return;
+
+        // Find the first leaf node
+        std::streampos current_pos = header.root_pos;
+        Node current;
+
+        // Traverse down to the leftmost leaf
+        while (true) {
+            if (!loadNode(current, current_pos)) return;
+            if (current.is_leaf) break;
+            current_pos = current.children[0];
+            if (current_pos < 0) return;
+        }
+
+        // Iterate through all leaf nodes
+        while (current_pos >= 0) {
+            if (!loadNode(current, current_pos)) return;
+
+            // Process all key-value pairs in this leaf
+            for (int i = 0; i < current.key_count; i++) {
+                func(current.keys[i], current.values[i]);
+            }
+
+            // Move to next leaf
+            current_pos = current.next_leaf;
+        }
+    }
 };
 
 #endif // BPTREE_HPP

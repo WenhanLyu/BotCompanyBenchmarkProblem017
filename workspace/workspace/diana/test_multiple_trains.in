@@ -1,0 +1,10 @@
+clean
+add_train -i FAST_TRAIN -n 3 -m 500 -s 上院|中院|下院 -p 150|200 -x 06:00 -t 120|120 -o 5 -d 06-01|08-31 -y G
+add_train -i SLOW_TRAIN -n 3 -m 800 -s 上院|中院|下院 -p 100|150 -x 06:00 -t 180|240 -o 10 -d 06-01|08-31 -y K
+add_train -i CHEAP_TRAIN -n 3 -m 1000 -s 上院|中院|下院 -p 50|80 -x 06:00 -t 200|300 -o 5 -d 06-01|08-31 -y T
+release_train -i FAST_TRAIN
+release_train -i SLOW_TRAIN
+release_train -i CHEAP_TRAIN
+query_ticket -s 中院 -t 下院 -d 08-17 -p time
+query_ticket -s 中院 -t 下院 -d 08-17 -p cost
+exit

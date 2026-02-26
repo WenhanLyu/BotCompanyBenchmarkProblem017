@@ -668,6 +668,280 @@ int cmd_query_train(const CommandParser& parser) {
     return 0;
 }
 
+// Helper struct for query_ticket results
+struct TicketResult {
+    char trainID[25];
+    char from[35];
+    char to[35];
+    DateTime leaving_time;
+    DateTime arriving_time;
+    int price;
+    int seat;
+    int travel_minutes;  // For sorting by time
+
+    TicketResult() : price(0), seat(0), travel_minutes(0) {
+        trainID[0] = '\0';
+        from[0] = '\0';
+        to[0] = '\0';
+    }
+};
+
+// Comparison functions for sorting
+bool compareByTime(const TicketResult& a, const TicketResult& b) {
+    if (a.travel_minutes != b.travel_minutes) {
+        return a.travel_minutes < b.travel_minutes;
+    }
+    return strcmp(a.trainID, b.trainID) < 0;
+}
+
+bool compareByCost(const TicketResult& a, const TicketResult& b) {
+    if (a.price != b.price) {
+        return a.price < b.price;
+    }
+    return strcmp(a.trainID, b.trainID) < 0;
+}
+
+int cmd_query_ticket(const CommandParser& parser) {
+    const char* from_station = parser.get('s');
+    const char* to_station = parser.get('t');
+    const char* date_str = parser.get('d');
+    const char* sort_by = parser.get('p');
+
+    if (!from_station || !to_station || !date_str) {
+        return -1;
+    }
+
+    // Parse departure date from station -s
+    Date departure_date(date_str);
+
+    // Default sort by time if not specified
+    bool sort_by_time = true;
+    if (sort_by && strcmp(sort_by, "cost") == 0) {
+        sort_by_time = false;
+    }
+
+    // Collect matching trains
+    TicketResult results[1000];
+    int result_count = 0;
+
+    // Iterate through all trains
+    trains.forEach([&](const TrainKey& key, const Train& train) {
+        // Only consider released trains
+        if (!train.released) return;
+
+        // Find indices of from_station and to_station
+        int from_idx = -1;
+        int to_idx = -1;
+
+        for (int i = 0; i < train.stationNum; i++) {
+            if (strcmp(train.stations[i].name, from_station) == 0) {
+                from_idx = i;
+            }
+            if (strcmp(train.stations[i].name, to_station) == 0) {
+                to_idx = i;
+            }
+        }
+
+        // Check if both stations exist and from comes before to
+        if (from_idx == -1 || to_idx == -1 || from_idx >= to_idx) {
+            return;
+        }
+
+        // Calculate time offset from starting station to DEPARTURE from from_station
+        // This includes: travel times + stopover times up to and including from_station
+        int minutes_to_from = 0;
+        for (int i = 0; i < from_idx; i++) {
+            minutes_to_from += train.travelTimes[i];
+            if (i > 0) {
+                minutes_to_from += train.stopoverTimes[i - 1];
+            }
+        }
+        // Add stopover time at from_station (if not the first station)
+        if (from_idx > 0) {
+            minutes_to_from += train.stopoverTimes[from_idx - 1];
+        }
+
+        // Calculate the starting date
+        // We need to work backwards from departure_date at from_station
+        DateTime leaving_from_start(departure_date, train.startTime);
+
+        // Subtract the minutes to get back to the original start
+        // This is tricky because we need to subtract time
+        // Calculate what the time would be at from_station if we start on departure_date
+        DateTime temp_time(departure_date, train.startTime);
+        temp_time.addMinutes(minutes_to_from);
+
+        // Now we need to find the actual starting date such that
+        // when we add minutes_to_from, we get departure_date at from_station
+        // The leaving time at from_station should be on departure_date
+
+        // Work backwards: calculate how many days offset from departure_date
+        int days_offset = minutes_to_from / (24 * 60);
+        int remaining_minutes = minutes_to_from % (24 * 60);
+
+        // Calculate starting date
+        Date start_date = departure_date;
+
+        // Subtract days (going backwards in time)
+        while (days_offset > 0) {
+            if (start_date.day > days_offset) {
+                start_date.day -= days_offset;
+                break;
+            } else {
+                days_offset -= start_date.day;
+                start_date.month--;
+                if (start_date.month < 1) {
+                    start_date.month = 12;
+                }
+                const int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+                start_date.day = days_in_month[start_date.month];
+            }
+        }
+
+        // Adjust for remaining minutes by comparing times
+        Time leaving_time_at_from = train.startTime;
+        int temp_days = leaving_time_at_from.addMinutes(remaining_minutes);
+
+        // If adding remaining_minutes causes day overflow, we need to adjust
+        if (leaving_time_at_from.toMinutes() > train.startTime.toMinutes() || temp_days > 0) {
+            // Time at from_station is later in the day or next day
+            // No adjustment needed to start_date
+        } else {
+            // Should not happen with our logic
+        }
+
+        // Actually, let me recalculate this more simply
+        // The leaving time at from_station is: start_time + minutes_to_from
+        // We want this to be on departure_date
+        // So we calculate: what's the actual leaving time at from_station?
+        DateTime leaving_at_from(start_date, train.startTime);
+        leaving_at_from.addMinutes(minutes_to_from);
+
+        // We want leaving_at_from.date to equal departure_date
+        // Adjust start_date accordingly
+        while (leaving_at_from.date < departure_date) {
+            start_date.day++;
+            const int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+            if (start_date.day > days_in_month[start_date.month]) {
+                start_date.day = 1;
+                start_date.month++;
+                if (start_date.month > 12) {
+                    start_date.month = 1;
+                }
+            }
+            leaving_at_from = DateTime(start_date, train.startTime);
+            leaving_at_from.addMinutes(minutes_to_from);
+        }
+
+        while (leaving_at_from.date > departure_date) {
+            start_date.day--;
+            if (start_date.day < 1) {
+                start_date.month--;
+                if (start_date.month < 1) {
+                    start_date.month = 12;
+                }
+                const int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+                start_date.day = days_in_month[start_date.month];
+            }
+            leaving_at_from = DateTime(start_date, train.startTime);
+            leaving_at_from.addMinutes(minutes_to_from);
+        }
+
+        // Check if start_date is within sale range
+        if (start_date < train.saleDate[0] || start_date > train.saleDate[1]) {
+            return;
+        }
+
+        // Calculate arrival time at to_station
+        DateTime arriving_at_to(start_date, train.startTime);
+        int minutes_to_to = 0;
+        for (int i = 0; i < to_idx; i++) {
+            minutes_to_to += train.travelTimes[i];
+            if (i > 0) {
+                minutes_to_to += train.stopoverTimes[i - 1];
+            }
+        }
+        arriving_at_to.addMinutes(minutes_to_to);
+
+        // Calculate cumulative price from from_station to to_station
+        int cumulative_price = 0;
+        for (int i = from_idx; i < to_idx; i++) {
+            cumulative_price += train.prices[i];
+        }
+
+        // Calculate travel time in minutes
+        int travel_minutes = minutes_to_to - minutes_to_from;
+
+        // Store result
+        if (result_count < 1000) {
+            TicketResult& result = results[result_count++];
+            strncpy(result.trainID, train.trainID, 24);
+            result.trainID[24] = '\0';
+            strncpy(result.from, from_station, 34);
+            result.from[34] = '\0';
+            strncpy(result.to, to_station, 34);
+            result.to[34] = '\0';
+            result.leaving_time = leaving_at_from;
+            result.arriving_time = arriving_at_to;
+            result.price = cumulative_price;
+            result.seat = train.seatNum;
+            result.travel_minutes = travel_minutes;
+        }
+    });
+
+    // Check if any trains found
+    if (result_count == 0) {
+        return -1;
+    }
+
+    // Sort results
+    if (sort_by_time) {
+        // Simple bubble sort by time
+        for (int i = 0; i < result_count - 1; i++) {
+            for (int j = 0; j < result_count - i - 1; j++) {
+                if (!compareByTime(results[j], results[j + 1])) {
+                    TicketResult temp = results[j];
+                    results[j] = results[j + 1];
+                    results[j + 1] = temp;
+                }
+            }
+        }
+    } else {
+        // Simple bubble sort by cost
+        for (int i = 0; i < result_count - 1; i++) {
+            for (int j = 0; j < result_count - i - 1; j++) {
+                if (!compareByCost(results[j], results[j + 1])) {
+                    TicketResult temp = results[j];
+                    results[j] = results[j + 1];
+                    results[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    // Output results
+    std::cout << result_count << std::endl;
+    for (int i = 0; i < result_count; i++) {
+        char leaving_date[6], leaving_time[6];
+        char arriving_date[6], arriving_time[6];
+
+        results[i].leaving_time.date.format(leaving_date);
+        results[i].leaving_time.time.format(leaving_time);
+        results[i].arriving_time.date.format(arriving_date);
+        results[i].arriving_time.time.format(arriving_time);
+
+        std::cout << results[i].trainID << " "
+                  << results[i].from << " "
+                  << leaving_date << " " << leaving_time << " -> "
+                  << results[i].to << " "
+                  << arriving_date << " " << arriving_time << " "
+                  << results[i].price << " "
+                  << results[i].seat << std::endl;
+    }
+
+    return 0;
+}
+
 int main() {
     // Load user data from disk at startup
     load_users();
@@ -736,6 +1010,14 @@ int main() {
             CommandParser parser;
             parser.parse(line);
             int result = cmd_query_train(parser);
+            if (result == -1) {
+                std::cout << "-1" << std::endl;
+            }
+        } else if (command == "query_ticket") {
+            std::getline(std::cin, line);
+            CommandParser parser;
+            parser.parse(line);
+            int result = cmd_query_ticket(parser);
             if (result == -1) {
                 std::cout << "-1" << std::endl;
             }

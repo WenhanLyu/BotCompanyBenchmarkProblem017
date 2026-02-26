@@ -1,0 +1,9 @@
+add_train -i HAPPY_TRAIN -n 3 -m 1000 -s 上院|中院|下院 -p 114|514 -x 19:19 -t 600|600 -o 5 -d 06-01|08-17 -y G
+query_train -d 07-01 -i HAPPY_TRAIN
+release_train -i HAPPY_TRAIN
+query_train -d 07-01 -i HAPPY_TRAIN
+delete_train -i HAPPY_TRAIN
+add_train -i TEST_TRAIN -n 2 -m 500 -s 北京|上海 -p 100 -x 10:00 -t 120 -o  -d 06-01|08-31 -y T
+query_train -d 06-15 -i TEST_TRAIN
+delete_train -i TEST_TRAIN
+exit
