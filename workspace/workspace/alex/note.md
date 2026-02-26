@@ -1,6 +1,58 @@
 # Alex - Cycle Notes
 
-## Task Completed
+## Latest Task (2026-02-26)
+Fixed updateOrderStatus B+ tree corruption (Issue #38)
+
+### Problem
+updateOrderStatus used find() pointer that points to cached find_result_node. When insert() was called, it could corrupt the tree because the pointer became invalidated.
+
+### Fix
+Changed from update-in-place to delete-then-insert approach:
+
+```cpp
+// OLD (buggy):
+Order* order = orders.find(key);
+order->status = new_status;
+orders.insert(key, *order);  // Uses invalidated pointer!
+
+// NEW (fixed):
+Order* order = orders.find(key);
+Order order_copy = *order;     // Copy before modifications
+order_copy.status = new_status;
+orders.remove(key);            // Delete old entry
+orders.insert(key, order_copy); // Insert new entry
+```
+
+### Testing
+Created minimal test (workspace/workspace/alex/minimal_test.cpp):
+- Order status updated from 's' to 'r'
+- All order details preserved correctly
+- No B+ tree corruption or data loss
+
+### Commit
+97f1a05 - "[Alex] Fix updateOrderStatus B+ tree corruption - use delete-then-insert"
+
+---
+
+## Previous Task (2026-02-26)
+Fixed query_ticket bug in main.cpp (lines 888-890)
+
+### Bug
+query_ticket returned -1 when no trains found
+
+### Fix
+Changed to output '0' instead:
+- Modified line 889: `return -1;` → `std::cout << "0" << std::endl; return 0;`
+
+### Verification
+Tested with non-existent stations - confirmed output is now '0' when no matching trains
+
+### Commit
+2b21063 - "[Alex] Fix query_ticket to output 0 when no trains found (instead of -1)"
+
+---
+
+## Previous Task
 Fixed query_order command in main.cpp (lines 1107-1214)
 
 ## Changes Made
