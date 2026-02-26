@@ -1218,6 +1218,80 @@ int cmd_query_order(const CommandParser& parser) {
     return 0;
 }
 
+int cmd_refund_ticket(const CommandParser& parser) {
+    const char* username = parser.get('u');
+    const char* order_num_str = parser.get('n');
+
+    if (!username) {
+        return -1;
+    }
+
+    // Default order number is 1
+    int order_num = 1;
+    if (order_num_str) {
+        order_num = std::atoi(order_num_str);
+        if (order_num < 1) {
+            return -1;
+        }
+    }
+
+    // Check if user is logged in
+    bool* is_logged_in = logged_in_users.find(username);
+    if (!is_logged_in || !(*is_logged_in)) {
+        return -1;
+    }
+
+    // Check if user exists
+    User* user = users.find(username);
+    if (!user) {
+        return -1;
+    }
+
+    // Collect all orders into a vector
+    std::vector<Order> order_list;
+    queryUserOrders(username, [&](const Order& order) {
+        order_list.push_back(order);
+    });
+
+    // If no orders, return failure
+    if (order_list.empty()) {
+        return -1;
+    }
+
+    // Reverse to get newest-to-oldest (queryUserOrders returns oldest-to-newest)
+    std::reverse(order_list.begin(), order_list.end());
+
+    // Check if order_num is valid
+    if (order_num > (int)order_list.size()) {
+        return -1;
+    }
+
+    // Get the n-th order (1-indexed)
+    Order& target_order = order_list[order_num - 1];
+
+    // Check if order is already refunded
+    if (target_order.status == 'r') {
+        return -1;
+    }
+
+    // If order was successful, release the seats
+    if (target_order.status == 's') {
+        releaseSeats(target_order.trainID, target_order.departure_date,
+                    target_order.from_idx, target_order.to_idx, target_order.ticket_count);
+    }
+
+    // Update order status to refunded
+    updateOrderStatus(username, target_order.timestamp, 'r');
+
+    // Process standby queue to fulfill pending orders
+    processStandbyQueue(target_order.trainID, target_order.departure_date);
+
+    // Save order counter after creating/modifying orders
+    saveOrderCounter();
+
+    return 0;
+}
+
 int main() {
     // Load user data from disk at startup
     load_users();
@@ -1317,6 +1391,12 @@ int main() {
             if (result == -1) {
                 std::cout << "-1" << std::endl;
             }
+        } else if (command == "refund_ticket") {
+            std::getline(std::cin, line);
+            CommandParser parser;
+            parser.parse(line);
+            int result = cmd_refund_ticket(parser);
+            std::cout << result << std::endl;
         } else {
             // Unknown command or not yet implemented
             std::getline(std::cin, line);

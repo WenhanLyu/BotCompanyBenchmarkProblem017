@@ -1,0 +1,9 @@
+add_user -u Alice -p pass123 -n AliceName -m alice@test.com -g 10
+login -u Alice -p pass123
+add_train -i T001 -n 2 -m 100 -s StationA|StationB -p 50 -x 08:00 -t 60 -o _ -d 06-01|08-31 -y A
+release_train -i T001
+buy_ticket -u Alice -i T001 -d 06-01 -n 50 -f StationA -t StationB -q false
+buy_ticket -u Alice -i T001 -d 06-01 -n 60 -f StationA -t StationB -q false
+buy_ticket -u Alice -i T001 -d 06-01 -n 60 -f StationA -t StationB -q true
+buy_ticket -u Alice -i T001 -d 06-01 -n 101 -f StationA -t StationB -q true
+exit

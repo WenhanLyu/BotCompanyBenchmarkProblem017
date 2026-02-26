@@ -1,0 +1,16 @@
+add_user -u I_am_the_admin -p awsl -n Admin -m admin@test.com -g 10
+login -u I_am_the_admin -p awsl
+add_user -c I_am_the_admin -u Leizi -p pass1 -n Leizi -m leizi@test.com -g 1
+add_user -c I_am_the_admin -u Earthspirit -p pass2 -n Earth -m earth@test.com -g 1
+add_user -c I_am_the_admin -u Greyy -p pass3 -n Greyy -m greyy@test.com -g 1
+add_user -c I_am_the_admin -u Croissant -p pass4 -n Crois -m crois@test.com -g 1
+login -u Leizi -p pass1
+login -u Earthspirit -p pass2
+login -u Greyy -p pass3
+login -u Croissant -p pass4
+add_train -i LeavesofGrass -n 17 -m 98306 -s 新疆塔城市|浙江省平湖市|浙江省杭州市|辽宁省抚顺市|广东省四会市|湖南省衡阳市|陕西省安康市|河北省河间市|宁夏石嘴山市|福建省建阳市|黑龙江省海林市|河南省灵宝市|广东省花都市|河南省偃师市|新疆博乐市|新疆伊宁市|浙江省慈溪市 -p 291|400|402|5|240|488|25|221|400|14|500|114|232|193|402|70 -x 07:38 -t 74|167|149|70|38|55|36|67|109|87|43|114|105|153|161|51 -o 7|6|3|5|3|10|10|7|5|10|6|4|3|7|5 -d 06-28|08-04 -y P
+release_train -i LeavesofGrass
+buy_ticket -u Leizi -i LeavesofGrass -d 06-30 -n 17252 -f 宁夏石嘴山市 -t 黑龙江省海林市 -q true
+buy_ticket -u Earthspirit -i LeavesofGrass -d 07-24 -n 24485 -f 浙江省平湖市 -t 黑龙江省海林市 -q true
+buy_ticket -u Greyy -i LeavesofGrass -d 07-31 -n 14194 -f 新疆博乐市 -t 浙江省慈溪市 -q true
+exit

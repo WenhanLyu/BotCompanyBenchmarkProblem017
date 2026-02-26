@@ -1,0 +1,16 @@
+clean
+add_user -u alice -p password123 -n Alice -m alice@example.com
+login -u alice -p password123
+add_train -i TRAIN1 -n 3 -m 100 -s StationA|StationB|StationC -p 50|50 -x 08:00 -t 60|60 -o _ -d 06-01|06-30 -y G
+release_train -i TRAIN1
+buy_ticket -u alice -i TRAIN1 -d 06-15 -n 10 -f StationA -t StationB -q false
+buy_ticket -u alice -i TRAIN1 -d 06-16 -n 20 -f StationB -t StationC -q false
+query_order -u alice
+refund_ticket -u alice -n 3
+refund_ticket -u alice -n 1
+query_order -u alice
+refund_ticket -u alice -n 1
+query_order -u alice
+logout -u alice
+refund_ticket -u alice -n 1
+exit
