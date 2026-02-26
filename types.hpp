@@ -334,4 +334,135 @@ struct Train {
     }
 };
 
+// Order data structure for ticket management
+struct Order {
+    char username[25];        // User who made the order
+    char trainID[25];        // Train ID
+    Date departure_date;     // Date of departure from starting station
+    char from_station[35];   // Starting station
+    char to_station[35];     // Ending station
+    int from_idx;            // Index of starting station in train
+    int to_idx;              // Index of ending station in train
+    int ticket_count;        // Number of tickets
+    int total_price;         // Total price for all tickets
+    char status;             // 's'=success, 'p'=pending, 'r'=refunded
+    long long timestamp;     // For ordering (monotonic counter)
+
+    Order() : from_idx(0), to_idx(0), ticket_count(0), total_price(0),
+              status('s'), timestamp(0) {
+        username[0] = '\0';
+        trainID[0] = '\0';
+        from_station[0] = '\0';
+        to_station[0] = '\0';
+    }
+
+    Order(const char* user, const char* train_id, const Date& date,
+          const char* from_st, const char* to_st, int f_idx, int t_idx,
+          int count, int price, char stat, long long ts)
+        : departure_date(date), from_idx(f_idx), to_idx(t_idx),
+          ticket_count(count), total_price(price), status(stat), timestamp(ts) {
+        strncpy(username, user, 24);
+        username[24] = '\0';
+        strncpy(trainID, train_id, 24);
+        trainID[24] = '\0';
+        strncpy(from_station, from_st, 34);
+        from_station[34] = '\0';
+        strncpy(to_station, to_st, 34);
+        to_station[34] = '\0';
+    }
+};
+
+// Key for ordering orders by username and timestamp
+struct OrderKey {
+    char username[25];
+    long long timestamp;
+
+    OrderKey() : timestamp(0) {
+        username[0] = '\0';
+    }
+
+    OrderKey(const char* user, long long ts) : timestamp(ts) {
+        strncpy(username, user, 24);
+        username[24] = '\0';
+    }
+
+    bool operator==(const OrderKey& other) const {
+        return strcmp(username, other.username) == 0 && timestamp == other.timestamp;
+    }
+
+    bool operator<(const OrderKey& other) const {
+        int cmp = strcmp(username, other.username);
+        if (cmp != 0) return cmp < 0;
+        return timestamp < other.timestamp;
+    }
+
+    bool operator>(const OrderKey& other) const {
+        return other < *this;
+    }
+
+    bool operator<=(const OrderKey& other) const {
+        return !(*this > other);
+    }
+
+    bool operator>=(const OrderKey& other) const {
+        return !(*this < other);
+    }
+};
+
+// Seat availability tracking per train and date
+struct SeatAvailability {
+    char trainID[25];
+    Date date;
+    int available[99];  // available[i] = seats available from station i to i+1
+
+    SeatAvailability() {
+        trainID[0] = '\0';
+        for (int i = 0; i < 99; i++) {
+            available[i] = 0;
+        }
+    }
+
+    SeatAvailability(const char* train_id, const Date& d, int total_seats, int num_segments) : date(d) {
+        strncpy(trainID, train_id, 24);
+        trainID[24] = '\0';
+        for (int i = 0; i < num_segments; i++) {
+            available[i] = total_seats;
+        }
+        for (int i = num_segments; i < 99; i++) {
+            available[i] = 0;
+        }
+    }
+};
+
+// Key for seat availability (trainID + date)
+struct SeatKey {
+    TrainKey trainID;
+    Date date;
+
+    SeatKey() {}
+
+    SeatKey(const char* train_id, const Date& d) : trainID(train_id), date(d) {}
+
+    bool operator==(const SeatKey& other) const {
+        return trainID == other.trainID && date == other.date;
+    }
+
+    bool operator<(const SeatKey& other) const {
+        if (!(trainID == other.trainID)) return trainID < other.trainID;
+        return date < other.date;
+    }
+
+    bool operator>(const SeatKey& other) const {
+        return other < *this;
+    }
+
+    bool operator<=(const SeatKey& other) const {
+        return !(*this > other);
+    }
+
+    bool operator>=(const SeatKey& other) const {
+        return !(*this < other);
+    }
+};
+
 #endif // TYPES_HPP
