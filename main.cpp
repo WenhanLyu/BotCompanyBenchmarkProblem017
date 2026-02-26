@@ -7,6 +7,7 @@
 #include "hashtable.hpp"
 #include "fileio.hpp"
 #include "bptree.hpp"
+#include "order_system.hpp"
 
 // User database and session management
 StringHashTable<User> users;
@@ -15,6 +16,10 @@ int user_count = 0;  // Track total number of users
 
 // Train database (use smaller degree for large Train struct)
 BPTree<TrainKey, Train, 16> trains;
+
+// Order and seat tracking (defined here, declared extern in order_system.hpp)
+BPTree<OrderKey, Order, 32> orders;
+BPTree<SeatKey, SeatAvailability, 16> seats;
 
 // Persistence functions
 void save_users() {
@@ -574,6 +579,9 @@ int cmd_release_train(const CommandParser& parser) {
     // Mark as released
     train.released = true;
 
+    // Initialize seat availability for this train
+    initializeSeatsForTrain(train);
+
     // Update in B+ tree (remove and reinsert)
     trains.remove(trainID);
     trains.insert(trainID, train);
@@ -884,7 +892,8 @@ int cmd_query_ticket(const CommandParser& parser) {
             result.leaving_time = leaving_at_from;
             result.arriving_time = arriving_at_to;
             result.price = cumulative_price;
-            result.seat = train.seatNum;
+            int avail = checkAvailableSeats(train.trainID, start_date, from_idx, to_idx);
+            result.seat = (avail > 0) ? avail : train.seatNum;
             result.travel_minutes = travel_minutes;
         }
     });
@@ -948,6 +957,10 @@ int main() {
 
     // Open train database
     trains.open("trains.dat");
+
+    // Open order and seat databases
+    orders.open("orders.dat");
+    seats.open("seats.dat");
 
     std::string command;
     std::string line;
