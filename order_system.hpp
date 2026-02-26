@@ -227,6 +227,7 @@ inline Order* findOrder(const char* username, const char* trainID,
 /**
  * Update an order's status
  * Returns true if successful
+ * Note: Uses delete-then-insert to avoid B+ tree pointer corruption
  */
 inline bool updateOrderStatus(const char* username, long long timestamp, char new_status) {
     OrderKey key(username, timestamp);
@@ -236,8 +237,13 @@ inline bool updateOrderStatus(const char* username, long long timestamp, char ne
         return false;
     }
 
-    order->status = new_status;
-    orders.insert(key, *order);
+    // Copy order before modifications to avoid pointer corruption
+    Order order_copy = *order;
+    order_copy.status = new_status;
+
+    // Remove old entry, then insert updated one
+    orders.remove(key);
+    orders.insert(key, order_copy);
 
     return true;
 }
