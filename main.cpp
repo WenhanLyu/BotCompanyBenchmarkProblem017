@@ -769,86 +769,59 @@ int cmd_query_ticket(const CommandParser& parser) {
             minutes_to_from += train.stopoverTimes[from_idx - 1];
         }
 
-        // Calculate the starting date
-        // We need to work backwards from departure_date at from_station
-        DateTime leaving_from_start(departure_date, train.startTime);
+        // Calculate the starting date by working backwards from departure_date
+        // We want: start_date + minutes_to_from results in departure from from_station on departure_date
 
-        // Subtract the minutes to get back to the original start
-        // This is tricky because we need to subtract time
-        // Calculate what the time would be at from_station if we start on departure_date
-        DateTime temp_time(departure_date, train.startTime);
-        temp_time.addMinutes(minutes_to_from);
+        // Start with an initial guess: subtract full days from departure_date
+        const int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        int days_to_subtract = minutes_to_from / (24 * 60);
 
-        // Now we need to find the actual starting date such that
-        // when we add minutes_to_from, we get departure_date at from_station
-        // The leaving time at from_station should be on departure_date
-
-        // Work backwards: calculate how many days offset from departure_date
-        int days_offset = minutes_to_from / (24 * 60);
-        int remaining_minutes = minutes_to_from % (24 * 60);
-
-        // Calculate starting date
         Date start_date = departure_date;
 
-        // Subtract days (going backwards in time)
-        while (days_offset > 0) {
-            if (start_date.day > days_offset) {
-                start_date.day -= days_offset;
+        // Subtract days while staying in valid range (months 6-8)
+        while (days_to_subtract > 0) {
+            if (start_date.day > days_to_subtract) {
+                start_date.day -= days_to_subtract;
                 break;
             } else {
-                days_offset -= start_date.day;
+                days_to_subtract -= start_date.day;
                 start_date.month--;
-                if (start_date.month < 1) {
-                    start_date.month = 12;
+                if (start_date.month < 6) {
+                    // Gone before June - train doesn't run this early
+                    return;
                 }
-                const int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
                 start_date.day = days_in_month[start_date.month];
             }
         }
 
-        // Adjust for remaining minutes by comparing times
-        Time leaving_time_at_from = train.startTime;
-        int temp_days = leaving_time_at_from.addMinutes(remaining_minutes);
-
-        // If adding remaining_minutes causes day overflow, we need to adjust
-        if (leaving_time_at_from.toMinutes() > train.startTime.toMinutes() || temp_days > 0) {
-            // Time at from_station is later in the day or next day
-            // No adjustment needed to start_date
-        } else {
-            // Should not happen with our logic
-        }
-
-        // Actually, let me recalculate this more simply
-        // The leaving time at from_station is: start_time + minutes_to_from
-        // We want this to be on departure_date
-        // So we calculate: what's the actual leaving time at from_station?
+        // Fine-tune: check if leaving_at_from matches departure_date
         DateTime leaving_at_from(start_date, train.startTime);
         leaving_at_from.addMinutes(minutes_to_from);
 
-        // We want leaving_at_from.date to equal departure_date
-        // Adjust start_date accordingly
+        // Adjust start_date forward if we're too early
         while (leaving_at_from.date < departure_date) {
             start_date.day++;
-            const int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
             if (start_date.day > days_in_month[start_date.month]) {
                 start_date.day = 1;
                 start_date.month++;
-                if (start_date.month > 12) {
-                    start_date.month = 1;
+                if (start_date.month > 8) {
+                    // Gone past August - train doesn't run this late
+                    return;
                 }
             }
             leaving_at_from = DateTime(start_date, train.startTime);
             leaving_at_from.addMinutes(minutes_to_from);
         }
 
+        // Adjust start_date backward if we're too late
         while (leaving_at_from.date > departure_date) {
             start_date.day--;
             if (start_date.day < 1) {
                 start_date.month--;
-                if (start_date.month < 1) {
-                    start_date.month = 12;
+                if (start_date.month < 6) {
+                    // Gone before June - train doesn't run this early
+                    return;
                 }
-                const int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
                 start_date.day = days_in_month[start_date.month];
             }
             leaving_at_from = DateTime(start_date, train.startTime);
