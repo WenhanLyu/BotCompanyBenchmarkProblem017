@@ -886,7 +886,8 @@ int cmd_query_ticket(const CommandParser& parser) {
 
     // Check if any trains found
     if (result_count == 0) {
-        return -1;
+        std::cout << "0" << std::endl;
+        return 0;
     }
 
     // Sort results
