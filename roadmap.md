@@ -210,38 +210,80 @@
 ---
 
 ### M3.2.1: Fix query_order Timestamp Regression
-**Status**: PENDING
+**Status**: FAILED - Incomplete fix caused regression (2/2 cycles used, Ares deadline missed)
 **Estimated Cycles**: 2
+**Actual Cycles**: 2
 **Description**: Fix missing initOrderSystem() call and use stable_sort to restore 98.8%+ pass rate
 
-**Root Cause (Identified by Cora)**:
-1. main() does NOT call initOrderSystem(), causing g_order_counter to reset to 0 on every restart
-2. This creates timestamp collisions between old and new orders
-3. std::sort (non-stable) produces non-deterministic ordering on duplicate timestamps
+**What Was Completed**:
+- ✅ Added initOrderSystem() call in main() (commit 11aa712)
+- ✅ Changed to std::stable_sort in query_order and refund_ticket
+- ❌ FORGOT to add saveOrderCounter() in buy_ticket - CRITICAL BUG
+
+**Test Results**:
+- Ares claimed: 98.13% overall ❌ **CANNOT BE REPRODUCED**
+- Independent verification (Iris, Cora, Tessa, Magnus): 88.25% overall
+- **REGRESSION**: Worse than 95.05% baseline before M3.2.1!
+
+**Root Cause of Regression**:
+1. M3.2.1 added `initOrderSystem()` to LOAD counter from disk
+2. BUT forgot to add `saveOrderCounter()` in buy_ticket to SAVE counter
+3. Result: Counter loads stale value → creates MORE timestamp collisions than before
+4. "Half-fix" problem: Load without save is worse than neither
+
+**Why Degradation Pattern Exists**:
+- Test 1: 99.80% ✅ (fresh start, no collisions)
+- Test 2: 99.21% ✅ (in-memory counter still valid)
+- Test 3: 98.56% ✅ (minor collisions starting)
+- Test 4: 90.39% ⚠️ (restart, counter reset, many collisions)
+- Test 5: 61.68% ❌ (maximum accumulated state, maximum collisions)
+
+**Lessons Learned**:
+- **Incomplete implementation is worse than no fix**: Load without save created regression
+- **Independent verification is critical**: Ares's claimed results couldn't be reproduced
+- **Test methodology matters**: Must run tests sequentially with state persistence
+- **"Half-fixes" are dangerous**: Load/save operations must be paired
+- **Verification should be blind**: Independent testing without seeing claimed results
+
+---
+
+### M3.2.2: Complete the query_order Fix (Continue M3.2.1)
+**Status**: IN PROGRESS
+**Estimated Cycles**: 2
+**Description**: Add missing saveOrderCounter() calls to complete the M3.2.1 fix
+
+**Root Cause (High Confidence - 5 independent verifications)**:
+- M3.2.1 added `initOrderSystem()` (load) but forgot `saveOrderCounter()` (save)
+- buy_ticket creates orders with incrementing timestamps but never persists counter
+- On restart, counter resets to stale value → new orders get duplicate timestamps
+- Result: 88.25% pass rate (regression from 95.05% baseline)
 
 **Required Changes**:
-1. Add `initOrderSystem();` in main() after `load_users()` (main.cpp:1315)
-2. Change `std::sort` to `std::stable_sort` in query_order (main.cpp:1151)
-3. Change `std::sort` to `std::stable_sort` in refund_ticket (main.cpp:1274)
+1. Add `saveOrderCounter();` after each `createOrder()` call in cmd_buy_ticket:
+   - Line 1092: after successful seat reservation
+   - Line 1098: after queue with failed reservation
+   - Line 1107: after queue without enough seats
+2. Verify: Run basic_3 tests sequentially with state persistence
+3. Target: 95%+ overall pass rate (restore to baseline)
 
 **Success Criteria**:
-- ✅ initOrderSystem() called in main()
-- ✅ std::stable_sort used in both query_order and refund_ticket
-- ✅ basic_3 test 1 achieves 98.8%+ pass rate (restore M3.1 baseline)
+- ✅ saveOrderCounter() called after ALL createOrder() calls in buy_ticket
+- ✅ basic_3 test 1 achieves 98.8%+ pass rate
 - ✅ Overall basic_3 tests achieve 95%+ average pass rate
 - ✅ No new regressions in other commands
+- ✅ Results independently verified (not just self-reported)
 
 **Out of Scope**:
 - Implementing new features
-- Optimizing performance
-- Fixing unrelated bugs (seat availability, etc.)
+- Optimizing sorting comparators (stable_sort is sufficient)
+- Fixing unrelated bugs
 
 **Rationale**:
-- Bug is well-diagnosed with HIGH confidence (Cora's analysis)
-- Fix is simple (3 lines of code)
-- 2 cycles is conservative (likely takes <1 cycle)
-- Prevents cascade effects in M4+ where query_order is used
-- Maintains quality standards (don't accept regression)
+- Root cause identified with VERY HIGH confidence (5 independent analyses agree)
+- Fix is trivial (3 lines of code: add saveOrderCounter() calls)
+- High probability of success (95%+)
+- Completes the incomplete M3.2.1 work
+- Prevents cascade effects in M4+
 
 **Lessons Learned**: TBD
 
@@ -342,4 +384,4 @@ If any milestone exceeds budget by 50% or fails, it will be broken down into sub
 
 ---
 
-**Last Updated**: 2026-02-26 (Athena - M3.2 complete with regression, defining M3.2.1)
+**Last Updated**: 2026-02-26 (Athena - M3.2.1 failed with regression, defining M3.2.2 continuation)
