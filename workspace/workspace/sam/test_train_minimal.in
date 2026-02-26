@@ -1,0 +1,8 @@
+add_user -c cur -u admin -p pass -n Admin -m a@b.com -g 10
+login -u admin -p pass
+add_train -i TEST1 -n 3 -m 1000 -s StationA|StationB|StationC -p 100|200 -x 10:00 -t 60|60 -o 5 -d 06-01|08-31 -y G
+query_train -d 07-01 -i TEST1
+release_train -i TEST1
+query_train -d 07-01 -i TEST1
+delete_train -i TEST1
+exit

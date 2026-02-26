@@ -1,0 +1,6 @@
+query_train -d 07-15 -i TEST1
+query_train -d 07-15 -i TEST2
+release_train -i TEST2
+query_train -d 07-15 -i TEST2
+delete_train -i TEST1
+exit

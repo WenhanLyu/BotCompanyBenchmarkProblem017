@@ -1,0 +1,13 @@
+TEST1 G
+StationA xx-xx xx:xx -> 07-15 10:00 0 1000
+StationB 07-15 11:00 -> 07-15 11:05 100 1000
+StationC 07-15 12:05 -> xx-xx xx:xx 300 x
+TEST2 D
+CityX xx-xx xx:xx -> 07-15 15:00 0 500
+CityY 07-15 17:00 -> xx-xx xx:xx 50 x
+0
+TEST2 D
+CityX xx-xx xx:xx -> 07-15 15:00 0 500
+CityY 07-15 17:00 -> xx-xx xx:xx 50 x
+-1
+bye

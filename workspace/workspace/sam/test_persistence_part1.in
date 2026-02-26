@@ -1,0 +1,5 @@
+add_user -c cur -u admin -p pass -n Admin -m a@b.com -g 10
+add_train -i TEST1 -n 3 -m 1000 -s StationA|StationB|StationC -p 100|200 -x 10:00 -t 60|60 -o 5 -d 06-01|08-31 -y G
+release_train -i TEST1
+add_train -i TEST2 -n 2 -m 500 -s CityX|CityY -p 50 -x 15:00 -t 120 -o 0 -d 07-01|07-31 -y D
+exit
