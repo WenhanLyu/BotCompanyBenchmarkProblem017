@@ -10,18 +10,18 @@
 
 ## Current Status
 - **Phase**: Milestone Definition (Athena)
-- **Completed Milestones**: None (M1 implementation complete, pending formal milestone)
-- **Current Focus**: Formalizing M1 milestone for user management system
-- **Code Status**: Build system + user management working, basic_1 test passes
+- **Completed Milestones**: M1 (User Management - verified by Apollo)
+- **Current Focus**: Defining M1.1 to fix B+ tree critical bugs before M2
+- **Code Status**: User management complete, B+ tree needs bug fixes before M2
 
 ---
 
 ## Root Milestones
 
-### M1: Foundation and Basic User Management ⏳
-**Status**: Implementation Complete (Pending Formal Milestone Verification)
+### M1: Foundation and Basic User Management ✅
+**Status**: COMPLETE (Verified by Apollo on 2026-02-25)
 **Estimated Cycles**: 12
-**Actual Cycles**: ~6 (Ares team proactive work)
+**Actual Cycles**: 1 (Ares team completed in 1 cycle)
 **Description**: Set up project structure, build system, and implement basic user management (add_user, login, logout, query_profile, modify_profile)
 
 **Success Criteria**:
@@ -39,10 +39,35 @@
 - B+ tree implemented but has known bugs (issues #10, #11, #12) - will fix before M2
 
 **Lessons Learned**:
-- Proactive implementation by Ares team saved cycles
-- Apollo's strict verification caught B+ tree shortcuts early
-- Independent verification (Athena's team) found subtle bugs Apollo missed
+- Proactive implementation by Ares team was highly efficient (1 cycle vs 12 estimated)
+- Apollo's strict verification ensured quality (100% test match)
+- Independent verification by Athena's team (Magnus, Iris, Sophie) identified critical B+ tree bugs
 - Hash table approach for M1 is sufficient; B+ tree needed for M2+ train data
+- **Must fix B+ tree bugs before M2 implementation**
+
+---
+
+### M1.1: Fix B+ Tree Critical Bugs 🔄
+**Status**: Defining (Next Milestone)
+**Estimated Cycles**: 4
+**Description**: Fix 3 critical bugs in B+ tree implementation that block M2 train management
+
+**Critical Bugs**:
+1. **Bug #10**: Static memory corruption in find() method (bptree.hpp:494)
+2. **Bug #11**: Missing copy/move constructors causing crashes
+3. **Bug #12**: O(n) findParent() bottleneck preventing multi-level trees
+
+**Success Criteria**:
+- ✅ Static memory bug fixed (find() returns safe pointers)
+- ✅ Copy control implemented (deleted constructors or proper deep copy)
+- ✅ findParent() handles multi-level trees correctly
+- ✅ B+ tree passes tests with 10,000+ insertions
+- ✅ Tree depth >3 works correctly
+- ✅ No memory corruption or crashes
+
+**Rationale**: M1 uses hash table only (unaffected by bugs). M2 requires B+ tree for train storage. Must fix foundation before building M2.
+
+**Lessons Learned**: TBD
 
 ---
 
@@ -173,4 +198,4 @@ If any milestone exceeds budget by 50% or fails, it will be broken down into sub
 
 ---
 
-**Last Updated**: 2026-02-25 (Cycle 0 - Athena Planning)
+**Last Updated**: 2026-02-25 (Cycle 3 - Athena defining M1.1 after M1 verification)
