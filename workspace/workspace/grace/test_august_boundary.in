@@ -1,0 +1,4 @@
+add_train -i AUGTEST -n 3 -m 30000 -s 北京市|上海市|广州市 -p 5000|10000 -x 23:30 -t 90|1440 -o 30 -d 07-15|08-31 -y A
+release_train -i AUGTEST
+query_train -i AUGTEST -d 08-31
+exit

@@ -1,0 +1,5 @@
+add_user -c cur -u testuser -p pass123 -n Test -m test@test.com -g 10
+add_train -i MONTHCROSS -n 3 -m 150 -s Alpha|Beta|Gamma -p 75|85 -x 22:00 -t 200|100 -o 20 -d 07-30|08-15 -y C
+release_train -i MONTHCROSS
+query_train -d 07-31 -i MONTHCROSS
+exit

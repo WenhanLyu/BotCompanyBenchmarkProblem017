@@ -1,0 +1,50 @@
+=== BASIC_6 TEST 1 ===
+        0.01 real         0.00 user         0.00 sys
+             1589248  maximum resident set size
+             1327680  peak memory footprint
+
+=== BASIC_6 TEST 2 ===
+        0.03 real         0.02 user         0.01 sys
+             1720320  maximum resident set size
+             1475200  peak memory footprint
+
+=== BASIC_6 TEST 3 ===
+        0.05 real         0.03 user         0.01 sys
+             1884160  maximum resident set size
+             1639040  peak memory footprint
+
+=== BASIC_6 TEST 4 ===
+        0.04 real         0.03 user         0.01 sys
+             2080768  maximum resident set size
+             1835648  peak memory footprint
+
+=== BASIC_6 TEST 5 ===
+        0.06 real         0.03 user         0.01 sys
+             1720320  maximum resident set size
+             1458752  peak memory footprint
+
+=== BASIC_6 TEST 6 ===
+        0.04 real         0.02 user         0.01 sys
+             2015232  maximum resident set size
+             1770112  peak memory footprint
+
+=== BASIC_6 TEST 7 ===
+        0.12 real         0.07 user         0.04 sys
+             2359296  maximum resident set size
+             2097728  peak memory footprint
+
+=== BASIC_6 TEST 8 ===
+        0.02 real         0.01 user         0.00 sys
+             1753088  maximum resident set size
+             1491520  peak memory footprint
+
+=== BASIC_6 TEST 9 ===
+        0.06 real         0.03 user         0.03 sys
+             2441216  maximum resident set size
+             2196096  peak memory footprint
+
+=== BASIC_6 TEST 10 ===
+        0.13 real         0.08 user         0.05 sys
+             2408448  maximum resident set size
+             2163328  peak memory footprint
+

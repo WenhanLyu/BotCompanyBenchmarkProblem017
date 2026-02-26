@@ -1,0 +1,5 @@
+add_user -c cur -u testuser -p pass123 -n Test -m test@test.com -g 10
+add_train -i LONGJOURNEY -n 4 -m 200 -s CityA|CityB|CityC|CityD -p 100|200|300 -x 23:00 -t 1500|1440|120 -o 30|60 -d 06-28|08-30 -y B
+release_train -i LONGJOURNEY
+query_train -d 06-28 -i LONGJOURNEY
+exit

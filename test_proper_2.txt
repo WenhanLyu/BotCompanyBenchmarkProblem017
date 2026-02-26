@@ -1,0 +1,3 @@
+login -u admin -p pw1
+query_profile -c admin -u admin
+exit

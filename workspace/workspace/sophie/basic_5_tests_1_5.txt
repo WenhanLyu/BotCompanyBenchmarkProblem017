@@ -1,0 +1,25 @@
+=== BASIC_5 TEST 1 ===
+        0.02 real         0.01 user         0.00 sys
+             1703936  maximum resident set size
+             1458816  peak memory footprint
+
+=== BASIC_5 TEST 2 ===
+        0.02 real         0.01 user         0.00 sys
+             1736704  maximum resident set size
+             1491584  peak memory footprint
+
+=== BASIC_5 TEST 3 ===
+        0.02 real         0.01 user         0.00 sys
+             1818624  maximum resident set size
+             1573504  peak memory footprint
+
+=== BASIC_5 TEST 4 ===
+        0.02 real         0.01 user         0.00 sys
+             2113536  maximum resident set size
+             1868416  peak memory footprint
+
+=== BASIC_5 TEST 5 ===
+        0.02 real         0.01 user         0.01 sys
+             2031616  maximum resident set size
+             1786496  peak memory footprint
+

@@ -1,0 +1,7 @@
+add_user -c cur -u admin -p pass -n Admin -m a@b.com -g 10
+login -u admin -p pass
+add_train -i T001 -n 3 -m 100 -s CityA|CityB|CityC -p 50|30 -x 08:00|09:00|10:00 -t 0|60|120 -o 06-01 -d 08-31 -y K
+release_train -i T001
+query_ticket -s CityA -t CityC -d 06-15 -p time
+query_ticket -s CityB -t CityC -d 06-15 -p cost
+exit

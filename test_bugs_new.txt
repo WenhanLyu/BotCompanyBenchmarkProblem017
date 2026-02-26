@@ -1,0 +1,24 @@
+=== B+ Tree Bug Tests ===
+
+Test 1: Static memory corruption in find()
+  val1 (key=1): 100 (expected: 100)
+  val2 (key=2): 200 (expected: 200)
+  PASS: No corruption detected (but bug may exist in other scenarios)
+
+Test 2: Deep tree with depth > 3
+  Inserting 100 values...
+  Verifying all 100 values...
+  PASS: All 100 values found correctly
+
+Test 3: Large scale with 10,000+ insertions
+  Inserting 12000 values...
+    Progress: 0/12000
+    Progress: 2000/12000
+    Progress: 4000/12000
+    Progress: 6000/12000
+    Progress: 8000/12000
+    Progress: 10000/12000
+  Verifying random samples...
+  PASS: Random samples verified correctly
+
+=== Tests Complete ===

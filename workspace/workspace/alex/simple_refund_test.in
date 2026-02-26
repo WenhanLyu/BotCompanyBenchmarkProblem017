@@ -1,0 +1,9 @@
+add_user -c alice -p pass -n Alice -m a@m.com -g 10
+login -c alice -p pass
+add_train -i T1 -n 2 -m 100 -s A|B -p 0|100 -x 08:00 -t 60 -o 06-01|06-10 -d 06-01 -y N
+release_train -i T1
+buy_ticket -c alice -d 06-05 -n 1 -f A -t B -i T1
+query_order -c alice
+refund_ticket -c alice -n 1 -f A -t B -i T1
+query_order -c alice
+exit

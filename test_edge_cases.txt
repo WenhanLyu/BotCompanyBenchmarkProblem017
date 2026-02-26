@@ -1,0 +1,16 @@
+add_user -c dummy -u admin -p pass123456 -n 管理员 -m admin@test.com -g 10
+login -u admin -p pass123456
+add_user -c admin -u user1 -p password1 -n 用户一 -m user1@test.com -g 5
+logout -u admin
+login -u admin -p wrongpass
+login -u nonexistent -p password
+logout -u notloggedin
+login -u user1 -p password1
+query_profile -c user1 -u admin
+query_profile -c user1 -u user1
+modify_profile -c user1 -u user1 -p newpass123
+logout -u user1
+login -u user1 -p newpass123
+logout -u user1
+clean
+exit

@@ -1,0 +1,3 @@
+login I_am_the_admin password_I_am_the_admin
+query_profile I_am_the_admin
+exit

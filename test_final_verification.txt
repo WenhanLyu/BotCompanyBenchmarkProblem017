@@ -1,0 +1,73 @@
+======================================
+B+ Tree Comprehensive Unit Tests
+Testing bug fixes for issues #10, #11, #12
+======================================
+
+=== Test 1: Static Memory Bug Regression ===
+Testing issue #10 fix - find() should use instance member, not static
+  ✓ PASS: Pointer valid after same-leaf find
+  ✓ PASS: Immediate pointer use
+  ✓ PASS: Multi-tree isolation - no static interference
+  ✓ PASS: Repeated find() returns correct value
+
+=== Test 2: Empty Tree Edge Cases ===
+  ✓ PASS: Find in empty tree returns nullptr
+  ✓ PASS: Remove from empty tree returns false
+
+=== Test 3: Single Element Operations ===
+  ✓ PASS: Insert single element
+  ✓ PASS: Find single element
+  ✓ PASS: Update single element
+  ✓ PASS: Remove single element
+
+=== Test 4: Node Splitting ===
+  ✓ PASS: Leaf split - all keys accessible
+  ✓ PASS: Multiple splits - integrity maintained
+
+=== Test 5: Deep Tree (depth > 3) ===
+  Inserting 200 sequential keys...
+  Verifying all 200 keys...
+  ✓ PASS: Deep tree - all keys verified
+  Testing reverse order access...
+  ✓ PASS: Deep tree - reverse access
+
+=== Test 6: Large Scale (10,000+ insertions) ===
+  Inserting 15000 keys...
+    Progress: 5000/15000
+    Progress: 10000/15000
+  Insertion time: 20368ms
+  ✓ PASS: Large scale - all insertions completed
+  Verifying random samples...
+  ✓ PASS: Large scale - sample verification
+
+=== Test 7: Persistence (close/reopen) ===
+  Phase 1: Inserting 50 keys...
+  ✓ PASS: Persistence - data correct before close
+  Tree closed.
+  Phase 2: Reopening tree...
+  ✓ PASS: Persistence - all data survived close/reopen
+  Phase 3: Inserting additional 50 keys...
+  Phase 4: Final verification after second reopen...
+  ✓ PASS: Persistence - multiple close/reopen cycles
+
+=== Test 8: Duplicate Key Handling ===
+  ✓ PASS: Duplicate key update
+  ✓ PASS: Multiple duplicate updates
+
+=== Test 9: Random Insertion Order ===
+  Inserting 1000 keys in random order...
+  ✓ PASS: Random order insertion - all keys found
+
+=== Test 10: Boundary Values ===
+  ✓ PASS: Negative keys
+  ✓ PASS: Zero key
+
+======================================
+Test Summary
+======================================
+Tests Passed: 24
+Tests Failed: 0
+Total Tests:  24
+
+✓ All tests PASSED! B+ tree implementation is solid.
+======================================

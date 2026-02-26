@@ -1,0 +1,13 @@
+=== Testing Static Memory Corruption ===
+After find(1): *ptr1 = 100 (expected: 100)
+After find(2): *ptr2 = 200 (expected: 200)
+After find(2): *ptr1 = 100 (should still be 100)
+
+No corruption detected in this test.
+However, the bug still exists if keys are in the same leaf!
+
+Same-leaf test:
+p0 address: 0x16b2fe198, value: 0
+p1 address: 0x16b2fe19c, value: 10
+
+BUG CONFIRMED: Both pointers point to the same static Node!

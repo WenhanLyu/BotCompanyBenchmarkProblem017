@@ -1,0 +1,8 @@
+clean
+add_user -c "" -u charlie -p pass999 -n Charlie -m charlie@test.com -g 10
+login -u charlie -p pass999
+add_train -i T100 -n 2 -m 30 -s StationX|StationY -p 50 -x 09:00 -t 60 -o 06 -d 07-01|07-31 -y K
+release_train -i T100
+buy_ticket -u charlie -i T100 -d 07-15 -n 2 -f StationX -t StationY
+query_order -u charlie
+exit

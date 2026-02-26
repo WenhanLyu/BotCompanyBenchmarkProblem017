@@ -1,0 +1,8 @@
+add_user -u noratest8888 -p pass123 -n NoraTest -m nora@example.com -g 5
+login -u noratest8888 -p pass123
+query_order -u noratest8888
+logout -u noratest8888
+query_order -u noratest8888
+query_order -u nonexistentuser777
+query_order
+exit

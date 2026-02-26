@@ -1,0 +1,25 @@
+0
+0
+0
+0
+0
+-1
+0
+-1
+-1
+-1
+0
+-1
+user1 用户一 user1@test.com 5
+-1
+user1 用户一 user1@test.com 5
+user1 用户一 user1@test.com 5
+-1
+-1
+user1 用户一 user1@test.com 5
+0
+0
+user2 用户二 user2@test.com 4
+0
+-1
+bye

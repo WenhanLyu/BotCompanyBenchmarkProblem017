@@ -1,0 +1,4 @@
+add_user -c admin -u testuser1 -p password123 -n 测试 -m test@example.com -g 10
+login -u testuser1 -p password123
+query_profile -c testuser1 -u testuser1
+exit

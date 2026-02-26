@@ -1,0 +1,60 @@
+=== BASIC_3 TEST 1 ===
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   5  voluntary context switches
+                   3  involuntary context switches
+            73538932  instructions retired
+            19223221  cycles elapsed
+             1278528  peak memory footprint
+
+=== BASIC_3 TEST 2 ===
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   6  voluntary context switches
+                   2  involuntary context switches
+            63945650  instructions retired
+            16788239  cycles elapsed
+             1327744  peak memory footprint
+
+=== BASIC_3 TEST 3 ===
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   5  voluntary context switches
+                   2  involuntary context switches
+            65087754  instructions retired
+            17312759  cycles elapsed
+             1278528  peak memory footprint
+
+=== BASIC_3 TEST 4 ===
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                   3  involuntary context switches
+            76147187  instructions retired
+            20793112  cycles elapsed
+             1475136  peak memory footprint
+
+=== BASIC_3 TEST 5 ===
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   7  voluntary context switches
+                   3  involuntary context switches
+            93691111  instructions retired
+            29898487  cycles elapsed
+             1655360  peak memory footprint
+

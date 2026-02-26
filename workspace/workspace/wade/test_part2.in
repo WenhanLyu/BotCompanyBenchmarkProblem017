@@ -1,0 +1,8 @@
+query_train -i T1001 -d 06-15
+query_train -i T1002 -d 06-15
+query_train -i T1003 -d 06-15
+delete_train -i T1002
+delete_train -i T1001
+query_train -i T1002 -d 06-15
+query_train -i T1001 -d 06-15
+exit

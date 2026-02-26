@@ -1148,7 +1148,8 @@ int cmd_query_order(const CommandParser& parser) {
     std::cout << order_list.size() << std::endl;
 
     // Sort by timestamp to ensure correct order (fix for issue #40)
-    std::sort(order_list.begin(), order_list.end(), [](const Order& a, const Order& b) {
+    // Use stable_sort to maintain deterministic ordering for timestamp collisions
+    std::stable_sort(order_list.begin(), order_list.end(), [](const Order& a, const Order& b) {
         return a.timestamp < b.timestamp;
     });
 
@@ -1271,7 +1272,8 @@ int cmd_refund_ticket(const CommandParser& parser) {
     }
 
     // Sort by timestamp to ensure correct order (fix for issue #40)
-    std::sort(order_list.begin(), order_list.end(), [](const Order& a, const Order& b) {
+    // Use stable_sort to maintain deterministic ordering for timestamp collisions
+    std::stable_sort(order_list.begin(), order_list.end(), [](const Order& a, const Order& b) {
         return a.timestamp < b.timestamp;
     });
 
@@ -1312,6 +1314,9 @@ int cmd_refund_ticket(const CommandParser& parser) {
 int main() {
     // Load user data from disk at startup
     load_users();
+
+    // Initialize order system (load order counter from disk)
+    initOrderSystem();
 
     // Open train database
     trains.open("trains.dat");

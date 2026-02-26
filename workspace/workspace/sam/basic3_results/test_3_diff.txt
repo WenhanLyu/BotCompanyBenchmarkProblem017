@@ -1,5 +1,5 @@
 --- data/017/data/basic_3/3.out	2026-02-26 13:42:43
-+++ workspace/workspace/sam/basic3_results/test_3.out	2026-02-26 15:12:23
++++ workspace/workspace/sam/basic3_results/test_3.out	2026-02-26 16:30:46
 @@ -198,7 +198,7 @@
  1
  IHEARDthatyouask 天津市 07-12 06:35 -> 四川省彭州市 07-12 23:13 249 72823

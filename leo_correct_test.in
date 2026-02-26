@@ -1,0 +1,9 @@
+add_user -c cur -u admin -p pass -n Admin -m admin@test.com -g 10
+login -u admin -p pass
+add_train -i G1234 -n 5 -m 100 -s Beijing|Shanghai|Nanjing|Hangzhou|Suzhou -p 100|150|200|250 -x 08:00 -t 60|60|60|60 -o 10|8|6 -d 06-01|06-30 -y A
+query_ticket 06-01 Beijing Shanghai
+buy_ticket -u admin -n 5 G1234 06-01 Beijing Shanghai
+query_ticket 06-01 Beijing Shanghai
+buy_ticket -u admin -n 3 G1234 06-01 Beijing Shanghai
+query_ticket 06-01 Beijing Shanghai
+exit

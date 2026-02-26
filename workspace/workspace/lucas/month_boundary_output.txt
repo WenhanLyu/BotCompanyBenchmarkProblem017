@@ -1,0 +1,8 @@
+0
+0
+0
+MONTHCROSS C
+Alpha xx-xx xx:xx -> 07-31 22:00 0 150
+Beta 08-01 01:20 -> 08-01 01:40 75 150
+Gamma 08-01 03:20 -> xx-xx xx:xx 160 x
+bye

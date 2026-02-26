@@ -1,0 +1,2421 @@
+0
+0
+0
+0
+I_am_the_admin 奥斯卡 foo@bar.com 10
+0
+0
+0
+0
+0
+-1
+Reed 苇草 PARTY.A.spectre@is.haunting 8
+-1
+I_am_the_admin 奥斯卡 foo@bar.com 10
+0
+0
+0
+0
+0
+0
+0
+Reed 苇草 PARTY.A.spectre@is.haunting 8
+0
+0
+0
+0
+0
+0
+Kroos 克洛丝 All.the.Powers@of.old 6
+Meteor 流星 MANIFESTO.OF@THE.COMMUNIST 8
+Reed 苇草 PARTY.A.spectre@is.haunting 8
+Leizi 惊蛰 French.Radicals@and.German 5
+Rangers 巡林者 a.holy.alliance@to.exorcise 6
+0
+0
+0
+0
+0
+0
+Breeze 微风 has.not.been@decried.as 3
+0
+0
+0
+0
+0
+0
+Schwarz 黑黑 is.the.Opposition@that.has 3
+Hung 吽吽 Communistic@by.its 4
+Hibiscus 芙蓉 not.hurled@back.the 7
+0
+Schwarz 黑黑 is.the.Opposition@that.has 3
+Hung 吽吽 Communistic@by.its 4
+Adnachiel 安德切尔 branding.reproach@of.Communism 4
+-1
+Hung 吽吽 Communistic@by.its 4
+-1
+0
+0
+0
+0
+Adnachiel 安德切尔 branding.reproach@of.Communism 4
+Breeze 微风 has.not.been@decried.as 3
+Breeze 微风 has.not.been@decried.as 3
+0
+0
+Hung 吽吽 Communistic@by.its 4
+0
+0
+Lava 炎熔 adversaries@Two.things 2
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+0
+0
+0
+0
+Liskarm 雷蛇 result.from@this.fact 4
+Liskarm 雷蛇 result.from@this.fact 4
+0
+0
+ProjeKTRed 红红 European.Powers@to.be 2
+0
+0
+0
+0
+Lava 炎熔 adversaries@Two.things 2
+0
+-1
+Matterhorn 角峰 itself.a.Power@II.It 3
+0
+-1
+Adnachiel 安德切尔 branding.reproach@of.Communism 4
+0
+0
+0
+0
+Adnachiel 安德切尔 branding.reproach@of.Communism 4
+Liskarm 雷蛇 result.from@this.fact 4
+Breeze 微风 has.not.been@decried.as 3
+0
+0
+0
+0
+-1
+Astesia 星极 face.of.the@whole.world 3
+0
+0
+0
+0
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+Astesia 星极 face.of.the@whole.world 3
+0
+0
+0
+Broca 布洛卡 publish.their@views.their 2
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+0
+0
+Provence 普罗旺斯 in.London.and@sketched.the 3
+Breeze 微风 has.not.been@decried.as 3
+0
+0
+0
+0
+0
+0
+0
+0
+Sideroca 铸铁 aims.their@tendencies.and 4
+0
+0
+0
+0
+0
+0
+0
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+Lava 炎熔 adversaries@Two.things 2
+0
+0
+Liskarm 雷蛇 result.from@this.fact 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Siege 推进之王 history.of@class.struggles 2
+-1
+-1
+-1
+-1
+-1
+0
+0
+Amiya 阿米娅 Freeman.and@slave.patrician 2
+-1
+-1
+-1
+Plume 翎羽 and.Danish@languages.I 1
+-1
+-1
+-1
+Plume 翎羽 and.Danish@languages.I 1
+-1
+-1
+0
+0
+0
+0
+-1
+Lava 炎熔 in.a.word.oppressor@and.oppres 2
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+Lava 炎熔 in.a.word.oppressor@and.oppres 2
+0
+0
+-1
+-1
+-1
+Plume 翎羽 and.Danish@languages.I 1
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+Liskarm 雷蛇 result.from@this.fact 4
+-1
+Hung 吽吽 Communistic@by.its 4
+-1
+-1
+Breeze 微风 has.not.been@decried.as 3
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+Broca 布洛卡 publish.their@views.their 2
+-1
+-1
+-1
+Breeze 微风 has.not.been@decried.as 3
+0
+0
+0
+0
+-1
+-1
+Rope 暗索 and.plebeian@lord.and 3
+-1
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+0
+0
+Matterhorn 角峰 itself.a.Power@II.It 3
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+Flamebringer 炎客 that.each.time@ended.either 3
+Skadi 斯卡蒂 the.contending@classes.In 1
+Schwarz 黑黑 is.the.Opposition@that.has 3
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Flamebringer 炎客 that.each.time@ended.either 3
+0
+0
+0
+0
+0
+0
+-1
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+-1
+-1
+-1
+-1
+Siege 推进之王 history.of@class.struggles 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Siege 推进之王 manifold.gradation@of.social 2
+0
+0
+-1
+-1
+Hung 吽吽 Communistic@by.its 4
+-1
+-1
+SilverAsh 银灰 following.Manifesto@to.be 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+-1
+Lava 炎熔 in.a.word.oppressor@and.oppres 2
+-1
+-1
+0
+0
+Hung 吽吽 Communistic@by.its 4
+-1
+-1
+-1
+-1
+-1
+-1
+Breeze 微风 has.not.been@decried.as 3
+-1
+-1
+Liskarm 雷蛇 result.from@this.fact 4
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+ProjeKTRed 红红 European.Powers@to.be 2
+0
+0
+-1
+-1
+-1
+-1
+0
+0
+ProjeKTRed 红红 European.Powers@to.be 2
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+Bison 拜松 feudal.lords@vassals.guildmast 4
+-1
+Shining 闪灵 society.at@large.or 4
+-1
+-1
+Amiya 阿米娅 Freeman.and@slave.patrician 2
+Platinum 白金 classes.again@subordinate.grad 1
+Vigna 红豆 The.modern@bourgeois.society 4
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+-1
+Bagpipe 风笛 that.has.sprouted@from.the 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+ProjeKTRed 红红 European.Powers@to.be 2
+-1
+-1
+0
+0
+-1
+0
+0
+-1
+-1
+-1
+-1
+0
+-1
+-1
+0
+0
+Shining 闪灵 society.at@large.or 4
+-1
+0
+0
+-1
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Broca 布洛卡 publish.their@views.their 2
+-1
+-1
+0
+-1
+-1
+Scavenger 清道夫 new.forms.of@struggle.in 1
+Mayer 梅尔 now.open.fight@a.fight 4
+-1
+-1
+-1
+-1
+-1
+-1
+Adnachiel 安德切尔 branding.reproach@of.Communism 4
+-1
+ProjeKTRed 红红 European.Powers@to.be 2
+-1
+-1
+-1
+-1
+-1
+-1
+Broca 布洛卡 publish.their@views.their 2
+-1
+-1
+Beagle 米格鲁 serf.guildmaster@and.journeyma 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Schwarz 黑黑 is.the.Opposition@that.has 3
+-1
+-1
+-1
+-1
+Lava 炎熔 in.a.word.oppressor@and.oppres 2
+0
+0
+-1
+-1
+Astesia 星极 face.of.the@whole.world 3
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Amiya 阿米娅 Freeman.and@slave.patrician 2
+Hung 吽吽 Communistic@by.its 4
+-1
+-1
+SilverAsh 银灰 following.Manifesto@to.be 4
+0
+0
+-1
+0
+0
+Siege 推进之 manifold.gradation@of.social 2
+-1
+0
+0
+-1
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+SilverAsh 银灰 following.Manifesto@to.be 4
+-1
+-1
+0
+0
+Schwarz 黑黑 is.the.Opposition@that.has 3
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Astesia 星极 face.of.the@whole.world 3
+-1
+Matterhorn 角峰 itself.a.Power@II.It 3
+-1
+-1
+-1
+-1
+0
+-1
+-1
+-1
+-1
+0
+Broca 布洛 two.great.hostile@camps.into 2
+Snowsant 雪雉 nationalities@have.assembled 3
+Meteorite 陨星 has.simplified@the.class 4
+Broca 布洛 two.great.hostile@camps.into 2
+-1
+Popukar 泡普卡 more.splitting@up.into 5
+-1
+-1
+Midnight 月见夜 journeymen@apprentices.serfs 2
+-1
+0
+0
+-1
+-1
+Scavenger 清道夫 new.forms.of@struggle.in 1
+-1
+0
+0
+-1
+-1
+-1
+-1
+Vigna 红豆 The.modern@bourgeois.society 4
+-1
+0
+0
+-1
+Shining 闪灵 society.at@large.or 4
+Bison 拜松 feudal.lords@vassals.guildmast 4
+-1
+0
+0
+-1
+ProjeKTRed 红红 European.Powers@to.be 2
+-1
+-1
+-1
+-1
+-1
+Matterhorn 角峰 itself.a.Power@II.It 3
+Liskarm 雷蛇 sprang.the@chartered.burghers 4
+-1
+0
+0
+-1
+-1
+Sideroca 铸铁 aims.their@tendencies.and 4
+-1
+0
+0
+-1
+Platinum 白金 classes.again@subordinate.grad 1
+Siege 推进 elements.of@the.bourgeoisie 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Bagpipe 风笛 that.has.sprouted@from.the 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+Platinum 白金 classes.again@subordinate.grad 1
+0
+0
+-1
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Provence 普罗旺斯 in.London.and@sketched.the 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Matterhorn 角峰 itself.a.Power@II.It 3
+-1
+-1
+-1
+-1
+Executor 送葬人 place.of.the@old.ones 4
+-1
+-1
+-1
+-1
+-1
+ProjeKTRed 红红 European.Powers@to.be 2
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+ShiraYuki 白雪 in.almost.all@of.these 1
+-1
+-1
+-1
+Hellagur 赫拉格 not.done.away@with.class 2
+0
+Astesia 星极 face.of.the@whole.world 3
+-1
+-1
+-1
+Sideroca 铸铁 aims.their@tendencies.and 4
+-1
+-1
+-1
+0
+Beagle 米格鲁 serf.guildmaster@and.journeyma 2
+Blaze 煌煌 each.other@Bourgeoisie.and 2
+-1
+-1
+Adnachiel 安德切尔 branding.reproach@of.Communism 4
+-1
+Hung 吽吽 Communistic@by.its 4
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+Gavial 嘉维尔 serfs.of.the@Middle.Ages 1
+-1
+Flamebringer 炎客 that.each.time@ended.either 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+-1
+-1
+-1
+Adnachiel 安德切尔 branding.reproach@of.Communism 4
+-1
+-1
+Flamebringer 炎客 that.each.time@ended.either 3
+Vanilla 香草 of.the.Cape@opened.up 2
+-1
+-1
+Hung 吽吽 Communistic@by.its 4
+-1
+Vanilla 香草 of.the.Cape@opened.up 2
+0
+-1
+0
+-1
+-1
+0
+0
+-1
+-1
+-1
+0
+Frostleaf 霜叶 fresh.ground@for.the 4
+-1
+Croissant 可颂 rising.bourgeoisie@The.EastInd 4
+Gavial 嘉维尔 serfs.of.the@Middle.Ages 1
+Platinum 白金 classes.again@subordinate.grad 1
+-1
+-1
+-1
+Mayer 梅尔 now.open.fight@a.fight 4
+-1
+-1
+0
+0
+-1
+-1
+-1
+Rope 暗索 and.plebeian@lord.and 3
+-1
+-1
+-1
+-1
+-1
+Beagle 米格 the.increase@in.the 2
+-1
+Liskarm 雷蛇 sprang.the@chartered.burghers 4
+-1
+0
+0
+-1
+-1
+-1
+Vigna 红豆 The.modern@bourgeois.society 4
+-1
+-1
+-1
+-1
+-1
+0
+-1
+-1
+Astesia 星极 face.of.the@whole.world 3
+Hellagur 赫拉格 not.done.away@with.class 2
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Blaze 煌煌 each.other@Bourgeoisie.and 2
+Vanilla 香草 of.the.Cape@opened.up 2
+-1
+-1
+-1
+-1
+Aak 阿阿 were.developed@The.discovery 3
+0
+-1
+-1
+-1
+Scavenger 清道夫 new.forms.of@struggle.in 1
+-1
+-1
+-1
+-1
+-1
+Bison 拜松 feudal.lords@vassals.guildmast 4
+-1
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+-1
+-1
+-1
+-1
+Perfumer 调香师 a.whole.is@more.and 2
+0
+0
+-1
+-1
+-1
+Ethan 伊桑 party.itself@To.this 3
+-1
+-1
+-1
+-1
+0
+-1
+-1
+-1
+Provence 普罗旺斯 in.London.and@sketched.the 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Vanilla 香草 of.the.Cape@opened.up 2
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+Beagle 米格 the.increase@in.the 2
+-1
+Hung 吽吽 Communistic@by.its 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Matterhorn 角峰 itself.a.Power@II.It 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Meteorite 陨星 has.simplified@the.class 4
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+Amiya 阿米娅 Freeman.and@slave.patrician 2
+-1
+-1
+-1
+-1
+Magallan 麦哲伦 commodities@generally.gave 4
+-1
+-1
+-1
+-1
+-1
+Plume 翎羽 and.Danish@languages.I 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Scavenger 清道夫 new.forms.of@struggle.in 1
+-1
+-1
+Hellagur 赫拉格 not.done.away@with.class 2
+-1
+-1
+ShiraYuki 白雪 thereby.to@the.revolutionary 1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+Astesia 星极 face.of.the@whole.world 3
+-1
+Sideroca 铸铁 aims.their@tendencies.and 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Rope 暗索 and.plebeian@lord.and 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Astesia 星极 face.of.the@whole.world 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+ProjeKTRed 红红 European.Powers@to.be 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Aak 阿阿 were.developed@The.discovery 3
+-1
+Magallan 麦哲伦 commodities@generally.gave 4
+-1
+-1
+Broca 布洛 two.great.hostile@camps.into 2
+-1
+-1
+Matterhorn 角峰 itself.a.Power@II.It 3
+SilverAsh 银灰 following.Manifesto@to.be 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+ProjeKTRed 红红 European.Powers@to.be 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Sideroca 铸铁 aims.their@tendencies.and 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Meteorite 陨星 has.simplified@the.class 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+WaaiFu 槐琥 never.before@known.and 4
+-1
+-1
+-1
+-1
+Schwarz 黑黑 is.the.Opposition@that.has 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+-1
+Platinum 白金 classes.again@subordinate.grad 1
+-1
+-1
+0
+-1
+-1
+Executor 送葬人 place.of.the@old.ones 4
+Croissant 可颂 feudal.society@a.rapid 4
+-1
+-1
+Adnachiel 安德切尔 branding.reproach@of.Communism 4
+-1
+-1
+0
+0
+-1
+Gavial 嘉维尔 serfs.of.the@Middle.Ages 1
+Vigna 红豆 The.modern@bourgeois.society 4
+Hung 吽吽 Communistic@by.its 4
+-1
+-1
+-1
+Executor 送葬人 place.of.the@old.ones 4
+-1
+-1
+-1
+Perfumer 调香师 a.whole.is@more.and 2
+Hellagur 赫拉格 not.done.away@with.class 2
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+-1
+Shining 闪灵 society.at@large.or 4
+-1
+-1
+Platinum 白金 classes.again@subordinate.grad 1
+0
+0
+-1
+-1
+-1
+-1
+-1
+Chen 陈陈 colonisation@of.America 4
+Gavial 嘉维尔 serfs.of.the@Middle.Ages 1
+-1
+-1
+-1
+-1
+Scavenger 清道夫 new.forms.of@struggle.in 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Warfarin 华法琳 well.as.against@its.reactionar 6
+0
+0
+-1
+Astesia 星极 face.of.the@whole.world 3
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Croissant 可颂 feudal.society@a.rapid 4
+-1
+-1
+ProjeKTRed 红红 European.Powers@to.be 2
+-1
+Croissant 可颂 feudal.society@a.rapid 4
+-1
+-1
+-1
+Breeze 微风 has.not.been@decried.as 3
+-1
+Adnachiel 安德切尔 branding.reproach@of.Communism 4
+-1
+-1
+-1
+Amiya 阿米娅 Freeman.and@slave.patrician 2
+-1
+0
+-1
+-1
+-1
+-1
+-1
+Bison 拜松 feudal.lords@vassals.guildmast 4
+-1
+Vigna 红豆 The.modern@bourgeois.society 4
+-1
+Chen 陈陈 colonisation@of.America 4
+Croissant 可颂 feudal.society@a.rapid 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+WaaiFu 槐琥 never.before@known.and 4
+Schwarz 黑黑 is.the.Opposition@that.has 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Vanilla 香草 of.the.Cape@opened.up 2
+-1
+-1
+Magallan 麦哲伦 commodities@generally.gave 4
+-1
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+-1
+-1
+Breeze 微风 has.not.been@decried.as 3
+-1
+Vigna 红豆 wants.of.the@new.markets 4
+Blaze 煌煌 each.other@Bourgeoisie.and 2
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Vanilla 香草 of.the.Cape@opened.up 2
+-1
+-1
+-1
+Executor 送葬人 place.of.the@old.ones 4
+-1
+0
+0
+Phantom 傀影 monopolised@by.closed 4
+0
+0
+-1
+-1
+-1
+-1
+-1
+ProjeKTRed 红红 the.manufacturing@middle.class 2
+-1
+-1
+-1
+Conviction 断罪者 pushed.on.one@side.by 2
+-1
+-1
+-1
+-1
+Meteorite 陨星 has.simplified@the.class 4
+-1
+-1
+-1
+Shining 闪灵 division.of@labour.between 4
+Mayer 梅尔 now.open.fight@a.fight 4
+-1
+Sideroca 铸铁 aims.their@tendencies.and 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Lava 炎熔 in.a.word.oppressor@and.oppres 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+Specter 幽灵鲨 the.bourgeoisie@possesses.howe 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Broca 布洛 two.great.hostile@camps.into 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Ethan 伊桑 party.itself@To.this 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Gavial 嘉维尔 serfs.of.the@Middle.Ages 1
+Shining 闪灵 division.of@labour.between 4
+Frostleaf 霜叶 fresh.ground@for.the 4
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+Matterhorn 角峰 itself.a.Power@II.It 3
+-1
+-1
+-1
+-1
+-1
+Skadi 斯卡蒂 the.contending@classes.In 1
+-1
+Ethan 伊桑 party.itself@To.this 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Liskarm 雷蛇 sprang.the@chartered.burghers 4
+-1
+Sideroca 铸铁 aims.their@tendencies.and 4
+-1
+Beagle 米格 the.increase@in.the 2
+-1
+-1
+-1
+-1
+-1
+-1
+Siege 推进 elements.of@the.bourgeoisie 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+GreyThroat 灰喉 industrial@production.was 3
+Amiya 阿米娅 Freeman.and@slave.patrician 2
+0
+-1
+Siege 推进 elements.of@the.bourgeoisie 2
+-1
+-1
+-1
+-1
+Nightingale 夜莺 trade.with@the.colonies 3
+-1
+-1
+-1
+-1
+-1
+-1
+Skadi 斯卡 the.contending@classes.In 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Frostleaf 霜叶 fresh.ground@for.the 4
+Midnight 月见夜 journeymen@apprentices.serfs 2
+-1
+Bagpipe 风笛 that.has.sprouted@from.the 3
+0
+0
+-1
+-1
+-1
+0
+0
+-1
+-1
+Perfumer 调香师 a.whole.is@more.and 2
+-1
+-1
+-1
+-1
+-1
+-1
+Provence 普罗旺斯 in.London.and@sketched.the 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Blaze 煌煌 each.other@Bourgeoisie.and 2
+-1
+-1
+-1
+-1
+-1
+0
+Meteorite 陨星 has.simplified@the.class 4
+Steward 史都华德 its.place.The@guildmasters.wer 1
+-1
+Perfumer 调香师 a.whole.is@more.and 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Amiya 阿米娅 Freeman.and@slave.patrician 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Frostleaf 霜叶 fresh.ground@for.the 4
+-1
+0
+0
+Sora 空空 of.America@the.rounding 2
+0
+0
+-1
+-1
+-1
+Plume 翎羽 and.Danish@languages.I 1
+-1
+-1
+-1
+ShiraYuki 白雪 thereby.to@the.revolutionary 1
+-1
+-1
+-1
+0
+Sideroca 铸铁 aims.their@tendencies.and 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Executor 送葬人 place.of.the@old.ones 4
+-1
+Shining 闪灵 division.of@labour.between 4
+-1
+Hung 吽吽 Communistic@by.its 4
+-1
+-1
+-1
+-1
+Rope 暗索 and.plebeian@lord.and 3
+-1
+-1
+-1
+-1
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+-1
+-1
+-1
+-1
+-1
+ProjeKTRed 红红 rising.Even@manufacture.no 2
+Broca 布洛 two.great.hostile@camps.into 2
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+Platinum 白金 classes.again@subordinate.grad 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Melantha 玫兰莎 The.manufacturing@system.took 1
+-1
+-1
+Schwarz 黑黑 is.the.Opposition@that.has 3
+-1
+-1
+Phantom 傀影 and.machinery@revolutionised.i 4
+Ethan 伊桑 party.itself@To.this 3
+0
+0
+0
+-1
+0
+Steward 史都华德 its.place.The@guildmasters.wer 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Melantha 玫兰莎 The.manufacturing@system.took 1
+-1
+0
+Steward 史都华德 its.place.The@guildmasters.wer 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Sora 空空 of.America@the.rounding 2
+-1
+-1
+-1
+Bagpipe 风笛 that.has.sprouted@from.the 3
+-1
+-1
+-1
+Croissant 可颂 feudal.society@a.rapid 4
+-1
+Sideroca 铸铁 aims.their@tendencies.and 4
+-1
+Flamebringer 炎客 that.each.time@ended.either 3
+-1
+-1
+-1
+-1
+Astesia 星极 face.of.the@whole.world 3
+-1
+0
+SilverAsh 银灰 following.Manifesto@to.be 4
+-1
+-1
+-1
+Ethan 伊桑 party.itself@To.this 3
+-1
+-1
+Chen 陈陈 colonisation@of.America 4
+GreyThroat 灰喉 industrial@production.was 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Astesia 星极 face.of.the@whole.world 3
+Bagpipe 风笛 of.manufacture@was.taken 3
+-1
+-1
+-1
+-1
+0
+Beagle 米格 the.increase@in.the 2
+Durnar 坚雷 of.the.earliest@towns.From 3
+-1
+-1
+Mayer 梅尔 now.open.fight@a.fight 4
+-1
+0
+0
+Flamebringer 炎客 that.each.time@ended.either 3
+-1
+-1
+Sideroca 铸铁 aims.their@tendencies.and 4
+-1
+-1
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+-1
+-1
+-1
+Flamebringer 炎客 that.each.time@ended.either 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+-1
+-1
+Rope 暗索 and.plebeian@lord.and 3
+0
+Melantha 玫兰 The.manufacturing@system.took 1
+Utage 宴宴 the.markets@kept.ever 2
+-1
+-1
+GreyThroat 灰喉 industrial@production.was 3
+-1
+-1
+Savage 暴行 vanished.in@the.face 4
+-1
+Rope 暗索 and.plebeian@lord.and 3
+-1
+-1
+-1
+Gavial 嘉维尔 serfs.of.the@Middle.Ages 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Conviction 断罪者 pushed.on.one@side.by 2
+-1
+-1
+-1
+-1
+Franka 芙兰 in.a.revolutionary@reconstitut 7
+-1
+Skadi 斯卡 the.contending@classes.In 1
+-1
+-1
+-1
+-1
+-1
+Specter 幽灵鲨 the.bourgeoisie@possesses.howe 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Siege 推进 elements.of@the.bourgeoisie 2
+-1
+Vigna 红豆 wants.of.the@new.markets 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Liskarm 雷蛇 sprang.the@chartered.burghers 4
+-1
+-1
+-1
+Rope 暗索 and.plebeian@lord.and 3
+-1
+-1
+Blaze 煌煌 each.other@Bourgeoisie.and 2
+Meteor 流星 MANIFESTO.OF@THE.COMMUNIST 8
+ShiraYuki 白雪 thereby.to@the.revolutionary 1
+-1
+-1
+-1
+-1
+GreyThroat 灰喉 industrial@production.was 3
+-1
+-1
+-1
+-1
+Scavenger 清道夫 new.forms.of@struggle.in 1
+Provence 普罗旺斯 in.London.and@sketched.the 3
+-1
+Executor 送葬人 place.of.the@old.ones 4
+-1
+-1
+0
+-1
+-1
+-1
+-1
+Midnight 月见夜 journeymen@apprentices.serfs 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Midnight 月见夜 journeymen@apprentices.serfs 2
+-1
+-1
+-1
+Aak 阿阿 were.developed@The.discovery 3
+Ambriel 安比尔 in.each.single@workshop.Meanti 2
+Matterhorn 角峰 itself.a.Power@II.It 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Amiya 阿米娅 Freeman.and@slave.patrician 2
+Mousse 慕斯 longer.sufficed@Thereupon.stea 3
+-1
+-1
+-1
+Phantom 傀影 and.machinery@revolutionised.i 4
+Perfumer 调香师 a.whole.is@more.and 2
+-1
+-1
+-1
+-1
+Conviction 断罪者 pushed.on.one@side.by 2
+-1
+-1
+Flamebringer 炎客 that.each.time@ended.either 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Beagle 米格 the.increase@in.the 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Amiya 阿米娅 Freeman.and@slave.patrician 2
+Courier 讯使 two.great.classes@directly.fac 3
+-1
+Frostleaf 霜叶 fresh.ground@for.the 4
+Platinum 白金 classes.again@subordinate.grad 1
+-1
+-1
+-1
+-1
+-1
+Mousse 慕斯 longer.sufficed@Thereupon.stea 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Durnar 坚雷 of.the.earliest@towns.From 3
+Vigna 红豆 middle.class@by.industrial 4
+-1
+-1
+0
+0
+-1
+-1
+Bagpipe 风笛 of.manufacture@was.taken 3
+-1
+-1
+-1
+-1
+0
+Provence 普罗旺斯 in.London.and@sketched.the 3
+-1
+-1
+-1
+Melantha 玫兰 The.manufacturing@system.took 1
+-1
+Savage 暴行 vanished.in@the.face 4
+Vanilla 香草 of.the.Cape@opened.up 2
+-1
+Flamebringer 炎客 that.each.time@ended.either 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Specter 幽灵鲨 the.bourgeoisie@possesses.howe 4
+Snowsant 雪雉 nationalities@have.assembled 3
+0
+0
+-1
+Savage 暴行 vanished.in@the.face 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Broca 布洛 two.great.hostile@camps.into 2
+-1
+Siege 推进 elements.of@the.bourgeoisie 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Breeze 微风 has.not.been@decried.as 3
+Beagle 米格 the.increase@in.the 2
+-1
+Aak 阿阿 were.developed@The.discovery 3
+-1
+-1
+Steward 史都华德 its.place.The@guildmasters.wer 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Executor 送葬人 place.of.the@old.ones 4
+-1
+-1
+Skadi 斯卡 the.contending@classes.In 1
+-1
+-1
+Perfumer 调香师 a.whole.is@more.and 2
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+-1
+SilverAsh 银灰 following.Manifesto@to.be 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Specter 幽灵鲨 the.bourgeoisie@possesses.howe 4
+-1
+-1
+0
+0
+Phantom 傀影 and.machinery@revolutionised.i 4
+-1
+-1
+-1
+Snowsant 雪雉 nationalities@have.assembled 3
+-1
+-1
+-1
+-1
+-1
+-1
+GreyThroat 灰喉 industrial@production.was 3
+-1
+-1
+-1
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+-1
+-1
+Nightingale 夜莺 trade.with@the.colonies 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Blaze 煌煌 each.other@Bourgeoisie.and 2
+-1
+-1
+-1
+Provence 普罗旺斯 in.London.and@sketched.the 3
+Mousse 慕斯 longer.sufficed@Thereupon.stea 3
+Indra 因陀罗 millionaires@the.leaders 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+-1
+-1
+0
+-1
+-1
+-1
+-1
+Matterhorn 角峰 itself.a.Power@II.It 3
+-1
+0
+-1
+-1
+-1
+0
+-1
+-1
+0
+0
+-1
+Specter 幽灵鲨 the.bourgeoisie@possesses.howe 4
+-1
+Phantom 傀影 and.machinery@revolutionised.i 4
+-1
+-1
+-1
+-1
+-1
+-1
+Breeze 微风 has.not.been@decried.as 3
+Amiya 阿米娅 Freeman.and@slave.patrician 2
+-1
+-1
+-1
+0
+-1
+0
+0
+-1
+-1
+Hellagur 赫拉格 not.done.away@with.class 2
+Flamebringer 炎客 that.each.time@ended.either 3
+May 梅梅 means.of.exchange@and.in 4
+0
+-1
+-1
+Executor 送葬人 place.of.the@old.ones 4
+-1
+-1
+-1
+-1
+-1
+-1
+0
+-1
+Phantom 傀影 and.machinery@revolutionised.i 4
+Meteorite 陨星 has.simplified@the.class 4
+-1
+-1
+-1
+-1
+-1
+-1
+Shining 闪灵 division.of@labour.between 4
+-1
+-1
+-1
+-1
+-1
+-1
+May 梅梅 America.paved@the.way 4
+-1
+-1
+-1
+-1
+0
+-1
+Croissant 可颂 This.market@has.given 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Amiya 阿米娅 Freeman.and@slave.patrician 2
+Blaze 煌煌 each.other@Bourgeoisie.and 2
+-1
+Ethan 伊桑 party.itself@To.this 3
+-1
+-1
+-1
+-1
+Ambriel 安比尔 in.each.single@workshop.Meanti 2
+-1
+-1
+-1
+-1
+Steward 史都华德 its.place.The@guildmasters.wer 1
+-1
+-1
+-1
+-1
+-1
+-1
+Flamebringer 炎客 that.each.time@ended.either 3
+-1
+-1
+Spot 斑点 guilds.now@no.longer 2
+Spot 斑点 guilds.now@no.longer 2
+0
+-1
+-1
+Meteorite 陨星 has.simplified@the.class 4
+Adnachiel 安德切尔 branding.reproach@of.Communism 4
+-1
+Ambriel 安比尔 in.each.single@workshop.Meanti 2
+-1
+-1
+Sideroca 铸铁 aims.their@tendencies.and 4
+-1
+-1
+-1
+-1
+-1
+Indra 因陀罗 millionaires@the.leaders 1
+-1
+-1
+Adnachiel 安德切 branding.reproach@of.Communism 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Chen 陈陈 colonisation@of.America 4
+-1
+0
+-1
+Shining 闪灵 division.of@labour.between 4
+-1
+-1
+Bison 拜松 feudal.lords@vassals.guildmast 4
+-1
+0
+-1
+-1
+-1
+0
+-1
+-1
+-1
+Platinum 白金 classes.again@subordinate.grad 1
+-1
+-1
+-1
+Savage 暴行 vanished.in@the.face 4
+Schwarz 黑黑 an.immense@development.to 3
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+May 梅梅 communication@by.land 4
+-1
+-1
+-1
+Silence 赫默 commerce.to@navigation.to 1
+-1
+-1
+Sideroca 铸铁 This.development@has.in 4
+-1
+-1
+-1
+Platinum 白金 classes.again@subordinate.grad 1
+-1
+-1
+-1
+-1
+Bison 拜松 feudal.lords@vassals.guildmast 4
+-1
+-1
+-1
+-1
+Provence 普罗旺斯 in.London.and@sketched.the 3
+-1
+Sideroca 铸铁 This.development@has.in 4
+-1
+Frostleaf 霜叶 fresh.ground@for.the 4
+-1
+-1
+-1
+-1
+Croissant 可颂 This.market@has.given 4
+-1
+-1
+-1
+-1
+-1
+-1
+Rope 暗索 and.plebeian@lord.and 3
+-1
+Steward 史都华德 its.place.The@guildmasters.wer 1
+0
+-1
+-1
+0
+-1
+-1
+-1
+-1
+Phantom 傀影 and.machinery@revolutionised.i 4
+Beagle 米格 the.increase@in.the 2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Breeze 微风 has.not.been@decried.as 3
+-1
+-1
+-1
+-1
+Ethan 伊桑 party.itself@To.this 3
+-1
+-1
+-1
+Phantom 傀影 and.machinery@revolutionised.i 4
+-1
+-1
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+Bagpipe 风笛 of.manufacture@was.taken 3
+-1
+-1
+Midnight 月见夜 journeymen@apprentices.serfs 2
+-1
+May 梅梅 communication@by.land 4
+-1
+-1
+Chen 陈陈 colonisation@of.America 4
+-1
+-1
+NoirCorne 黑角 of.division@of.labour 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Chen 陈陈 colonisation@of.America 4
+-1
+-1
+-1
+-1
+-1
+0
+-1
+-1
+Shining 闪灵 division.of@labour.between 4
+-1
+-1
+-1
+Myrtle 桃金娘 meet.this.nursery@tale.of 3
+-1
+-1
+-1
+ShiraYuki 白雪 thereby.to@the.revolutionary 1
+-1
+Hung 吽吽 Communistic@by.its 4
+-1
+-1
+Chen 陈陈 colonisation@of.America 4
+-1
+-1
+-1
+Midnight 月见夜 journeymen@apprentices.serfs 2
+-1
+-1
+-1
+-1
+-1
+-1
+Savage 暴行 vanished.in@the.face 4
+-1
+-1
+-1
+-1
+-1
+Plume 翎羽 and.Danish@languages.I 1
+-1
+-1
+Perfumer 调香师 a.whole.is@more.and 2
+Mousse 慕斯 longer.sufficed@Thereupon.stea 3
+-1
+-1
+-1
+-1
+0
+Schwarz 黑黑 an.immense@development.to 3
+-1
+-1
+-1
+-1
+Lappland 拉普兰德 modern.bourgeois@Modern.indust 4
+-1
+-1
+-1
+Savage 暴行 vanished.in@the.face 4
+-1
+Melantha 玫兰 The.manufacturing@system.took 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Gummy 古米 of.whole.industrial@armies.the 3
+Astesia 星极 face.of.the@whole.world 3
+Nightingale 夜莺 trade.with@the.colonies 3
+-1
+Jessica 杰西卡 for.which.the@discovery.of 2
+-1
+-1
+-1
+Indra 因陀 millionaires@the.leaders 1
+-1
+-1
+-1
+-1
+-1
+-1
+Amiya 阿米娅 Freeman.and@slave.patrician 2
+-1
+-1
+-1
+Savage 暴行 vanished.in@the.face 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Sora 空空 of.America@the.rounding 2
+-1
+Melantha 玫兰 The.manufacturing@system.took 1
+-1
+-1
+Amiya 阿米 Freeman.and@slave.patrician 2
+-1
+-1
+-1
+-1
+Breeze 微风 has.not.been@decried.as 3
+-1
+-1
+-1
+-1
+bye

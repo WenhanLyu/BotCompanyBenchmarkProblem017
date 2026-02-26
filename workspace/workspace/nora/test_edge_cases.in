@@ -1,0 +1,11 @@
+clean
+add_user -c alice -p pass123 -n Alice -m alice@example.com -g 5
+login -u alice -p pass123
+query_order -u alice
+add_user -c bob -p pass456 -n Bob -m bob@example.com -g 3
+query_order -u bob
+logout -u alice
+query_order -u alice
+query_order -u nonexistent
+query_order
+exit

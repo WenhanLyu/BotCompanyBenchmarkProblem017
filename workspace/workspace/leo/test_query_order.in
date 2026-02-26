@@ -1,0 +1,9 @@
+clean
+add_user -c "" -u alice -p password123 -n Alice -m alice@test.com -g 10
+login -u alice -p password123
+add_train -i T001 -n 3 -m 50 -s CityA|CityB|CityC -p 100|200 -x 08:00 -t 120|180 -o 10 -d 06-01|08-31 -y G
+release_train -i T001
+buy_ticket -u alice -i T001 -d 06-01 -n 5 -f CityA -t CityB
+buy_ticket -u alice -i T001 -d 06-02 -n 3 -f CityB -t CityC -q true
+query_order -u alice
+exit

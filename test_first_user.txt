@@ -1,0 +1,4 @@
+add_user admin pw1 Admin admin@test.com 10
+login admin pw1
+query_profile admin
+exit

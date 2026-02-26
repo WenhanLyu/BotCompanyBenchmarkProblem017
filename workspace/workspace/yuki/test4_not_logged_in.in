@@ -1,0 +1,4 @@
+clean
+add_user -c "" -u dave -p password101 -n Dave -m dave@test.com -g 10
+query_order -u dave
+exit

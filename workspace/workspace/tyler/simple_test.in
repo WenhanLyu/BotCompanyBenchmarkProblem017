@@ -1,0 +1,2 @@
+add_user -u user1 -p pass1 -n User1 -m user1@test.com -g 5
+exit

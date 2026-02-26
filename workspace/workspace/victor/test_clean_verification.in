@@ -1,0 +1,3 @@
+clean
+query_train -i T001 -d 06/15
+exit

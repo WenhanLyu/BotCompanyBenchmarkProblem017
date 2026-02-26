@@ -1,0 +1,7 @@
+0
+testuser TestName test@email.com 10
+user2 User2Name user2@test.com 5
+user2 ModifiedUser2 user2@test.com 5
+user2 ModifiedUser2 user2@test.com 5
+0
+bye

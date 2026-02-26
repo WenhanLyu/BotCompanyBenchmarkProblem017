@@ -1,0 +1,4 @@
+clean
+add_train -i T001 -n 3 -m 100 -s Beijing|Shanghai|Guangzhou -p 500|300 -x 08:00 -t 120|90 -o 10|15 -d 06/01|07/01 -y G
+release_train -i T001
+exit

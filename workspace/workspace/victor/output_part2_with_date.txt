@@ -1,0 +1,5 @@
+T001 G
+Beijing xx-xx xx:xx -> 06-15 08:00 0 100
+Shanghai 06-15 10:00 -> 06-15 10:10 500 100
+Guangzhou 06-15 11:40 -> xx-xx xx:xx 800 x
+bye

@@ -1,0 +1,100 @@
+--- data/017/data/basic_3/1.out	2026-02-26 13:42:43
++++ workspace/workspace/tessa/test_1_actual.out	2026-02-26 16:47:01
+@@ -1,441 +1,447 @@
++-1
+ 0
+-0
+ I_am_the_admin 奥斯卡 foo@bar.com 10
++-1
+ 0
++-1
++-1
++-1
+ 0
++-1
+ 0
+-0
+-0
+-0
+-0
+-0
+-0
+-0
+ -1
++-1
++-1
++-1
+ 0
+-0
+-Greyy 格雷伊 Europe.have@entered.into 4
++Greyy 格雷伊 Czar.Metternich@and.Guizot 4
+ Blaze 煌煌 All.the.Powers@of.old 4
+-Greyy 格雷伊 Europe.have@entered.into 4
++Greyy 格雷伊 Czar.Metternich@and.Guizot 4
++-1
+ 0
+ 0
+-0
+ Greyy 格雷伊 Czar.Metternich@and.Guizot 4
++-1
++-1
++Beagle 米格 Europethe.spectre@of.Communism 4
++-1
+ 0
+-0
+-Beagle 米格鲁 Europethe.spectre@of.Communism 4
+-0
+-0
+ -1
++-1
+ 0
+-0
+ Beagle 米格 Europethe.spectre@of.Communism 4
+ Nightmare 夜魔 policespies@Where.is 3
+ Leizi 惊蛰 this.spectre@Pope.and 1
+-0
+ -1
+-Rangers 巡林者 the.party.in@opposition.that 3
++-1
++Rangers 巡林 arrangement@of.society 3
+ Beagle 米格 Europethe.spectre@of.Communism 4
+-Jessica 杰西卡 has.not.been@decried.as 2
++-1
++-1
+ 0
+-0
+ WaaiFu 槐琥 French.Radicals@and.German 2
++-1
+ 0
++-1
++-1
++-1
+ 0
++-1
+ 0
+-0
+-0
+-0
+-0
+-0
+-0
+-0
+-0
+-0
++-1
++-1
++-1
++-1
+ Nightmare 夜魔 policespies@Where.is 3
++-1
+ 0
++-1
+ 0
+-0
+-0
+-Broca 布洛卡 branding.reproach@of.Communism 1
++-1
+ Manticore 狮蝎 not.hurled@back.the 2
+-0
+-0
++-1

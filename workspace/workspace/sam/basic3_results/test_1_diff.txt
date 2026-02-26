@@ -1,5 +1,5 @@
 --- data/017/data/basic_3/1.out	2026-02-26 13:42:43
-+++ workspace/workspace/sam/basic3_results/test_1.out	2026-02-26 15:12:22
++++ workspace/workspace/sam/basic3_results/test_1.out	2026-02-26 16:30:46
 @@ -277,7 +277,7 @@
  37430166
  Specter 幽灵鲨 and.plebeian@lord.and 1

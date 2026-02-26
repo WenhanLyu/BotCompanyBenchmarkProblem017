@@ -1,0 +1,5 @@
+clean
+add_user -c "" -u charlie -p password789 -n Charlie -m charlie@test.com -g 10
+login -u charlie -p password789
+query_order -u nonexistent_user
+exit

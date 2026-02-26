@@ -1,0 +1,4 @@
+add_train 12345 10 S 1 2 3
+release_train 12345
+query_train 12345
+delete_train 12345

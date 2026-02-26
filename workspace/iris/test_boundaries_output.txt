@@ -1,0 +1,12 @@
+0
+0
+0
+a12345678901234567890 一二三四五 test@example.com.verylongemailaddr 10
+0
+0
+0
+0
+-1
+user2 用户 test@example.com 9
+user2 用户 test@example.com 1
+bye

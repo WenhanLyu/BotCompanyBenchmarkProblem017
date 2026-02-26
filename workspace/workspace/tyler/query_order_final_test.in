@@ -1,0 +1,39 @@
+# Test 1: Invalid user (user doesn't exist)
+query_order -u nonexistent_user
+
+# Setup: Create first user and train
+add_user -u user1 -p pass1 -n User1 -m user1@test.com -g 10
+
+# Test 2: User not logged in
+query_order -u user1
+
+# Test 3: User logged in but no orders
+login -u user1 -p pass1
+query_order -u user1
+
+# Setup train for testing
+add_train -i T001 -n 3 -m 100 -s Shanghai|Nanjing|Beijing -p 100|150 -x 08:00 -t 120|180 -o 10 -d 06-01|08-31 -y G
+release_train -i T001
+
+# Test 4: User with one order
+buy_ticket -u user1 -i T001 -d 06-15 -n 2 -f Shanghai -t Beijing -q true
+query_order -u user1
+
+# Test 5: Multiple orders - verify sorting by timestamp
+add_user -c user1 -u user2 -p pass2 -n User2 -m user2@test.com -g 5
+login -u user2 -p pass2
+buy_ticket -u user2 -i T001 -d 06-15 -n 1 -f Shanghai -t Nanjing -q true
+buy_ticket -u user2 -i T001 -d 06-16 -n 1 -f Shanghai -t Nanjing -q true
+buy_ticket -u user2 -i T001 -d 06-17 -n 1 -f Nanjing -t Beijing -q true
+query_order -u user2
+
+# Test 6: Pending order (when capacity is full but queueing allowed)
+add_train -i T002 -n 2 -m 5 -s CityA|CityB -p 50 -x 09:00 -t 60 -o 5 -d 06-01|08-31 -y K
+release_train -i T002
+add_user -c user1 -u user3 -p pass3 -n User3 -m user3@test.com -g 5
+login -u user3 -p pass3
+buy_ticket -u user3 -i T002 -d 06-20 -n 5 -f CityA -t CityB -q true
+buy_ticket -u user3 -i T002 -d 06-20 -n 5 -f CityA -t CityB -q true
+query_order -u user3
+
+exit

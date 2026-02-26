@@ -1,0 +1,5 @@
+add_train -i TEST_TRAIN -n 3 -m 100 -s StationA|StationB|StationC -p 50|50 -x 10:00 -t 60|60 -o 5 -d 06-01|08-31 -y G
+release_train -i TEST_TRAIN
+query_train -i TEST_TRAIN -d 07-15
+delete_train -i TEST_TRAIN
+exit

@@ -1,0 +1,4 @@
+add_user -c user2 -n name2 -p pass2 -g 5
+login -u user2 -p pass2
+query_ticket -s NonExistentStation1 -t NonExistentStation2 -d 12-31
+exit

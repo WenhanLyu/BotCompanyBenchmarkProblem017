@@ -1,0 +1,4 @@
+add_train -i MONTHTEST -n 5 -m 50000 -s 北京市|上海市|广州市|深圳市|杭州市 -p 1000|2000|3000|4000 -x 23:00 -t 120|1440|2880|120 -o 10|30|60 -d 06-15|07-15 -y T
+release_train -i MONTHTEST
+query_train -i MONTHTEST -d 06-30
+exit

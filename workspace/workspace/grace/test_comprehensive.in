@@ -1,0 +1,4 @@
+add_train -i FULLTEST -n 6 -m 40000 -s A站|B站|C站|D站|E站|F站 -p 100|200|300|400|500 -x 23:45 -t 20|1425|45|2880|30 -o 5|10|15|20 -d 06-29|07-15 -y X
+release_train -i FULLTEST
+query_train -i FULLTEST -d 06-29
+exit

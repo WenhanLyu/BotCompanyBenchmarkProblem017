@@ -1,0 +1,4 @@
+login -u alice -p password123
+query_profile -c alice -u alice
+logout -u alice
+exit

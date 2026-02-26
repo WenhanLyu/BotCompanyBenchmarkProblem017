@@ -1,0 +1,11 @@
+0
+0
+0
+0
+0
+500
+600
+2
+1 T001 CityA CityB success 500 5
+2 T001 CityB CityC success 600 3
+bye

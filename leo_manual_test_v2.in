@@ -1,0 +1,12 @@
+add_train G1234 5 Beijing Shanghai 08:00 10:00 1000 100
+release_train G1234 06-01
+add_train G5678 3 Shanghai Beijing 14:00 16:00 800 50
+release_train G5678 06-01
+query_ticket 06-01 Beijing Shanghai
+buy_ticket -u user1 -n 5 G1234 06-01 Beijing Shanghai
+query_ticket 06-01 Beijing Shanghai
+buy_ticket -u user2 -n 10 G1234 06-01 Beijing Shanghai
+query_ticket 06-01 Beijing Shanghai
+buy_ticket -u user3 -n 20 G5678 06-01 Shanghai Beijing
+query_ticket 06-01 Shanghai Beijing
+exit

@@ -1,0 +1,8 @@
+0
+0
+0
+MIDNIGHTCROSS A
+StationA xx-xx xx:xx -> 06-30 23:30 0 100
+StationB 07-01 00:15 -> 07-01 00:25 50 100
+StationC 07-01 01:25 -> xx-xx xx:xx 100 x
+bye

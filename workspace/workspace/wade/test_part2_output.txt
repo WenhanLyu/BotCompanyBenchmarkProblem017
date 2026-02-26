@@ -1,0 +1,25 @@
+T1001 G
+Beijing xx-xx xx:xx -> 06-15 08:00 0 100
+Shanghai 06-15 09:30 -> 06-15 09:40 100 100
+Hangzhou 06-15 11:10 -> 06-15 11:20 250 100
+Nanjing 06-15 13:20 -> 06-15 13:35 370 100
+Suzhou 06-15 15:35 -> xx-xx xx:xx 450 x
+T1002 D
+Shanghai xx-xx xx:xx -> 06-15 08:30 0 200
+Hangzhou 06-15 10:00 -> 06-15 10:10 80 200
+Nanjing 06-15 12:10 -> xx-xx xx:xx 170 x
+T1003 G
+Beijing xx-xx xx:xx -> 06-15 07:00 0 150
+Tianjin 06-15 08:30 -> 06-15 08:40 60 150
+Jinan 06-15 10:40 -> 06-15 10:55 130 150
+Qingdao 06-15 13:25 -> xx-xx xx:xx 180 x
+0
+-1
+-1
+T1001 G
+Beijing xx-xx xx:xx -> 06-15 08:00 0 100
+Shanghai 06-15 09:30 -> 06-15 09:40 100 100
+Hangzhou 06-15 11:10 -> 06-15 11:20 250 100
+Nanjing 06-15 13:20 -> 06-15 13:35 370 100
+Suzhou 06-15 15:35 -> xx-xx xx:xx 450 x
+bye

@@ -1,0 +1,12 @@
+add_user -u Alice -p pass123 -n Alice -m alice@test.com -g 10
+add_user -c Alice -u Bob -p pass456 -n Bob -m bob@test.com -g 5
+login -u Alice -p pass123
+add_train -i T001 -n 3 -m 5 -s A|B|C -p 10|20 -x 08:00 -t 30|40 -o 5|10 -d 06-01|08-31 -y G
+release_train -i T001
+buy_ticket -u Alice -i T001 -d 06-01 -n 3 -f A -t B -q false
+buy_ticket -u Alice -i T001 -d 06-01 -n 3 -f A -t C -q true
+login -u Bob -p pass456
+buy_ticket -u Bob -i T001 -d 06-01 -n 2 -f A -t B -q false
+buy_ticket -u Bob -i T001 -d 06-01 -n 3 -f A -t B -q false
+buy_ticket -u Bob -i T001 -d 06-01 -n 3 -f A -t B -q true
+exit

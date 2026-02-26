@@ -1,0 +1,55 @@
+=== PERFORMANCE TEST RESULTS ===
+Test Date: Wed Feb 25 17:54:22 EST 2026
+
+RESOURCE LIMITS:
+- Time Limit: 5000-40000 ms
+- Memory Limit: 42-47 MiB
+- Disk Usage: 366-488 MiB
+- File Count: 20 files max
+
+## BASIC_1 ##
+basic_1_1:
+  Time: 0 ms (0.00 s)
+  Memory (resident): 1.25 MiB (1310720 bytes)
+  Memory (peak): 1.01 MiB (1065536 bytes)
+
+## BASIC_2 ##
+basic_2_1:
+  Time: 20.00 ms (0.02 s)
+  Memory (resident): 1.34 MiB (1409024 bytes)
+  Memory (peak): 1.12 MiB (1180288 bytes)
+
+## BASIC_3 ##
+basic_3_1:
+  Time: 20.00 ms (0.02 s)
+  Memory (resident): 1.40 MiB (1474560 bytes)
+  Memory (peak): 1.18 MiB (1245824 bytes)
+
+## BASIC_4 ##
+basic_4_1:
+  Time: 40.00 ms (0.04 s)
+  Memory (resident): 1.45 MiB (1523712 bytes)
+  Memory (peak): 1.23 MiB (1294976 bytes)
+
+## BASIC_5 ##
+basic_5_1:
+  Time: 50.00 ms (0.05 s)
+  Memory (resident): 1.40 MiB (1474560 bytes)
+  Memory (peak): 1.20 MiB (1262272 bytes)
+
+## BASIC_6 ##
+basic_6_1:
+  Time: 30.00 ms (0.03 s)
+  Memory (resident): 1.53 MiB (1605632 bytes)
+  Memory (peak): 1.31 MiB (1376896 bytes)
+
+basic_6_7:
+  Time: 150.00 ms (0.15 s)
+  Memory (resident): 1.25 MiB (1310720 bytes)
+  Memory (peak): 1.03 MiB (1081984 bytes)
+
+basic_6_10:
+  Time: 170.00 ms (0.17 s)
+  Memory (resident): 1.40 MiB (1474560 bytes)
+  Memory (peak): 1.20 MiB (1262272 bytes)
+

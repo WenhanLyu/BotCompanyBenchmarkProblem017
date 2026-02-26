@@ -1,0 +1,4 @@
+add_train -i T001 -n 2 -m 10 -s A|B -p 100 -x 08:00 -t 60 -o _ -d 06-01|08-31 -y G
+release_train -i T001
+buy_ticket -u user1 -i T001 -d 06-01 -n 5 -f A -t B -q true
+exit

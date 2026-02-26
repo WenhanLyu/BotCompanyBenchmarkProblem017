@@ -1,0 +1,8 @@
+add_user -c testuser1 -p pass123 -n Test1 -m test1@example.com -g 5
+login -u testuser1 -p pass123
+query_order -u testuser1
+logout -u testuser1
+query_order -u testuser1
+query_order -u nonexistentuser999
+query_order
+exit

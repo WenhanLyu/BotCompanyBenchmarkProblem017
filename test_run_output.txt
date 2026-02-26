@@ -1,0 +1,159 @@
+================================
+Testing basic_3
+================================
+❌ basic_3: FAIL - Outputs differ
+
+First 50 lines of differences:
+--- ./data/017/data/basic_3/out.txt	2026-02-20 14:53:12
++++ temp_output.txt	2026-02-26 06:16:23
+@@ -1,8542 +1 @@
+-0
+-0
+-I_am_the_admin 奥斯卡 foo@bar.com 10
+-0
+-0
+-0
+-0
+-0
+-0
+-0
+-0
+-0
+-0
+--1
+-0
+-0
+-Greyy 格雷伊 Europe.have@entered.into 4
+-Blaze 煌煌 All.the.Powers@of.old 4
+-Greyy 格雷伊 Europe.have@entered.into 4
+-0
+-0
+-0
+-Greyy 格雷伊 Czar.Metternich@and.Guizot 4
+-0
+-0
+-Beagle 米格鲁 Europethe.spectre@of.Communism 4
+-0
+-0
+--1
+-0
+-0
+-Beagle 米格 Europethe.spectre@of.Communism 4
+-Nightmare 夜魔 policespies@Where.is 3
+-Leizi 惊蛰 this.spectre@Pope.and 1
+-0
+--1
+-Rangers 巡林者 the.party.in@opposition.that 3
+-Beagle 米格 Europethe.spectre@of.Communism 4
+-Jessica 杰西卡 has.not.been@decried.as 2
+-0
+-0
+-WaaiFu 槐琥 French.Radicals@and.German 2
+-0
+-0
+-0
+-0
+-0
+
+Sample differences (first 20 lines):
+1,8542c1
+< 0
+< 0
+< I_am_the_admin 奥斯卡 foo@bar.com 10
+< 0
+< 0
+< 0
+< 0
+< 0
+< 0
+< 0
+< 0
+< 0
+< 0
+< -1
+< 0
+< 0
+< Greyy 格雷伊 Europe.have@entered.into 4
+< Blaze 煌煌 All.the.Powers@of.old 4
+< Greyy 格雷伊 Europe.have@entered.into 4
+
+================================
+Testing basic_4
+================================
+❌ basic_4: FAIL - Outputs differ
+
+First 50 lines of differences:
+--- ./data/017/data/basic_4/out.txt	2026-02-20 14:53:12
++++ temp_output.txt	2026-02-26 06:16:23
+@@ -1,46122 +1 @@
+-0
+-0
+-I_am_the_admin 奥斯卡 foo@bar.com 10
+-0
+--1
+-0
+-0
+-Bibeak 柏喙 MANIFESTO.OF@THE.COMMUNIST 9
+-Bibeak 柏喙 MANIFESTO.OF@THE.COMMUNIST 9
+-Gavial 嘉维尔 PARTY.A.spectre@is.haunting 7
+-I_am_the_admin 奥斯卡 foo@bar.com 10
+-I_am_the_admin 奥斯卡 foo@bar.com 10
+--1
+-Gavial 嘉维尔 PARTY.A.spectre@is.haunting 7
+-0
+-0
+-0
+-0
+-0
+-0
+-Bibeak 柏喙 MANIFESTO.OF@THE.COMMUNIST 9
+-Saria 塞雷娅 Europe.have@entered.into 9
+-0
+-0
+-Specter 幽灵鲨 All.the.Powers@of.old 7
+-0
+-0
+-0
+-Gavial 嘉维尔 PARTY.A.spectre@is.haunting 7
+-Saria 塞雷娅 Europe.have@entered.into 9
+-0
+-0
+-0
+-0
+-0
+-0
+-Bibeak 柏喙 MANIFESTO.OF@THE.COMMUNIST 9
+-Franka 芙兰卡 a.holy.alliance@to.exorcise 8
+-0
+-0
+-0
+-0
+-Nian 年年 has.not.been@decried.as 5
+-0
+-0
+-0
+-0
+
+Sample differences (first 20 lines):
+1,46122c1
+< 0
+< 0
+< I_am_the_admin 奥斯卡 foo@bar.com 10
+< 0
+< -1
+< 0
+< 0
+< Bibeak 柏喙 MANIFESTO.OF@THE.COMMUNIST 9
+< Bibeak 柏喙 MANIFESTO.OF@THE.COMMUNIST 9
+< Gavial 嘉维尔 PARTY.A.spectre@is.haunting 7
+< I_am_the_admin 奥斯卡 foo@bar.com 10
+< I_am_the_admin 奥斯卡 foo@bar.com 10
+< -1
+< Gavial 嘉维尔 PARTY.A.spectre@is.haunting 7
+< 0
+< 0
+< 0
+< 0
+< 0
+
+Test outputs saved as basic_3_actual_output.txt and basic_4_actual_output.txt

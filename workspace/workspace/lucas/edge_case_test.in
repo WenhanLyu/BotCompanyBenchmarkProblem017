@@ -1,0 +1,5 @@
+add_user -c cur -u testuser -p pass123 -n Test -m test@test.com -g 10
+add_train -i MIDNIGHTCROSS -n 3 -m 100 -s StationA|StationB|StationC -p 50|50 -x 23:30 -t 45|60 -o 10 -d 06-30|07-15 -y A
+release_train -i MIDNIGHTCROSS
+query_train -d 06-30 -i MIDNIGHTCROSS
+exit

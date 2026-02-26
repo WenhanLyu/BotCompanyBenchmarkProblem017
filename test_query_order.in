@@ -1,0 +1,14 @@
+clean
+add_user -u alice -p pass123 -n Alice -m alice@test.com -g 10
+login -u alice -p pass123
+add_train -i T001 -n 5 -m 100 -s StationA|StationB|StationC|StationD|StationE -p 50|50|50|50 -x 08:00 -t 60|60|60|60 -o 5|5|5 -d 06-01|08-31 -y G
+release_train -i T001
+buy_ticket -u alice -i T001 -d 06-01 -n 2 -f StationA -t StationC -q false
+query_order -u alice
+add_user -u bob -p pass456 -n Bob -m bob@test.com -g 5
+login -u bob -p pass456
+query_order -u bob
+logout -u alice
+query_order -u alice
+query_order -u charlie
+exit

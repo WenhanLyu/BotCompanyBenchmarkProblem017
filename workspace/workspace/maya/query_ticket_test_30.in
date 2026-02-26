@@ -1,0 +1,290 @@
+add_user -c cur -u I_am_the_admin -p awsl -n 奥斯卡 -m foo@bar.com -g 10
+login -u I_am_the_admin -p awsl
+query_profile -c I_am_the_admin -u I_am_the_admin
+add_user -c I_am_the_admin -u Vanilla -p ycW5p8Sabj8nIL473P -n 香草 -m MANIFESTO.OF@THE.COMMUNIST -g 7
+login -u Vanilla -p ycW5p8Sabj8nIL473P
+add_user -c Vanilla -u Popukar -p 4CM84xIJfi -n 泡普卡 -m PARTY.A.spectre@is.haunting -g 4
+login -u Popukar -p 4CM84xIJfi
+add_user -c Vanilla -u Beagle -p rGWOgtBBfK34 -n 米格鲁 -m Europethe.spectre@of.Communism -g 4
+login -u Beagle -p rGWOgtBBfK34
+add_user -c Vanilla -u Blaze -p JTrkccRWae -n 煌煌 -m All.the.Powers@of.old -g 4
+login -u Blaze -p JTrkccRWae
+add_user -c Vanilla -u Greyy -p j4iZ04lsGIaQRq -n 格雷伊 -m Europe.have@entered.into -g 4
+login -u Greyy -p j4iZ04lsGIaQRq
+login -u Popukar -p 4CM84xIJfi
+add_user -c Vanilla -u Deepcolor -p P27Aav4lsk58 -n 深海色 -m a.holy.alliance@to.exorcise -g 5
+login -u Deepcolor -p P27Aav4lsk58
+query_profile -c Deepcolor -u Greyy
+query_profile -c Deepcolor -u Blaze
+query_profile -c Vanilla -u Greyy
+add_user -c Popukar -u Leizi -p KXo1K4srHxo_ -n 惊蛰 -m this.spectre@Pope.and -g 1
+login -u Leizi -p KXo1K4srHxo_
+logout -u Vanilla
+modify_profile -c Deepcolor -u Greyy -p sg-gdKXAbRnohXR -m Czar.Metternich@and.Guizot -g 4
+add_user -c Popukar -u WaaiFu -p lrv4JHJ64_5NLKZG -n 槐琥 -m French.Radicals@and.German -g 2
+login -u WaaiFu -p lrv4JHJ64_5NLKZG
+query_profile -c Deepcolor -u Beagle
+add_user -c Popukar -u Nightmare -p PhNi0RMC2darlqz -n 夜魔 -m policespies@Where.is -g 3
+login -u Nightmare -p PhNi0RMC2darlqz
+login -u Nightmare -p PhNi0RMC2darlqz
+add_user -c Deepcolor -u Rangers -p VOiSsXy55aK2h -n 巡林者 -m the.party.in@opposition.that -g 3
+login -u Rangers -p VOiSsXy55aK2h
+modify_profile -c Deepcolor -u Beagle -n 米格
+query_profile -c Deepcolor -u Nightmare
+query_profile -c Rangers -u Leizi
+add_user -c Greyy -u Jessica -p VfwQjPwxrpH$27BeVAtU -n 杰西卡 -m has.not.been@decried.as -g 2
+login -u Jessica -p yaZTcQA_2Vmj3Qs2R
+query_profile -c Beagle -u Rangers
+query_profile -c Deepcolor -u Beagle
+query_profile -c Greyy -u Jessica
+add_user -c WaaiFu -u Hibiscus -p B2oYwGIzzoJSYyYqUOAg -n 芙蓉 -m Communistic@by.its -g 1
+login -u Hibiscus -p B2oYwGIzzoJSYyYqUOAg
+query_profile -c Beagle -u WaaiFu
+add_user -c Greyy -u Firewatch -p rJiKiMh5JXpdbUN9B -n 守林人 -m opponents.in@power.Where -g 2
+login -u Firewatch -p rJiKiMh5JXpdbUN9B
+add_user -c Beagle -u Schwarz -p HplynwGOEqIp_U5n_ -n 黑黑 -m is.the.Opposition@that.has -g 1
+login -u Schwarz -p HplynwGOEqIp_U5n_
+add_user -c Popukar -u Manticore -p Q$wtek6$G8R1mmSW18 -n 狮蝎 -m not.hurled@back.the -g 2
+login -u Manticore -p Q$wtek6$G8R1mmSW18
+add_user -c Manticore -u Broca -p 3Hg7ECLDWxCGnQF -n 布洛卡 -m branding.reproach@of.Communism -g 1
+login -u Broca -p 3Hg7ECLDWxCGnQF
+add_user -c Greyy -u Eyjafjalla -p ToFblh5nwJzH5rlzq5 -n 艾雅法拉 -m against.the@more.advanced -g 2
+login -u Eyjafjalla -p ToFblh5nwJzH5rlzq5
+add_user -c Nightmare -u Executor -p BvQil_dW-eFpS -n 送葬人 -m opposition@parties.as -g 1
+login -u Executor -p BvQil_dW-eFpS
+query_profile -c Blaze -u Nightmare
+add_user -c Manticore -u Liskarm -p dfkOGYlGyX!EwX -n 雷蛇 -m well.as.against@its.reactionar -g 1
+login -u Liskarm -p dfkOGYlGyX!EwX
+add_user -c Eyjafjalla -u Durnar -p e4QuQ4tkey46 -n 坚雷 -m adversaries@Two.things -g 1
+login -u Durnar -p e4QuQ4tkey46
+query_profile -c WaaiFu -u Broca
+query_profile -c I_am_the_admin -u Manticore
+add_user -c Blaze -u Haze -p 6O6imfDEfJK -n 夜烟 -m result.from@this.fact -g 1
+login -u Haze -p 6O6imfDEfJK
+query_profile -c Deepcolor -u Beagle
+add_user -c Blaze -u Earthspirit -p 1LVd4QImYf0o0l -n 地灵 -m I.Communism@is.already -g 3
+login -u Earthspirit -p 1LVd4QImYf0o0l
+add_user -c Beagle -u Ethan -p mQ3Gd2e7TpCZ -n 伊桑 -m acknowledged@by.all -g 3
+login -u Ethan -p mQ3Gd2e7TpCZ
+login -u Liskarm -p law_Is$1s6qaB
+add_user -c Beagle -u Meteorite -p znd_LNzJzS -n 陨星 -m European.Powers@to.be -g 3
+login -u Meteorite -p znd_LNzJzS
+query_profile -c Deepcolor -u Greyy
+query_profile -c Firewatch -u Hibiscus
+logout -u Firewatch
+add_user -c Eyjafjalla -u Hung -p Quut9sJJ3i4NK -n 吽吽 -m itself.a.Power@II.It -g 1
+login -u Hung -p Quut9sJJ3i4NK
+add_user -c Beagle -u Hoshiguma -p o1GRXasa5aH7 -n 星熊 -m is.high.time@that.Communists -g 2
+login -u Hoshiguma -p o1GRXasa5aH7
+add_user -c Blaze -u Plume -p H$FzPAuXl-t -n 翎羽 -m should.openly@in.the -g 2
+login -u Plume -p H$FzPAuXl-t
+query_profile -c Popukar -u Broca
+query_profile -c Earthspirit -u Manticore
+add_user -c Meteorite -u Provence -p l3XJada!-p-Lth22 -n 普罗旺斯 -m face.of.the@whole.world -g 1
+login -u Provence -p l3XJada!-p-Lth22
+query_profile -c Earthspirit -u Broca
+query_profile -c Beagle -u Leizi
+add_user -c Ethan -u Courier -p 1NZwyUbFFlnQ -n 讯使 -m publish.their@views.their -g 1
+login -u Courier -p 1NZwyUbFFlnQ
+query_profile -c Blaze -u Nightmare
+add_user -c Eyjafjalla -u Frostleaf -p yOvwgUCGSB_wlc1p -n 霜叶 -m aims.their@tendencies.and -g 1
+login -u Frostleaf -p yOvwgUCGSB_wlc1p
+add_user -c Deepcolor -u Yato -p HadOVBbU$1Y-EGc -n 夜刀 -m meet.this.nursery@tale.of -g 3
+login -u Yato -p HadOVBbU$1Y-EGc
+add_user -c Nightmare -u Shining -p SCFsYpnuNh -n 闪灵 -m the.Spectre@of.Communism -g 2
+login -u Shining -p 7ZtZfHE$kY2nrc0uH
+modify_profile -c Manticore -u Schwarz -p lqNXcY_4Vg$-zH2e -g 1
+add_user -c Eyjafjalla -u Spot -p NGFafcwK$H -n 斑点 -m with.a.Manifesto@of.the -g 1
+login -u Spot -p NGFafcwK$H
+login -u Firewatch -p rJiKiMh5JXpdbUN9B
+add_user -c WaaiFu -u Purestream -p 4TQM3ZodLmHVkDEJrF -n 清流 -m party.itself@To.this -g 1
+login -u Purestream -p 4TQM3ZodLmHVkDEJrF
+query_profile -c Eyjafjalla -u Broca
+add_user -c Meteorite -u Conviction -p EkWcp7WM1GaRc3 -n 断罪者 -m end.Communists@of.various -g 2
+login -u Conviction -p EkWcp7WM1GaRc3
+add_user -c Greyy -u Flamebringer -p 1OEpxF5OmFJ -n 炎客 -m nationalities@have.assembled -g 2
+login -u Flamebringer -p 1OEpxF5OmFJ
+add_user -c Plume -u Cliffheart -p ksA2aN--oIZ4 -n 崖心 -m in.London.and@sketched.the -g 1
+login -u Cliffheart -p ksA2aN--oIZ4
+add_user -c Earthspirit -u Bagpipe -p B2tcs$qkHW -n 风笛 -m following.Manifesto@to.be -g 2
+login -u Bagpipe -p B2tcs$qkHW
+add_user -c Manticore -u Skyfire -p -CJ7TtZfHe6vKn!CVM -n 天火 -m published.in@the.English -g 1
+login -u Skyfire -p -CJ7TtZfHe6vKn!CVM
+logout -u Provence
+add_user -c Firewatch -u Croissant -p BroWRUSAQ5tdbX -n 可颂 -m French.German@Italian.Flemish -g 1
+login -u Croissant -p BroWRUSAQ5tdbX
+query_profile -c Greyy -u Earthspirit
+add_user -c Deepcolor -u ShiraYuki -p U3v6JR9Xyq6 -n 白雪 -m and.Danish@languages.I -g 3
+login -u ShiraYuki -p ytzpLzDp-xYsEE
+query_profile -c Deepcolor -u Yato
+logout -u Haze
+logout -u Blaze
+add_user -c I_am_the_admin -u Ceobe -p Zqt7somnRTAp -n 刻俄柏 -m BOURGEOIS.AND@PROLETARIANS.The -g 8
+login -u Ceobe -p Zqt7somnRTAp
+query_profile -c Ceobe -u Haze
+modify_profile -c Greyy -u Executor -p 20oKZK5I94sIjg-Ewz4q -m history.of@all.hitherto -g 1
+add_user -c Earthspirit -u Magallan -p !tCQbecVDjtaHOyg -n 麦哲伦 -m existing.societies@is.the -g 1
+login -u Magallan -p !tCQbecVDjtaHOyg
+login -u Jessica -p TKJdC$zeZLvZP
+add_user -c Bagpipe -u Mousse -p Db3ArmFAXTuzPl -n 慕斯 -m history.of@class.struggles -g 1
+login -u Mousse -p Db3ArmFAXTuzPl
+query_profile -c Greyy -u Ethan
+query_profile -c Blaze -u Shining
+query_profile -c Deepcolor -u Meteorite
+query_profile -c Greyy -u Leizi
+logout -u Firewatch
+add_user -c Manticore -u GreyThroat -p Ekv7ogClFrFnQTRly- -n 灰喉 -m Freeman.and@slave.patrician -g 1
+login -u GreyThroat -p Ekv7ogClFrFnQTRly-
+query_profile -c Greyy -u Manticore
+add_user -c Hoshiguma -u Specter -p lm1xz6G0eyZByTy6jI -n 幽灵鲨 -m and.plebeian@lord.and -g 1
+login -u Specter -p lm1xz6G0eyZByTy6jI
+modify_profile -c Earthspirit -u Plume -p W1vh5gnnWRFKlb0IF3K -m serf.guildmaster@and.journeyma
+logout -u Magallan
+query_profile -c Manticore -u Schwarz
+query_profile -c Shining -u Rangers
+add_user -c Plume -u Dobermann -p vYMYdDxN_ZnXIJ3wN -n 杜宾 -m in.a.word.oppressor@and.oppres -g 1
+login -u Dobermann -p vYMYdDxN_ZnXIJ3wN
+add_user -c Earthspirit -u Silence -p ehqo7t3ng!61$jY -n 赫默 -m stood.in.constant@opposition.t -g 1
+login -u Silence -p ehqo7t3ng!61$jY
+query_profile -c Hoshiguma -u GreyThroat
+add_user -c Deepcolor -u Ifrit -p LRpSZFSktVd -n 伊芙利特 -m one.another@carried.on -g 2
+login -u Ifrit -p LRpSZFSktVd
+add_train -i LeavesofGrass -n 17 -m 98306 -s 新疆塔城市|浙江省平湖市|浙江省杭州市|辽宁省抚顺市|广东省四会市|湖南省衡阳市|陕西省安康市|河北省河间市|宁夏石嘴山市|福建省建阳市|黑龙江省海林市|河南省灵宝市|广东省花都市|河南省偃师市|新疆博乐市|新疆伊宁市|浙江省慈溪市 -p 291|400|402|5|240|488|25|221|400|14|500|114|232|193|402|70 -x 07:38 -t 74|167|149|70|38|55|36|67|109|87|43|114|105|153|161|51 -o 7|6|3|5|3|10|10|7|5|10|6|4|3|7|5 -d 06-28|08-04 -y P
+release_train -i LeavesofGrass
+query_ticket -s 广东省四会市 -t 新疆伊宁市 -d 08-02 -p cost
+query_ticket -s 河北省河间市 -t 河南省灵宝市 -d 08-04 -p time
+query_profile -c Rangers -u Liskarm
+add_user -c Flamebringer -u FEater -p jskRl$z4Lw7NecuRpH4 -n 食铁兽 -m an.uninterrupted@now.hidden -g 1
+login -u FEater -p jskRl$z4Lw7NecuRpH4
+buy_ticket -u Leizi -i LeavesofGrass -d 06-30 -n 17252 -f 宁夏石嘴山市 -t 黑龙江省海林市 -q true
+buy_ticket -u Earthspirit -i LeavesofGrass -d 07-24 -n 24485 -f 浙江省平湖市 -t 黑龙江省海林市 -q true
+query_order -u Executor
+buy_ticket -u Greyy -i LeavesofGrass -d 07-31 -n 14194 -f 新疆博乐市 -t 浙江省慈溪市 -q true
+buy_ticket -u Croissant -i LeavesofGrass -d 07-20 -n 1987 -f 浙江省杭州市 -t 宁夏石嘴山市 -q true
+query_profile -c Rangers -u Frostleaf
+query_profile -c Bagpipe -u Frostleaf
+add_user -c Rangers -u Ansel -p FnTV_1_EuL -n 安赛尔 -m now.open.fight@a.fight -g 2
+login -u Ansel -p FnTV_1_EuL
+logout -u Flamebringer
+add_user -c Hoshiguma -u Gravel -p dAv_lr!RzRE -n 砾砾 -m that.each.time@ended.either -g 1
+login -u Gravel -p dAv_lr!RzRE
+query_profile -c Hoshiguma -u Hibiscus
+add_user -c Nightmare -u Sussurro -p ysECqtUz6jQDsdU -n 苏苏洛 -m in.a.revolutionary@reconstitut -g 2
+login -u Sussurro -p ysECqtUz6jQDsdU
+query_profile -c Beagle -u Ansel
+add_user -c Manticore -u Steward -p n__USi1YiLXg4 -n 史都华德 -m society.at@large.or -g 1
+login -u Steward -p n__USi1YiLXg4
+add_user -c Eyjafjalla -u Saria -p VHvieTlz3p0X -n 塞雷娅 -m in.the.common@ruin.of -g 1
+login -u Saria -p VHvieTlz3p0X
+query_profile -c I_am_the_admin -u Hung
+buy_ticket -u Bagpipe -i LeavesofGrass -d 07-26 -n 11580 -f 河南省灵宝市 -t 浙江省慈溪市 -q true
+add_user -c Nightmare -u Ceylon -p pxUQXGlaCHhPeROG -n 锡兰 -m the.contending@classes.In -g 1
+login -u Ceylon -p pxUQXGlaCHhPeROG
+query_profile -c Nightmare -u Ansel
+buy_ticket -u Eyjafjalla -i LeavesofGrass -d 07-13 -n 12437 -f 浙江省平湖市 -t 宁夏石嘴山市 -q true
+buy_ticket -u Greyy -i LeavesofGrass -d 07-16 -n 10010 -f 湖南省衡阳市 -t 河北省河间市 -q true
+query_profile -c Ethan -u Hoshiguma
+query_ticket -s 广东省花都市 -t 浙江省慈溪市 -d 07-03 -p cost
+query_ticket -s 新疆塔城市 -t 河北省河间市 -d 07-06 -p time
+add_user -c Plume -u Perfumer -p cjSkYWa-mnmX!O -n 调香师 -m the.earlier@epochs.of -g 1
+login -u Perfumer -p cjSkYWa-mnmX!O
+buy_ticket -u WaaiFu -i LeavesofGrass -d 07-04 -n 22385 -f 福建省建阳市 -t 广东省花都市 -q true
+query_ticket -s 浙江省杭州市 -t 河南省灵宝市 -d 07-04 -p time
+query_profile -c Nightmare -u Ansel
+buy_ticket -u Hoshiguma -i LeavesofGrass -d 07-05 -n 21326 -f 广东省四会市 -t 福建省建阳市 -q true
+buy_ticket -u Executor -i LeavesofGrass -d 08-04 -n 7136 -f 湖南省衡阳市 -t 宁夏石嘴山市 -q true
+logout -u Meteorite
+query_ticket -s 新疆塔城市 -t 浙江省慈溪市 -d 07-01 -p time
+query_profile -c Yato -u Purestream
+query_ticket -s 广东省花都市 -t 浙江省慈溪市 -d 07-14 -p time
+delete_train -i LeavesofGrass
+buy_ticket -u Earthspirit -i LeavesofGrass -d 07-02 -n 3396 -f 广东省花都市 -t 浙江省慈溪市 -q true
+query_profile -c Deepcolor -u Greyy
+query_ticket -s 浙江省平湖市 -t 辽宁省抚顺市 -d 07-28 -p cost
+query_profile -c Skyfire -u Perfumer
+query_profile -c Ceobe -u Conviction
+query_ticket -s 新疆塔城市 -t 广东省花都市 -d 07-03 -p time
+query_ticket -s 辽宁省抚顺市 -t 新疆博乐市 -d 07-02 -p time
+query_profile -c Greyy -u Jessica
+add_user -c Bagpipe -u Nearl -p 12zF_cnvJvWP9gj1jRr -n 临光 -m history.we@find.almost -g 1
+login -u Nearl -p 12zF_cnvJvWP9gj1jRr
+query_ticket -s 河北省河间市 -t 河南省灵宝市 -d 07-31 -p time
+buy_ticket -u Leizi -i LeavesofGrass -d 06-28 -n 10686 -f 广东省四会市 -t 河南省偃师市 -q true
+buy_ticket -u Nightmare -i LeavesofGrass -d 07-14 -n 23933 -f 新疆塔城市 -t 河北省河间市 -q true
+query_profile -c Manticore -u Perfumer
+query_ticket -s 新疆塔城市 -t 黑龙江省海林市 -d 08-04 -p time
+query_ticket -s 河北省河间市 -t 新疆博乐市 -d 07-27 -p time
+buy_ticket -u Hung -i LeavesofGrass -d 07-06 -n 13122 -f 浙江省平湖市 -t 陕西省安康市 -q true
+buy_ticket -u Executor -i LeavesofGrass -d 07-28 -n 8883 -f 浙江省平湖市 -t 辽宁省抚顺市 -q true
+query_ticket -s 浙江省平湖市 -t 辽宁省抚顺市 -d 07-13 -p time
+buy_ticket -u Liskarm -i LeavesofGrass -d 07-31 -n 20049 -f 新疆伊宁市 -t 浙江省慈溪市 -q true
+query_profile -c Popukar -u Executor
+buy_ticket -u Hibiscus -i LeavesofGrass -d 07-30 -n 2433 -f 福建省建阳市 -t 黑龙江省海林市 -q false
+logout -u Nightmare
+buy_ticket -u Liskarm -i LeavesofGrass -d 07-15 -n 20583 -f 陕西省安康市 -t 宁夏石嘴山市 -q true
+buy_ticket -u Popukar -i LeavesofGrass -d 07-06 -n 19581 -f 新疆塔城市 -t 浙江省平湖市
+query_ticket -s 陕西省安康市 -t 河南省灵宝市 -d 07-25 -p cost
+buy_ticket -u Manticore -i LeavesofGrass -d 07-10 -n 4130 -f 辽宁省抚顺市 -t 黑龙江省海林市 -q true
+query_ticket -s 浙江省平湖市 -t 黑龙江省海林市 -d 08-01 -p cost
+buy_ticket -u Yato -i LeavesofGrass -d 06-28 -n 15842 -f 福建省建阳市 -t 浙江省慈溪市
+buy_ticket -u Popukar -i LeavesofGrass -d 07-14 -n 5054 -f 福建省建阳市 -t 浙江省慈溪市 -q true
+add_user -c WaaiFu -u ProjeKTRed -p zr2NYqyJmDEMUJGlnV$ -n 红红 -m everywhere@a.complicated -g 1
+login -u ProjeKTRed -p zr2NYqyJmDEMUJGlnV$
+query_ticket -s 浙江省杭州市 -t 广东省四会市 -d 07-31 -p time
+buy_ticket -u Executor -i LeavesofGrass -d 07-14 -n 6176 -f 浙江省杭州市 -t 河北省河间市
+modify_profile -c Ceobe -u Rangers -n 巡林 -m arrangement@of.society
+query_ticket -s 广东省四会市 -t 宁夏石嘴山市 -d 07-21 -p cost
+query_ticket -s 浙江省杭州市 -t 黑龙江省海林市 -d 07-01 -p time
+buy_ticket -u Plume -i LeavesofGrass -d 07-21 -n 12280 -f 河南省偃师市 -t 新疆博乐市 -q true
+add_user -c Earthspirit -u Chen -p 7MW$EO$i!hWCu -n 陈陈 -m into.various@orders.a -g 2
+login -u Chen -p 7MW$EO$i!hWCu
+query_ticket -s 河南省偃师市 -t 新疆博乐市 -d 07-10 -p cost
+buy_ticket -u Steward -i LeavesofGrass -d 07-17 -n 22056 -f 浙江省平湖市 -t 河北省河间市 -q true
+buy_ticket -u Earthspirit -i LeavesofGrass -d 07-31 -n 12682 -f 新疆塔城市 -t 湖南省衡阳市 -q true
+query_ticket -s 广东省四会市 -t 福建省建阳市 -d 07-24 -p time
+buy_ticket -u Broca -i LeavesofGrass -d 07-16 -n 3890 -f 新疆塔城市 -t 黑龙江省海林市 -q true
+add_user -c Sussurro -u Lappland -p SuB7ayzD!f_mGz!C -n 拉普兰德 -m manifold.gradation@of.social -g 1
+login -u Lappland -p SuB7ayzD!f_mGz!C
+buy_ticket -u Liskarm -i LeavesofGrass -d 07-12 -n 9675 -f 新疆博乐市 -t 新疆伊宁市 -q true
+query_profile -c Yato -u Gravel
+add_user -c Ethan -u Platinum -p thr0S3mCcYkXlTjC -n 白金 -m rank.In.ancient@Rome.we -g 2
+login -u Platinum -p thr0S3mCcYkXlTjC
+buy_ticket -u Purestream -i LeavesofGrass -d 07-14 -n 20927 -f 广东省花都市 -t 新疆伊宁市 -q true
+query_profile -c Hoshiguma -u FEater
+query_profile -c Earthspirit -u FEater
+buy_ticket -u ProjeKTRed -i LeavesofGrass -d 07-13 -n 15153 -f 河北省河间市 -t 河南省灵宝市 -q true
+buy_ticket -u GreyThroat -i LeavesofGrass -d 07-09 -n 21243 -f 湖南省衡阳市 -t 广东省花都市 -q false
+query_profile -c Deepcolor -u Specter
+buy_ticket -u Platinum -i LeavesofGrass -d 07-07 -n 3232 -f 湖南省衡阳市 -t 宁夏石嘴山市 -q false
+query_transfer -s 江西省萍乡市 -t 山东省荣成市 -d 07-13 -p time
+query_profile -c Ansel -u Gravel
+modify_profile -c Popukar -u WaaiFu -p noPEW6dUbb1mty
+query_profile -c Sussurro -u Magallan
+query_profile -c Earthspirit -u Bagpipe
+query_ticket -s 河北省河间市 -t 新疆伊宁市 -d 07-15 -p cost
+query_ticket -s 广东省四会市 -t 湖南省衡阳市 -d 07-25 -p time
+query_ticket -s 河北省河间市 -t 新疆伊宁市 -d 07-08 -p cost
+query_ticket -s 黑龙江省海林市 -t 河南省灵宝市 -d 07-26 -p cost
+add_user -c Bagpipe -u Sora -p qATp9qbeHkopPB$jU -n 空空 -m have.patricians@knights.plebei -g 1
+login -u Sora -p qATp9qbeHkopPB$jU
+query_profile -c Ethan -u Sussurro
+query_order -u Plume
+query_profile -c Specter -u Gravel
+query_profile -c Deepcolor -u Greyy
+refund_ticket -u Plume -n 1
+buy_ticket -u Liskarm -i LeavesofGrass -d 06-28 -n 10374 -f 河北省河间市 -t 浙江省慈溪市 -q true
+query_profile -c Conviction -u Provence
+query_ticket -s 黑龙江省海林市 -t 广东省花都市 -d 07-22 -p cost
+query_ticket -s 湖南省衡阳市 -t 陕西省安康市 -d 07-31 -p cost
+query_ticket -s 新疆塔城市 -t 陕西省安康市 -d 07-21 -p time
+query_profile -c Beagle -u ShiraYuki
+query_profile -c Bagpipe -u FEater
+buy_ticket -u Sussurro -i LeavesofGrass -d 07-14 -n 1628 -f 浙江省杭州市 -t 广东省四会市 -q true
+query_profile -c Ansel -u Haze
+buy_ticket -u Manticore -i LeavesofGrass -d 07-29 -n 17394 -f 浙江省平湖市 -t 福建省建阳市 -q true
+query_ticket -s 广东省四会市 -t 浙江省慈溪市 -d 07-12 -p cost
+add_user -c Yato -u Skadi -p -xL7YCDwWJYKd-tX0 -n 斯卡蒂 -m slaves.in.the@Middle.Ages -g 2
+login -u Skadi -p -xL7YCDwWJYKd-tX0
+buy_ticket -u Greyy -i LeavesofGrass -d 07-28 -n 16540 -f 湖南省衡阳市 -t 陕西省安康市 -q false
+query_profile -c WaaiFu -u Durnar
+query_ticket -s 黑龙江省海林市 -t 河南省偃师市 -d 07-05 -p cost

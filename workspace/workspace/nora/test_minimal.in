@@ -1,0 +1,5 @@
+clean
+add_user -c "" -u testmin -p pass123 -n Test -m test@example.com -g 10
+login -u testmin -p pass123
+query_order -u testmin
+exit

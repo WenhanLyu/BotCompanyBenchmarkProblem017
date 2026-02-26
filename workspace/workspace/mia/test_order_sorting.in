@@ -1,0 +1,12 @@
+clean
+add_user -c "" -u alice -p pass -n Alice -m a@test.com -g 10
+login -u alice -p pass
+add_train -i T001 -n 3 -m 50 -s A|B|C -p 100|200 -x 08:00 -t 60|120 -o 10 -d 06-01|06-10 -y G
+release_train -i T001
+buy_ticket -u alice -i T001 -d 06-01 -n 1 -f A -t B
+buy_ticket -u alice -i T001 -d 06-02 -n 1 -f A -t B
+buy_ticket -u alice -i T001 -d 06-03 -n 1 -f A -t B
+buy_ticket -u alice -i T001 -d 06-04 -n 1 -f A -t B
+buy_ticket -u alice -i T001 -d 06-05 -n 1 -f A -t B
+query_order -u alice
+exit

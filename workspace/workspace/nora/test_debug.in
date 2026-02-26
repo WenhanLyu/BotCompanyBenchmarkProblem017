@@ -1,0 +1,7 @@
+clean
+add_user -c "" -u debuguser -p pass123 -n Debug -m debug@example.com -g 10
+query_profile -c debuguser -u debuguser
+login -u debuguser -p pass123
+query_profile -c debuguser -u debuguser
+query_order -u debuguser
+exit

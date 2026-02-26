@@ -1,0 +1,5 @@
+clean
+add_train -i T001 -n 3 -m 100 -s StationA|StationB|StationC -p 50|50 -x 08:00 -t 120|120 -o 10 -d 06-01|08-31 -y T
+release_train -i T001
+query_ticket -s StationA -t StationC -d 07-01
+exit

@@ -1,0 +1,14 @@
+Verification Schedule - Post Bug #2 Fix
+
+Background:
+- Previous cycle identified Bug #2 was fixed in WRONG CLASS (HashTable instead of BPTree)
+- Ares fixed this in commit e4fc4ee - added move constructor/assignment deletions to BPTree
+- Need to verify the fix is now complete and tests still pass
+
+Bella: Re-run all tests to verify they pass with the new Bug #2 fix
+Carlos: Re-audit Bug #2 specifically - verify all 4 deletions are now in BPTree
+
+Evidence to check:
+- bptree.hpp lines 387-390 should have all 4 deletions
+- Commit e4fc4ee added the missing 2 lines
+- Tests should still pass

@@ -1,0 +1,11 @@
+clean
+add_user -c "" -u alice -p password123 -n Alice -m alice@test.com -g 10
+add_user -c alice -u bob -p password456 -n Bob -m bob@test.com -g 5
+login -u alice -p password123
+query_order -u bob
+query_order -u nonexistent
+logout -u alice
+query_order -u alice
+login -u alice -p password123
+query_order -u alice
+exit

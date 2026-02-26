@@ -1,0 +1,7 @@
+clean
+add_user -c "" -u verifyuser -p pass123 -n Verify -m verify@example.com -g 10
+query_profile -c verifyuser -u verifyuser
+login -u verifyuser -p pass123
+query_profile -c verifyuser -u verifyuser
+query_order -u verifyuser
+exit

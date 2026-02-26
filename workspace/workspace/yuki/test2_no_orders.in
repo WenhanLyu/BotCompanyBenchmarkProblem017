@@ -1,0 +1,5 @@
+clean
+add_user -c "" -u bob -p password456 -n Bob -m bob@test.com -g 10
+login -u bob -p password456
+query_order -u bob
+exit

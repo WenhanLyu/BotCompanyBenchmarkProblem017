@@ -1,0 +1,8 @@
+0
+0
+0
+TestTrain1 T
+StationA xx-xx xx:xx -> 07-15 10:00 0 100
+StationB 07-15 11:00 -> 07-15 11:05 50 100
+StationC 07-15 12:05 -> xx-xx xx:xx 100 x
+bye

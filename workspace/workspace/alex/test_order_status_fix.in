@@ -1,0 +1,10 @@
+add_user -c alice -p password123 -n Alice -m alice@test.com -g 5
+login -c alice -p password123
+add_train -i T001 -n 3 -m 100 -s Shanghai|Nanjing|Beijing -p 0|300|600 -x 08:00 -t 120|180 -o 06-01|06-30 -d 06-01 -y N
+release_train -i T001
+buy_ticket -c alice -d 06-15 -n 2 -f Shanghai -t Beijing -i T001
+buy_ticket -c alice -d 06-16 -n 1 -f Shanghai -t Nanjing -i T001
+query_order -c alice
+refund_ticket -c alice -n 2 -f Shanghai -t Beijing -i T001
+query_order -c alice
+exit

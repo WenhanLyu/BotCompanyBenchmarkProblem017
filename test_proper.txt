@@ -1,0 +1,4 @@
+add_user -c cur -u admin -p pw1 -n Admin -m admin@test.com -g 10
+login -u admin -p pw1
+query_profile -c admin -u admin
+exit

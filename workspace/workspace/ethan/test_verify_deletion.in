@@ -1,0 +1,3 @@
+query_train -i TestTrain1 -d 07-15
+query_train -i TestTrain2 -d 07-01
+exit

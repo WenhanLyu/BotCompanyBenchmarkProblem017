@@ -1,0 +1,7 @@
+add_user -c dummy -u testuser -p testpass123 -n TestName -m test@email.com -g 10
+login -u testuser -p testpass123
+query_profile -c testuser -u testuser
+add_user -c testuser -u user2 -p pass2 -n User2Name -m user2@test.com -g 5
+query_profile -c testuser -u user2
+logout -u testuser
+exit

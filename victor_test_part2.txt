@@ -1,0 +1,7 @@
+login -u testuser -p testpass123
+query_profile -c testuser -u testuser
+query_profile -c testuser -u user2
+modify_profile -c testuser -u user2 -n ModifiedUser2
+query_profile -c testuser -u user2
+logout -u testuser
+exit

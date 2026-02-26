@@ -1,0 +1,8 @@
+clean
+add_user -c "" -u frank -p password303 -n Frank -m frank@test.com -g 10
+login -u frank -p password303
+add_train -i T200 -n 3 -m 50 -s CityA|CityB|CityC -p 100|200 -x 08:00 -t 120|180 -o 10 -d 06-01|06-30 -y G
+release_train -i T200
+buy_ticket -u frank -i T200 -d 06-05 -n 2 -f CityA -t CityC
+query_order -u frank
+exit

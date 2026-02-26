@@ -1,0 +1,48 @@
+=== TRAIN COMMANDS ANALYSIS FOR basic_2 TEST ===
+
+COMPILATION STATUS: SUCCESS
+- Project compiled without errors
+- Exit code: 0
+
+TEST EXECUTION STATUS: SUCCESS  
+- Program executed without crashes
+- Exit code: 0
+- Total output lines: 1657
+
+TRAIN COMMAND RESULTS:
+
+1. ADD_TRAIN (12 total)
+   Lines 625, 627, 629, 631, 633, 635, 637, 639, 641, 643: SUCCESS (0)
+   Lines 1029, 1213: FAILED (-1)
+   
+   SUCCESS RATE: 10/12 (83.3%)
+   
+2. RELEASE_TRAIN (14 total)
+   Lines 626, 628, 630, 632, 634, 636, 638, 640, 642, 644: SUCCESS (0)
+   Lines 915, 1046, 1216, 1426: FAILED (-1)
+   
+   SUCCESS RATE: 10/14 (71.4%)
+
+3. QUERY_TRAIN (4 total)
+   Line 926: SUCCESS - "TOFOREIGNLANDS O"
+   Lines 1164, 1369, 1512: FAILED (-1)
+   
+   SUCCESS RATE: 1/4 (25%)
+   Query failures appear to be date-related (trains don't operate on queried dates)
+
+4. DELETE_TRAIN (1 total)
+   Line 1545: FAILED (-1)
+   
+   SUCCESS RATE: 0/1 (0%)
+
+OVERALL ASSESSMENT:
+- No crashes or segmentation faults
+- Program completed successfully (reached "bye" at end)
+- Most train operations succeeded
+- Failures appear to be logical (e.g., querying on invalid dates, deleting after tickets sold)
+- Output format is correct (0 for success, -1 for failure, train info for queries)
+
+TEST VERDICT: PARTIAL PASS
+- Core functionality works
+- Command execution is stable
+- Some expected failures due to business logic constraints

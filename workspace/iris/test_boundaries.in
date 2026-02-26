@@ -1,0 +1,12 @@
+clean
+add_user -c x -u a12345678901234567890 -p pass123456789012345678901234567890 -n 一二三四五 -m test@example.com.verylongemailaddress -g 10
+login -u a12345678901234567890 -p pass123456789012345678901234567890
+query_profile -c a12345678901234567890 -u a12345678901234567890
+add_user -c a12345678901234567890 -u user1 -p 123456 -n 测试 -m x@y.z -g 9
+add_user -c a12345678901234567890 -u user2 -p abcdefghijklmnopqrstuvwxyz1234 -n 用户 -m test@example.com -g 0
+login -u user2 -p abcdefghijklmnopqrstuvwxyz1234
+add_user -c user2 -u user3 -p pass -n 三 -m test@ex.co -g -1
+modify_profile -c a12345678901234567890 -u user2 -g 11
+modify_profile -c a12345678901234567890 -u user2 -g 9
+modify_profile -c user2 -u user2 -g 1
+exit

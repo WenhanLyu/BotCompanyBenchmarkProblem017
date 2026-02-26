@@ -1,0 +1,3 @@
+login -u testuser1 -p password123
+query_profile -c testuser1 -u testuser1
+exit

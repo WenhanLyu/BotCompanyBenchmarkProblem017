@@ -1,0 +1,25 @@
+clean
+add_user -c admin -u admin -p adminpass -n 管理员 -m admin@test.com -g 10
+login -u admin -p adminpass
+add_user -c admin -u user1 -p pass123456 -n 用户一 -m user1@test.com -g 5
+login -u user1 -p pass123456
+login -u user1 -p pass123456
+logout -u user1
+logout -u user1
+login -u nonexistent -p wrongpass
+query_profile -c user1 -u user1
+login -u user1 -p pass123456
+query_profile -c user1 -u admin
+query_profile -c admin -u user1
+modify_profile -c user1 -u admin -p newpass
+modify_profile -c admin -u user1 -p newuserpass
+query_profile -c admin -u user1
+login -u user1 -p pass123456
+login -u user1 -p newuserpass
+query_profile -c user1 -u user1
+add_user -c user1 -u user2 -p testpass -n 用户二 -m user2@test.com -g 4
+login -u user2 -p testpass
+query_profile -c user2 -u user2
+add_user -c user2 -u user3 -p pass3 -n 用户三 -m user3@test.com -g 3
+add_user -c user1 -u admin -p hackpass -n 黑客 -m hacker@test.com -g 9
+exit

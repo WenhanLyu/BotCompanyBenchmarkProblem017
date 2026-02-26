@@ -1,0 +1,5 @@
+add_user -c dummy -u alice -p password123 -n 测试用户 -m alice@test.com -g 10
+login -u alice -p password123
+query_profile -c alice -u alice
+logout -u alice
+exit

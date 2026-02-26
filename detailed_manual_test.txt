@@ -1,0 +1,6 @@
+add_user testuser 测试 test@example.com 5
+buy_ticket testuser 1 2026-02-26 1
+query_ticket 1
+refund_ticket 1
+clean
+exit

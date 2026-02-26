@@ -1,0 +1,4 @@
+add_user -c user1 -p pass1 -n User1 -m user1@test.com -g 5
+login -u user1 -p pass1
+query_order -u user1
+exit
