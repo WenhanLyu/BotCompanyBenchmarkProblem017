@@ -1,0 +1,98 @@
+=========================================
+COMPREHENSIVE QUERY_TICKET TEST SUITE
+=========================================
+
+=========================================
+TESTING basic_3 (Query Ticket Focus)
+=========================================
+
+Testing basic_3/1...
+awk: can't open file /Users/wenhanlyu/Documents/BotCompany/tbc_projdevbench_runs/tbc-pdb-017/data/017/data/basic_3/1.out
+ source line number 1
+❌ FAIL: basic_3/1
+   First 5 differences:
+   0a1,280
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+Testing basic_3/2...
+awk: can't open file /Users/wenhanlyu/Documents/BotCompany/tbc_projdevbench_runs/tbc-pdb-017/data/017/data/basic_3/2.out
+ source line number 1
+❌ FAIL: basic_3/2
+   First 5 differences:
+   0a1,7
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+Testing basic_3/3...
+awk: can't open file /Users/wenhanlyu/Documents/BotCompany/tbc_projdevbench_runs/tbc-pdb-017/data/017/data/basic_3/3.out
+ source line number 1
+❌ FAIL: basic_3/3
+   First 5 differences:
+   0a1,3
+   > 0
+   > 0
+   > 0
+
+Testing basic_3/4...
+awk: can't open file /Users/wenhanlyu/Documents/BotCompany/tbc_projdevbench_runs/tbc-pdb-017/data/017/data/basic_3/4.out
+ source line number 1
+❌ FAIL: basic_3/4
+   First 5 differences:
+   0a1,8
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+Testing basic_3/5...
+awk: can't open file /Users/wenhanlyu/Documents/BotCompany/tbc_projdevbench_runs/tbc-pdb-017/data/017/data/basic_3/5.out
+ source line number 1
+❌ FAIL: basic_3/5
+   First 5 differences:
+   0a1,13
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+=========================================
+TESTING basic_4 (Comprehensive)
+=========================================
+
+Testing basic_4/1...

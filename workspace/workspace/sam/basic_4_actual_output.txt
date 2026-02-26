@@ -1,0 +1,5679 @@
+0
+0
+I_am_the_admin 奥斯卡 foo@bar.com 10
+0
+-1
+0
+0
+Bibeak 柏喙 MANIFESTO.OF@THE.COMMUNIST 9
+Bibeak 柏喙 MANIFESTO.OF@THE.COMMUNIST 9
+Gavial 嘉维尔 PARTY.A.spectre@is.haunting 7
+I_am_the_admin 奥斯卡 foo@bar.com 10
+I_am_the_admin 奥斯卡 foo@bar.com 10
+-1
+Gavial 嘉维尔 PARTY.A.spectre@is.haunting 7
+0
+0
+0
+0
+0
+0
+Bibeak 柏喙 MANIFESTO.OF@THE.COMMUNIST 9
+Saria 塞雷娅 Europe.have@entered.into 9
+0
+0
+Specter 幽灵鲨 All.the.Powers@of.old 7
+0
+0
+0
+Gavial 嘉维尔 PARTY.A.spectre@is.haunting 7
+Saria 塞雷娅 Europe.have@entered.into 9
+0
+0
+0
+0
+0
+0
+Bibeak 柏喙 MANIFESTO.OF@THE.COMMUNIST 9
+Franka 芙兰卡 a.holy.alliance@to.exorcise 8
+0
+0
+0
+0
+Nian 年年 has.not.been@decried.as 5
+0
+0
+0
+0
+Saria 塞雷娅 is.the.Opposition@that.has 9
+Franka 芙兰卡 a.holy.alliance@to.exorcise 8
+Gummy 古米 opponents.in@power.Where 5
+Nian 年年 has.not.been@decried.as 5
+Utage 宴宴 this.spectre@Pope.and 8
+Franka 芙兰卡 a.holy.alliance@to.exorcise 8
+I_am_the_admin 奥斯卡 foo@bar.com 10
+0
+0
+0
+0
+Savage 暴行 branding.reproach@of.Communism 4
+Savage 暴行 branding.reproach@of.Communism 4
+Savage 暴行 branding.reproach@of.Communism 4
+0
+0
+0
+0
+Savage 暴行 branding.reproach@of.Communism 4
+0
+0
+-1
+0
+0
+Lappland 拉普兰德 adversaries@Two.things 4
+Lappland 拉普兰德 adversaries@Two.things 4
+-1
+Savage 暴行 branding.reproach@of.Communism 4
+0
+0
+Lappland 拉普兰德 adversaries@Two.things 4
+0
+0
+Savage 暴行 branding.reproach@of.Communism 4
+0
+0
+0
+0
+Mousse 慕斯 acknowledged@by.all 4
+0
+0
+Snowsant 雪雉 itself.a.Power@II.It 1
+Snowsant 雪雉 itself.a.Power@II.It 1
+ShiraYuki 白雪 European.Powers@to.be 3
+0
+0
+Snowsant 雪雉 itself.a.Power@II.It 1
+0
+0
+0
+0
+0
+0
+0
+Savage 暴行 branding.reproach@of.Communism 4
+Orchid 梓兰 face.of.the@whole.world 3
+0
+0
+Savage 暴行 branding.reproach@of.Communism 4
+0
+0
+Meteor 流星 meet.this.nursery@tale.of 2
+-1
+0
+0
+0
+0
+0
+0
+ShiraYuki 白雪 European.Powers@to.be 3
+Shining 闪灵 with.a.Manifesto@of.the 4
+Lappland 拉普兰德 adversaries@Two.things 4
+0
+0
+0
+0
+Orchid 梓兰 in.London.and@sketched.the 3
+Beehunter 猎蜂 nationalities@have.assembled 1
+Vanilla 香草 the.Spectre@of.Communism 2
+0
+0
+0
+Beehunter 猎蜂 nationalities@have.assembled 1
+0
+0
+0
+0
+Mousse 慕斯 acknowledged@by.all 4
+0
+-1
+0
+0
+Myrtle 桃金娘 BOURGEOIS.AND@PROLETARIANS.The 4
+Siege 推进之王 opposition@parties.as 6
+0
+0
+Snowsant 雪雉 itself.a.Power@II.It 1
+0
+0
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-11 06:26 -> 辽宁省沈阳市 06-11 13:53 1015 45430
+Mousse 慕斯 acknowledged@by.all 4
+-1
+-1
+1
+LeavesofGrass 湖南省汩罗市 08-17 21:58 -> 辽宁省沈阳市 08-18 13:53 2094 45430
+1
+LeavesofGrass 浙江省上虞市 08-13 20:35 -> 浙江省湖州市 08-14 09:54 2028 45430
+-1
+0
+0
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-04 15:27 -> 辽宁省沈阳市 07-05 13:53 3000 98306
+Orchid 梓兰 history.of@class.struggles 3
+1
+LeavesofGrass 湖南省张家界市 07-19 02:32 -> 广东省兴宁市 07-19 08:09 805 98306
+-1
+1
+LeavesofGrass 湖南省汩罗市 07-03 21:58 -> 广东省兴宁市 07-04 08:09 1566 98306
+0
+0
+1
+LeavesofGrass 湖南省汩罗市 07-03 21:58 -> 河北省霸州市 07-04 01:21 363 98306
+1
+LeavesofGrass 辽宁省沈阳市 06-15 14:00 -> 四川省成都市 06-15 14:46 460 45430
+1
+LeavesofGrass 湖南省汩罗市 08-01 21:58 -> 辽宁省沈阳市 08-02 13:53 2094 98306
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-07 15:27 -> 河北省霸州市 07-08 01:21 1269 98306
+0
+0
+1
+LeavesofGrass 河北省霸州市 08-27 01:28 -> 浙江省湖州市 08-27 09:54 1357 45430
+Orchid 梓兰 history.of@class.struggles 3
+-1
+0
+0
+1
+LeavesofGrass 湖南省汩罗市 06-29 21:58 -> 四川省成都市 06-30 14:46 2554 98306
+0
+0
+1
+LeavesofGrass 广东省兴宁市 07-09 08:14 -> 辽宁省沈阳市 07-09 13:53 528 98306
+1
+LeavesofGrass 湖南省汩罗市 08-26 21:58 -> 浙江省湖州市 08-27 09:54 1720 45430
+-1
+-1
+0
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 08-03 06:26 -> 浙江省湖州市 08-03 09:54 641 98306
+0
+0
+-1
+1
+LeavesofGrass 广东省兴宁市 07-10 08:14 -> 四川省成都市 07-10 14:46 988 98306
+Orchid 梓兰 history.of@class.struggles 3
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-13 15:27 -> 山东省栖霞市 08-13 15:56 371 45430
+-1
+1
+LeavesofGrass 湖南省汩罗市 06-22 21:58 -> 四川省成都市 06-23 14:46 2554 45430
+1
+LeavesofGrass 河北省霸州市 08-15 01:28 -> 广东省兴宁市 08-15 08:09 1203 45430
+-1
+1
+LeavesofGrass 湖南省张家界市 07-23 02:32 -> 四川省成都市 07-23 14:46 1793 98306
+0
+0
+1
+LeavesofGrass 山东省栖霞市 07-08 16:01 -> 黑龙江省齐齐哈尔市 07-09 06:17 1614 98306
+1
+LeavesofGrass 江西省瑞昌市 07-20 15:27 -> 山东省栖霞市 07-20 15:56 371 98306
+0
+0
+1
+LeavesofGrass 山东省栖霞市 07-07 16:01 -> 四川省成都市 07-08 14:46 3089 98306
+-1
+Shining 闪灵 with.a.Manifesto@of.the 4
+-1
+-1
+Snowsant 雪雉 itself.a.Power@II.It 1
+1
+LeavesofGrass 湖南省汩罗市 08-22 21:58 -> 广东省兴宁市 08-23 08:09 1566 45430
+1
+LeavesofGrass 河北省霸州市 08-21 01:28 -> 黑龙江省齐齐哈尔市 08-21 06:17 716 45430
+1
+LeavesofGrass 江西省瑞昌市 06-22 15:27 -> 广东省兴宁市 06-23 08:09 2472 45430
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-30 06:26 -> 广东省兴宁市 06-30 08:09 487 98306
+-1
+Spot 斑点 existing.societies@is.the 3
+-1
+1
+LeavesofGrass 江西省瑞昌市 06-09 15:27 -> 河北省霸州市 06-10 01:21 1269 45430
+1
+LeavesofGrass 河北省霸州市 08-15 01:28 -> 黑龙江省齐齐哈尔市 08-15 06:17 716 45430
+1
+LeavesofGrass 湖南省张家界市 08-11 02:32 -> 四川省成都市 08-11 14:46 1793 45430
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-06 15:27 -> 湖南省汩罗市 07-06 21:51 906 98306
+1
+LeavesofGrass 浙江省上虞市 07-24 20:35 -> 辽宁省沈阳市 07-25 13:53 2402 98306
+0
+0
+Orchid 梓兰 that.each.time@ended.either 3
+1
+LeavesofGrass 浙江省上虞市 07-05 20:35 -> 河北省霸州市 07-06 01:21 671 98306
+SilverAsh 银灰 and.Danish@languages.I 4
+1
+LeavesofGrass 湖南省汩罗市 08-08 21:58 -> 黑龙江省齐齐哈尔市 08-09 06:17 1079 45430
+1
+LeavesofGrass 河北省霸州市 06-14 01:28 -> 辽宁省沈阳市 06-14 13:53 1731 45430
+1
+LeavesofGrass 江西省瑞昌市 07-18 15:27 -> 黑龙江省齐齐哈尔市 07-19 06:17 1985 98306
+-1
+0
+-1
+-1
+-1
+Grani 格拉尼 now.open.fight@a.fight 1
+1
+LeavesofGrass 浙江省湖州市 07-22 10:04 -> 四川省成都市 07-22 14:46 834 98306
+1
+LeavesofGrass 浙江省上虞市 08-20 20:35 -> 广东省兴宁市 08-21 08:09 1874 45430
+-1
+0
+0
+-1
+1
+LeavesofGrass 辽宁省沈阳市 08-03 14:00 -> 四川省成都市 08-03 14:46 460 98306
+-1
+1
+LeavesofGrass 河北省霸州市 07-01 01:28 -> 湖南省张家界市 07-01 02:26 398 98306
+1
+LeavesofGrass 山东省栖霞市 07-17 16:01 -> 辽宁省沈阳市 07-18 13:53 2629 98306
+0
+0
+-1
+-1
+-1
+1
+LeavesofGrass 河北省霸州市 07-11 01:28 -> 黑龙江省齐齐哈尔市 07-11 06:17 716 98306
+-1
+Pramanix 初雪 published.in@the.English 1
+Beehunter 猎蜂 nationalities@have.assembled 1
+Pramanix 初雪 published.in@the.English 1
+1
+LeavesofGrass 浙江省上虞市 07-27 20:35 -> 湖南省汩罗市 07-27 21:51 308 98306
+-1
+-1
+0
+-1
+0
+0
+1
+LeavesofGrass 江西省瑞昌市 07-31 15:27 -> 湖南省张家界市 08-01 02:26 1667 98306
+-1
+-1
+-1
+1
+LeavesofGrass 湖南省汩罗市 08-10 21:58 -> 浙江省湖州市 08-11 09:54 1720 45430
+-1
+ShiraYuki 白雪 European.Powers@to.be 3
+1
+LeavesofGrass 山东省栖霞市 07-07 16:01 -> 浙江省上虞市 07-07 20:28 227 98306
+1
+LeavesofGrass 河北省霸州市 07-07 01:28 -> 辽宁省沈阳市 07-07 13:53 1731 98306
+-1
+1
+LeavesofGrass 湖南省汩罗市 07-07 21:58 -> 河北省霸州市 07-08 01:21 363 98306
+1
+LeavesofGrass 湖南省张家界市 07-29 02:32 -> 四川省成都市 07-29 14:46 1793 98306
+0
+0
+0
+-1
+0
+0
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-03 15:27 -> 黑龙江省齐齐哈尔市 07-04 06:17 1985 98306
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-05 15:27 -> 河北省霸州市 08-06 01:21 1269 45430
+Shining 闪灵 with.a.Manifesto@of.the 4
+Vanilla 香草 the.Spectre@of.Communism 2
+1
+LeavesofGrass 江西省瑞昌市 07-24 15:27 -> 黑龙江省齐齐哈尔市 07-25 06:17 1985 98306
+-1
+1
+LeavesofGrass 山东省栖霞市 08-22 16:01 -> 浙江省湖州市 08-23 09:54 2255 45430
+1
+LeavesofGrass 山东省栖霞市 08-03 16:01 -> 湖南省汩罗市 08-03 21:51 535 98306
+-1
+Lappland 拉普兰德 adversaries@Two.things 4
+-1
+-1
+1
+LeavesofGrass 河北省霸州市 07-03 01:28 -> 广东省兴宁市 07-03 08:09 1203 98306
+1
+LeavesofGrass 江西省瑞昌市 07-04 15:27 -> 辽宁省沈阳市 07-05 13:53 3000 98306
+0
+-1
+-1
+-1
+-1
+-1
+-1
+0
+Snowsant 雪雉 itself.a.Power@II.It 1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-06 15:27 -> 广东省兴宁市 08-07 08:09 2472 45430
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-09 15:27 -> 山东省栖霞市 08-09 15:56 371 45430
+Schwarz 黑黑 society.at@large.or 1
+1
+LeavesofGrass 河北省霸州市 07-25 01:28 -> 四川省成都市 07-25 14:46 2191 98306
+Beehunter 猎蜂 nationalities@have.assembled 1
+1
+LeavesofGrass 江西省瑞昌市 08-21 15:27 -> 河北省霸州市 08-22 01:21 1269 45430
+Pramanix 初雪 published.in@the.English 1
+1
+LeavesofGrass 湖南省汩罗市 06-26 21:58 -> 浙江省湖州市 06-27 09:54 1720 45430
+1
+LeavesofGrass 浙江省上虞市 08-11 20:35 -> 黑龙江省齐齐哈尔市 08-12 06:17 1387 45430
+1
+LeavesofGrass 江西省瑞昌市 07-31 15:27 -> 四川省成都市 08-01 14:46 3460 98306
+-1
+-1
+-1
+-1
+-1
+-1
+1
+LeavesofGrass 湖南省张家界市 06-13 02:32 -> 四川省成都市 06-13 14:46 1793 45430
+Aak 阿阿 Freeman.and@slave.patrician 4
+1
+LeavesofGrass 湖南省张家界市 08-08 02:32 -> 辽宁省沈阳市 08-08 13:53 1333 45430
+-1
+Hibiscus 芙蓉 history.we@find.almost 3
+-1
+0
+0
+-1
+Rangers 巡林者 one.another@carried.on 2
+1
+LeavesofGrass 湖南省张家界市 06-13 02:32 -> 浙江省湖州市 06-13 09:54 959 45430
+-1
+1
+LeavesofGrass 湖南省张家界市 07-22 02:32 -> 浙江省湖州市 07-22 09:54 959 98306
+-1
+-1
+0
+-1
+-1
+0
+0
+1
+LeavesofGrass 湖南省汩罗市 06-08 21:58 -> 四川省成都市 06-09 14:46 2554 45430
+-1
+1
+LeavesofGrass 山东省栖霞市 06-15 16:01 -> 浙江省湖州市 06-16 09:54 2255 45430
+0
+Catapult 空爆 publish.their@views.their 4
+1
+LeavesofGrass 浙江省上虞市 08-10 20:35 -> 河北省霸州市 08-11 01:21 671 45430
+1
+LeavesofGrass 河北省霸州市 06-12 01:28 -> 辽宁省沈阳市 06-12 13:53 1731 45430
+1
+LeavesofGrass 河北省霸州市 08-15 01:28 -> 浙江省湖州市 08-15 09:54 1357 45430
+Hibiscus 芙蓉 history.we@find.almost 3
+-1
+0
+-1
+0
+0
+Aak 阿阿 rank.In.ancient@Rome.we 4
+1
+LeavesofGrass 湖南省张家界市 06-30 02:32 -> 辽宁省沈阳市 06-30 13:53 1333 98306
+-1
+Firewatch 守林人 stood.in.constant@opposition.t 4
+1
+LeavesofGrass 湖南省汩罗市 08-23 21:58 -> 湖南省张家界市 08-24 02:26 761 45430
+-1
+1
+LeavesofGrass 河北省霸州市 08-21 01:28 -> 四川省成都市 08-21 14:46 2191 45430
+-1
+1
+LeavesofGrass 山东省栖霞市 06-09 16:01 -> 浙江省上虞市 06-09 20:28 227 45430
+1
+LeavesofGrass 江西省瑞昌市 08-12 15:27 -> 山东省栖霞市 08-12 15:56 371 45430
+Savage 暴行 branding.reproach@of.Communism 4
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-10 15:27 -> 浙江省上虞市 08-10 20:28 598 45430
+-1
+-1
+-1
+-1
+-1
+-1
+1
+LeavesofGrass 河北省霸州市 06-11 01:28 -> 浙江省湖州市 06-11 09:54 1357 45430
+1
+LeavesofGrass 河北省霸州市 07-13 01:28 -> 黑龙江省齐齐哈尔市 07-13 06:17 716 98306
+-1
+1
+LeavesofGrass 湖南省张家界市 06-19 02:32 -> 辽宁省沈阳市 06-19 13:53 1333 45430
+-1
+-1
+1
+LeavesofGrass 河北省霸州市 06-21 01:28 -> 黑龙江省齐齐哈尔市 06-21 06:17 716 45430
+1
+LeavesofGrass 山东省栖霞市 08-05 16:01 -> 湖南省张家界市 08-06 02:26 1296 45430
+-1
+1
+LeavesofGrass 湖南省张家界市 07-17 02:32 -> 黑龙江省齐齐哈尔市 07-17 06:17 318 98306
+Savage 暴行 branding.reproach@of.Communism 4
+1
+LeavesofGrass 湖南省汩罗市 06-20 21:58 -> 河北省霸州市 06-21 01:21 363 45430
+Grani 格拉尼 now.open.fight@a.fight 1
+Mousse 慕斯 acknowledged@by.all 4
+1
+LeavesofGrass 江西省瑞昌市 08-02 15:27 -> 湖南省张家界市 08-03 02:26 1667 98306
+1
+LeavesofGrass 河北省霸州市 06-19 01:28 -> 辽宁省沈阳市 06-19 13:53 1731 45430
+0
+0
+1
+LeavesofGrass 浙江省上虞市 06-11 20:35 -> 湖南省汩罗市 06-11 21:51 308 45430
+1
+LeavesofGrass 广东省兴宁市 06-15 08:14 -> 四川省成都市 06-15 14:46 988 45430
+Ambriel 安比尔 party.itself@To.this 3
+-1
+-1
+Vanilla 香草 the.Spectre@of.Communism 2
+1
+LeavesofGrass 山东省栖霞市 07-12 16:01 -> 河北省霸州市 07-13 01:21 898 98306
+1
+LeavesofGrass 河北省霸州市 06-14 01:28 -> 湖南省张家界市 06-14 02:26 398 45430
+1
+LeavesofGrass 江西省瑞昌市 06-28 15:27 -> 山东省栖霞市 06-28 15:56 371 98306
+-1
+-1
+1
+LeavesofGrass 浙江省上虞市 08-15 20:35 -> 湖南省汩罗市 08-15 21:51 308 45430
+1
+LeavesofGrass 辽宁省沈阳市 08-06 14:00 -> 四川省成都市 08-06 14:46 460 45430
+-1
+-1
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 07-13 16:01 -> 四川省成都市 07-14 14:46 3089 98306
+Lappland 拉普兰德 adversaries@Two.things 4
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-20 06:26 -> 浙江省湖州市 06-20 09:54 641 45430
+1
+LeavesofGrass 辽宁省沈阳市 08-07 14:00 -> 四川省成都市 08-07 14:46 460 45430
+1
+LeavesofGrass 河北省霸州市 08-06 01:28 -> 浙江省湖州市 08-06 09:54 1357 45430
+1
+LeavesofGrass 广东省兴宁市 07-17 08:14 -> 四川省成都市 07-17 14:46 988 98306
+0
+0
+-1
+1
+LeavesofGrass 浙江省上虞市 08-11 20:35 -> 浙江省湖州市 08-12 09:54 2028 45430
+-1
+1
+LeavesofGrass 浙江省湖州市 07-08 10:04 -> 辽宁省沈阳市 07-08 13:53 374 98306
+-1
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 07-28 06:26 -> 四川省成都市 07-28 14:46 1475 98306
+-1
+0
+0
+-1
+0
+0
+-1
+1
+LeavesofGrass 浙江省上虞市 08-23 20:35 -> 湖南省张家界市 08-24 02:26 1069 45430
+-1
+-1
+Vanilla 香草 the.Spectre@of.Communism 2
+1
+LeavesofGrass 浙江省湖州市 07-21 10:04 -> 辽宁省沈阳市 07-21 13:53 374 98306
+-1
+-1
+-1
+1
+LeavesofGrass 浙江省上虞市 08-24 20:35 -> 广东省兴宁市 08-25 08:09 1874 45430
+0
+0
+-1
+1
+LeavesofGrass 浙江省上虞市 07-27 20:35 -> 湖南省张家界市 07-28 02:26 1069 98306
+-1
+-1
+-1
+-1
+Spot 斑点 existing.societies@is.the 3
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-07 15:27 -> 河北省霸州市 08-08 01:21 1269 45430
+1
+LeavesofGrass 江西省瑞昌市 08-01 15:27 -> 广东省兴宁市 08-02 08:09 2472 98306
+1
+LeavesofGrass 江西省瑞昌市 08-01 15:27 -> 辽宁省沈阳市 08-02 13:53 3000 98306
+-1
+-1
+Shining 闪灵 with.a.Manifesto@of.the 4
+-1
+May 梅梅 feudal.lords@vassals.guildmast 4
+1
+LeavesofGrass 湖南省汩罗市 07-13 21:58 -> 河北省霸州市 07-14 01:21 363 98306
+-1
+Ceylon 锡兰 slaves.in.the@Middle.Ages 1
+1
+LeavesofGrass 湖南省张家界市 08-04 02:32 -> 广东省兴宁市 08-04 08:09 805 98306
+-1
+-1
+-1
+1
+LeavesofGrass 湖南省张家界市 07-18 02:32 -> 辽宁省沈阳市 07-18 13:53 1333 98306
+-1
+1
+LeavesofGrass 江西省瑞昌市 06-17 15:27 -> 浙江省湖州市 06-18 09:54 2626 45430
+-1
+1
+LeavesofGrass 河北省霸州市 08-14 01:28 -> 湖南省张家界市 08-14 02:26 398 45430
+1
+LeavesofGrass 湖南省汩罗市 06-18 21:58 -> 辽宁省沈阳市 06-19 13:53 2094 45430
+1
+LeavesofGrass 浙江省上虞市 06-10 20:35 -> 辽宁省沈阳市 06-11 13:53 2402 45430
+-1
+1
+LeavesofGrass 江西省瑞昌市 06-13 15:27 -> 浙江省上虞市 06-13 20:28 598 45430
+-1
+-1
+1
+LeavesofGrass 浙江省上虞市 06-29 20:35 -> 河北省霸州市 06-30 01:21 671 98306
+-1
+-1
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-24 15:27 -> 广东省兴宁市 07-25 08:09 2472 98306
+-1
+1
+LeavesofGrass 广东省兴宁市 08-16 08:14 -> 浙江省湖州市 08-16 09:54 154 45430
+-1
+-1
+GreyThroat 灰喉 classes.again@subordinate.grad 2
+1
+LeavesofGrass 山东省栖霞市 07-06 16:01 -> 湖南省张家界市 07-07 02:26 1296 98306
+1
+LeavesofGrass 江西省瑞昌市 08-05 15:27 -> 浙江省上虞市 08-05 20:28 598 45430
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 08-22 16:01 -> 广东省兴宁市 08-23 08:09 2101 45430
+-1
+0
+0
+-1
+-1
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 07-22 16:01 -> 河北省霸州市 07-23 01:21 898 98306
+0
+-1
+-1
+-1
+Savage 暴行 branding.reproach@of.Communism 4
+-1
+0
+0
+1
+LeavesofGrass 江西省瑞昌市 07-16 15:27 -> 浙江省湖州市 07-17 09:54 2626 98306
+0
+0
+0
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-12 15:27 -> 辽宁省沈阳市 07-13 13:53 3000 98306
+-1
+1
+LeavesofGrass 山东省栖霞市 08-05 16:01 -> 四川省成都市 08-06 14:46 3089 45430
+May 梅梅 feudal.lords@vassals.guildmast 4
+1
+LeavesofGrass 湖南省汩罗市 06-08 21:58 -> 湖南省张家界市 06-09 02:26 761 45430
+1
+LeavesofGrass 河北省霸州市 07-06 01:28 -> 浙江省湖州市 07-06 09:54 1357 98306
+Conviction 断罪者 that.has.sprouted@from.the 4
+-1
+1
+LeavesofGrass 湖南省张家界市 08-10 02:32 -> 黑龙江省齐齐哈尔市 08-10 06:17 318 45430
+1
+LeavesofGrass 辽宁省沈阳市 06-27 14:00 -> 四川省成都市 06-27 14:46 460 45430
+1
+LeavesofGrass 浙江省上虞市 07-22 20:35 -> 广东省兴宁市 07-23 08:09 1874 98306
+Savage 暴行 branding.reproach@of.Communism 4
+1
+LeavesofGrass 江西省瑞昌市 07-27 15:27 -> 河北省霸州市 07-28 01:21 1269 98306
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-11 15:27 -> 河北省霸州市 07-12 01:21 1269 98306
+1
+LeavesofGrass 江西省瑞昌市 06-22 15:27 -> 湖南省张家界市 06-23 02:26 1667 45430
+-1
+-1
+1
+LeavesofGrass 广东省兴宁市 08-03 08:14 -> 辽宁省沈阳市 08-03 13:53 528 98306
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 08-12 06:26 -> 辽宁省沈阳市 08-12 13:53 1015 45430
+-1
+1
+LeavesofGrass 山东省栖霞市 06-23 16:01 -> 辽宁省沈阳市 06-24 13:53 2629 45430
+1
+LeavesofGrass 浙江省上虞市 07-17 20:35 -> 广东省兴宁市 07-18 08:09 1874 98306
+1
+LeavesofGrass 湖南省汩罗市 08-24 21:58 -> 河北省霸州市 08-25 01:21 363 45430
+-1
+-1
+1
+LeavesofGrass 浙江省上虞市 08-03 20:35 -> 湖南省张家界市 08-04 02:26 1069 98306
+1
+LeavesofGrass 湖南省汩罗市 07-16 21:58 -> 四川省成都市 07-17 14:46 2554 98306
+-1
+-1
+-1
+1
+LeavesofGrass 浙江省上虞市 07-02 20:35 -> 湖南省汩罗市 07-02 21:51 308 98306
+-1
+-1
+Grani 格拉尼 now.open.fight@a.fight 1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 07-16 06:26 -> 浙江省湖州市 07-16 09:54 641 98306
+-1
+May 梅梅 feudal.lords@vassals.guildmast 4
+1
+LeavesofGrass 湖南省张家界市 07-29 02:32 -> 辽宁省沈阳市 07-29 13:53 1333 98306
+1
+LeavesofGrass 湖南省汩罗市 06-17 21:58 -> 辽宁省沈阳市 06-18 13:53 2094 45430
+Schwarz 黑黑 society.at@large.or 1
+Plume 翎羽 the.earlier@epochs.of 2
+1
+LeavesofGrass 湖南省张家界市 08-04 02:32 -> 广东省兴宁市 08-04 08:09 805 98306
+1
+LeavesofGrass 江西省瑞昌市 07-16 15:27 -> 广东省兴宁市 07-17 08:09 2472 98306
+1
+LeavesofGrass 江西省瑞昌市 07-20 15:27 -> 湖南省张家界市 07-21 02:26 1667 98306
+-1
+1
+LeavesofGrass 江西省瑞昌市 06-26 15:27 -> 浙江省上虞市 06-26 20:28 598 45430
+-1
+0
+0
+Orchid 梓兰 that.each.time@ended.either 3
+1
+LeavesofGrass 江西省瑞昌市 08-01 15:27 -> 黑龙江省齐齐哈尔市 08-02 06:17 1985 98306
+-1
+Rangers 巡林者 one.another@carried.on 2
+Snowsant 雪雉 itself.a.Power@II.It 1
+1
+LeavesofGrass 山东省栖霞市 07-21 16:01 -> 黑龙江省齐齐哈尔市 07-22 06:17 1614 98306
+1
+LeavesofGrass 山东省栖霞市 07-11 16:01 -> 黑龙江省齐齐哈尔市 07-12 06:17 1614 98306
+-1
+-1
+Vanilla 香草 the.Spectre@of.Communism 2
+-1
+-1
+-1
+1
+LeavesofGrass 河北省霸州市 07-04 01:28 -> 黑龙江省齐齐哈尔市 07-04 06:17 716 98306
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 08-14 06:26 -> 广东省兴宁市 08-14 08:09 487 45430
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 07-08 06:26 -> 四川省成都市 07-08 14:46 1475 98306
+-1
+Hibiscus 芙蓉 history.we@find.almost 3
+-1
+-1
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-13 15:27 -> 四川省成都市 08-14 14:46 3460 45430
+Ceylon 锡兰 slaves.in.the@Middle.Ages 1
+-1
+0
+0
+Rangers 巡林者 one.another@carried.on 2
+0
+0
+1
+LeavesofGrass 山东省栖霞市 07-19 16:01 -> 湖南省张家界市 07-20 02:26 1296 98306
+-1
+1
+LeavesofGrass 浙江省上虞市 06-17 20:35 -> 四川省成都市 06-18 14:46 2862 45430
+1
+LeavesofGrass 山东省栖霞市 08-16 16:01 -> 浙江省上虞市 08-16 20:28 227 45430
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 08-12 06:26 -> 浙江省湖州市 08-12 09:54 641 45430
+Pramanix 初雪 published.in@the.English 1
+-1
+1
+LeavesofGrass 江西省瑞昌市 06-19 15:27 -> 浙江省上虞市 06-19 20:28 598 45430
+-1
+1
+LeavesofGrass 湖南省汩罗市 06-28 21:58 -> 浙江省湖州市 06-29 09:54 1720 98306
+-1
+0
+-1
+0
+0
+1
+LeavesofGrass 江西省瑞昌市 08-21 15:27 -> 广东省兴宁市 08-22 08:09 2472 45430
+0
+-1
+-1
+1
+LeavesofGrass 湖南省张家界市 07-22 02:32 -> 广东省兴宁市 07-22 08:09 805 98306
+0
+0
+Aak 阿阿 rank.In.ancient@Rome.we 4
+-1
+Firewatch 守林人 stood.in.constant@opposition.t 4
+1
+LeavesofGrass 浙江省上虞市 06-21 20:35 -> 湖南省张家界市 06-22 02:26 1069 45430
+-1
+ShiraYuki 白雪 European.Powers@to.be 3
+1
+LeavesofGrass 浙江省上虞市 07-26 20:35 -> 湖南省汩罗市 07-26 21:51 308 98306
+-1
+Shining 闪灵 with.a.Manifesto@of.the 4
+1
+LeavesofGrass 山东省栖霞市 07-14 16:01 -> 辽宁省沈阳市 07-15 13:53 2629 98306
+1
+LeavesofGrass 山东省栖霞市 07-13 16:01 -> 黑龙江省齐齐哈尔市 07-14 06:17 1614 98306
+0
+-1
+-1
+Conviction 断罪者 that.has.sprouted@from.the 4
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 08-06 06:26 -> 四川省成都市 08-06 14:46 1475 45430
+1
+LeavesofGrass 广东省兴宁市 08-23 08:14 -> 浙江省湖州市 08-23 09:54 154 45430
+-1
+1
+LeavesofGrass 河北省霸州市 07-19 01:28 -> 黑龙江省齐齐哈尔市 07-19 06:17 716 98306
+-1
+-1
+WaaiFu 槐琥 new.conditions@of.oppression 2
+Firewatch 守林人 stood.in.constant@opposition.t 4
+0
+0
+Catapult 空爆 publish.their@views.their 4
+1
+LeavesofGrass 江西省瑞昌市 08-22 15:27 -> 山东省栖霞市 08-22 15:56 371 45430
+1
+LeavesofGrass 湖南省汩罗市 08-10 21:58 -> 四川省成都市 08-11 14:46 2554 45430
+0
+-1
+1
+LeavesofGrass 河北省霸州市 07-07 01:28 -> 辽宁省沈阳市 07-07 13:53 1731 98306
+-1
+-1
+1
+LeavesofGrass 浙江省上虞市 06-11 20:35 -> 广东省兴宁市 06-12 08:09 1874 45430
+1
+LeavesofGrass 河北省霸州市 06-13 01:28 -> 广东省兴宁市 06-13 08:09 1203 45430
+Ceylon 锡兰 slaves.in.the@Middle.Ages 1
+1
+LeavesofGrass 江西省瑞昌市 06-22 15:27 -> 黑龙江省齐齐哈尔市 06-23 06:17 1985 45430
+1
+LeavesofGrass 山东省栖霞市 07-02 16:01 -> 湖南省张家界市 07-03 02:26 1296 98306
+0
+0
+-1
+1
+LeavesofGrass 山东省栖霞市 08-15 16:01 -> 辽宁省沈阳市 08-16 13:53 2629 45430
+-1
+1
+LeavesofGrass 湖南省汩罗市 08-11 21:58 -> 湖南省张家界市 08-12 02:26 761 45430
+-1
+Myrtle 桃金娘 BOURGEOIS.AND@PROLETARIANS.The 4
+1
+LeavesofGrass 浙江省上虞市 06-13 20:35 -> 河北省霸州市 06-14 01:21 671 45430
+1
+LeavesofGrass 浙江省湖州市 08-23 10:04 -> 四川省成都市 08-23 14:46 834 45430
+1
+LeavesofGrass 山东省栖霞市 07-29 16:01 -> 黑龙江省齐齐哈尔市 07-30 06:17 1614 98306
+1
+LeavesofGrass 湖南省汩罗市 06-09 21:58 -> 广东省兴宁市 06-10 08:09 1566 45430
+0
+0
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-04 15:27 -> 浙江省湖州市 07-05 09:54 2626 98306
+1
+LeavesofGrass 湖南省张家界市 07-04 02:32 -> 黑龙江省齐齐哈尔市 07-04 06:17 318 98306
+Weedy 温蒂 antagonisms@Society.as 1
+1
+LeavesofGrass 江西省瑞昌市 07-17 15:27 -> 四川省成都市 07-18 14:46 3460 98306
+1
+LeavesofGrass 湖南省汩罗市 07-02 21:58 -> 辽宁省沈阳市 07-03 13:53 2094 98306
+-1
+1
+LeavesofGrass 河北省霸州市 06-12 01:28 -> 广东省兴宁市 06-12 08:09 1203 45430
+1
+LeavesofGrass 山东省栖霞市 07-02 16:01 -> 湖南省张家界市 07-03 02:26 1296 98306
+Chen 陈陈 place.of.the@old.ones 1
+Haze 夜烟 new.forms.of@struggle.in 3
+-1
+-1
+-1
+-1
+Shining 闪灵 with.a.Manifesto@of.the 4
+Pramanix 初雪 more.splitting@up.into 1
+1
+LeavesofGrass 浙江省上虞市 06-08 20:35 -> 四川省成都市 06-09 14:46 2862 45430
+1
+LeavesofGrass 湖南省汩罗市 06-16 21:58 -> 四川省成都市 06-17 14:46 2554 45430
+1
+LeavesofGrass 山东省栖霞市 08-01 16:01 -> 黑龙江省齐齐哈尔市 08-02 06:17 1614 98306
+Myrtle 桃金娘 BOURGEOIS.AND@PROLETARIANS.The 4
+Beehunter 猎蜂 nationalities@have.assembled 1
+-1
+-1
+-1
+0
+0
+1
+LeavesofGrass 浙江省湖州市 07-12 10:04 -> 四川省成都市 07-12 14:46 834 98306
+1
+LeavesofGrass 河北省霸州市 08-25 01:28 -> 四川省成都市 08-25 14:46 2191 45430
+1
+LeavesofGrass 江西省瑞昌市 07-21 15:27 -> 辽宁省沈阳市 07-22 13:53 3000 98306
+1
+LeavesofGrass 湖南省汩罗市 07-02 21:58 -> 浙江省湖州市 07-03 09:54 1720 98306
+NoirCorne 黑角 in.a.word.oppressor@and.oppres 3
+-1
+Kroos 克洛丝 ruins.of.feudal@society.has 2
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 08-16 06:26 -> 辽宁省沈阳市 08-16 13:53 1015 45430
+1
+LeavesofGrass 湖南省汩罗市 07-19 21:58 -> 四川省成都市 07-20 14:46 2554 98306
+1
+LeavesofGrass 浙江省上虞市 08-24 20:35 -> 湖南省汩罗市 08-24 21:51 308 45430
+0
+-1
+-1
+-1
+1
+LeavesofGrass 广东省兴宁市 08-19 08:14 -> 四川省成都市 08-19 14:46 988 45430
+-1
+1
+LeavesofGrass 山东省栖霞市 07-08 16:01 -> 广东省兴宁市 07-09 08:09 2101 98306
+1
+LeavesofGrass 湖南省张家界市 08-20 02:32 -> 辽宁省沈阳市 08-20 13:53 1333 45430
+1
+LeavesofGrass 山东省栖霞市 08-20 16:01 -> 河北省霸州市 08-21 01:21 898 45430
+0
+-1
+-1
+0
+0
+Melantha 玫兰莎 two.great.classes@directly.fac 3
+-1
+NoirCorne 黑角 in.a.word.oppressor@and.oppres 3
+1
+LeavesofGrass 浙江省上虞市 08-22 20:35 -> 河北省霸州市 08-23 01:21 671 45430
+1
+LeavesofGrass 湖南省汩罗市 06-16 21:58 -> 浙江省湖州市 06-17 09:54 1720 45430
+1
+LeavesofGrass 湖南省张家界市 07-01 02:32 -> 浙江省湖州市 07-01 09:54 959 98306
+ShiraYuki 白雪 European.Powers@to.be 3
+Weedy 温蒂 antagonisms@Society.as 1
+1
+LeavesofGrass 江西省瑞昌市 06-11 15:27 -> 广东省兴宁市 06-12 08:09 2472 45430
+-1
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-29 15:27 -> 辽宁省沈阳市 07-30 13:53 3000 98306
+1
+LeavesofGrass 浙江省上虞市 07-16 20:35 -> 辽宁省沈阳市 07-17 13:53 2402 98306
+-1
+Pramanix 初雪 more.splitting@up.into 1
+-1
+1
+LeavesofGrass 浙江省湖州市 08-26 10:04 -> 四川省成都市 08-26 14:46 834 45430
+-1
+1
+LeavesofGrass 湖南省张家界市 06-24 02:32 -> 广东省兴宁市 06-24 08:09 805 45430
+Grani 格拉尼 now.open.fight@a.fight 1
+SilverAsh 银灰 and.Danish@languages.I 4
+0
+Mousse 慕斯 acknowledged@by.all 4
+1
+LeavesofGrass 江西省瑞昌市 07-29 15:27 -> 湖南省张家界市 07-30 02:26 1667 98306
+0
+0
+1
+LeavesofGrass 浙江省上虞市 07-09 20:35 -> 四川省成都市 07-10 14:46 2862 98306
+Ceylon 锡兰 slaves.in.the@Middle.Ages 1
+-1
+-1
+0
+0
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 08-09 06:26 -> 四川省成都市 08-09 14:46 1475 45430
+0
+0
+1
+LeavesofGrass 湖南省汩罗市 07-07 21:58 -> 广东省兴宁市 07-08 08:09 1566 98306
+-1
+0
+-1
+1
+LeavesofGrass 湖南省张家界市 07-28 02:32 -> 广东省兴宁市 07-28 08:09 805 98306
+-1
+-1
+-1
+0
+0
+Melantha 玫兰莎 two.great.classes@directly.fac 3
+1
+LeavesofGrass 江西省瑞昌市 07-18 15:27 -> 浙江省上虞市 07-18 20:28 598 98306
+1
+LeavesofGrass 河北省霸州市 08-15 01:28 -> 黑龙江省齐齐哈尔市 08-15 06:17 716 45430
+1
+LeavesofGrass 江西省瑞昌市 08-09 15:27 -> 浙江省上虞市 08-09 20:28 598 45430
+1
+LeavesofGrass 浙江省上虞市 08-04 20:35 -> 黑龙江省齐齐哈尔市 08-05 06:17 1387 98306
+-1
+Firewatch 守林人 stood.in.constant@opposition.t 4
+-1
+-1
+-1
+1
+LeavesofGrass 广东省兴宁市 07-20 08:14 -> 浙江省湖州市 07-20 09:54 154 98306
+-1
+1
+LeavesofGrass 河北省霸州市 07-01 01:28 -> 四川省成都市 07-01 14:46 2191 98306
+1
+LeavesofGrass 河北省霸州市 07-18 01:28 -> 湖南省张家界市 07-18 02:26 398 98306
+1
+LeavesofGrass 山东省栖霞市 06-28 16:01 -> 广东省兴宁市 06-29 08:09 2101 98306
+Kroos 克洛丝 ruins.of.feudal@society.has 2
+1
+LeavesofGrass 湖南省汩罗市 07-10 21:58 -> 黑龙江省齐齐哈尔市 07-11 06:17 1079 98306
+Chen 陈陈 place.of.the@old.ones 1
+Savage 暴行 branding.reproach@of.Communism 4
+-1
+-1
+-1
+-1
+1
+LeavesofGrass 辽宁省沈阳市 07-01 14:00 -> 四川省成都市 07-01 14:46 460 98306
+1
+LeavesofGrass 广东省兴宁市 07-03 08:14 -> 辽宁省沈阳市 07-03 13:53 528 98306
+1
+LeavesofGrass 湖南省张家界市 07-19 02:32 -> 辽宁省沈阳市 07-19 13:53 1333 98306
+0
+-1
+-1
+Myrtle 桃金娘 BOURGEOIS.AND@PROLETARIANS.The 4
+Catapult 空爆 publish.their@views.their 4
+-1
+0
+0
+-1
+-1
+-1
+Myrtle 桃金娘 BOURGEOIS.AND@PROLETARIANS.The 4
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 06-30 16:01 -> 湖南省汩罗市 06-30 21:51 535 98306
+1
+LeavesofGrass 山东省栖霞市 07-02 16:01 -> 浙江省上虞市 07-02 20:28 227 98306
+-1
+1
+LeavesofGrass 河北省霸州市 07-01 01:28 -> 湖南省张家界市 07-01 02:26 398 98306
+-1
+Meteorite 陨星 Proletariat@From.the 2
+-1
+Weedy 温蒂 antagonisms@Society.as 1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-19 15:27 -> 湖南省汩罗市 08-19 21:51 906 45430
+Melantha 玫兰莎 two.great.classes@directly.fac 3
+Savage 暴行 branding.reproach@of.Communism 4
+-1
+Mousse 慕斯 acknowledged@by.all 4
+-1
+-1
+-1
+-1
+1
+LeavesofGrass 河北省霸州市 08-25 01:28 -> 浙江省湖州市 08-25 09:54 1357 45430
+1
+LeavesofGrass 江西省瑞昌市 06-12 15:27 -> 浙江省上虞市 06-12 20:28 598 45430
+0
+1
+LeavesofGrass 辽宁省沈阳市 08-24 14:00 -> 四川省成都市 08-24 14:46 460 45430
+1
+LeavesofGrass 江西省瑞昌市 07-07 15:27 -> 河北省霸州市 07-08 01:21 1269 98306
+1
+LeavesofGrass 湖南省张家界市 07-22 02:32 -> 四川省成都市 07-22 14:46 1793 98306
+1
+LeavesofGrass 江西省瑞昌市 07-11 15:27 -> 广东省兴宁市 07-12 08:09 2472 98306
+-1
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 07-23 16:01 -> 广东省兴宁市 07-24 08:09 2101 98306
+1
+LeavesofGrass 浙江省上虞市 08-03 20:35 -> 浙江省湖州市 08-04 09:54 2028 98306
+1
+LeavesofGrass 湖南省汩罗市 07-08 21:58 -> 黑龙江省齐齐哈尔市 07-09 06:17 1079 98306
+0
+1
+LeavesofGrass 浙江省上虞市 08-27 20:35 -> 黑龙江省齐齐哈尔市 08-28 06:17 1387 45430
+-1
+-1
+-1
+0
+0
+1
+LeavesofGrass 江西省瑞昌市 08-18 15:27 -> 广东省兴宁市 08-19 08:09 2472 45430
+-1
+Magallan 麦哲伦 two.great.hostile@camps.into 1
+-1
+-1
+0
+Plume 翎羽 the.earlier@epochs.of 2
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-17 06:26 -> 四川省成都市 06-17 14:46 1475 45430
+1
+LeavesofGrass 河北省霸州市 07-15 01:28 -> 湖南省张家界市 07-15 02:26 398 98306
+Magallan 麦哲伦 two.great.hostile@camps.into 1
+1
+LeavesofGrass 山东省栖霞市 08-02 16:01 -> 四川省成都市 08-03 14:46 3089 98306
+-1
+Pramanix 初雪 more.splitting@up.into 1
+Schwarz 黑黑 society.at@large.or 1
+-1
+1
+LeavesofGrass 浙江省上虞市 07-09 20:35 -> 黑龙江省齐齐哈尔市 07-10 06:17 1387 98306
+0
+0
+0
+Chen 陈陈 place.of.the@old.ones 1
+0
+0
+-1
+-1
+-1
+Sussurro 苏苏洛 each.other@Bourgeoisie.and 1
+-1
+1
+LeavesofGrass 山东省栖霞市 06-27 16:01 -> 辽宁省沈阳市 06-28 13:53 2629 45430
+0
+0
+-1
+ShiraYuki 白雪 European.Powers@to.be 3
+1
+LeavesofGrass 河北省霸州市 07-14 01:28 -> 四川省成都市 07-14 14:46 2191 98306
+1
+LeavesofGrass 湖南省汩罗市 07-03 21:58 -> 辽宁省沈阳市 07-04 13:53 2094 98306
+1
+LeavesofGrass 广东省兴宁市 06-14 08:14 -> 辽宁省沈阳市 06-14 13:53 528 45430
+-1
+-1
+1
+LeavesofGrass 浙江省上虞市 08-04 20:35 -> 黑龙江省齐齐哈尔市 08-05 06:17 1387 98306
+1
+LeavesofGrass 山东省栖霞市 08-24 16:01 -> 黑龙江省齐齐哈尔市 08-25 06:17 1614 45430
+1
+LeavesofGrass 山东省栖霞市 08-23 16:01 -> 四川省成都市 08-24 14:46 3089 45430
+1
+LeavesofGrass 湖南省汩罗市 08-08 21:58 -> 浙江省湖州市 08-09 09:54 1720 45430
+1
+LeavesofGrass 湖南省汩罗市 07-25 21:58 -> 河北省霸州市 07-26 01:21 363 98306
+1
+LeavesofGrass 河北省霸州市 06-24 01:28 -> 湖南省张家界市 06-24 02:26 398 45430
+1
+LeavesofGrass 江西省瑞昌市 06-28 15:27 -> 浙江省湖州市 06-29 09:54 2626 98306
+-1
+1
+LeavesofGrass 山东省栖霞市 06-15 16:01 -> 黑龙江省齐齐哈尔市 06-16 06:17 1614 45430
+1
+LeavesofGrass 湖南省张家界市 08-23 02:32 -> 四川省成都市 08-23 14:46 1793 45430
+Meteorite 陨星 Proletariat@From.the 2
+-1
+0
+1
+LeavesofGrass 江西省瑞昌市 06-25 15:27 -> 广东省兴宁市 06-26 08:09 2472 45430
+0
+-1
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-24 15:27 -> 浙江省湖州市 08-25 09:54 2626 45430
+Myrtle 桃金娘 BOURGEOIS.AND@PROLETARIANS.The 4
+-1
+-1
+0
+0
+-1
+0
+1
+LeavesofGrass 河北省霸州市 06-10 01:28 -> 湖南省张家界市 06-10 02:26 398 45430
+-1
+-1
+1
+LeavesofGrass 河北省霸州市 08-09 01:28 -> 湖南省张家界市 08-09 02:26 398 45430
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 06-26 01:58 -> 广东省佛山市 06-26 05:20 411 90143
+0
+0
+Ansel 安赛尔 of.America@the.rounding 3
+Kroos 克洛丝 ruins.of.feudal@society.has 2
+1
+TOFOREIGNLANDS 广东省开平市 07-18 16:49 -> 江西省乐平市 07-19 17:49 1002 90143
+0
+0
+1
+LeavesofGrass 江西省瑞昌市 08-17 15:27 -> 四川省成都市 08-18 14:46 3460 45430
+-1
+1
+LeavesofGrass 湖南省张家界市 07-12 02:32 -> 黑龙江省齐齐哈尔市 07-12 06:17 318 98306
+0
+Flamebringer 炎客 rising.bourgeoisie@The.EastInd 2
+0
+0
+-1
+-1
+-1
+-1
+0
+0
+-1
+-1
+0
+0
+-1
+-1
+0
+1
+TOFOREIGNLANDS 广东省佛山市 07-06 05:26 -> 北京市 07-06 13:05 134 90143
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-28 05:26 -> 江西省乐平市 07-28 17:49 381 90143
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-14 06:26 -> 浙江省湖州市 06-14 09:54 641 45430
+1
+LeavesofGrass 山东省栖霞市 08-16 16:01 -> 广东省兴宁市 08-17 08:09 2101 45430
+1
+LeavesofGrass 浙江省上虞市 07-29 20:35 -> 湖南省汩罗市 07-29 21:51 308 98306
+1
+LeavesofGrass 浙江省上虞市 06-15 20:35 -> 湖南省张家界市 06-16 02:26 1069 45430
+-1
+-1
+-1
+0
+0
+Orchid 梓兰 that.each.time@ended.either 3
+1
+LeavesofGrass 湖南省汩罗市 08-18 21:58 -> 河北省霸州市 08-19 01:21 363 45430
+-1
+-1
+Mousse 慕斯 acknowledged@by.all 4
+0
+SilverAsh 银灰 and.Danish@languages.I 4
+1
+LeavesofGrass 湖南省汩罗市 07-22 21:58 -> 湖南省张家界市 07-23 02:26 761 98306
+-1
+1
+LeavesofGrass 湖南省汩罗市 08-06 21:58 -> 黑龙江省齐齐哈尔市 08-07 06:17 1079 45430
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-07 16:49 -> 江西省乐平市 07-08 17:49 1002 90143
+Hibiscus 芙蓉 history.we@find.almost 3
+-1
+Ceylon 锡兰 slaves.in.the@Middle.Ages 1
+1
+TOFOREIGNLANDS 广东省佛山市 07-18 05:26 -> 北京市 07-18 13:05 134 90143
+-1
+Frostleaf 霜叶 commodities@generally.gave 3
+1
+TOFOREIGNLANDS 北京市 07-22 13:09 -> 江西省乐平市 07-22 17:49 247 90143
+-1
+-1
+1
+LeavesofGrass 浙江省上虞市 07-30 20:35 -> 湖南省汩罗市 07-30 21:51 308 98306
+0
+Mayer 梅尔 and.plebeian@lord.and 2
+1
+LeavesofGrass 湖南省汩罗市 07-01 21:58 -> 黑龙江省齐齐哈尔市 07-02 06:17 1079 98306
+Lappland 拉普兰德 adversaries@Two.things 4
+1
+TOFOREIGNLANDS 广东省佛山市 07-27 05:26 -> 北京市 07-27 13:05 134 90143
+1
+LeavesofGrass 山东省栖霞市 07-18 16:01 -> 辽宁省沈阳市 07-19 13:53 2629 98306
+-1
+Magallan 麦哲伦 two.great.hostile@camps.into 1
+W 达不溜 but.established@new.classes 1
+1
+LeavesofGrass 浙江省上虞市 08-02 20:35 -> 辽宁省沈阳市 08-03 13:53 2402 98306
+1
+LeavesofGrass 湖南省汩罗市 07-28 21:58 -> 四川省成都市 07-29 14:46 2554 98306
+Ceobe 刻俄柏 were.developed@The.discovery 3
+1
+TOFOREIGNLANDS 湖南省武冈市 07-21 01:58 -> 江西省乐平市 07-21 17:49 792 90143
+Ansel 安赛尔 of.America@the.rounding 3
+-1
+-1
+1
+TOFOREIGNLANDS 北京市 07-22 13:09 -> 江西省乐平市 07-22 17:49 247 90143
+-1
+Vanilla 香草 the.Spectre@of.Communism 2
+-1
+1
+TOFOREIGNLANDS 广东省开平市 06-24 16:49 -> 广东省佛山市 06-25 05:20 621 90143
+-1
+0
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-11 16:49 -> 江西省乐平市 07-12 17:49 1002 90143
+1
+TOFOREIGNLANDS 广东省开平市 06-30 16:49 -> 北京市 07-01 13:05 755 90143
+-1
+1
+LeavesofGrass 广东省兴宁市 06-11 08:14 -> 浙江省湖州市 06-11 09:54 154 45430
+1
+TOFOREIGNLANDS 湖南省武冈市 06-25 01:58 -> 广东省佛山市 06-25 05:20 411 90143
+0
+0
+1
+LeavesofGrass 湖南省张家界市 06-13 02:32 -> 广东省兴宁市 06-13 08:09 805 45430
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-05 01:58 -> 广东省佛山市 07-05 05:20 411 90143
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-04 16:49 -> 江西省乐平市 07-05 17:49 1002 90143
+Plume 翎羽 the.earlier@epochs.of 2
+1
+TOFOREIGNLANDS 广东省开平市 07-03 16:49 -> 湖南省武冈市 07-04 01:51 210 90143
+Flamebringer 炎客 to.industry@an.impulse 2
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+Pramanix 初雪 more.splitting@up.into 1
+-1
+Ethan 伊桑 sprang.the@chartered.burghers 2
+1
+LeavesofGrass 湖南省汩罗市 07-12 21:58 -> 广东省兴宁市 07-13 08:09 1566 98306
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-21 16:49 -> 北京市 07-22 13:05 755 90143
+Snowsant 雪雉 itself.a.Power@II.It 1
+1
+TOFOREIGNLANDS 北京市 07-23 13:09 -> 江西省乐平市 07-23 17:49 247 90143
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-08 05:26 -> 北京市 07-08 13:05 134 90143
+1
+TOFOREIGNLANDS 湖南省武冈市 07-05 01:58 -> 江西省乐平市 07-05 17:49 792 90143
+-1
+-1
+-1
+-1
+1
+LeavesofGrass 浙江省上虞市 07-06 20:35 -> 四川省成都市 07-07 14:46 2862 98306
+1
+TOFOREIGNLANDS 湖南省武冈市 07-21 01:58 -> 江西省乐平市 07-21 17:49 792 90143
+-1
+-1
+1
+LeavesofGrass 浙江省湖州市 07-24 10:04 -> 辽宁省沈阳市 07-24 13:53 374 98306
+Beehunter 猎蜂 nationalities@have.assembled 1
+1
+TOFOREIGNLANDS 广东省开平市 06-29 16:49 -> 广东省佛山市 06-30 05:20 621 90143
+0
+-1
+-1
+Haze 夜烟 new.forms.of@struggle.in 3
+-1
+Ceobe 刻俄柏 were.developed@The.discovery 3
+Chen 陈陈 place.of.the@old.ones 1
+-1
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 07-29 06:26 -> 辽宁省沈阳市 07-29 13:53 1015 98306
+-1
+1
+LeavesofGrass 河北省霸州市 08-03 01:28 -> 辽宁省沈阳市 08-03 13:53 1731 98306
+Vulcan 火神 has.simplified@the.class 3
+-1
+-1
+1
+LeavesofGrass 浙江省湖州市 08-27 10:04 -> 辽宁省沈阳市 08-27 13:53 374 45430
+1
+LeavesofGrass 浙江省上虞市 06-28 20:35 -> 四川省成都市 06-29 14:46 2862 98306
+-1
+Orchid 梓兰 that.each.time@ended.either 3
+-1
+-1
+-1
+-1
+Shamare 巫恋 trade.with@the.colonies 1
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-29 01:58 -> 广东省佛山市 07-29 05:20 411 90143
+Croissant 可颂 journeymen@apprentices.serfs 4
+0
+Shining 闪灵 with.a.Manifesto@of.the 4
+Kroos 克洛丝 ruins.of.feudal@society.has 2
+1
+LeavesofGrass 江西省瑞昌市 06-29 15:27 -> 山东省栖霞市 06-29 15:56 371 98306
+1
+TOFOREIGNLANDS 湖南省武冈市 06-26 01:58 -> 江西省乐平市 06-26 17:49 792 90143
+-1
+1
+TOFOREIGNLANDS 北京市 06-30 13:09 -> 江西省乐平市 06-30 17:49 247 90143
+1
+TOFOREIGNLANDS 广东省开平市 06-27 16:49 -> 北京市 06-28 13:05 755 90143
+Hibiscus 芙蓉 history.we@find.almost 3
+0
+0
+Conviction 断罪者 that.has.sprouted@from.the 4
+-1
+Firewatch 守林人 stood.in.constant@opposition.t 4
+Grani 格拉尼 now.open.fight@a.fight 1
+0
+1
+LeavesofGrass 浙江省上虞市 06-10 20:35 -> 四川省成都市 06-11 14:46 2862 45430
+Meteorite 陨星 Proletariat@From.the 2
+0
+GreyThroat 灰喉 classes.again@subordinate.grad 2
+-1
+0
+1
+LeavesofGrass 湖南省汩罗市 07-18 21:58 -> 湖南省张家界市 07-19 02:26 761 98306
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-08 01:58 -> 北京市 07-08 13:05 545 90143
+Pramanix 初雪 thereby.to@the.revolutionary 1
+0
+0
+1
+TOFOREIGNLANDS 湖南省武冈市 07-10 01:58 -> 广东省佛山市 07-10 05:20 411 90143
+-1
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-17 01:58 -> 北京市 07-17 13:05 545 90143
+Conviction 断罪者 that.has.sprouted@from.the 4
+1
+LeavesofGrass 江西省瑞昌市 06-15 15:27 -> 山东省栖霞市 06-15 15:56 371 45430
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 06-30 01:58 -> 北京市 06-30 13:05 545 90143
+-1
+-1
+-1
+Flamebringer 炎客 to.industry@an.impulse 2
+Texas 德克萨斯 this.distinctive@feature.it 3
+1
+TOFOREIGNLANDS 广东省开平市 07-30 16:49 -> 湖南省武冈市 07-31 01:51 210 90143
+1
+TOFOREIGNLANDS 广东省佛山市 07-09 05:26 -> 北京市 07-09 13:05 134 90143
+Grani 格拉尼 now.open.fight@a.fight 1
+0
+-1
+-1
+-1
+Schwarz 黑黑 society.at@large.or 1
+1
+LeavesofGrass 浙江省上虞市 06-26 20:35 -> 湖南省张家界市 06-27 02:26 1069 45430
+Pramanix 初雪 thereby.to@the.revolutionary 1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-07 01:58 -> 广东省佛山市 07-07 05:20 411 90143
+-1
+1
+TOFOREIGNLANDS 广东省开平市 06-24 16:49 -> 江西省乐平市 06-25 17:49 1002 90143
+1
+LeavesofGrass 山东省栖霞市 07-16 16:01 -> 黑龙江省齐齐哈尔市 07-17 06:17 1614 98306
+-1
+Sussurro 苏苏洛 each.other@Bourgeoisie.and 1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-16 16:49 -> 北京市 07-17 13:05 755 90143
+0
+Nightingale 夜莺 and.Chinese@markets.the 2
+-1
+1
+LeavesofGrass 浙江省上虞市 08-07 20:35 -> 辽宁省沈阳市 08-08 13:53 2402 45430
+-1
+-1
+1
+LeavesofGrass 广东省兴宁市 08-10 08:14 -> 四川省成都市 08-10 14:46 988 45430
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 06-30 01:58 -> 江西省乐平市 06-30 17:49 792 90143
+-1
+-1
+-1
+-1
+-1
+1
+LeavesofGrass 浙江省上虞市 08-08 20:35 -> 黑龙江省齐齐哈尔市 08-09 06:17 1387 45430
+Plume 翎羽 the.earlier@epochs.of 2
+-1
+Firewatch 守林人 stood.in.constant@opposition.t 4
+Rangers 巡林者 one.another@carried.on 2
+1
+TOFOREIGNLANDS 广东省开平市 07-19 16:49 -> 湖南省武冈市 07-20 01:51 210 90143
+1
+TOFOREIGNLANDS 广东省佛山市 07-01 05:26 -> 江西省乐平市 07-01 17:49 381 90143
+-1
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 07-06 16:01 -> 辽宁省沈阳市 07-07 13:53 2629 98306
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 08-15 16:01 -> 浙江省湖州市 08-16 09:54 2255 45430
+0
+-1
+1
+LeavesofGrass 山东省栖霞市 07-27 16:01 -> 浙江省上虞市 07-27 20:28 227 98306
+1
+TOFOREIGNLANDS 广东省开平市 06-25 16:49 -> 江西省乐平市 06-26 17:49 1002 90143
+-1
+Orchid 梓兰 that.each.time@ended.either 3
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-17 06:26 -> 浙江省湖州市 06-17 09:54 641 45430
+1
+TOFOREIGNLANDS 广东省开平市 06-28 16:49 -> 北京市 06-29 13:05 755 90143
+-1
+Sussurro 苏苏洛 each.other@Bourgeoisie.and 1
+1
+LeavesofGrass 浙江省上虞市 08-11 20:35 -> 黑龙江省齐齐哈尔市 08-12 06:17 1387 45430
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 06-10 16:01 -> 浙江省上虞市 06-10 20:28 227 45430
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-14 16:49 -> 江西省乐平市 07-15 17:49 1002 90143
+1
+LeavesofGrass 湖南省张家界市 08-16 02:32 -> 四川省成都市 08-16 14:46 1793 45430
+0
+0
+1
+LeavesofGrass 浙江省上虞市 06-18 20:35 -> 浙江省湖州市 06-19 09:54 2028 45430
+Flamebringer 炎客 to.industry@an.impulse 2
+-1
+-1
+1
+LeavesofGrass 湖南省张家界市 08-08 02:32 -> 四川省成都市 08-08 14:46 1793 45430
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-12 15:27 -> 河北省霸州市 07-13 01:21 1269 98306
+-1
+Ceylon 锡兰 slaves.in.the@Middle.Ages 1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-27 06:26 -> 辽宁省沈阳市 06-27 13:53 1015 45430
+Nightingale 夜莺 and.Chinese@markets.the 2
+-1
+-1
+-1
+-1
+0
+0
+1
+TOFOREIGNLANDS 湖南省武冈市 07-22 01:58 -> 广东省佛山市 07-22 05:20 411 90143
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-15 16:49 -> 江西省乐平市 07-16 17:49 1002 90143
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-21 05:26 -> 江西省乐平市 07-21 17:49 381 90143
+1
+TOFOREIGNLANDS 广东省开平市 07-08 16:49 -> 广东省佛山市 07-09 05:20 621 90143
+-1
+0
+Kroos 克洛丝 ruins.of.feudal@society.has 2
+1
+TOFOREIGNLANDS 广东省佛山市 07-07 05:26 -> 江西省乐平市 07-07 17:49 381 90143
+-1
+1
+TOFOREIGNLANDS 北京市 07-09 13:09 -> 江西省乐平市 07-09 17:49 247 90143
+-1
+0
+0
+-1
+Shamare 巫恋 trade.with@the.colonies 1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-14 01:58 -> 江西省乐平市 07-14 17:49 792 90143
+-1
+-1
+Beehunter 猎蜂 nationalities@have.assembled 1
+-1
+-1
+1
+TOFOREIGNLANDS 北京市 07-02 13:09 -> 江西省乐平市 07-02 17:49 247 90143
+1
+LeavesofGrass 湖南省汩罗市 07-27 21:58 -> 黑龙江省齐齐哈尔市 07-28 06:17 1079 98306
+1
+TOFOREIGNLANDS 湖南省武冈市 07-27 01:58 -> 广东省佛山市 07-27 05:20 411 90143
+Glaucus 格劳克斯 not.done.away@with.class 2
+Grani 格拉尼 now.open.fight@a.fight 1
+1
+TOFOREIGNLANDS 湖南省武冈市 06-27 01:58 -> 广东省佛山市 06-27 05:20 411 90143
+1
+TOFOREIGNLANDS 广东省开平市 07-29 16:49 -> 广东省佛山市 07-30 05:20 621 90143
+-1
+-1
+1
+LeavesofGrass 湖南省张家界市 07-22 02:32 -> 辽宁省沈阳市 07-22 13:53 1333 98306
+1
+TOFOREIGNLANDS 湖南省武冈市 07-15 01:58 -> 江西省乐平市 07-15 17:49 792 90143
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 06-29 05:26 -> 北京市 06-29 13:05 134 90143
+1
+TOFOREIGNLANDS 广东省开平市 06-30 16:49 -> 湖南省武冈市 07-01 01:51 210 90143
+1
+LeavesofGrass 湖南省张家界市 06-21 02:32 -> 四川省成都市 06-21 14:46 1793 45430
+1
+LeavesofGrass 浙江省湖州市 06-15 10:04 -> 辽宁省沈阳市 06-15 13:53 374 45430
+Croissant 可颂 journeymen@apprentices.serfs 4
+1
+TOFOREIGNLANDS 广东省开平市 07-30 16:49 -> 湖南省武冈市 07-31 01:51 210 90143
+-1
+1
+LeavesofGrass 湖南省张家界市 07-11 02:32 -> 辽宁省沈阳市 07-11 13:53 1333 98306
+-1
+-1
+Broca 布洛卡 feudal.society@a.rapid 4
+Nearl 临光 development@The.feudal 1
+-1
+0
+1
+TOFOREIGNLANDS 广东省佛山市 07-24 05:26 -> 北京市 07-24 13:05 134 90143
+1
+LeavesofGrass 山东省栖霞市 07-14 16:01 -> 河北省霸州市 07-15 01:21 898 98306
+1
+TOFOREIGNLANDS 湖南省武冈市 07-25 01:58 -> 北京市 07-25 13:05 545 90143
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-19 16:49 -> 湖南省武冈市 07-20 01:51 210 90143
+-1
+1
+LeavesofGrass 广东省兴宁市 06-11 08:14 -> 四川省成都市 06-11 14:46 988 45430
+-1
+-1
+-1
+-1
+Ambriel 安比尔 party.itself@To.this 3
+1
+LeavesofGrass 河北省霸州市 07-11 01:28 -> 广东省兴宁市 07-11 08:09 1203 98306
+1
+LeavesofGrass 江西省瑞昌市 08-11 15:27 -> 广东省兴宁市 08-12 08:09 2472 45430
+Istina 真理 serfs.of.the@Middle.Ages 1
+-1
+1
+LeavesofGrass 湖南省张家界市 08-16 02:32 -> 辽宁省沈阳市 08-16 13:53 1333 45430
+-1
+IHEARDthatyouask W
+山西省介休市 xx-xx xx:xx -> 06-08 06:32 0 69336
+河北省迁安市 06-08 09:33 -> 06-08 09:37 275 69336
+北京市 06-08 10:20 -> 06-08 10:29 439 69336
+河北省泊头市 06-08 12:40 -> 06-08 12:46 450 69336
+四川省宜宾市 06-08 16:33 -> 06-08 16:40 887 69336
+安徽省天长市 06-08 18:01 -> 06-08 18:07 1387 69336
+内蒙根河市 06-08 20:35 -> 06-08 20:45 1867 69336
+广东省梅州市 06-08 22:27 -> 06-08 22:32 1955 69336
+江西省吉安市 06-09 00:18 -> 06-09 00:25 2316 69336
+辽宁省凌海市 06-09 03:12 -> 06-09 03:17 2806 69336
+山东省莱西市 06-09 05:11 -> 06-09 05:19 3087 69336
+黑龙江省佳木斯市 06-09 06:09 -> 06-09 06:12 3359 69336
+河南省沁阳市 06-09 07:32 -> xx-xx xx:xx 3549 x
+-1
+Meteorite 陨星 Proletariat@From.the 2
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 07-14 16:01 -> 广东省兴宁市 07-15 08:09 2101 98306
+1
+TOFOREIGNLANDS 广东省开平市 06-27 16:49 -> 北京市 06-28 13:05 755 90143
+-1
+-1
+0
+-1
+1
+LeavesofGrass 湖南省汩罗市 07-10 21:58 -> 浙江省湖州市 07-11 09:54 1720 98306
+Orchid 梓兰 that.each.time@ended.either 3
+1
+TOFOREIGNLANDS 广东省开平市 06-24 16:49 -> 江西省乐平市 06-25 17:49 1002 90143
+Sussurro 苏苏洛 each.other@Bourgeoisie.and 1
+-1
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-28 15:27 -> 浙江省湖州市 07-29 09:54 2626 98306
+1
+LeavesofGrass 浙江省湖州市 06-27 10:04 -> 四川省成都市 06-27 14:46 834 45430
+-1
+Steward 史都华德 industrial@production.was 3
+1
+LeavesofGrass 河北省霸州市 07-16 01:28 -> 浙江省湖州市 07-16 09:54 1357 98306
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 08-02 06:26 -> 辽宁省沈阳市 08-02 13:53 1015 98306
+1
+TOFOREIGNLANDS 广东省开平市 06-28 16:49 -> 江西省乐平市 06-29 17:49 1002 90143
+1
+LeavesofGrass 湖南省汩罗市 08-14 21:58 -> 湖南省张家界市 08-15 02:26 761 45430
+1
+TOFOREIGNLANDS 广东省开平市 06-24 16:49 -> 北京市 06-25 13:05 755 90143
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-22 01:58 -> 广东省佛山市 07-22 05:20 411 90143
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-28 16:49 -> 北京市 07-29 13:05 755 90143
+Orchid 梓兰 that.each.time@ended.either 3
+Steward 史都华德 industrial@production.was 3
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 07-31 06:26 -> 辽宁省沈阳市 07-31 13:53 1015 98306
+1
+TOFOREIGNLANDS 北京市 07-05 13:09 -> 江西省乐平市 07-05 17:49 247 90143
+Gravel 砾砾 Our.epoch.the@epoch.of 2
+-1
+0
+Magallan 麦哲伦 two.great.hostile@camps.into 1
+Yato 夜刀 fresh.ground@for.the 2
+Melantha 玫兰莎 two.great.classes@directly.fac 3
+-1
+-1
+0
+0
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-18 15:27 -> 河北省霸州市 08-19 01:21 1269 45430
+-1
+-1
+-1
+1
+LeavesofGrass 湖南省张家界市 06-22 02:32 -> 四川省成都市 06-22 14:46 1793 45430
+Orchid 梓兰 that.each.time@ended.either 3
+-1
+BluePoison 蓝毒 these.burgesses@the.first 3
+1
+TOFOREIGNLANDS 广东省佛山市 07-22 05:26 -> 江西省乐平市 07-22 17:49 381 90143
+1
+TOFOREIGNLANDS 广东省开平市 07-07 16:49 -> 广东省佛山市 07-08 05:20 621 90143
+1
+TOFOREIGNLANDS 广东省开平市 06-28 16:49 -> 广东省佛山市 06-29 05:20 621 90143
+1
+LeavesofGrass 江西省瑞昌市 06-16 15:27 -> 湖南省汩罗市 06-16 21:51 906 45430
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-12 16:49 -> 广东省佛山市 07-13 05:20 621 90143
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-05 16:49 -> 湖南省武冈市 07-06 01:51 210 90143
+0
+0
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-15 01:58 -> 北京市 07-15 13:05 545 90143
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-23 01:58 -> 江西省乐平市 07-23 17:49 792 90143
+1
+TOFOREIGNLANDS 广东省开平市 07-30 16:49 -> 北京市 07-31 13:05 755 90143
+-1
+1
+LeavesofGrass 浙江省上虞市 07-20 20:35 -> 四川省成都市 07-21 14:46 2862 98306
+Nearl 临光 development@The.feudal 1
+1
+TOFOREIGNLANDS 广东省开平市 06-24 16:49 -> 江西省乐平市 06-25 17:49 1002 90143
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-17 05:26 -> 北京市 07-17 13:05 134 90143
+0
+0
+1
+LeavesofGrass 江西省瑞昌市 08-17 15:27 -> 辽宁省沈阳市 08-18 13:53 3000 45430
+Firewatch 守林人 stood.in.constant@opposition.t 4
+-1
+-1
+-1
+0
+1
+LeavesofGrass 江西省瑞昌市 07-14 15:27 -> 河北省霸州市 07-15 01:21 1269 98306
+1
+TOFOREIGNLANDS 广东省开平市 07-25 16:49 -> 湖南省武冈市 07-26 01:51 210 90143
+1
+TOFOREIGNLANDS 广东省佛山市 07-12 05:26 -> 江西省乐平市 07-12 17:49 381 90143
+-1
+-1
+Croissant 可颂 journeymen@apprentices.serfs 4
+-1
+0
+0
+Sussurro 苏苏洛 each.other@Bourgeoisie.and 1
+1
+LeavesofGrass 浙江省上虞市 08-07 20:35 -> 黑龙江省齐齐哈尔市 08-08 06:17 1387 45430
+Ansel 安赛尔 of.America@the.rounding 3
+0
+0
+-1
+1
+LeavesofGrass 湖南省汩罗市 06-24 21:58 -> 河北省霸州市 06-25 01:21 363 45430
+-1
+0
+0
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-11 16:49 -> 北京市 07-12 13:05 755 90143
+1
+LeavesofGrass 浙江省上虞市 07-31 20:35 -> 四川省成都市 08-01 14:46 2862 98306
+Beehunter 猎蜂 nationalities@have.assembled 1
+Texas 德克萨斯 this.distinctive@feature.it 3
+0
+0
+1
+TOFOREIGNLANDS 湖南省武冈市 07-28 01:58 -> 江西省乐平市 07-28 17:49 792 90143
+-1
+-1
+WaaiFu 槐琥 new.conditions@of.oppression 2
+-1
+-1
+-1
+-1
+-1
+Pramanix 初雪 thereby.to@the.revolutionary 1
+1
+LeavesofGrass 湖南省汩罗市 06-13 21:58 -> 广东省兴宁市 06-14 08:09 1566 45430
+1
+LeavesofGrass 河北省霸州市 08-20 01:28 -> 黑龙江省齐齐哈尔市 08-20 06:17 716 45430
+-1
+-1
+-1
+-1
+0
+0
+Sussurro 苏苏洛 each.other@Bourgeoisie.and 1
+1
+TOFOREIGNLANDS 广东省开平市 07-29 16:49 -> 湖南省武冈市 07-30 01:51 210 90143
+1
+LeavesofGrass 浙江省上虞市 06-13 20:35 -> 浙江省湖州市 06-14 09:54 2028 45430
+-1
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-19 15:27 -> 浙江省湖州市 08-20 09:54 2626 45430
+-1
+1
+LeavesofGrass 山东省栖霞市 06-29 16:01 -> 黑龙江省齐齐哈尔市 06-30 06:17 1614 98306
+1
+TOFOREIGNLANDS 广东省开平市 07-05 16:49 -> 广东省佛山市 07-06 05:20 621 90143
+Gravel 砾砾 Our.epoch.the@epoch.of 2
+Bagpipe 风笛 pushed.on.one@side.by 1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-26 16:49 -> 广东省佛山市 07-27 05:20 621 90143
+-1
+1
+LeavesofGrass 山东省栖霞市 07-20 16:01 -> 黑龙江省齐齐哈尔市 07-21 06:17 1614 98306
+Shamare 巫恋 trade.with@the.colonies 1
+1
+LeavesofGrass 浙江省上虞市 08-19 20:35 -> 浙江省湖州市 08-20 09:54 2028 45430
+0
+WaaiFu 槐琥 new.conditions@of.oppression 2
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-26 01:58 -> 广东省佛山市 07-26 05:20 411 90143
+1
+TOFOREIGNLANDS 广东省佛山市 07-27 05:26 -> 北京市 07-27 13:05 134 90143
+Vulcan 火神 has.simplified@the.class 3
+Astesia 星极 sufficed.for@the.growing 1
+0
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-17 16:49 -> 北京市 07-18 13:05 755 90143
+1
+TOFOREIGNLANDS 广东省开平市 07-13 16:49 -> 江西省乐平市 07-14 17:49 1002 90143
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-24 06:26 -> 辽宁省沈阳市 06-24 13:53 1015 45430
+1
+LeavesofGrass 浙江省上虞市 07-03 20:35 -> 湖南省汩罗市 07-03 21:51 308 98306
+0
+-1
+Chen 陈陈 place.of.the@old.ones 1
+-1
+-1
+-1
+Broca 布洛卡 feudal.society@a.rapid 4
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-04 01:58 -> 北京市 07-04 13:05 545 90143
+1
+TOFOREIGNLANDS 湖南省武冈市 07-17 01:58 -> 北京市 07-17 13:05 545 90143
+-1
+-1
+Frostleaf 霜叶 commodities@generally.gave 3
+-1
+1
+TOFOREIGNLANDS 北京市 07-04 13:09 -> 江西省乐平市 07-04 17:49 247 90143
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-27 06:26 -> 四川省成都市 06-27 14:46 1475 45430
+1
+AndtodefineAmeric 浙江省绍兴市 07-27 16:55 -> 四川省简阳市 07-28 02:06 498 65035
+Mayer 梅尔 division.of@labour.between 2
+1
+LeavesofGrass 浙江省上虞市 07-09 20:35 -> 四川省成都市 07-10 14:46 2862 98306
+-1
+1
+LeavesofGrass 浙江省上虞市 06-27 20:35 -> 辽宁省沈阳市 06-28 13:53 2402 45430
+1
+AndtodefineAmeric 浙江省绍兴市 07-19 16:55 -> 四川省简阳市 07-20 02:06 498 65035
+-1
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 08-23 06:26 -> 四川省成都市 08-23 14:46 1475 45430
+-1
+0
+Texas 德克萨斯 this.distinctive@feature.it 3
+1
+TOFOREIGNLANDS 湖南省武冈市 07-30 01:58 -> 广东省佛山市 07-30 05:20 411 90143
+-1
+-1
+1
+LeavesofGrass 浙江省湖州市 08-17 10:04 -> 辽宁省沈阳市 08-17 13:53 374 45430
+-1
+-1
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-25 16:55 -> 山东省滕州市 06-26 04:56 962 65035
+1
+AndtodefineAmeric 浙江省绍兴市 07-31 16:55 -> 山东省滕州市 08-01 04:56 962 65035
+-1
+-1
+0
+1
+TOFOREIGNLANDS 广东省佛山市 07-29 05:26 -> 北京市 07-29 13:05 134 90143
+1
+LeavesofGrass 江西省瑞昌市 08-25 15:27 -> 湖南省张家界市 08-26 02:26 1667 45430
+1
+TOFOREIGNLANDS 广东省佛山市 07-24 05:26 -> 江西省乐平市 07-24 17:49 381 90143
+1
+AndtodefineAmeric 浙江省绍兴市 07-02 16:55 -> 四川省简阳市 07-03 02:06 498 65035
+0
+0
+0
+Istina 真理 serfs.of.the@Middle.Ages 1
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-13 16:55 -> 四川省简阳市 06-14 02:06 498 65035
+Ceobe 刻俄柏 were.developed@The.discovery 3
+1
+AndtodefineAmeric 四川省简阳市 06-22 02:11 -> 山东省滕州市 06-22 04:56 464 65035
+-1
+0
+1
+TOFOREIGNLANDS 湖南省武冈市 07-20 01:58 -> 江西省乐平市 07-20 17:49 792 90143
+1
+LeavesofGrass 江西省瑞昌市 07-30 15:27 -> 湖南省汩罗市 07-30 21:51 906 98306
+1
+LeavesofGrass 湖南省张家界市 08-05 02:32 -> 辽宁省沈阳市 08-05 13:53 1333 98306
+1
+LeavesofGrass 湖南省汩罗市 06-24 21:58 -> 辽宁省沈阳市 06-25 13:53 2094 45430
+1
+AndtodefineAmeric 浙江省绍兴市 06-09 16:55 -> 山东省滕州市 06-10 04:56 962 65035
+-1
+1
+LeavesofGrass 河北省霸州市 08-16 01:28 -> 湖南省张家界市 08-16 02:26 398 45430
+1
+AndtodefineAmeric 四川省简阳市 07-15 02:11 -> 山东省滕州市 07-15 04:56 464 65035
+-1
+1
+AndtodefineAmeric 四川省简阳市 06-21 02:11 -> 山东省滕州市 06-21 04:56 464 65035
+1
+TOFOREIGNLANDS 湖南省武冈市 07-01 01:58 -> 广东省佛山市 07-01 05:20 411 90143
+1
+TOFOREIGNLANDS 广东省开平市 07-15 16:49 -> 江西省乐平市 07-16 17:49 1002 90143
+1
+TOFOREIGNLANDS 广东省开平市 06-24 16:49 -> 湖南省武冈市 06-25 01:51 210 90143
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 06-19 02:11 -> 山东省滕州市 06-19 04:56 464 65035
+1
+LeavesofGrass 江西省瑞昌市 08-19 15:27 -> 河北省霸州市 08-20 01:21 1269 45430
+GreyThroat 灰喉 classes.again@subordinate.grad 2
+-1
+Shining 闪灵 with.a.Manifesto@of.the 4
+Nightingale 夜莺 and.Chinese@markets.the 2
+SilverAsh 银灰 and.Danish@languages.I 4
+-1
+-1
+-1
+-1
+Shamare 巫恋 vanished.in@the.face 1
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-19 16:55 -> 四川省简阳市 06-20 02:06 498 65035
+-1
+-1
+0
+0
+-1
+-1
+Mayer 梅尔 division.of@labour.between 2
+Vanilla 香草 the.Spectre@of.Communism 2
+1
+LeavesofGrass 湖南省汩罗市 06-12 21:58 -> 四川省成都市 06-13 14:46 2554 45430
+1
+LeavesofGrass 浙江省上虞市 06-27 20:35 -> 辽宁省沈阳市 06-28 13:53 2402 45430
+1
+AndtodefineAmeric 浙江省绍兴市 08-01 16:55 -> 四川省简阳市 08-02 02:06 498 65035
+-1
+1
+TOFOREIGNLANDS 广东省开平市 06-30 16:49 -> 湖南省武冈市 07-01 01:51 210 90143
+1
+LeavesofGrass 辽宁省沈阳市 06-27 14:00 -> 四川省成都市 06-27 14:46 460 45430
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-03 01:58 -> 北京市 07-03 13:05 545 90143
+1
+TOFOREIGNLANDS 广东省开平市 07-05 16:49 -> 北京市 07-06 13:05 755 90143
+1
+AndtodefineAmeric 浙江省绍兴市 07-08 16:55 -> 山东省滕州市 07-09 04:56 962 65035
+1
+AndtodefineAmeric 四川省简阳市 06-13 02:11 -> 山东省滕州市 06-13 04:56 464 65035
+1
+AndtodefineAmeric 浙江省绍兴市 07-06 16:55 -> 山东省滕州市 07-07 04:56 962 65035
+Nearl 临光 development@The.feudal 1
+-1
+BluePoison 蓝毒 these.burgesses@the.first 3
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-08 01:58 -> 北京市 07-08 13:05 545 90143
+1
+TOFOREIGNLANDS 广东省开平市 07-26 16:49 -> 北京市 07-27 13:05 755 90143
+1
+LeavesofGrass 湖南省汩罗市 06-23 21:58 -> 湖南省张家界市 06-24 02:26 761 45430
+-1
+Spot 斑点 existing.societies@is.the 3
+1
+LeavesofGrass 江西省瑞昌市 06-12 15:27 -> 辽宁省沈阳市 06-13 13:53 3000 45430
+-1
+Haze 夜烟 new.forms.of@struggle.in 3
+Istina 真理 serfs.of.the@Middle.Ages 1
+1
+LeavesofGrass 广东省兴宁市 07-13 08:14 -> 浙江省湖州市 07-13 09:54 154 98306
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-20 16:55 -> 山东省滕州市 06-21 04:56 962 65035
+Amiya 阿米娅 element.in@the.tottering 1
+-1
+0
+1
+AndtodefineAmeric 四川省简阳市 06-10 02:11 -> 山东省滕州市 06-10 04:56 464 65035
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-17 15:27 -> 山东省栖霞市 07-17 15:56 371 98306
+Cliffheart 崖心 of.division@of.labour 1
+1
+LeavesofGrass 湖南省张家界市 08-22 02:32 -> 广东省兴宁市 08-22 08:09 805 45430
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-07 16:55 -> 山东省滕州市 07-08 04:56 962 65035
+Conviction 断罪者 that.has.sprouted@from.the 4
+-1
+0
+0
+Popukar 泡普 the.markets@kept.ever 6
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-09 06:26 -> 浙江省湖州市 06-09 09:54 641 45430
+-1
+Savage 暴行 branding.reproach@of.Communism 4
+1
+TOFOREIGNLANDS 广东省佛山市 06-27 05:26 -> 北京市 06-27 13:05 134 90143
+Aak 阿阿 rank.In.ancient@Rome.we 4
+Bagpipe 风笛 pushed.on.one@side.by 1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-16 01:58 -> 江西省乐平市 07-16 17:49 792 90143
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-23 01:58 -> 广东省佛山市 07-23 05:20 411 90143
+-1
+1
+LeavesofGrass 河北省霸州市 08-07 01:28 -> 黑龙江省齐齐哈尔市 08-07 06:17 716 45430
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-25 16:55 -> 山东省滕州市 06-26 04:56 962 65035
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-28 02:11 -> 山东省滕州市 07-28 04:56 464 65035
+1
+TOFOREIGNLANDS 广东省开平市 07-03 16:49 -> 广东省佛山市 07-04 05:20 621 90143
+1
+AndtodefineAmeric 浙江省绍兴市 07-09 16:55 -> 山东省滕州市 07-10 04:56 962 65035
+BluePoison 蓝毒 these.burgesses@the.first 3
+LeavesofGrass Y
+江西省瑞昌市 xx-xx xx:xx -> 07-17 15:27 0 45430
+山东省栖霞市 07-17 15:56 -> 07-17 16:01 371 45430
+浙江省上虞市 07-17 20:28 -> 07-17 20:35 598 45430
+湖南省汩罗市 07-17 21:51 -> 07-17 21:58 906 45430
+河北省霸州市 07-18 01:21 -> 07-18 01:28 1269 45430
+湖南省张家界市 07-18 02:26 -> 07-18 02:32 1667 45430
+黑龙江省齐齐哈尔市 07-18 06:17 -> 07-18 06:26 1985 45430
+广东省兴宁市 07-18 08:09 -> 07-18 08:14 2472 45430
+浙江省湖州市 07-18 09:54 -> 07-18 10:04 2626 45430
+辽宁省沈阳市 07-18 13:53 -> 07-18 14:00 3000 45430
+四川省成都市 07-18 14:46 -> xx-xx xx:xx 3460 x
+-1
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-14 01:58 -> 江西省乐平市 07-14 17:49 792 90143
+1
+TOFOREIGNLANDS 广东省佛山市 07-12 05:26 -> 江西省乐平市 07-12 17:49 381 90143
+1
+LeavesofGrass 浙江省上虞市 08-08 20:35 -> 黑龙江省齐齐哈尔市 08-09 06:17 1387 45430
+Conviction 断罪者 that.has.sprouted@from.the 4
+1
+LeavesofGrass 湖南省张家界市 06-29 02:32 -> 四川省成都市 06-29 14:46 1793 98306
+1
+TOFOREIGNLANDS 广东省佛山市 07-30 05:26 -> 江西省乐平市 07-30 17:49 381 90143
+1
+TOFOREIGNLANDS 北京市 07-15 13:09 -> 江西省乐平市 07-15 17:49 247 90143
+1
+AndtodefineAmeric 浙江省绍兴市 07-10 16:55 -> 四川省简阳市 07-11 02:06 498 65035
+1
+AndtodefineAmeric 浙江省绍兴市 07-11 16:55 -> 四川省简阳市 07-12 02:06 498 65035
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 07-24 06:26 -> 广东省兴宁市 07-24 08:09 487 98306
+-1
+1
+LeavesofGrass 浙江省上虞市 08-10 20:35 -> 四川省成都市 08-11 14:46 2862 45430
+Gravel 砾砾 Our.epoch.the@epoch.of 2
+1
+TOFOREIGNLANDS 湖南省武冈市 06-25 01:58 -> 北京市 06-25 13:05 545 90143
+1
+AndtodefineAmeric 四川省简阳市 06-19 02:11 -> 山东省滕州市 06-19 04:56 464 65035
+Beehunter 猎蜂 nationalities@have.assembled 1
+1
+TOFOREIGNLANDS 广东省开平市 07-24 16:49 -> 江西省乐平市 07-25 17:49 1002 90143
+1
+LeavesofGrass 湖南省汩罗市 07-03 21:58 -> 广东省兴宁市 07-04 08:09 1566 98306
+Flamebringer 炎客 to.industry@an.impulse 2
+-1
+-1
+-1
+-1
+1
+LeavesofGrass 浙江省上虞市 08-08 20:35 -> 浙江省湖州市 08-09 09:54 2028 45430
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-18 16:49 -> 北京市 07-19 13:05 755 90143
+1
+AndtodefineAmeric 浙江省绍兴市 07-22 16:55 -> 四川省简阳市 07-23 02:06 498 65035
+-1
+Nearl 临光 development@The.feudal 1
+Haze 夜烟 new.forms.of@struggle.in 3
+-1
+-1
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-02 16:55 -> 四川省简阳市 07-03 02:06 498 65035
+-1
+WaaiFu 槐琥 new.conditions@of.oppression 2
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-10 16:55 -> 四川省简阳市 07-11 02:06 498 65035
+1
+AndtodefineAmeric 浙江省绍兴市 07-02 16:55 -> 四川省简阳市 07-03 02:06 498 65035
+-1
+Hibiscus 芙蓉 history.we@find.almost 3
+-1
+Ceobe 刻俄柏 were.developed@The.discovery 3
+1
+AndtodefineAmeric 四川省简阳市 08-01 02:11 -> 山东省滕州市 08-01 04:56 464 65035
+-1
+-1
+1
+LeavesofGrass 广东省兴宁市 06-21 08:14 -> 辽宁省沈阳市 06-21 13:53 528 45430
+0
+0
+1
+TOFOREIGNLANDS 湖南省武冈市 06-27 01:58 -> 江西省乐平市 06-27 17:49 792 90143
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-23 16:55 -> 四川省简阳市 07-24 02:06 498 65035
+0
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 07-19 06:26 -> 四川省成都市 07-19 14:46 1475 98306
+Glaucus 格劳克斯 not.done.away@with.class 2
+1
+LeavesofGrass 山东省栖霞市 06-10 16:01 -> 湖南省张家界市 06-11 02:26 1296 45430
+-1
+1
+LeavesofGrass 山东省栖霞市 07-30 16:01 -> 浙江省上虞市 07-30 20:28 227 98306
+1
+TOFOREIGNLANDS 湖南省武冈市 07-10 01:58 -> 北京市 07-10 13:05 545 90143
+1
+AndtodefineAmeric 浙江省绍兴市 07-01 16:55 -> 山东省滕州市 07-02 04:56 962 65035
+Lappland 拉普兰德 adversaries@Two.things 4
+Broca 布洛卡 feudal.society@a.rapid 4
+-1
+Snowsant 雪雉 itself.a.Power@II.It 1
+1
+TOFOREIGNLANDS 广东省佛山市 07-19 05:26 -> 江西省乐平市 07-19 17:49 381 90143
+1
+AndtodefineAmeric 浙江省绍兴市 06-20 16:55 -> 四川省简阳市 06-21 02:06 498 65035
+-1
+Estelle 艾丝黛尔 in.each.single@workshop.Meanti 1
+1
+AndtodefineAmeric 浙江省绍兴市 07-24 16:55 -> 山东省滕州市 07-25 04:56 962 65035
+1
+TOFOREIGNLANDS 湖南省武冈市 07-09 01:58 -> 北京市 07-09 13:05 545 90143
+-1
+Myrtle 桃金娘 BOURGEOIS.AND@PROLETARIANS.The 4
+Spot 斑点 existing.societies@is.the 3
+-1
+-1
+-1
+ShiraYuki 白雪 rising.Even@manufacture.no 3
+-1
+1
+LeavesofGrass 浙江省上虞市 06-10 20:35 -> 河北省霸州市 06-11 01:21 671 45430
+-1
+-1
+Snowsant 雪雉 itself.a.Power@II.It 1
+Vanilla 香草 the.Spectre@of.Communism 2
+1
+AndtodefineAmeric 四川省简阳市 07-19 02:11 -> 山东省滕州市 07-19 04:56 464 65035
+-1
+-1
+Ethan 伊桑 longer.sufficed@Thereupon.stea 2
+-1
+-1
+1
+LeavesofGrass 浙江省湖州市 06-11 10:04 -> 四川省成都市 06-11 14:46 834 45430
+-1
+-1
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 08-02 02:11 -> 山东省滕州市 08-02 04:56 464 65035
+-1
+0
+1
+AndtodefineAmeric 四川省简阳市 06-28 02:11 -> 山东省滕州市 06-28 04:56 464 65035
+1
+LeavesofGrass 山东省栖霞市 06-18 16:01 -> 四川省成都市 06-19 14:46 3089 45430
+0
+0
+-1
+-1
+Orchid 梓兰 that.each.time@ended.either 3
+1
+LeavesofGrass 浙江省上虞市 06-17 20:35 -> 河北省霸州市 06-18 01:21 671 45430
+1
+TOFOREIGNLANDS 广东省开平市 07-19 16:49 -> 江西省乐平市 07-20 17:49 1002 90143
+-1
+-1
+-1
+0
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-27 01:58 -> 北京市 07-27 13:05 545 90143
+1
+AndtodefineAmeric 浙江省绍兴市 07-16 16:55 -> 四川省简阳市 07-17 02:06 498 65035
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-08 01:58 -> 广东省佛山市 07-08 05:20 411 90143
+-1
+1
+AndtodefineAmeric 四川省简阳市 06-18 02:11 -> 山东省滕州市 06-18 04:56 464 65035
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-05 01:58 -> 北京市 07-05 13:05 545 90143
+Glaucus 格劳克斯 not.done.away@with.class 2
+0
+0
+1
+AndtodefineAmeric 浙江省绍兴市 06-27 16:55 -> 四川省简阳市 06-28 02:06 498 65035
+1
+AndtodefineAmeric 浙江省绍兴市 07-23 16:55 -> 四川省简阳市 07-24 02:06 498 65035
+-1
+Orchid 梓兰 that.each.time@ended.either 3
+-1
+Mayer 梅尔 division.of@labour.between 2
+-1
+-1
+Spot 斑点 existing.societies@is.the 3
+Estelle 艾丝黛尔 in.each.single@workshop.Meanti 1
+1
+TOFOREIGNLANDS 广东省佛山市 07-14 05:26 -> 江西省乐平市 07-14 17:49 381 90143
+-1
+Plume 翎羽 the.earlier@epochs.of 2
+1
+LeavesofGrass 广东省兴宁市 06-21 08:14 -> 辽宁省沈阳市 06-21 13:53 528 45430
+-1
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-19 16:55 -> 山东省滕州市 06-20 04:56 962 65035
+Conviction 断罪者 that.has.sprouted@from.the 4
+Vulcan 火神 has.simplified@the.class 3
+Texas 德克萨斯 this.distinctive@feature.it 3
+-1
+-1
+Rangers 巡林者 one.another@carried.on 2
+-1
+Schwarz 黑黑 society.at@large.or 1
+-1
+-1
+Broca 布洛卡 feudal.society@a.rapid 4
+-1
+1
+AndtodefineAmeric 四川省简阳市 06-16 02:11 -> 山东省滕州市 06-16 04:56 464 65035
+Nightingale 夜莺 and.Chinese@markets.the 2
+1
+TOFOREIGNLANDS 广东省佛山市 07-17 05:26 -> 江西省乐平市 07-17 17:49 381 90143
+1
+TOFOREIGNLANDS 广东省开平市 07-27 16:49 -> 江西省乐平市 07-28 17:49 1002 90143
+1
+TOFOREIGNLANDS 湖南省武冈市 07-10 01:58 -> 江西省乐平市 07-10 17:49 792 90143
+-1
+-1
+-1
+1
+LeavesofGrass 湖南省汩罗市 06-14 21:58 -> 湖南省张家界市 06-15 02:26 761 45430
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-11 16:55 -> 山东省滕州市 07-12 04:56 962 65035
+-1
+1
+LeavesofGrass 浙江省上虞市 08-13 20:35 -> 河北省霸州市 08-14 01:21 671 45430
+1
+LeavesofGrass 山东省栖霞市 06-21 16:01 -> 湖南省汩罗市 06-21 21:51 535 45430
+-1
+-1
+Indra 因陀罗 the.manufacturing@middle.class 3
+-1
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-04 15:27 -> 山东省栖霞市 08-04 15:56 371 98306
+Shining 闪灵 with.a.Manifesto@of.the 4
+1
+TOFOREIGNLANDS 湖南省武冈市 07-14 01:58 -> 江西省乐平市 07-14 17:49 792 90143
+Weedy 温蒂 antagonisms@Society.as 1
+Ceylon 锡兰 slaves.in.the@Middle.Ages 1
+1
+AndtodefineAmeric 浙江省绍兴市 07-01 16:55 -> 四川省简阳市 07-02 02:06 498 65035
+1
+AndtodefineAmeric 四川省简阳市 07-11 02:11 -> 山东省滕州市 07-11 04:56 464 65035
+WaaiFu 槐琥 new.conditions@of.oppression 2
+1
+LeavesofGrass 浙江省上虞市 08-08 20:35 -> 湖南省张家界市 08-09 02:26 1069 45430
+1
+TOFOREIGNLANDS 北京市 07-08 13:09 -> 江西省乐平市 07-08 17:49 247 90143
+-1
+-1
+BluePoison 蓝毒 these.burgesses@the.first 3
+1
+AndtodefineAmeric 四川省简阳市 07-15 02:11 -> 山东省滕州市 07-15 04:56 464 65035
+1
+AndtodefineAmeric 浙江省绍兴市 07-06 16:55 -> 四川省简阳市 07-07 02:06 498 65035
+0
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-20 16:49 -> 广东省佛山市 07-21 05:20 621 90143
+1
+TOFOREIGNLANDS 广东省佛山市 06-28 05:26 -> 江西省乐平市 06-28 17:49 381 90143
+Yato 夜刀 fresh.ground@for.the 2
+1
+LeavesofGrass 湖南省汩罗市 08-09 21:58 -> 四川省成都市 08-10 14:46 2554 45430
+1
+TOFOREIGNLANDS 广东省开平市 07-05 16:49 -> 广东省佛山市 07-06 05:20 621 90143
+Nearl 临光 development@The.feudal 1
+1
+AndtodefineAmeric 浙江省绍兴市 07-04 16:55 -> 四川省简阳市 07-05 02:06 498 65035
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-23 16:55 -> 四川省简阳市 07-24 02:06 498 65035
+1
+AndtodefineAmeric 浙江省绍兴市 06-11 16:55 -> 四川省简阳市 06-12 02:06 498 65035
+-1
+-1
+1
+LeavesofGrass 湖南省张家界市 07-09 02:32 -> 四川省成都市 07-09 14:46 1793 98306
+1
+LeavesofGrass 湖南省张家界市 07-13 02:32 -> 浙江省湖州市 07-13 09:54 959 98306
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-23 16:49 -> 江西省乐平市 07-24 17:49 1002 90143
+-1
+Schwarz 黑黑 society.at@large.or 1
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 08-02 16:55 -> 山东省滕州市 08-03 04:56 962 65035
+-1
+-1
+Melantha 玫兰莎 two.great.classes@directly.fac 3
+Rangers 巡林者 one.another@carried.on 2
+Ambriel 安比尔 party.itself@To.this 3
+Rangers 巡林者 one.another@carried.on 2
+-1
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-31 02:11 -> 山东省滕州市 07-31 04:56 464 65035
+-1
+-1
+BluePoison 蓝毒 these.burgesses@the.first 3
+1
+TOFOREIGNLANDS 湖南省武冈市 07-13 01:58 -> 北京市 07-13 13:05 545 90143
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-08 16:49 -> 北京市 07-09 13:05 755 90143
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-07 16:55 -> 四川省简阳市 07-08 02:06 498 65035
+0
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-01 16:55 -> 四川省简阳市 07-02 02:06 498 65035
+-1
+-1
+Meteorite 陨星 Proletariat@From.the 2
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 07-27 06:26 -> 广东省兴宁市 07-27 08:09 487 98306
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-15 16:49 -> 江西省乐平市 07-16 17:49 1002 90143
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-09 01:58 -> 北京市 07-09 13:05 545 90143
+Istina 真理 serfs.of.the@Middle.Ages 1
+-1
+-1
+-1
+-1
+TOFOREIGNLANDS A
+广东省开平市 xx-xx xx:xx -> 07-01 16:49 0 90143
+湖南省武冈市 07-02 01:51 -> 07-02 01:58 210 90143
+广东省佛山市 07-02 05:20 -> 07-02 05:26 621 90143
+北京市 07-02 13:05 -> 07-02 13:09 755 90143
+江西省乐平市 07-02 17:49 -> xx-xx xx:xx 1002 x
+1
+TOFOREIGNLANDS 湖南省武冈市 07-10 01:58 -> 北京市 07-10 13:05 545 90143
+Firewatch 守林人 stood.in.constant@opposition.t 4
+1
+LeavesofGrass 山东省栖霞市 06-28 16:01 -> 湖南省张家界市 06-29 02:26 1296 98306
+1
+AndtodefineAmeric 浙江省绍兴市 07-12 16:55 -> 四川省简阳市 07-13 02:06 498 65035
+1
+AndtodefineAmeric 浙江省绍兴市 07-14 16:55 -> 山东省滕州市 07-15 04:56 962 65035
+-1
+0
+0
+1
+LeavesofGrass 湖南省张家界市 06-30 02:32 -> 四川省成都市 06-30 14:46 1793 98306
+1
+AndtodefineAmeric 浙江省绍兴市 06-10 16:55 -> 四川省简阳市 06-11 02:06 498 65035
+W 达不溜 but.established@new.classes 1
+-1
+-1
+1
+LeavesofGrass 河北省霸州市 06-21 01:28 -> 四川省成都市 06-21 14:46 2191 45430
+-1
+-1
+0
+0
+1
+TOFOREIGNLANDS 广东省佛山市 07-22 05:26 -> 江西省乐平市 07-22 17:49 381 90143
+-1
+1
+AndtodefineAmeric 四川省简阳市 08-01 02:11 -> 山东省滕州市 08-01 04:56 464 65035
+1
+AndtodefineAmeric 四川省简阳市 06-19 02:11 -> 山东省滕州市 06-19 04:56 464 65035
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 06-13 02:11 -> 山东省滕州市 06-13 04:56 464 65035
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-01 02:11 -> 山东省滕州市 07-01 04:56 464 65035
+Glaucus 格劳克斯 not.done.away@with.class 2
+1
+AndtodefineAmeric 浙江省绍兴市 07-28 16:55 -> 山东省滕州市 07-29 04:56 962 65035
+-1
+0
+1
+TOFOREIGNLANDS 广东省开平市 07-30 16:49 -> 广东省佛山市 07-31 05:20 621 90143
+0
+-1
+Spot 斑点 existing.societies@is.the 3
+-1
+-1
+1
+LeavesofGrass 湖南省张家界市 08-17 02:32 -> 四川省成都市 08-17 14:46 1793 45430
+-1
+-1
+Conviction 断罪者 that.has.sprouted@from.the 4
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-18 16:55 -> 四川省简阳市 07-19 02:06 498 65035
+1
+AndtodefineAmeric 浙江省绍兴市 07-28 16:55 -> 山东省滕州市 07-29 04:56 962 65035
+-1
+Magallan 麦哲伦 two.great.hostile@camps.into 1
+1
+AndtodefineAmeric 四川省简阳市 07-07 02:11 -> 山东省滕州市 07-07 04:56 464 65035
+Vanilla 香草 the.Spectre@of.Communism 2
+Aak 阿阿 rank.In.ancient@Rome.we 4
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-01 01:58 -> 广东省佛山市 07-01 05:20 411 90143
+Firewatch 守林人 stood.in.constant@opposition.t 4
+1
+TOFOREIGNLANDS 广东省佛山市 07-04 05:26 -> 江西省乐平市 07-04 17:49 381 90143
+Durin 杜林 guilds.now@no.longer 1
+1
+TOFOREIGNLANDS 广东省佛山市 07-08 05:26 -> 北京市 07-08 13:05 134 90143
+1
+LeavesofGrass 山东省栖霞市 07-20 16:01 -> 浙江省湖州市 07-21 09:54 2255 98306
+1
+LeavesofGrass 湖南省张家界市 08-07 02:32 -> 广东省兴宁市 08-07 08:09 805 45430
+1
+LeavesofGrass 江西省瑞昌市 07-12 15:27 -> 四川省成都市 07-13 14:46 3460 98306
+1
+LeavesofGrass 山东省栖霞市 08-12 16:01 -> 四川省成都市 08-13 14:46 3089 45430
+0
+Kroos 克洛丝 ruins.of.feudal@society.has 2
+1
+TOFOREIGNLANDS 广东省开平市 07-27 16:49 -> 江西省乐平市 07-28 17:49 1002 90143
+1
+TOFOREIGNLANDS 广东省佛山市 07-15 05:26 -> 江西省乐平市 07-15 17:49 381 90143
+-1
+-1
+Astesia 星极 sufficed.for@the.growing 1
+1
+ThereforeIsendyou 四川省广汉市 07-28 12:01 -> 福建省福州市 07-28 21:56 331 22205
+1
+ThereforeIsendyou 福建省建瓯市 07-29 06:34 -> 广东省茂名市 07-29 12:51 319 22205
+-1
+-1
+Phantom 傀影 production@The.place 2
+Hibiscus 芙蓉 history.we@find.almost 3
+-1
+-1
+1
+LeavesofGrass 河北省霸州市 08-06 01:28 -> 四川省成都市 08-06 14:46 2191 45430
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-07 16:49 -> 北京市 07-08 13:05 755 90143
+1
+ThereforeIsendyou 福建省建瓯市 08-02 06:34 -> 广东省茂名市 08-02 12:51 319 22205
+-1
+Weedy 温蒂 antagonisms@Society.as 1
+-1
+1
+LeavesofGrass 湖南省汩罗市 08-11 21:58 -> 广东省兴宁市 08-12 08:09 1566 45430
+0
+Conviction 断罪者 that.has.sprouted@from.the 4
+Mostima 莫斯提马 growing.the@demand.ever 2
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-12 06:34 -> 四川省广汉市 08-12 11:55 17 22205
+-1
+Grani 格拉尼 now.open.fight@a.fight 1
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-11 05:26 -> 北京市 07-11 13:05 134 90143
+1
+LeavesofGrass 山东省栖霞市 07-15 16:01 -> 湖南省张家界市 07-16 02:26 1296 98306
+-1
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-24 06:26 -> 四川省成都市 06-24 14:46 1475 45430
+1
+ThereforeIsendyou 福建省建瓯市 08-18 06:34 -> 广东省茂名市 08-18 12:51 319 22205
+1
+AndtodefineAmeric 浙江省绍兴市 07-04 16:55 -> 四川省简阳市 07-05 02:06 498 65035
+1
+TOFOREIGNLANDS 广东省佛山市 07-26 05:26 -> 江西省乐平市 07-26 17:49 381 90143
+-1
+-1
+0
+1
+AndtodefineAmeric 四川省简阳市 07-06 02:11 -> 山东省滕州市 07-06 04:56 464 65035
+Catapult 空爆 publish.their@views.their 4
+-1
+Elysium 极境 in.the.common@ruin.of 6
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-08 01:58 -> 江西省乐平市 07-08 17:49 792 90143
+1
+ThereforeIsendyou 四川省广汉市 08-07 12:01 -> 广东省茂名市 08-07 12:51 302 22205
+1
+AndtodefineAmeric 四川省简阳市 07-27 02:11 -> 山东省滕州市 07-27 04:56 464 65035
+Astesia 星极 sufficed.for@the.growing 1
+1
+AndtodefineAmeric 浙江省绍兴市 07-29 16:55 -> 山东省滕州市 07-30 04:56 962 65035
+Melantha 玫兰莎 two.great.classes@directly.fac 3
+1
+AndtodefineAmeric 浙江省绍兴市 06-26 16:55 -> 四川省简阳市 06-27 02:06 498 65035
+1
+AndtodefineAmeric 四川省简阳市 07-14 02:11 -> 山东省滕州市 07-14 04:56 464 65035
+1
+LeavesofGrass 湖南省汩罗市 06-24 21:58 -> 广东省兴宁市 06-25 08:09 1566 45430
+-1
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 08-06 16:01 -> 湖南省汩罗市 08-06 21:51 535 45430
+Skyfire 天火 of.the.earliest@towns.From 4
+1
+TOFOREIGNLANDS 广东省佛山市 07-28 05:26 -> 北京市 07-28 13:05 134 90143
+1
+TOFOREIGNLANDS 广东省佛山市 07-29 05:26 -> 北京市 07-29 13:05 134 90143
+1
+TOFOREIGNLANDS 广东省开平市 07-28 16:49 -> 湖南省武冈市 07-29 01:51 210 90143
+1
+LeavesofGrass 江西省瑞昌市 07-12 15:27 -> 辽宁省沈阳市 07-13 13:53 3000 98306
+Mayer 梅尔 division.of@labour.between 2
+1
+LeavesofGrass 湖南省汩罗市 07-28 21:58 -> 浙江省湖州市 07-29 09:54 1720 98306
+1
+ThereforeIsendyou 福建省建瓯市 08-18 06:34 -> 福建省福州市 08-18 21:56 348 22205
+-1
+Vanilla 香草 the.Spectre@of.Communism 2
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-22 15:27 -> 浙江省湖州市 08-23 09:54 2626 45430
+0
+1
+AndtodefineAmeric 浙江省绍兴市 06-17 16:55 -> 山东省滕州市 06-18 04:56 962 65035
+-1
+-1
+0
+-1
+Magallan 麦哲伦 two.great.hostile@camps.into 1
+1
+LeavesofGrass 湖南省汩罗市 07-12 21:58 -> 辽宁省沈阳市 07-13 13:53 2094 98306
+1
+LeavesofGrass 山东省栖霞市 07-26 16:01 -> 湖南省汩罗市 07-26 21:51 535 98306
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-22 16:55 -> 山东省滕州市 06-23 04:56 962 65035
+1
+ThereforeIsendyou 福建省建瓯市 08-19 06:34 -> 四川省广汉市 08-19 11:55 17 22205
+Ambriel 安比 by.the.giant@Modern.Industry 3
+-1
+Grani 格拉尼 now.open.fight@a.fight 1
+1
+LeavesofGrass 湖南省张家界市 06-23 02:32 -> 黑龙江省齐齐哈尔市 06-23 06:17 318 45430
+BluePoison 蓝毒 these.burgesses@the.first 3
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-25 16:49 -> 北京市 07-26 13:05 755 90143
+-1
+-1
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 07-27 06:34 -> 福建省福州市 07-27 21:56 348 22205
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-03 02:11 -> 山东省滕州市 07-03 04:56 464 65035
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-01 16:49 -> 江西省乐平市 07-02 17:49 1002 90143
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-03 12:01 -> 广东省茂名市 08-03 12:51 302 22205
+-1
+-1
+1
+LeavesofGrass 浙江省上虞市 08-13 20:35 -> 河北省霸州市 08-14 01:21 671 45430
+-1
+Shamare 巫恋 vanished.in@the.face 1
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-12 02:11 -> 山东省滕州市 07-12 04:56 464 65035
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-24 02:11 -> 山东省滕州市 07-24 04:56 464 65035
+Glaucus 格劳克斯 not.done.away@with.class 2
+-1
+1
+ThereforeIsendyou 广东省茂名市 07-31 13:00 -> 福建省福州市 07-31 21:56 29 22205
+-1
+Nightmare 夜魔 of.manufacture@was.taken 2
+-1
+-1
+-1
+-1
+Glaucus 格劳克斯 not.done.away@with.class 2
+Bagpipe 风笛 pushed.on.one@side.by 1
+1
+AndtodefineAmeric 浙江省绍兴市 08-01 16:55 -> 山东省滕州市 08-02 04:56 962 65035
+Ambriel 安比 by.the.giant@Modern.Industry 3
+Melantha 玫兰莎 two.great.classes@directly.fac 3
+1
+ThereforeIsendyou 福建省建瓯市 08-02 06:34 -> 四川省广汉市 08-02 11:55 17 22205
+1
+TOFOREIGNLANDS 广东省开平市 07-16 16:49 -> 北京市 07-17 13:05 755 90143
+-1
+1
+LeavesofGrass 河北省霸州市 07-02 01:28 -> 浙江省湖州市 07-02 09:54 1357 98306
+-1
+-1
+-1
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-16 02:11 -> 山东省滕州市 07-16 04:56 464 65035
+-1
+Glaucus 格劳克斯 not.done.away@with.class 2
+Ceylon 锡兰 slaves.in.the@Middle.Ages 1
+Weedy 温蒂 antagonisms@Society.as 1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-29 16:49 -> 北京市 07-30 13:05 755 90143
+1
+ThereforeIsendyou 福建省建瓯市 08-08 06:34 -> 四川省广汉市 08-08 11:55 17 22205
+1
+TOFOREIGNLANDS 广东省开平市 07-18 16:49 -> 江西省乐平市 07-19 17:49 1002 90143
+-1
+-1
+Gravel 砾砾 the.place.of@the.industrial 2
+1
+TOFOREIGNLANDS 湖南省武冈市 07-23 01:58 -> 广东省佛山市 07-23 05:20 411 90143
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-14 06:34 -> 四川省广汉市 08-14 11:55 17 22205
+1
+LeavesofGrass 山东省栖霞市 08-09 16:01 -> 四川省成都市 08-10 14:46 3089 45430
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-25 16:55 -> 四川省简阳市 06-26 02:06 498 65035
+1
+TOFOREIGNLANDS 湖南省武冈市 07-11 01:58 -> 北京市 07-11 13:05 545 90143
+-1
+Melantha 玫兰 middle.class@by.industrial 3
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 06-28 16:49 -> 湖南省武冈市 06-29 01:51 210 90143
+1
+ThereforeIsendyou 四川省广汉市 08-24 12:01 -> 福建省福州市 08-24 21:56 331 22205
+1
+TOFOREIGNLANDS 广东省开平市 06-30 16:49 -> 湖南省武冈市 07-01 01:51 210 90143
+-1
+0
+1
+TOFOREIGNLANDS 湖南省武冈市 07-06 01:58 -> 广东省佛山市 07-06 05:20 411 90143
+1
+ThereforeIsendyou 四川省广汉市 08-01 12:01 -> 广东省茂名市 08-01 12:51 302 22205
+-1
+Nightmare 夜魔 of.manufacture@was.taken 2
+0
+0
+1
+TOFOREIGNLANDS 北京市 07-10 13:09 -> 江西省乐平市 07-10 17:49 247 90143
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-16 12:01 -> 广东省茂名市 08-16 12:51 302 22205
+-1
+Melantha 玫兰 millionaires@the.leaders 3
+-1
+-1
+-1
+Meteorite 陨星 of.whole.industrial@armies.the 2
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-22 15:27 -> 浙江省湖州市 08-23 09:54 2626 45430
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 06-22 02:11 -> 山东省滕州市 06-22 04:56 464 65035
+-1
+-1
+Texas 德克萨斯 this.distinctive@feature.it 3
+-1
+1
+ThereforeIsendyou 广东省茂名市 08-14 13:00 -> 福建省福州市 08-14 21:56 29 22205
+Schwarz 黑黑 society.at@large.or 1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 06-28 16:49 -> 湖南省武冈市 06-29 01:51 210 90143
+-1
+0
+BluePoison 蓝毒 these.burgesses@the.first 3
+0
+Myrtle 桃金娘 BOURGEOIS.AND@PROLETARIANS.The 4
+-1
+May 梅梅 feudal.lords@vassals.guildmast 4
+-1
+1
+ThereforeIsendyou 四川省广汉市 07-25 12:01 -> 广东省茂名市 07-25 12:51 302 22205
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-02 01:58 -> 北京市 07-02 13:05 545 90143
+-1
+-1
+0
+-1
+-1
+-1
+Texas 德克萨斯 this.distinctive@feature.it 3
+-1
+1
+TOFOREIGNLANDS 北京市 07-11 13:09 -> 江西省乐平市 07-11 17:49 247 90143
+1
+TOFOREIGNLANDS 广东省开平市 07-10 16:49 -> 北京市 07-11 13:05 755 90143
+-1
+-1
+ShiraYuki 白雪 rising.Even@manufacture.no 3
+Catapult 空爆 publish.their@views.their 4
+Vulcan 火神 has.simplified@the.class 3
+Bagpipe 风笛 pushed.on.one@side.by 1
+1
+AndtodefineAmeric 浙江省绍兴市 07-24 16:55 -> 山东省滕州市 07-25 04:56 962 65035
+Spot 斑点 existing.societies@is.the 3
+Glaucus 格劳克斯 not.done.away@with.class 2
+Ceobe 刻俄柏 were.developed@The.discovery 3
+Nightingale 夜莺 and.Chinese@markets.the 2
+-1
+Flamebringer 炎客 to.industry@an.impulse 2
+Astesia 星极 sufficed.for@the.growing 1
+Plume 翎羽 the.earlier@epochs.of 2
+-1
+-1
+Savage 暴行 branding.reproach@of.Communism 4
+1
+TOFOREIGNLANDS 湖南省武冈市 07-19 01:58 -> 北京市 07-19 13:05 545 90143
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-10 16:55 -> 四川省简阳市 06-11 02:06 498 65035
+-1
+-1
+0
+-1
+1
+TOFOREIGNLANDS 广东省开平市 06-24 16:49 -> 江西省乐平市 06-25 17:49 1002 90143
+Meteorite 陨星 of.whole.industrial@armies.the 2
+Rangers 巡林者 one.another@carried.on 2
+-1
+Melantha 玫兰 millionaires@the.leaders 3
+1
+TOFOREIGNLANDS 广东省开平市 07-11 16:49 -> 湖南省武冈市 07-12 01:51 210 90143
+1
+ThereforeIsendyou 四川省广汉市 08-20 12:01 -> 广东省茂名市 08-20 12:51 302 22205
+1
+LeavesofGrass 山东省栖霞市 08-05 16:01 -> 四川省成都市 08-06 14:46 3089 45430
+-1
+1
+ThereforeIsendyou 福建省建瓯市 07-26 06:34 -> 四川省广汉市 07-26 11:55 17 22205
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 06-29 15:27 -> 四川省成都市 06-30 14:46 3460 98306
+1
+AndtodefineAmeric 浙江省绍兴市 06-21 16:55 -> 山东省滕州市 06-22 04:56 962 65035
+-1
+-1
+-1
+-1
+Frostleaf 霜叶 commodities@generally.gave 3
+1
+TOFOREIGNLANDS 广东省开平市 06-28 16:49 -> 北京市 06-29 13:05 755 90143
+-1
+ShiraYuki 白雪 rising.Even@manufacture.no 3
+-1
+Snowsant 雪雉 itself.a.Power@II.It 1
+Conviction 断罪者 that.has.sprouted@from.the 4
+-1
+-1
+Indra 因陀罗 the.manufacturing@middle.class 3
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-11 06:34 -> 福建省福州市 08-11 21:56 348 22205
+FEater 食铁 modern.bourgeois@Modern.indust 2
+0
+0
+1
+LeavesofGrass 江西省瑞昌市 08-22 15:27 -> 四川省成都市 08-23 14:46 3460 45430
+Ambriel 安比 by.the.giant@Modern.Industry 3
+1
+AndtodefineAmeric 浙江省绍兴市 07-25 16:55 -> 山东省滕州市 07-26 04:56 962 65035
+1
+LeavesofGrass 山东省栖霞市 07-26 16:01 -> 浙江省上虞市 07-26 20:28 227 98306
+-1
+Croissant 可颂 journeymen@apprentices.serfs 4
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-21 02:11 -> 山东省滕州市 07-21 04:56 464 65035
+1
+LeavesofGrass 江西省瑞昌市 08-09 15:27 -> 黑龙江省齐齐哈尔市 08-10 06:17 1985 45430
+-1
+0
+Phantom 傀影 production@The.place 2
+-1
+0
+1
+TOFOREIGNLANDS 广东省佛山市 07-13 05:26 -> 江西省乐平市 07-13 17:49 381 90143
+-1
+1
+ThereforeIsendyou 福建省建瓯市 07-30 06:34 -> 广东省茂名市 07-30 12:51 319 22205
+-1
+-1
+Mayer 梅尔 division.of@labour.between 2
+-1
+Texas 德克萨斯 this.distinctive@feature.it 3
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-02 15:27 -> 四川省成都市 07-03 14:46 3460 98306
+Shamare 巫恋 vanished.in@the.face 1
+Schwarz 黑黑 society.at@large.or 1
+BluePoison 蓝毒 these.burgesses@the.first 3
+-1
+SilverAsh 银灰 and.Danish@languages.I 4
+1
+ThereforeIsendyou 福建省建瓯市 08-13 06:34 -> 广东省茂名市 08-13 12:51 319 22205
+1
+ThereforeIsendyou 福建省建瓯市 07-29 06:34 -> 四川省广汉市 07-29 11:55 17 22205
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-11 16:55 -> 四川省简阳市 07-12 02:06 498 65035
+-1
+1
+TOFOREIGNLANDS 广东省开平市 06-24 16:49 -> 湖南省武冈市 06-25 01:51 210 90143
+-1
+-1
+Mostima 莫斯提马 growing.the@demand.ever 2
+-1
+1
+TOFOREIGNLANDS 北京市 07-06 13:09 -> 江西省乐平市 07-06 17:49 247 90143
+-1
+-1
+Steward 史都华德 industrial@production.was 3
+Greyy 格雷伊 monopolised@by.closed 4
+1
+LeavesofGrass 湖南省张家界市 08-12 02:32 -> 四川省成都市 08-12 14:46 1793 45430
+1
+ThereforeIsendyou 四川省广汉市 08-06 12:01 -> 广东省茂名市 08-06 12:51 302 22205
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 06-28 02:11 -> 山东省滕州市 06-28 04:56 464 65035
+-1
+0
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-17 06:34 -> 福建省福州市 08-17 21:56 348 22205
+1
+LeavesofGrass 山东省栖霞市 06-23 16:01 -> 湖南省张家界市 06-24 02:26 1296 45430
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 08-26 16:01 -> 黑龙江省齐齐哈尔市 08-27 06:17 1614 45430
+1
+AndtodefineAmeric 浙江省绍兴市 06-15 16:55 -> 山东省滕州市 06-16 04:56 962 65035
+FEater 食铁 modern.bourgeois@Modern.indust 2
+1
+LeavesofGrass 湖南省汩罗市 06-16 21:58 -> 辽宁省沈阳市 06-17 13:53 2094 45430
+Plume 翎羽 the.earlier@epochs.of 2
+Orchid 梓兰 that.each.time@ended.either 3
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-13 06:34 -> 四川省广汉市 08-13 11:55 17 22205
+1
+AndtodefineAmeric 四川省简阳市 07-29 02:11 -> 山东省滕州市 07-29 04:56 464 65035
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-07 15:27 -> 河北省霸州市 07-08 01:21 1269 98306
+1
+AndtodefineAmeric 四川省简阳市 07-03 02:11 -> 山东省滕州市 07-03 04:56 464 65035
+1
+TOFOREIGNLANDS 广东省开平市 07-14 16:49 -> 江西省乐平市 07-15 17:49 1002 90143
+1
+LeavesofGrass 山东省栖霞市 07-28 16:01 -> 四川省成都市 07-29 14:46 3089 98306
+-1
+0
+-1
+-1
+-1
+-1
+-1
+Steward 史都华德 for.which.the@discovery.of 3
+-1
+-1
+1
+whatyouwanted 黑龙江省七台河市 08-09 15:32 -> 江西省景德镇市 08-09 15:52 322 86245
+-1
+-1
+-1
+0
+0
+1
+ThereforeIsendyou 福建省建瓯市 08-11 06:34 -> 四川省广汉市 08-11 11:55 17 22205
+1
+AndtodefineAmeric 四川省简阳市 07-18 02:11 -> 山东省滕州市 07-18 04:56 464 65035
+Melantha 玫兰 millionaires@the.leaders 3
+-1
+1
+ThereforeIsendyou 四川省广汉市 07-24 12:01 -> 福建省福州市 07-24 21:56 331 22205
+-1
+-1
+1
+whatyouwanted 广东省阳春市 08-01 10:40 -> 广东省茂名市 08-01 22:50 771 86245
+1
+AndtodefineAmeric 浙江省绍兴市 07-28 16:55 -> 四川省简阳市 07-29 02:06 498 65035
+Astesia 星极 sufficed.for@the.growing 1
+-1
+Magallan 麦哲伦 two.great.hostile@camps.into 1
+1
+ThereforeIsendyou 广东省茂名市 08-15 13:00 -> 福建省福州市 08-15 21:56 29 22205
+1
+ThereforeIsendyou 四川省广汉市 07-29 12:01 -> 福建省福州市 07-29 21:56 331 22205
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-16 02:11 -> 山东省滕州市 07-16 04:56 464 65035
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-02 16:49 -> 江西省乐平市 07-03 17:49 1002 90143
+1
+whatyouwanted 广东省阳春市 07-09 10:40 -> 江西省景德镇市 07-10 15:52 2257 86245
+1
+ThereforeIsendyou 四川省广汉市 08-13 12:01 -> 福建省福州市 08-13 21:56 331 22205
+-1
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-13 12:01 -> 广东省茂名市 08-13 12:51 302 22205
+-1
+-1
+Orchid 梓兰 that.each.time@ended.either 3
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-10 06:34 -> 福建省福州市 08-10 21:56 348 22205
+1
+whatyouwanted 黑龙江省黑河市 08-18 16:49 -> 海南省通什市 08-19 12:23 1209 86245
+1
+AndtodefineAmeric 浙江省绍兴市 07-04 16:55 -> 山东省滕州市 07-05 04:56 962 65035
+1
+AndtodefineAmeric 浙江省绍兴市 07-10 16:55 -> 山东省滕州市 07-11 04:56 962 65035
+Texas 德克萨斯 this.distinctive@feature.it 3
+Plume 翎羽 the.earlier@epochs.of 2
+1
+whatyouwanted 黑龙江省黑河市 07-18 16:49 -> 河北省保定市 07-19 09:00 1002 86245
+Cliffheart 崖心 of.division@of.labour 1
+1
+TOFOREIGNLANDS 广东省开平市 06-25 16:49 -> 广东省佛山市 06-26 05:20 621 90143
+Vigna 红豆 This.market@has.given 2
+Lappland 拉普兰德 adversaries@Two.things 4
+1
+LeavesofGrass 河北省霸州市 08-13 01:28 -> 广东省兴宁市 08-13 08:09 1203 45430
+May 梅梅 feudal.lords@vassals.guildmast 4
+W 达不溜 but.established@new.classes 1
+1
+whatyouwanted 湖南省郴州市 08-04 12:40 -> 浙江省温州市 08-05 20:10 2522 86245
+-1
+-1
+-1
+Phantom 傀影 production@The.place 2
+-1
+1
+whatyouwanted 湖南省郴州市 07-31 12:40 -> 北京市 07-31 19:18 249 86245
+Nearl 临光 development@The.feudal 1
+-1
+0
+-1
+Glaucus 格劳克斯 not.done.away@with.class 2
+-1
+-1
+Amiya 阿米娅 element.in@the.tottering 1
+-1
+1
+LeavesofGrass 山东省栖霞市 07-24 16:01 -> 浙江省上虞市 07-24 20:28 227 98306
+0
+0
+1
+ThereforeIsendyou 四川省广汉市 08-24 12:01 -> 广东省茂名市 08-24 12:51 302 22205
+1
+LeavesofGrass 山东省栖霞市 06-13 16:01 -> 浙江省上虞市 06-13 20:28 227 45430
+1
+LeavesofGrass 山东省栖霞市 06-30 16:01 -> 黑龙江省齐齐哈尔市 07-01 06:17 1614 98306
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 07-27 06:26 -> 辽宁省沈阳市 07-27 13:53 1015 98306
+-1
+Estelle 艾丝黛尔 in.each.single@workshop.Meanti 1
+1
+whatyouwanted 广东省阳春市 08-14 10:40 -> 北京市 08-14 19:18 307 86245
+-1
+-1
+Astesia 星极 sufficed.for@the.growing 1
+-1
+-1
+-1
+-1
+1
+whatyouwanted 河北省藁城市 07-24 02:20 -> 海南省通什市 07-24 12:23 649 86245
+Ceobe 刻俄柏 were.developed@The.discovery 3
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-12 16:49 -> 广东省佛山市 07-13 05:20 621 90143
+1
+TOFOREIGNLANDS 北京市 07-01 13:09 -> 江西省乐平市 07-01 17:49 247 90143
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-28 16:49 -> 北京市 07-29 13:05 755 90143
+-1
+Weedy 温蒂 antagonisms@Society.as 1
+0
+1
+LeavesofGrass 湖南省汩罗市 06-27 21:58 -> 四川省成都市 06-28 14:46 2554 45430
+FEater 食铁 modern.bourgeois@Modern.indust 2
+1
+LeavesofGrass 浙江省上虞市 06-13 20:35 -> 四川省成都市 06-14 14:46 2862 45430
+-1
+-1
+0
+0
+-1
+-1
+-1
+0
+1
+LeavesofGrass 山东省栖霞市 07-05 16:01 -> 广东省兴宁市 07-06 08:09 2101 98306
+Schwarz 黑黑 society.at@large.or 1
+1
+ThereforeIsendyou 福建省建瓯市 08-13 06:34 -> 福建省福州市 08-13 21:56 348 22205
+Kroos 克洛丝 ruins.of.feudal@society.has 2
+SilverAsh 银灰 and.Danish@languages.I 4
+-1
+1
+LeavesofGrass 湖南省汩罗市 07-18 21:58 -> 广东省兴宁市 07-19 08:09 1566 98306
+1
+TOFOREIGNLANDS 广东省开平市 07-15 16:49 -> 江西省乐平市 07-16 17:49 1002 90143
+Phantom 傀影 production@The.place 2
+1
+LeavesofGrass 江西省瑞昌市 08-21 15:27 -> 四川省成都市 08-22 14:46 3460 45430
+May 梅梅 feudal.lords@vassals.guildmast 4
+Yato 夜刀 fresh.ground@for.the 2
+Nearl 临光 communication@by.land 1
+1
+TOFOREIGNLANDS 广东省开平市 07-10 16:49 -> 湖南省武冈市 07-11 01:51 210 90143
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-12 16:55 -> 四川省简阳市 07-13 02:06 498 65035
+1
+TOFOREIGNLANDS 广东省开平市 06-25 16:49 -> 广东省佛山市 06-26 05:20 621 90143
+1
+LeavesofGrass 河北省霸州市 08-05 01:28 -> 辽宁省沈阳市 08-05 13:53 1731 98306
+1
+ThereforeIsendyou 四川省广汉市 08-19 12:01 -> 广东省茂名市 08-19 12:51 302 22205
+-1
+-1
+-1
+-1
+Greyy 格雷伊 monopolised@by.closed 4
+1
+LeavesofGrass 江西省瑞昌市 06-26 15:27 -> 湖南省汩罗市 06-26 21:51 906 45430
+0
+1
+whatyouwanted 广东省阳春市 08-11 10:40 -> 湖南省郴州市 08-11 12:33 58 86245
+Kroos 克洛丝 ruins.of.feudal@society.has 2
+1
+AndtodefineAmeric 浙江省绍兴市 06-21 16:55 -> 四川省简阳市 06-22 02:06 498 65035
+1
+AndtodefineAmeric 浙江省绍兴市 07-24 16:55 -> 四川省简阳市 07-25 02:06 498 65035
+-1
+0
+-1
+GreyThroat 灰喉 classes.again@subordinate.grad 2
+-1
+Vanilla 香草 the.Spectre@of.Communism 2
+-1
+Steward 史都华德 for.which.the@discovery.of 3
+-1
+1
+whatyouwanted 广东省阳春市 07-06 10:40 -> 广东省茂名市 07-06 22:50 771 86245
+-1
+-1
+1
+ThereforeIsendyou 广东省茂名市 08-09 13:00 -> 福建省福州市 08-09 21:56 29 22205
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-21 05:26 -> 江西省乐平市 07-21 17:49 381 90143
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-11 01:58 -> 江西省乐平市 07-11 17:49 792 90143
+1
+ThereforeIsendyou 广东省茂名市 08-24 13:00 -> 福建省福州市 08-24 21:56 29 22205
+1
+LeavesofGrass 江西省瑞昌市 07-10 15:27 -> 广东省兴宁市 07-11 08:09 2472 98306
+Bagpipe 风笛 pushed.on.one@side.by 1
+-1
+-1
+1
+whatyouwanted 北京市 07-07 19:23 -> 江西省景德镇市 07-08 15:52 1950 86245
+1
+LeavesofGrass 山东省栖霞市 08-02 16:01 -> 河北省霸州市 08-03 01:21 898 98306
+-1
+-1
+1
+whatyouwanted 北京市 07-07 19:23 -> 浙江省温州市 07-08 20:10 2273 86245
+1
+whatyouwanted 黑龙江省七台河市 07-03 15:32 -> 浙江省温州市 07-03 20:10 645 86245
+Phantom 傀影 production@The.place 2
+1
+TOFOREIGNLANDS 广东省开平市 07-22 16:49 -> 湖南省武冈市 07-23 01:51 210 90143
+1
+TOFOREIGNLANDS 广东省佛山市 06-27 05:26 -> 北京市 06-27 13:05 134 90143
+1
+TOFOREIGNLANDS 广东省开平市 07-19 16:49 -> 江西省乐平市 07-20 17:49 1002 90143
+1
+whatyouwanted 河北省保定市 07-19 09:05 -> 海南省通什市 07-19 12:23 207 86245
+1
+TOFOREIGNLANDS 湖南省武冈市 07-06 01:58 -> 江西省乐平市 07-06 17:49 792 90143
+-1
+-1
+-1
+-1
+Bagpipe 风笛 pushed.on.one@side.by 1
+1
+ThereforeIsendyou 四川省广汉市 08-17 12:01 -> 广东省茂名市 08-17 12:51 302 22205
+1
+TOFOREIGNLANDS 广东省开平市 07-23 16:49 -> 江西省乐平市 07-24 17:49 1002 90143
+-1
+Rangers 巡林者 one.another@carried.on 2
+1
+TOFOREIGNLANDS 湖南省武冈市 06-29 01:58 -> 广东省佛山市 06-29 05:20 411 90143
+-1
+-1
+-1
+0
+1
+AndtodefineAmeric 浙江省绍兴市 07-02 16:55 -> 四川省简阳市 07-03 02:06 498 65035
+1
+whatyouwanted 黑龙江省黑河市 07-22 16:49 -> 北京市 07-22 19:18 77 86245
+Plume 翎羽 the.earlier@epochs.of 2
+Glaucus 格劳克斯 not.done.away@with.class 2
+-1
+Myrtle 桃金娘 BOURGEOIS.AND@PROLETARIANS.The 4
+-1
+Flamebringer 炎客 to.industry@an.impulse 2
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 北京市 07-24 13:09 -> 江西省乐平市 07-24 17:49 247 90143
+Glaucus 格劳克斯 This.development@has.in 2
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-08 06:34 -> 广东省茂名市 08-08 12:51 319 22205
+1
+TOFOREIGNLANDS 湖南省武冈市 07-18 01:58 -> 江西省乐平市 07-18 17:49 792 90143
+Plume 翎羽 the.earlier@epochs.of 2
+0
+-1
+1
+LeavesofGrass 河北省霸州市 07-20 01:28 -> 四川省成都市 07-20 14:46 2191 98306
+1
+TOFOREIGNLANDS 广东省佛山市 07-01 05:26 -> 北京市 07-01 13:05 134 90143
+-1
+-1
+0
+Frostleaf 霜叶 commodities@generally.gave 3
+0
+0
+1
+TOFOREIGNLANDS 湖南省武冈市 07-08 01:58 -> 北京市 07-08 13:05 545 90143
+1
+TOFOREIGNLANDS 广东省佛山市 07-23 05:26 -> 北京市 07-23 13:05 134 90143
+-1
+Aak 阿阿 rank.In.ancient@Rome.we 4
+Haze 夜烟 new.forms.of@struggle.in 3
+Nightingale 夜莺 and.Chinese@markets.the 2
+0
+1
+TOtheeoldcause 甘肃省平凉市 08-24 14:25 -> 广东省化州市 08-24 17:19 626 54218
+-1
+-1
+0
+Savage 暴行 branding.reproach@of.Communism 4
+1
+TOFOREIGNLANDS 广东省佛山市 07-17 05:26 -> 江西省乐平市 07-17 17:49 381 90143
+-1
+-1
+1
+whatyouwanted 北京市 07-03 19:23 -> 江西省景德镇市 07-04 15:52 1950 86245
+Ethan 伊桑 longer.sufficed@Thereupon.stea 2
+0
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-27 16:55 -> 四川省简阳市 06-28 02:06 498 65035
+Vanilla 香草 the.Spectre@of.Communism 2
+0
+-1
+-1
+-1
+1
+TOtheeoldcause 江苏省扬州市 07-24 18:47 -> 江苏省宜兴市 07-25 21:53 3570 54218
+-1
+1
+ThereforeIsendyou 福建省建瓯市 07-25 06:34 -> 广东省茂名市 07-25 12:51 319 22205
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-13 06:26 -> 浙江省湖州市 06-13 09:54 641 45430
+1
+whatyouwanted 广东省茂名市 06-25 22:58 -> 海南省通什市 06-26 12:23 668 86245
+Nightingale 夜莺 and.Chinese@markets.the 2
+May 梅梅 feudal.lords@vassals.guildmast 4
+-1
+1
+ThereforeIsendyou 四川省广汉市 07-27 12:01 -> 广东省茂名市 07-27 12:51 302 22205
+Grani 格拉尼 now.open.fight@a.fight 1
+Frostleaf 霜叶 commodities@generally.gave 3
+Sora 空空 wants.of.the@new.markets 1
+Nearl 临光 communication@by.land 1
+-1
+-1
+1
+whatyouwanted 河北省保定市 08-06 09:05 -> 江西省景德镇市 08-06 15:52 1025 86245
+1
+TOFOREIGNLANDS 广东省佛山市 07-23 05:26 -> 北京市 07-23 13:05 134 90143
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-27 16:49 -> 北京市 07-28 13:05 755 90143
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-20 12:01 -> 广东省茂名市 08-20 12:51 302 22205
+1
+ThereforeIsendyou 四川省广汉市 07-31 12:01 -> 福建省福州市 07-31 21:56 331 22205
+-1
+1
+whatyouwanted 北京市 07-03 19:23 -> 河北省藁城市 07-04 02:12 483 86245
+1
+LeavesofGrass 河北省霸州市 07-31 01:28 -> 浙江省湖州市 07-31 09:54 1357 98306
+-1
+1
+LeavesofGrass 辽宁省沈阳市 06-16 14:00 -> 四川省成都市 06-16 14:46 460 45430
+-1
+-1
+-1
+-1
+Angelina 安洁莉 an.immense@development.to 1
+1
+ThereforeIsendyou 四川省广汉市 07-26 12:01 -> 福建省福州市 07-26 21:56 331 22205
+1
+LeavesofGrass 浙江省上虞市 08-10 20:35 -> 湖南省汩罗市 08-10 21:51 308 45430
+WaaiFu 槐琥 new.conditions@of.oppression 2
+Astesia 星极 sufficed.for@the.growing 1
+1
+LeavesofGrass 江西省瑞昌市 08-08 15:27 -> 山东省栖霞市 08-08 15:56 371 45430
+Firewatch 守林人 stood.in.constant@opposition.t 4
+1
+LeavesofGrass 湖南省张家界市 07-27 02:32 -> 四川省成都市 07-27 14:46 1793 98306
+-1
+-1
+-1
+-1
+-1
+-1
+Savage 暴行 branding.reproach@of.Communism 4
+1
+LeavesofGrass 山东省栖霞市 07-16 16:01 -> 浙江省上虞市 07-16 20:28 227 98306
+May 梅梅 feudal.lords@vassals.guildmast 4
+-1
+-1
+Mostima 莫斯提马 growing.the@demand.ever 2
+1
+TOFOREIGNLANDS 广东省佛山市 07-24 05:26 -> 北京市 07-24 13:05 134 90143
+-1
+1
+whatyouwanted 海南省通什市 06-29 12:29 -> 黑龙江省七台河市 06-29 15:26 496 86245
+-1
+-1
+Texas 德克萨 extension.of@industry.and 3
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-10 16:49 -> 北京市 07-11 13:05 755 90143
+1
+LeavesofGrass 广东省兴宁市 06-13 08:14 -> 四川省成都市 06-13 14:46 988 45430
+1
+LeavesofGrass 湖南省汩罗市 06-13 21:58 -> 四川省成都市 06-14 14:46 2554 45430
+1
+whatyouwanted 广东省阳春市 06-25 10:40 -> 北京市 06-25 19:18 307 86245
+1
+AndtodefineAmeric 浙江省绍兴市 06-22 16:55 -> 山东省滕州市 06-23 04:56 962 65035
+1
+LeavesofGrass 湖南省汩罗市 06-09 21:58 -> 湖南省张家界市 06-10 02:26 761 45430
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 07-09 06:26 -> 辽宁省沈阳市 07-09 13:53 1015 98306
+Shining 闪灵 with.a.Manifesto@of.the 4
+1
+whatyouwanted 河北省藁城市 07-02 02:20 -> 浙江省温州市 07-02 20:10 1790 86245
+-1
+-1
+1
+whatyouwanted 河北省藁城市 07-21 02:20 -> 浙江省温州市 07-21 20:10 1790 86245
+Ethan 伊桑 longer.sufficed@Thereupon.stea 2
+1
+TOFOREIGNLANDS 湖南省武冈市 07-29 01:58 -> 江西省乐平市 07-29 17:49 792 90143
+1
+ThereforeIsendyou 广东省茂名市 08-10 13:00 -> 福建省福州市 08-10 21:56 29 22205
+1
+ThereforeIsendyou 四川省广汉市 07-29 12:01 -> 福建省福州市 07-29 21:56 331 22205
+1
+whatyouwanted 广东省阳春市 08-02 10:40 -> 江西省景德镇市 08-03 15:52 2257 86245
+Plume 翎羽 the.earlier@epochs.of 2
+Ansel 安赛尔 of.America@the.rounding 3
+0
+-1
+Pramanix 初雪 thereby.to@the.revolutionary 1
+-1
+-1
+-1
+-1
+-1
+1
+whatyouwanted 广东省阳春市 08-12 10:40 -> 浙江省温州市 08-13 20:10 2580 86245
+1
+AndtodefineAmeric 浙江省绍兴市 07-24 16:55 -> 四川省简阳市 07-25 02:06 498 65035
+-1
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-02 05:26 -> 北京市 07-02 13:05 134 90143
+Flamebringer 炎客 to.industry@an.impulse 2
+Grani 格拉尼 now.open.fight@a.fight 1
+1
+TOtheeoldcause 吉林省临江市 07-20 23:15 -> 河北省河间市 07-21 18:13 2737 54218
+1
+TOFOREIGNLANDS 广东省开平市 07-23 16:49 -> 江西省乐平市 07-24 17:49 1002 90143
+1
+ThereforeIsendyou 广东省茂名市 08-18 13:00 -> 福建省福州市 08-18 21:56 29 22205
+1
+ThereforeIsendyou 四川省广汉市 08-05 12:01 -> 福建省福州市 08-05 21:56 331 22205
+-1
+0
+Frostleaf 霜叶 commodities@generally.gave 3
+0
+1
+TOtheeoldcause 山西省潞城市 07-20 23:52 -> 浙江省江山市 07-22 00:15 3219 54218
+-1
+-1
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-14 06:34 -> 福建省福州市 08-14 21:56 348 22205
+Skyfire 天火 in.proportion@as.industry 4
+1
+ThereforeIsendyou 福建省建瓯市 08-17 06:34 -> 四川省广汉市 08-17 11:55 17 22205
+1
+TOFOREIGNLANDS 广东省开平市 07-27 16:49 -> 北京市 07-28 13:05 755 90143
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-16 16:55 -> 山东省滕州市 06-17 04:56 962 65035
+-1
+Aak 阿阿 rank.In.ancient@Rome.we 4
+Nearl 临光 communication@by.land 1
+1
+whatyouwanted 北京市 08-09 19:23 -> 浙江省温州市 08-10 20:10 2273 86245
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-09 12:01 -> 福建省福州市 08-09 21:56 331 22205
+-1
+Texas 德克 extension.of@industry.and 3
+-1
+-1
+1
+TOtheeoldcause 河南省郑州市 08-08 16:35 -> 浙江省江山市 08-09 00:15 1449 54218
+-1
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-21 06:34 -> 福建省福州市 08-21 21:56 348 22205
+-1
+Sora 空空 wants.of.the@new.markets 1
+-1
+0
+0
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 06-17 15:27 -> 河北省霸州市 06-18 01:21 1269 45430
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-19 06:34 -> 四川省广汉市 08-19 11:55 17 22205
+Rope 暗索 commerce.navigation@railways.e 4
+-1
+-1
+1
+TOtheeoldcause 甘肃省平凉市 08-07 14:25 -> 广东省化州市 08-07 17:19 626 54218
+-1
+Texas 德克 extension.of@industry.and 3
+-1
+-1
+ShiraYuki 白雪 rising.Even@manufacture.no 3
+Greyy 格雷伊 monopolised@by.closed 4
+0
+-1
+-1
+BluePoison 蓝毒 these.burgesses@the.first 3
+Pramanix 初雪 thereby.to@the.revolutionary 1
+-1
+-1
+-1
+-1
+-1
+1
+ThereforeIsendyou 四川省广汉市 07-24 12:01 -> 福建省福州市 07-24 21:56 331 22205
+-1
+1
+TOtheeoldcause 山东省荣成市 08-17 07:15 -> 北京市 08-17 11:46 453 54218
+1
+LeavesofGrass 江西省瑞昌市 07-30 15:27 -> 河北省霸州市 07-31 01:21 1269 98306
+-1
+1
+LeavesofGrass 河北省霸州市 08-12 01:28 -> 黑龙江省齐齐哈尔市 08-12 06:17 716 45430
+-1
+-1
+1
+TOtheeoldcause 黑龙江省富锦市 07-16 09:00 -> 广东省化州市 07-16 17:19 1531 54218
+-1
+0
+1
+TOtheeoldcause 福建省漳平市 07-28 20:31 -> 江苏省宜兴市 07-29 21:53 3501 54218
+GreyThroat 灰喉 classes.again@subordinate.grad 2
+1
+TOtheeoldcause 吉林省临江市 08-12 23:15 -> 甘肃省平凉市 08-13 14:18 2058 54218
+Gravel 砾砾 the.place.of@the.industrial 2
+1
+TOtheeoldcause 湖北省武汉市 08-05 15:54 -> 河北省河间市 08-06 18:13 3083 54218
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-16 12:01 -> 广东省茂名市 08-16 12:51 302 22205
+Astesia 星极 sufficed.for@the.growing 1
+1
+LeavesofGrass 浙江省上虞市 07-26 20:35 -> 河北省霸州市 07-27 01:21 671 98306
+1
+AndtodefineAmeric 四川省简阳市 06-17 02:11 -> 山东省滕州市 06-17 04:56 464 65035
+1
+AndtodefineAmeric 浙江省绍兴市 07-25 16:55 -> 四川省简阳市 07-26 02:06 498 65035
+1
+LeavesofGrass 湖南省汩罗市 07-16 21:58 -> 辽宁省沈阳市 07-17 13:53 2094 98306
+-1
+-1
+1
+whatyouwanted 湖南省郴州市 08-03 12:40 -> 黑龙江省黑河市 08-03 16:40 172 86245
+-1
+-1
+0
+LeavesofGrass Y
+江西省瑞昌市 xx-xx xx:xx -> 07-03 15:27 0 45430
+山东省栖霞市 07-03 15:56 -> 07-03 16:01 371 45430
+浙江省上虞市 07-03 20:28 -> 07-03 20:35 598 45430
+湖南省汩罗市 07-03 21:51 -> 07-03 21:58 906 45430
+河北省霸州市 07-04 01:21 -> 07-04 01:28 1269 45430
+湖南省张家界市 07-04 02:26 -> 07-04 02:32 1667 45430
+黑龙江省齐齐哈尔市 07-04 06:17 -> 07-04 06:26 1985 45430
+广东省兴宁市 07-04 08:09 -> 07-04 08:14 2472 45430
+浙江省湖州市 07-04 09:54 -> 07-04 10:04 2626 45430
+辽宁省沈阳市 07-04 13:53 -> 07-04 14:00 3000 45430
+四川省成都市 07-04 14:46 -> xx-xx xx:xx 3460 x
+0
+1
+AndtodefineAmeric 四川省简阳市 06-15 02:11 -> 山东省滕州市 06-15 04:56 464 65035
+1
+whatyouwanted 黑龙江省七台河市 08-16 15:32 -> 浙江省温州市 08-16 20:10 645 86245
+1
+ThereforeIsendyou 广东省茂名市 08-08 13:00 -> 福建省福州市 08-08 21:56 29 22205
+1
+AndtodefineAmeric 浙江省绍兴市 07-24 16:55 -> 山东省滕州市 07-25 04:56 962 65035
+-1
+-1
+1
+whatyouwanted 广东省阳春市 07-04 10:40 -> 北京市 07-04 19:18 307 86245
+Matoimaru 缠丸 its.time.reacted@on.the 3
+-1
+-1
+Conviction 断罪者 bourgeoisie@developed.increase 4
+1
+whatyouwanted 北京市 07-12 19:23 -> 海南省通什市 07-13 12:23 1132 86245
+1
+whatyouwanted 广东省阳春市 07-22 10:40 -> 黑龙江省七台河市 07-23 15:26 1935 86245
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-16 06:34 -> 广东省茂名市 08-16 12:51 319 22205
+-1
+Orchid 梓兰 that.each.time@ended.either 3
+1
+TOtheeoldcause 河北省河间市 07-31 18:21 -> 江苏省宜兴市 07-31 21:53 578 54218
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-03 01:58 -> 广东省佛山市 07-03 05:20 411 90143
+1
+LeavesofGrass 江西省瑞昌市 07-10 15:27 -> 湖南省张家界市 07-11 02:26 1667 98306
+0
+1
+ThereforeIsendyou 四川省广汉市 08-23 12:01 -> 福建省福州市 08-23 21:56 331 22205
+1
+whatyouwanted 北京市 08-18 19:23 -> 海南省通什市 08-19 12:23 1132 86245
+1
+TOFOREIGNLANDS 广东省佛山市 06-30 05:26 -> 江西省乐平市 06-30 17:49 381 90143
+-1
+1
+TOtheeoldcause 山西省潞城市 08-07 23:52 -> 河南省郑州市 08-08 16:29 1770 54218
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 06-10 16:01 -> 浙江省上虞市 06-10 20:28 227 45430
+1
+whatyouwanted 广东省阳春市 07-29 10:40 -> 新疆库尔勒市 07-30 06:13 1174 86245
+1
+TOtheeoldcause 山西省潞城市 07-29 23:52 -> 甘肃省平凉市 07-30 14:18 1565 54218
+-1
+1
+TOtheeoldcause 吉林省临江市 08-16 23:15 -> 山东省荣成市 08-17 07:12 1120 54218
+-1
+1
+whatyouwanted 广东省阳春市 07-28 10:40 -> 河北省藁城市 07-29 02:12 790 86245
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-08 06:34 -> 福建省福州市 08-08 21:56 348 22205
+Myrtle 桃金娘 BOURGEOIS.AND@PROLETARIANS.The 4
+1
+AndtodefineAmeric 四川省简阳市 06-14 02:11 -> 山东省滕州市 06-14 04:56 464 65035
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-10 01:58 -> 江西省乐平市 07-10 17:49 792 90143
+-1
+Hibiscus 芙蓉 history.we@find.almost 3
+Nightingale 夜莺 and.Chinese@markets.the 2
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-10 01:58 -> 江西省乐平市 07-10 17:49 792 90143
+1
+TOtheeoldcause 福建省漳平市 08-30 20:31 -> 河北省河间市 08-31 18:13 2923 54218
+-1
+Indra 因陀罗 the.manufacturing@middle.class 3
+-1
+-1
+-1
+Melantha 玫兰 its.capital@and.pushed 3
+Gravel 砾砾 the.place.of@the.industrial 2
+-1
+-1
+1
+whatyouwanted 海南省通什市 06-28 12:29 -> 黑龙江省七台河市 06-28 15:26 496 86245
+1
+AndtodefineAmeric 浙江省绍兴市 07-24 16:55 -> 四川省简阳市 07-25 02:06 498 65035
+-1
+1
+TOtheeoldcause 吉林省临江市 08-15 23:15 -> 河北省黄骅市 08-16 20:38 2975 54218
+1
+ThereforeIsendyou 福建省建瓯市 08-19 06:34 -> 广东省茂名市 08-19 12:51 319 22205
+1
+ThereforeIsendyou 福建省建瓯市 08-09 06:34 -> 福建省福州市 08-09 21:56 348 22205
+1
+TOtheeoldcause 北京市 07-28 11:50 -> 河北省黄骅市 07-28 20:38 1402 54218
+Hibiscus 芙蓉 history.we@find.almost 3
+-1
+-1
+1
+ThereforeIsendyou 四川省广汉市 07-31 12:01 -> 广东省茂名市 07-31 12:51 302 22205
+1
+TOtheeoldcause 吉林省临江市 07-17 23:15 -> 江苏省宜兴市 07-18 21:53 3315 54218
+0
+-1
+-1
+-1
+1
+TOtheeoldcause 湖北省武汉市 08-03 15:54 -> 黑龙江省富锦市 08-04 08:52 1499 54218
+0
+1
+TOFOREIGNLANDS 北京市 07-22 13:09 -> 江西省乐平市 07-22 17:49 247 90143
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 06-18 02:11 -> 山东省滕州市 06-18 04:56 464 65035
+Conviction 断罪者 bourgeoisie@developed.increase 4
+-1
+-1
+-1
+-1
+-1
+1
+TOtheeoldcause 河南省郑州市 07-17 16:35 -> 浙江省江山市 07-18 00:15 1449 54218
+1
+AndtodefineAmeric 浙江省绍兴市 06-30 16:55 -> 四川省简阳市 07-01 02:06 498 65035
+-1
+-1
+-1
+Broca 布洛 feudal.society@a.rapid 4
+-1
+-1
+1
+TOtheeoldcause 湖北省武汉市 08-01 15:54 -> 吉林省临江市 08-01 23:10 346 54218
+-1
+-1
+0
+WaaiFu 槐琥 new.conditions@of.oppression 2
+1
+TOtheeoldcause 河北省河间市 08-12 18:21 -> 浙江省江山市 08-13 00:15 975 54218
+Bagpipe 风笛 pushed.on.one@side.by 1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-15 01:58 -> 北京市 07-15 13:05 545 90143
+1
+ThereforeIsendyou 福建省建瓯市 07-29 06:34 -> 四川省广汉市 07-29 11:55 17 22205
+1
+whatyouwanted 湖南省郴州市 07-26 12:40 -> 海南省通什市 07-27 12:23 1381 86245
+-1
+-1
+Aak 阿阿 rank.In.ancient@Rome.we 4
+Ceobe 刻俄柏 were.developed@The.discovery 3
+-1
+Ceobe 刻俄 into.the.background@every.clas 3
+1
+TOFOREIGNLANDS 北京市 06-26 13:09 -> 江西省乐平市 06-26 17:49 247 90143
+-1
+Spot 斑点 existing.societies@is.the 3
+1
+TOtheeoldcause 浙江省平湖市 08-18 04:35 -> 北京市 08-18 11:46 484 54218
+-1
+-1
+-1
+1
+TOtheeoldcause 黑龙江省富锦市 07-31 09:00 -> 河南省郑州市 07-31 16:29 1110 54218
+-1
+1
+whatyouwanted 北京市 07-31 19:23 -> 海南省通什市 08-01 12:23 1132 86245
+Bagpipe 风笛 pushed.on.one@side.by 1
+Rope 暗索 commerce.navigation@railways.e 4
+1
+whatyouwanted 黑龙江省七台河市 08-01 15:32 -> 江西省景德镇市 08-01 15:52 322 86245
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-20 16:55 -> 山东省滕州市 07-21 04:56 962 65035
+1
+TOFOREIGNLANDS 湖南省武冈市 07-08 01:58 -> 江西省乐平市 07-08 17:49 792 90143
+1
+TOtheeoldcause 河北省河间市 08-24 18:21 -> 浙江省江山市 08-25 00:15 975 54218
+0
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-14 06:34 -> 福建省福州市 08-14 21:56 348 22205
+Firewatch 守林人 stood.in.constant@opposition.t 4
+Broca 布洛 feudal.society@a.rapid 4
+1
+AndtodefineAmeric 四川省简阳市 06-17 02:11 -> 山东省滕州市 06-17 04:56 464 65035
+1
+whatyouwanted 河北省藁城市 08-13 02:20 -> 河北省保定市 08-13 09:00 442 86245
+Mousse 慕斯 handed.down@from.the 4
+May 梅梅 feudal.lords@vassals.guildmast 4
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-12 16:55 -> 四川省简阳市 07-13 02:06 498 65035
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-08 01:58 -> 北京市 07-08 13:05 545 90143
+ShiraYuki 白雪 rising.Even@manufacture.no 3
+-1
+1
+LeavesofGrass 江西省瑞昌市 07-11 15:27 -> 辽宁省沈阳市 07-12 13:53 3000 98306
+-1
+Greyy 格雷伊 monopolised@by.closed 4
+0
+-1
+-1
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-17 12:01 -> 广东省茂名市 08-17 12:51 302 22205
+Snowsant 雪雉 itself.a.Power@II.It 1
+-1
+Nearl 临光 communication@by.land 1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-06 01:58 -> 北京市 07-06 13:05 545 90143
+-1
+Haze 夜烟 new.forms.of@struggle.in 3
+-1
+-1
+-1
+Angelina 安洁莉 an.immense@development.to 1
+-1
+1
+LeavesofGrass 河北省霸州市 08-09 01:28 -> 湖南省张家界市 08-09 02:26 398 45430
+-1
+-1
+1
+whatyouwanted 新疆库尔勒市 07-07 06:21 -> 黑龙江省七台河市 07-07 15:26 761 86245
+1
+whatyouwanted 黑龙江省黑河市 08-09 16:49 -> 新疆库尔勒市 08-10 06:13 944 86245
+Shamare 巫恋 vanished.in@the.face 1
+1
+whatyouwanted 湖南省郴州市 07-23 12:40 -> 广东省茂名市 07-23 22:50 713 86245
+Shamare 巫恋 vanished.in@the.face 1
+-1
+-1
+1
+whatyouwanted 湖南省郴州市 07-19 12:40 -> 河北省保定市 07-20 09:00 1174 86245
+1
+AndtodefineAmeric 四川省简阳市 07-09 02:11 -> 山东省滕州市 07-09 04:56 464 65035
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-30 16:49 -> 广东省佛山市 07-31 05:20 621 90143
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-22 15:27 -> 广东省兴宁市 08-23 08:09 2472 45430
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-10 12:01 -> 福建省福州市 08-10 21:56 331 22205
+1
+TOFOREIGNLANDS 广东省开平市 06-24 16:49 -> 广东省佛山市 06-25 05:20 621 90143
+Rangers 巡林者 one.another@carried.on 2
+Angelina 安洁莉 an.immense@development.to 1
+-1
+Earthspirit 地灵 commerce.to@navigation.to 2
+-1
+1
+LeavesofGrass 浙江省上虞市 07-27 20:35 -> 湖南省张家界市 07-28 02:26 1069 98306
+-1
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-15 12:01 -> 福建省福州市 08-15 21:56 331 22205
+1
+whatyouwanted 北京市 07-06 19:23 -> 黑龙江省七台河市 07-07 15:26 1628 86245
+-1
+-1
+1
+LeavesofGrass 河北省霸州市 07-22 01:28 -> 黑龙江省齐齐哈尔市 07-22 06:17 716 98306
+-1
+-1
+1
+whatyouwanted 北京市 07-14 19:23 -> 河北省藁城市 07-15 02:12 483 86245
+Shaw 阿消 America.paved@the.way 2
+0
+Texas 德克 extension.of@industry.and 3
+1
+TOtheeoldcause 河北省河间市 07-17 18:21 -> 河北省黄骅市 07-17 20:38 238 54218
+1
+TOFOREIGNLANDS 湖南省武冈市 07-01 01:58 -> 北京市 07-01 13:05 545 90143
+1
+ThereforeIsendyou 四川省广汉市 07-28 12:01 -> 广东省茂名市 07-28 12:51 302 22205
+1
+TOtheeoldcause 湖北省武汉市 08-29 15:54 -> 甘肃省平凉市 08-30 14:18 2404 54218
+-1
+-1
+-1
+-1
+-1
+-1
+Ceylon 锡兰 slaves.in.the@Middle.Ages 1
+WaaiFu 槐琥 new.conditions@of.oppression 2
+Sussurro 苏苏洛 each.other@Bourgeoisie.and 1
+Savage 暴行 branding.reproach@of.Communism 4
+Lappland 拉普兰德 adversaries@Two.things 4
+May 梅梅 feudal.lords@vassals.guildmast 4
+-1
+-1
+1
+TOtheeoldcause 吉林省临江市 07-31 23:15 -> 山东省荣成市 08-01 07:12 1120 54218
+-1
+1
+whatyouwanted 湖南省郴州市 07-12 12:40 -> 广东省茂名市 07-12 22:50 713 86245
+-1
+1
+LeavesofGrass 浙江省湖州市 08-16 10:04 -> 辽宁省沈阳市 08-16 13:53 374 45430
+-1
+-1
+1
+whatyouwanted 河北省保定市 07-03 09:05 -> 浙江省温州市 07-03 20:10 1348 86245
+1
+whatyouwanted 广东省茂名市 07-17 22:58 -> 河北省保定市 07-18 09:00 461 86245
+1
+TOtheeoldcause 山东省荣成市 07-17 07:15 -> 黑龙江省富锦市 07-17 08:52 33 54218
+-1
+GreyThroat 灰喉 classes.again@subordinate.grad 2
+-1
+-1
+-1
+1
+TOtheeoldcause 山西省潞城市 07-14 23:52 -> 河北省黄骅市 07-15 20:38 2482 54218
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-02 02:11 -> 山东省滕州市 07-02 04:56 464 65035
+1
+ThereforeIsendyou 福建省建瓯市 08-15 06:34 -> 福建省福州市 08-15 21:56 348 22205
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-07 16:55 -> 四川省简阳市 07-08 02:06 498 65035
+-1
+1
+whatyouwanted 广东省阳春市 08-12 10:40 -> 湖南省郴州市 08-12 12:33 58 86245
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-20 16:55 -> 山东省滕州市 07-21 04:56 962 65035
+Lappland 拉普兰德 adversaries@Two.things 4
+Durin 杜林 guilds.now@no.longer 1
+Weedy 温蒂 antagonisms@Society.as 1
+-1
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-19 05:26 -> 北京市 07-19 13:05 134 90143
+-1
+Mostima 莫斯提马 growing.the@demand.ever 2
+-1
+1
+ThereforeIsendyou 广东省茂名市 07-28 13:00 -> 福建省福州市 07-28 21:56 29 22205
+0
+1
+LeavesofGrass 山东省栖霞市 07-19 16:01 -> 湖南省张家界市 07-20 02:26 1296 98306
+WaaiFu 槐琥 new.conditions@of.oppression 2
+-1
+ShiraYuki 白雪 rising.Even@manufacture.no 3
+-1
+1
+whatyouwanted 广东省茂名市 07-15 22:58 -> 河北省藁城市 07-16 02:12 19 86245
+Shining 闪灵 with.a.Manifesto@of.the 4
+Frostleaf 霜叶 commodities@generally.gave 3
+1
+TOtheeoldcause 广东省化州市 07-29 17:28 -> 河北省河间市 07-29 18:13 53 54218
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 06-20 16:01 -> 广东省兴宁市 06-21 08:09 2101 45430
+Ansel 安赛 of.America@the.rounding 3
+Reed 苇草 the.different@corporate.guilds 5
+Nearl 临光 communication@by.land 1
+0
+-1
+1
+whatyouwanted 广东省阳春市 07-16 10:40 -> 浙江省温州市 07-17 20:10 2580 86245
+-1
+-1
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-19 06:34 -> 广东省茂名市 08-19 12:51 319 22205
+1
+LeavesofGrass 浙江省上虞市 07-24 20:35 -> 湖南省汩罗市 07-24 21:51 308 98306
+0
+-1
+-1
+Firewatch 守林人 stood.in.constant@opposition.t 4
+W 达不溜 but.established@new.classes 1
+Steward 史都华 for.which.the@discovery.of 3
+Nightingale 夜莺 and.Chinese@markets.the 2
+-1
+1
+LeavesofGrass 湖南省张家界市 07-01 02:32 -> 浙江省湖州市 07-01 09:54 959 98306
+-1
+NoirCorne 黑角 in.a.word.oppressor@and.oppres 3
+-1
+1
+LeavesofGrass 湖南省汩罗市 07-09 21:58 -> 黑龙江省齐齐哈尔市 07-10 06:17 1079 98306
+-1
+-1
+1
+ThereforeIsendyou 广东省茂名市 08-02 13:00 -> 福建省福州市 08-02 21:56 29 22205
+1
+TOtheeoldcause 河南省郑州市 08-17 16:35 -> 河北省河间市 08-17 18:13 474 54218
+1
+whatyouwanted 黑龙江省七台河市 08-09 15:32 -> 浙江省温州市 08-09 20:10 645 86245
+-1
+-1
+-1
+1
+whatyouwanted 广东省阳春市 08-10 10:40 -> 浙江省温州市 08-11 20:10 2580 86245
+1
+ThereforeIsendyou 福建省建瓯市 08-23 06:34 -> 广东省茂名市 08-23 12:51 319 22205
+1
+ThereforeIsendyou 广东省茂名市 08-03 13:00 -> 福建省福州市 08-03 21:56 29 22205
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-20 06:34 -> 广东省茂名市 08-20 12:51 319 22205
+Flamebringer 炎客 to.industry@an.impulse 2
+-1
+-1
+-1
+-1
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-02 15:27 -> 河北省霸州市 08-03 01:21 1269 98306
+1
+TOtheeoldcause 福建省漳平市 07-08 20:31 -> 北京市 07-09 11:46 1759 54218
+-1
+Croissant 可颂 journeymen@apprentices.serfs 4
+1
+TOtheeoldcause 浙江省平湖市 08-25 04:35 -> 河南省郑州市 08-25 16:29 1174 54218
+Spot 斑点 existing.societies@is.the 3
+1
+TOFOREIGNLANDS 广东省开平市 07-29 16:49 -> 北京市 07-30 13:05 755 90143
+-1
+0
+-1
+1
+TOtheeoldcause 浙江省平湖市 08-24 04:35 -> 山东省荣成市 08-24 07:12 31 54218
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-24 05:26 -> 北京市 07-24 13:05 134 90143
+1
+TOtheeoldcause 吉林省临江市 08-07 23:15 -> 河北省黄骅市 08-08 20:38 2975 54218
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-10 16:55 -> 山东省滕州市 07-11 04:56 962 65035
+-1
+0
+1
+TOtheeoldcause 山西省潞城市 07-22 23:52 -> 浙江省金华市 07-23 13:11 1263 54218
+1
+TOFOREIGNLANDS 广东省开平市 06-30 16:49 -> 广东省佛山市 07-01 05:20 621 90143
+1
+Thousternremorsel 广东省茂名市 08-13 02:49 -> 北京市 08-13 03:37 393 47842
+1
+LeavesofGrass 湖南省汩罗市 08-18 21:58 -> 四川省成都市 08-19 14:46 2554 45430
+Phantom 傀影 Middle.Ages@We.see 2
+0
+Skyfire 天火 in.proportion@as.industry 4
+1
+LeavesofGrass 江西省瑞昌市 06-21 15:27 -> 浙江省上虞市 06-21 20:28 598 45430
+1
+whatyouwanted 黑龙江省黑河市 06-25 16:49 -> 江西省景德镇市 06-26 15:52 2027 86245
+1
+LeavesofGrass 浙江省上虞市 07-22 20:35 -> 湖南省汩罗市 07-22 21:51 308 98306
+1
+TOFOREIGNLANDS 广东省开平市 07-04 16:49 -> 江西省乐平市 07-05 17:49 1002 90143
+-1
+-1
+Mayer 梅尔 division.of@labour.between 2
+1
+TOtheeoldcause 湖北省武汉市 07-23 15:54 -> 浙江省江山市 07-25 00:15 4058 54218
+-1
+-1
+1
+whatyouwanted 北京市 07-29 19:23 -> 黑龙江省七台河市 07-30 15:26 1628 86245
+-1
+May 梅梅 feudal.lords@vassals.guildmast 4
+Grani 格拉尼 now.open.fight@a.fight 1
+-1
+Steward 史都华 for.which.the@discovery.of 3
+-1
+-1
+-1
+1
+LeavesofGrass 河北省霸州市 07-25 01:28 -> 浙江省湖州市 07-25 09:54 1357 98306
+-1
+Hibiscus 芙蓉 history.we@find.almost 3
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-10 16:55 -> 山东省滕州市 06-11 04:56 962 65035
+1
+Thousternremorsel 广东省茂名市 06-28 02:49 -> 黑龙江省绥芬河市 06-28 16:57 697 47842
+1
+whatyouwanted 黑龙江省七台河市 07-10 15:32 -> 浙江省温州市 07-10 20:10 645 86245
+1
+LeavesofGrass 湖南省汩罗市 07-23 21:58 -> 黑龙江省齐齐哈尔市 07-24 06:17 1079 98306
+-1
+1
+LeavesofGrass 湖南省汩罗市 07-11 21:58 -> 黑龙江省齐齐哈尔市 07-12 06:17 1079 98306
+0
+Yato 夜刀 fresh.ground@for.the 2
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-31 02:11 -> 山东省滕州市 07-31 04:56 464 65035
+Orchid 梓兰 that.each.time@ended.either 3
+1
+AndtodefineAmeric 浙江省绍兴市 06-26 16:55 -> 山东省滕州市 06-27 04:56 962 65035
+NoirCorne 黑角 in.a.word.oppressor@and.oppres 3
+1
+ThereforeIsendyou 福建省建瓯市 08-24 06:34 -> 福建省福州市 08-24 21:56 348 22205
+1
+ThereforeIsendyou 广东省茂名市 07-31 13:00 -> 福建省福州市 07-31 21:56 29 22205
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-23 16:55 -> 四川省简阳市 06-24 02:06 498 65035
+Mousse 慕斯 handed.down@from.the 4
+-1
+-1
+-1
+-1
+-1
+Meteorite 陨星 of.whole.industrial@armies.the 2
+1
+Thoupeerlesspassi 山东省曲阜市 07-19 04:40 -> 陕西省商州市 07-19 05:32 376 6304
+1
+Thoupeerlesspassi 辽宁省本溪市 07-13 20:00 -> 北京市 07-14 00:15 413 6304
+Firewatch 守林人 stood.in.constant@opposition.t 4
+-1
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-31 16:55 -> 山东省滕州市 08-01 04:56 962 65035
+1
+LeavesofGrass 湖南省张家界市 06-18 02:32 -> 辽宁省沈阳市 06-18 13:53 1333 45430
+-1
+1
+Thousternremorsel 广东省茂名市 06-25 02:49 -> 黑龙江省绥芬河市 06-25 16:57 697 47842
+-1
+-1
+-1
+-1
+1
+Thousternremorsel 北京市 07-13 03:47 -> 黑龙江省绥芬河市 07-13 16:57 304 47842
+-1
+0
+1
+LeavesofGrass 山东省栖霞市 08-18 16:01 -> 辽宁省沈阳市 08-19 13:53 2629 45430
+Broca 布洛 feudal.society@a.rapid 4
+1
+Thousternremorsel 北京市 07-06 03:47 -> 黑龙江省绥芬河市 07-06 16:57 304 47842
+0
+1
+LeavesofGrass 山东省栖霞市 07-14 16:01 -> 湖南省汩罗市 07-14 21:51 535 98306
+Broca 布洛 feudal.society@a.rapid 4
+Mayer 梅尔 division.of@labour.between 2
+-1
+Nightingale 夜莺 and.Chinese@markets.the 2
+Sora 空空 wants.of.the@new.markets 1
+Aak 阿阿 rank.In.ancient@Rome.we 4
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-04 15:27 -> 浙江省上虞市 08-04 20:28 598 98306
+1
+Thousternremorsel 北京市 07-12 03:47 -> 黑龙江省绥芬河市 07-12 16:57 304 47842
+1
+LeavesofGrass 江西省瑞昌市 06-26 15:27 -> 广东省兴宁市 06-27 08:09 2472 45430
+WaaiFu 槐琥 new.conditions@of.oppression 2
+Amiya 阿米娅 element.in@the.tottering 1
+-1
+1
+Thousternremorsel 广东省茂名市 07-15 02:49 -> 黑龙江省绥芬河市 07-15 16:57 697 47842
+-1
+Rangers 巡林者 one.another@carried.on 2
+1
+ThereforeIsendyou 四川省广汉市 08-10 12:01 -> 广东省茂名市 08-10 12:51 302 22205
+1
+Thousternremorsel 广东省茂名市 08-17 02:49 -> 黑龙江省绥芬河市 08-17 16:57 697 47842
+1
+TOFOREIGNLANDS 湖南省武冈市 06-30 01:58 -> 江西省乐平市 06-30 17:49 792 90143
+Melantha 玫兰 therefore.how@the.modern 3
+1
+TOtheeoldcause 江苏省扬州市 07-27 18:47 -> 吉林省临江市 07-27 23:10 255 54218
+-1
+0
+-1
+1
+whatyouwanted 北京市 08-01 19:23 -> 黑龙江省七台河市 08-02 15:26 1628 86245
+-1
+Sora 空空 wants.of.the@new.markets 1
+0
+0
+Shining 闪灵 with.a.Manifesto@of.the 4
+-1
+1
+Thoupeerlesspassi 河南省偃师市 07-20 11:33 -> 安徽省明光市 07-21 09:26 2240 6304
+-1
+-1
+Meteorite 陨星 of.whole.industrial@armies.the 2
+Durin 杜林 guilds.now@no.longer 1
+1
+Thousternremorsel 广东省茂名市 08-30 02:49 -> 北京市 08-30 03:37 393 47842
+1
+ThereforeIsendyou 福建省建瓯市 07-24 06:34 -> 四川省广汉市 07-24 11:55 17 22205
+Matoimaru 缠丸 its.time.reacted@on.the 3
+1
+AndtodefineAmeric 浙江省绍兴市 07-13 16:55 -> 四川省简阳市 07-14 02:06 498 65035
+-1
+Chen 陈陈 place.of.the@old.ones 1
+Shining 闪灵 with.a.Manifesto@of.the 4
+Nearl 临光 communication@by.land 1
+-1
+-1
+-1
+Haze 夜烟 new.forms.of@struggle.in 3
+W 达不溜 the.product@of.a 1
+Magallan 麦哲伦 two.great.hostile@camps.into 1
+1
+TOFOREIGNLANDS 广东省佛山市 07-08 05:26 -> 北京市 07-08 13:05 134 90143
+1
+TOtheeoldcause 甘肃省平凉市 08-21 14:25 -> 河北省河间市 08-21 18:13 679 54218
+-1
+1
+Thousternremorsel 广东省茂名市 08-27 02:49 -> 黑龙江省绥芬河市 08-27 16:57 697 47842
+1
+ThereforeIsendyou 福建省建瓯市 08-12 06:34 -> 广东省茂名市 08-12 12:51 319 22205
+-1
+1
+TOtheeoldcause 河北省黄骅市 07-23 20:43 -> 江苏省宜兴市 07-23 21:53 340 54218
+-1
+-1
+-1
+-1
+-1
+1
+TOtheeoldcause 山东省荣成市 08-17 07:15 -> 甘肃省平凉市 08-17 14:18 938 54218
+1
+ThereforeIsendyou 四川省广汉市 08-06 12:01 -> 福建省福州市 08-06 21:56 331 22205
+1
+TOFOREIGNLANDS 广东省佛山市 07-02 05:26 -> 北京市 07-02 13:05 134 90143
+-1
+WaaiFu 槐琥 new.conditions@of.oppression 2
+1
+ThereforeIsendyou 福建省建瓯市 07-29 06:34 -> 广东省茂名市 07-29 12:51 319 22205
+1
+Thoupeerlesspassi 山东省荣成市 07-15 23:26 -> 浙江省上虞市 07-16 13:52 1940 6304
+0
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-09 16:55 -> 四川省简阳市 07-10 02:06 498 65035
+1
+TOFOREIGNLANDS 湖南省武冈市 06-28 01:58 -> 广东省佛山市 06-28 05:20 411 90143
+Magallan 麦哲伦 two.great.hostile@camps.into 1
+1
+LeavesofGrass 湖南省汩罗市 07-08 21:58 -> 河北省霸州市 07-09 01:21 363 98306
+1
+whatyouwanted 湖南省郴州市 07-01 12:40 -> 河北省保定市 07-02 09:00 1174 86245
+1
+Thousternremorsel 广东省茂名市 07-05 02:49 -> 黑龙江省绥芬河市 07-05 16:57 697 47842
+-1
+1
+Thoupeerlesspassi 辽宁省本溪市 07-13 20:00 -> 陕西省商州市 07-14 05:32 1130 6304
+-1
+1
+Thoupeerlesspassi 河南省偃师市 07-15 11:33 -> 吉林省德惠市 07-16 07:17 1799 6304
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-25 16:55 -> 四川省简阳市 07-26 02:06 498 65035
+-1
+1
+TOtheeoldcause 山东省荣成市 08-03 07:15 -> 江苏省宜兴市 08-03 21:53 2195 54218
+-1
+-1
+-1
+Texas 德克 extension.of@industry.and 3
+1
+whatyouwanted 北京市 08-05 19:23 -> 海南省通什市 08-06 12:23 1132 86245
+1
+Thousternremorsel 广东省茂名市 08-21 02:49 -> 黑龙江省绥芬河市 08-21 16:57 697 47842
+0
+-1
+-1
+1
+whatyouwanted 北京市 07-30 19:23 -> 河北省保定市 07-31 09:00 925 86245
+1
+whatyouwanted 湖南省郴州市 07-12 12:40 -> 广东省茂名市 07-12 22:50 713 86245
+0
+WaaiFu 槐琥 new.conditions@of.oppression 2
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-30 16:55 -> 山东省滕州市 07-01 04:56 962 65035
+NoirCorne 黑角 in.a.word.oppressor@and.oppres 3
+Catapult 空爆 publish.their@views.their 4
+-1
+-1
+1
+TOtheeoldcause 浙江省金华市 08-22 13:18 -> 河南省郑州市 08-22 16:29 507 54218
+-1
+1
+whatyouwanted 黑龙江省黑河市 07-13 16:49 -> 北京市 07-13 19:18 77 86245
+-1
+-1
+1
+Thoupeerlesspassi 北京市 07-21 00:25 -> 江西省新余市 07-21 03:31 109 6304
+-1
+1
+TOFOREIGNLANDS 广东省开平市 06-29 16:49 -> 江西省乐平市 06-30 17:49 1002 90143
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-11 16:55 -> 四川省简阳市 07-12 02:06 498 65035
+May 梅梅 feudal.lords@vassals.guildmast 4
+-1
+Ptilopsis 白面鸮 in.the.same@proportion.the 1
+1
+Thousternremorsel 广东省茂名市 07-13 02:49 -> 北京市 07-13 03:37 393 47842
+1
+Thousternremorsel 广东省茂名市 08-28 02:49 -> 黑龙江省绥芬河市 08-28 16:57 697 47842
+Texas 德克 extension.of@industry.and 3
+1
+AndtodefineAmeric 浙江省绍兴市 06-29 16:55 -> 山东省滕州市 06-30 04:56 962 65035
+-1
+1
+LeavesofGrass 浙江省上虞市 07-17 20:35 -> 四川省成都市 07-18 14:46 2862 98306
+1
+LeavesofGrass 山东省栖霞市 06-24 16:01 -> 四川省成都市 06-25 14:46 3089 45430
+Shamare 巫恋 vanished.in@the.face 1
+ShiraYuki 白雪 rising.Even@manufacture.no 3
+Skyfire 天火 in.proportion@as.industry 4
+-1
+1
+Thoupeerlesspassi 四川省广元市 07-21 12:24 -> 吉林省德惠市 07-22 07:17 1783 6304
+Istina 真理 serfs.of.the@Middle.Ages 1
+Ansel 安赛 of.America@the.rounding 3
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-02 06:34 -> 广东省茂名市 08-02 12:51 319 22205
+-1
+0
+0
+-1
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-12 12:01 -> 福建省福州市 08-12 21:56 331 22205
+-1
+-1
+1
+TOtheeoldcause 浙江省平湖市 08-12 04:35 -> 山东省荣成市 08-12 07:12 31 54218
+-1
+-1
+1
+LeavesofGrass 河北省霸州市 07-03 01:28 -> 四川省成都市 07-03 14:46 2191 98306
+1
+Thousternremorsel 北京市 08-31 03:47 -> 黑龙江省绥芬河市 08-31 16:57 304 47842
+1
+ThereforeIsendyou 广东省茂名市 07-31 13:00 -> 福建省福州市 07-31 21:56 29 22205
+1
+TOtheeoldcause 黑龙江省富锦市 07-14 09:00 -> 浙江省金华市 07-14 13:11 603 54218
+-1
+1
+whatyouwanted 黑龙江省黑河市 07-04 16:49 -> 河北省藁城市 07-05 02:12 560 86245
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-03 16:55 -> 四川省简阳市 07-04 02:06 498 65035
+-1
+1
+TOtheeoldcause 吉林省临江市 08-08 23:15 -> 广东省化州市 08-09 17:19 2684 54218
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-07 06:34 -> 四川省广汉市 08-07 11:55 17 22205
+-1
+Melantha 玫兰 therefore.how@the.modern 3
+Flamebringer 炎客 to.industry@an.impulse 2
+-1
+-1
+-1
+1
+LeavesofGrass 湖南省汩罗市 07-24 21:58 -> 四川省成都市 07-25 14:46 2554 98306
+1
+TOtheeoldcause 江苏省扬州市 08-11 18:47 -> 河北省黄骅市 08-12 20:38 3230 54218
+1
+ThereforeIsendyou 福建省建瓯市 08-03 06:34 -> 四川省广汉市 08-03 11:55 17 22205
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-17 16:55 -> 四川省简阳市 07-18 02:06 498 65035
+1
+AndtodefineAmeric 四川省简阳市 07-08 02:11 -> 山东省滕州市 07-08 04:56 464 65035
+1
+Thoupeerlesspassi 山东省章丘市 07-10 15:15 -> 山东省荣成市 07-10 23:20 365 6304
+Vigna 红豆 This.market@has.given 2
+1
+Thousternremorsel 广东省茂名市 07-26 02:49 -> 北京市 07-26 03:37 393 47842
+1
+TOFOREIGNLANDS 湖南省武冈市 06-28 01:58 -> 江西省乐平市 06-28 17:49 792 90143
+1
+Thousternremorsel 北京市 08-09 03:47 -> 黑龙江省绥芬河市 08-09 16:57 304 47842
+-1
+-1
+1
+LeavesofGrass 广东省兴宁市 07-17 08:14 -> 四川省成都市 07-17 14:46 988 98306
+-1
+-1
+1
+Thousternremorsel 广东省茂名市 08-13 02:49 -> 北京市 08-13 03:37 393 47842
+1
+whatyouwanted 黑龙江省黑河市 08-04 16:49 -> 江西省景德镇市 08-05 15:52 2027 86245
+Blaze 煌煌 arrangement@of.society 6
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-13 16:49 -> 湖南省武冈市 07-14 01:51 210 90143
+1
+ThereforeIsendyou 四川省广汉市 07-29 12:01 -> 广东省茂名市 07-29 12:51 302 22205
+1
+Thoupeerlesspassi 江西省新余市 08-07 03:36 -> 山东省曲阜市 08-07 04:30 232 6304
+1
+Thousternremorsel 广东省茂名市 08-19 02:49 -> 黑龙江省绥芬河市 08-19 16:57 697 47842
+Croissant 可颂 journeymen@apprentices.serfs 4
+1
+LeavesofGrass 湖南省张家界市 07-03 02:32 -> 浙江省湖州市 07-03 09:54 959 98306
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-09 16:55 -> 四川省简阳市 07-10 02:06 498 65035
+1
+TOFOREIGNLANDS 广东省开平市 07-12 16:49 -> 湖南省武冈市 07-13 01:51 210 90143
+1
+ThereforeIsendyou 广东省茂名市 07-28 13:00 -> 福建省福州市 07-28 21:56 29 22205
+Shaw 阿消 America.paved@the.way 2
+-1
+1
+Thoupeerlesspassi 吉林省德惠市 08-07 07:27 -> 浙江省上虞市 08-07 13:52 1017 6304
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-30 01:58 -> 广东省佛山市 07-30 05:20 411 90143
+1
+LeavesofGrass 浙江省上虞市 07-28 20:35 -> 浙江省湖州市 07-29 09:54 2028 98306
+Angelina 安洁莉 an.immense@development.to 1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 06-28 16:49 -> 广东省佛山市 06-29 05:20 621 90143
+1
+TOtheeoldcause 吉林省临江市 08-29 23:15 -> 浙江省平湖市 08-30 04:25 1089 54218
+-1
+-1
+Sussurro 苏苏洛 each.other@Bourgeoisie.and 1
+-1
+1
+Thoupeerlesspassi 北京市 07-18 00:25 -> 广东省高要市 07-18 15:16 2152 6304
+0
+1
+TOFOREIGNLANDS 广东省开平市 07-10 16:49 -> 北京市 07-11 13:05 755 90143
+-1
+Skyfire 天火 in.proportion@as.industry 4
+-1
+1
+Thousternremorsel 广东省茂名市 06-26 02:49 -> 黑龙江省绥芬河市 06-26 16:57 697 47842
+-1
+1
+LeavesofGrass 山东省栖霞市 07-14 16:01 -> 黑龙江省齐齐哈尔市 07-15 06:17 1614 98306
+-1
+-1
+Indra 因陀罗 the.manufacturing@middle.class 3
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 08-16 06:26 -> 浙江省湖州市 08-16 09:54 641 45430
+1
+AndtodefineAmeric 浙江省绍兴市 06-30 16:55 -> 山东省滕州市 07-01 04:56 962 65035
+-1
+1
+whatyouwanted 广东省茂名市 08-12 22:58 -> 江西省景德镇市 08-13 15:52 1486 86245
+-1
+-1
+-1
+-1
+1
+TOtheeoldcause 福建省漳平市 08-26 20:31 -> 山东省荣成市 08-27 07:12 1306 54218
+May 梅梅 feudal.lords@vassals.guildmast 4
+Grani 格拉尼 now.open.fight@a.fight 1
+-1
+1
+Thoupeerlesspassi 吉林省德惠市 07-08 07:27 -> 湖南省永州市 07-08 11:31 562 6304
+1
+Thousternremorsel 广东省茂名市 06-28 02:49 -> 黑龙江省绥芬河市 06-28 16:57 697 47842
+1
+TOtheeoldcause 河南省郑州市 08-23 16:35 -> 广东省化州市 08-23 17:19 421 54218
+1
+Thoupeerlesspassi 陕西省商州市 07-13 05:38 -> 广东省高要市 07-13 15:16 1435 6304
+-1
+1
+Thousternremorsel 北京市 08-18 03:47 -> 黑龙江省绥芬河市 08-18 16:57 304 47842
+-1
+Melantha 玫兰 therefore.how@the.modern 3
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 08-15 06:26 -> 广东省兴宁市 08-15 08:09 487 45430
+Ambriel 安比 by.the.giant@Modern.Industry 3
+Glaucus 格劳克斯 This.development@has.in 2
+-1
+Estelle 艾丝黛尔 in.each.single@workshop.Meanti 1
+Ethan 伊桑 longer.sufficed@Thereupon.stea 2
+-1
+1
+Thoupeerlesspassi 河南省偃师市 08-03 11:33 -> 浙江省宁波市 08-03 17:31 587 6304
+1
+ThereforeIsendyou 广东省茂名市 07-30 13:00 -> 福建省福州市 07-30 21:56 29 22205
+-1
+1
+Thoupeerlesspassi 四川省广元市 07-16 12:24 -> 浙江省上虞市 07-17 13:52 2800 6304
+Texas 德克 extension.of@industry.and 3
+1
+Thousternremorsel 广东省茂名市 08-27 02:49 -> 黑龙江省绥芬河市 08-27 16:57 697 47842
+0
+-1
+-1
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-20 12:01 -> 广东省茂名市 08-20 12:51 302 22205
+-1
+-1
+Matoimaru 缠丸 its.time.reacted@on.the 3
+-1
+-1
+0
+0
+-1
+1
+Thousternremorsel 广东省茂名市 07-24 02:49 -> 黑龙江省绥芬河市 07-24 16:57 697 47842
+-1
+-1
+1
+ThereforeIsendyou 广东省茂名市 07-31 13:00 -> 福建省福州市 07-31 21:56 29 22205
+0
+Istina 真理 serfs.of.the@Middle.Ages 1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-24 06:34 -> 福建省福州市 08-24 21:56 348 22205
+1
+LeavesofGrass 河北省霸州市 06-23 01:28 -> 湖南省张家界市 06-23 02:26 398 45430
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-04 16:55 -> 四川省简阳市 07-05 02:06 498 65035
+1
+Thousternremorsel 广东省茂名市 07-12 02:49 -> 黑龙江省绥芬河市 07-12 16:57 697 47842
+1
+ThereforeIsendyou 福建省建瓯市 08-09 06:34 -> 福建省福州市 08-09 21:56 348 22205
+-1
+-1
+0
+1
+whatyouwanted 湖南省郴州市 07-17 12:40 -> 黑龙江省七台河市 07-18 15:26 1877 86245
+0
+-1
+Vulcan 火神 has.simplified@the.class 3
+-1
+1
+ThereforeIsendyou 四川省广汉市 07-30 12:01 -> 广东省茂名市 07-30 12:51 302 22205
+-1
+Ceylon 锡兰 slaves.in.the@Middle.Ages 1
+1
+TOtheeoldcause 河南省荥阳市 08-04 01:59 -> 河北省河间市 08-04 18:13 1848 54218
+NoirCorne 黑角 in.a.word.oppressor@and.oppres 3
+Catapult 空爆 publish.their@views.their 4
+1
+ThereforeIsendyou 广东省茂名市 08-14 13:00 -> 福建省福州市 08-14 21:56 29 22205
+1
+whatyouwanted 广东省阳春市 08-14 10:40 -> 河北省保定市 08-15 09:00 1232 86245
+Flamebringer 炎客 in.the.modes@of.production 2
+1
+AndtodefineAmeric 浙江省绍兴市 06-16 16:55 -> 四川省简阳市 06-17 02:06 498 65035
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-05 01:58 -> 江西省乐平市 07-05 17:49 792 90143
+Meteor 流星 meet.this.nursery@tale.of 2
+Mayer 梅尔 division.of@labour.between 2
+-1
+-1
+-1
+1
+Thoupeerlesspassi 四川省广元市 07-25 12:24 -> 山东省曲阜市 07-26 04:30 1400 6304
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 07-27 06:34 -> 福建省福州市 07-27 21:56 348 22205
+1
+AndtodefineAmeric 四川省简阳市 06-21 02:11 -> 山东省滕州市 06-21 04:56 464 65035
+Aak 阿阿 rank.In.ancient@Rome.we 4
+-1
+-1
+-1
+Myrtle 桃金 BOURGEOIS.AND@PROLETARIANS.The 4
+SilverAsh 银灰 and.Danish@languages.I 4
+AndtodefineAmeric Y
+浙江省绍兴市 xx-xx xx:xx -> 07-04 16:55 0 65035
+四川省简阳市 07-05 02:06 -> 07-05 02:11 498 65035
+山东省滕州市 07-05 04:56 -> xx-xx xx:xx 962 x
+1
+AndtodefineAmeric 浙江省绍兴市 06-29 16:55 -> 山东省滕州市 06-30 04:56 962 65035
+-1
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 06-24 02:11 -> 山东省滕州市 06-24 04:56 464 65035
+-1
+-1
+Firewatch 守林人 stood.in.constant@opposition.t 4
+-1
+1
+Thousternremorsel 北京市 07-30 03:47 -> 黑龙江省绥芬河市 07-30 16:57 304 47842
+-1
+Haze 夜烟 new.forms.of@struggle.in 3
+-1
+-1
+0
+Istina 真理 serfs.of.the@Middle.Ages 1
+1
+ThereforeIsendyou 四川省广汉市 08-19 12:01 -> 福建省福州市 08-19 21:56 331 22205
+-1
+1
+TOtheeoldcause 北京市 08-03 11:50 -> 广东省化州市 08-03 17:19 1111 54218
+-1
+-1
+1
+LeavesofGrass 广东省兴宁市 06-23 08:14 -> 四川省成都市 06-23 14:46 988 45430
+-1
+Melantha 玫兰 therefore.how@the.modern 3
+-1
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 06-27 01:58 -> 广东省佛山市 06-27 05:20 411 90143
+Meteor 流星 meet.this.nursery@tale.of 2
+0
+-1
+-1
+-1
+1
+whatyouwanted 北京市 08-06 19:23 -> 广东省茂名市 08-06 22:50 464 86245
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 06-13 16:01 -> 湖南省张家界市 06-14 02:26 1296 45430
+-1
+-1
+0
+-1
+Earthspirit 地灵 commerce.to@navigation.to 2
+1
+AndtodefineAmeric 四川省简阳市 07-15 02:11 -> 山东省滕州市 07-15 04:56 464 65035
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-31 16:55 -> 四川省简阳市 08-01 02:06 498 65035
+-1
+-1
+-1
+1
+whatyouwanted 河北省保定市 08-16 09:05 -> 浙江省温州市 08-16 20:10 1348 86245
+-1
+1
+TOtheeoldcause 吉林省临江市 08-25 23:15 -> 江苏省宜兴市 08-26 21:53 3315 54218
+-1
+1
+TOtheeoldcause 黑龙江省富锦市 08-22 09:00 -> 北京市 08-22 11:46 420 54218
+-1
+-1
+-1
+Shaw 阿消 America.paved@the.way 2
+-1
+-1
+-1
+1
+Thoupeerlesspassi 湖南省永州市 07-12 11:39 -> 浙江省上虞市 07-12 13:52 455 6304
+1
+whatyouwanted 广东省茂名市 06-25 22:58 -> 海南省通什市 06-26 12:23 668 86245
+1
+ThereforeIsendyou 福建省建瓯市 07-25 06:34 -> 广东省茂名市 07-25 12:51 319 22205
+-1
+-1
+-1
+Magallan 麦哲伦 two.great.hostile@camps.into 1
+0
+1
+Thoupeerlesspassi 四川省广元市 07-22 12:24 -> 山东省曲阜市 07-23 04:30 1400 6304
+1
+TOtheeoldcause 福建省漳平市 08-15 20:31 -> 河北省黄骅市 08-16 20:38 3161 54218
+1
+TOFOREIGNLANDS 湖南省武冈市 07-26 01:58 -> 北京市 07-26 13:05 545 90143
+-1
+1
+whatyouwanted 广东省阳春市 08-12 10:40 -> 黑龙江省七台河市 08-13 15:26 1935 86245
+1
+AndtodefineAmeric 浙江省绍兴市 08-01 16:55 -> 山东省滕州市 08-02 04:56 962 65035
+-1
+-1
+0
+-1
+1
+Thousternremorsel 广东省茂名市 06-23 02:49 -> 北京市 06-23 03:37 393 47842
+1
+Thoupeerlesspassi 辽宁省本溪市 07-29 20:00 -> 山东省荣成市 07-29 23:20 214 6304
+Frostleaf 霜叶 commodities@generally.gave 3
+Istina 真理 serfs.of.the@Middle.Ages 1
+-1
+1
+Thousternremorsel 北京市 06-29 03:47 -> 黑龙江省绥芬河市 06-29 16:57 304 47842
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-29 05:26 -> 北京市 07-29 13:05 134 90143
+Steward 史都华 for.which.the@discovery.of 3
+-1
+-1
+Sora 空空 wants.of.the@new.markets 1
+1
+TOFOREIGNLANDS 湖南省武冈市 06-28 01:58 -> 江西省乐平市 06-28 17:49 792 90143
+1
+whatyouwanted 湖南省郴州市 07-31 12:40 -> 北京市 07-31 19:18 249 86245
+-1
+1
+TOtheeoldcause 河北省河间市 07-11 18:21 -> 浙江省江山市 07-12 00:15 975 54218
+-1
+Savage 暴行 branding.reproach@of.Communism 4
+1
+LeavesofGrass 浙江省上虞市 08-06 20:35 -> 辽宁省沈阳市 08-07 13:53 2402 45430
+-1
+1
+Thousternremorsel 广东省茂名市 07-27 02:49 -> 北京市 07-27 03:37 393 47842
+-1
+Amiya 阿米 element.in@the.tottering 1
+1
+ThereforeIsendyou 广东省茂名市 07-28 13:00 -> 福建省福州市 07-28 21:56 29 22205
+-1
+Ansel 安赛 of.America@the.rounding 3
+1
+ThereforeIsendyou 广东省茂名市 07-24 13:00 -> 福建省福州市 07-24 21:56 29 22205
+-1
+-1
+1
+Thousternremorsel 广东省茂名市 06-23 02:49 -> 北京市 06-23 03:37 393 47842
+1
+LeavesofGrass 江西省瑞昌市 06-24 15:27 -> 辽宁省沈阳市 06-25 13:53 3000 45430
+1
+Thousternremorsel 广东省茂名市 07-15 02:49 -> 黑龙江省绥芬河市 07-15 16:57 697 47842
+Melantha 玫兰 therefore.how@the.modern 3
+Cliffheart 崖心 of.division@of.labour 1
+-1
+1
+LeavesofGrass 黑龙江省齐齐哈尔市 06-13 06:26 -> 辽宁省沈阳市 06-13 13:53 1015 45430
+1
+ThereforeIsendyou 四川省广汉市 08-05 12:01 -> 广东省茂名市 08-05 12:51 302 22205
+Sussurro 苏苏洛 each.other@Bourgeoisie.and 1
+1
+Thousternremorsel 广东省茂名市 07-12 02:49 -> 黑龙江省绥芬河市 07-12 16:57 697 47842
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-15 01:58 -> 江西省乐平市 07-15 17:49 792 90143
+Amiya 阿米 element.in@the.tottering 1
+1
+AndtodefineAmeric 四川省简阳市 07-11 02:11 -> 山东省滕州市 07-11 04:56 464 65035
+1
+LeavesofGrass 河北省霸州市 07-18 01:28 -> 浙江省湖州市 07-18 09:54 1357 98306
+-1
+Steward 史都华 for.which.the@discovery.of 3
+-1
+1
+Thousternremorsel 广东省茂名市 08-25 02:49 -> 黑龙江省绥芬河市 08-25 16:57 697 47842
+Kroos 克洛丝 ruins.of.feudal@society.has 2
+-1
+-1
+1
+Thousternremorsel 广东省茂名市 07-07 02:49 -> 黑龙江省绥芬河市 07-07 16:57 697 47842
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-05 05:26 -> 江西省乐平市 07-05 17:49 381 90143
+1
+Thousternremorsel 北京市 08-03 03:47 -> 黑龙江省绥芬河市 08-03 16:57 304 47842
+-1
+1
+Thousternremorsel 广东省茂名市 06-26 02:49 -> 黑龙江省绥芬河市 06-26 16:57 697 47842
+Nearl 临光 communication@by.land 1
+-1
+-1
+-1
+-1
+1
+TOtheeoldcause 河南省郑州市 07-18 16:35 -> 浙江省江山市 07-19 00:15 1449 54218
+1
+AndtodefineAmeric 四川省简阳市 06-12 02:11 -> 山东省滕州市 06-12 04:56 464 65035
+1
+Thoupeerlesspassi 江西省新余市 07-11 03:36 -> 安徽省明光市 07-11 09:26 1056 6304
+1
+TOtheeoldcause 甘肃省平凉市 08-12 14:25 -> 浙江省江山市 08-13 00:15 1654 54218
+1
+TOFOREIGNLANDS 湖南省武冈市 07-05 01:58 -> 北京市 07-05 13:05 545 90143
+-1
+Beehunter 猎蜂 nationalities@have.assembled 1
+1
+TOtheeoldcause 河南省荥阳市 08-18 01:59 -> 黑龙江省富锦市 08-18 08:52 264 54218
+1
+LeavesofGrass 浙江省上虞市 07-13 20:35 -> 湖南省汩罗市 07-13 21:51 308 98306
+1
+whatyouwanted 广东省茂名市 07-22 22:58 -> 海南省通什市 07-23 12:23 668 86245
+-1
+1
+TOtheeoldcause 浙江省金华市 08-23 13:18 -> 广东省化州市 08-23 17:19 928 54218
+1
+Thousternremorsel 北京市 07-19 03:47 -> 黑龙江省绥芬河市 07-19 16:57 304 47842
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-17 02:11 -> 山东省滕州市 07-17 04:56 464 65035
+-1
+1
+Thousternremorsel 广东省茂名市 07-26 02:49 -> 北京市 07-26 03:37 393 47842
+-1
+1
+ThereforeIsendyou 广东省茂名市 08-07 13:00 -> 福建省福州市 08-07 21:56 29 22205
+Shaw 阿消 America.paved@the.way 2
+-1
+-1
+-1
+-1
+1
+Thoupeerlesspassi 四川省广元市 07-19 12:24 -> 山东省荣成市 07-19 23:20 860 6304
+1
+whatyouwanted 新疆库尔勒市 07-29 06:21 -> 海南省通什市 07-29 12:23 265 86245
+-1
+BluePoison 蓝毒 these.burgesses@the.first 3
+Orchid 梓兰 that.each.time@ended.either 3
+1
+AndtodefineAmeric 浙江省绍兴市 06-15 16:55 -> 山东省滕州市 06-16 04:56 962 65035
+1
+LeavesofGrass 浙江省上虞市 06-18 20:35 -> 河北省霸州市 06-19 01:21 671 45430
+1
+whatyouwanted 新疆库尔勒市 08-15 06:21 -> 浙江省温州市 08-15 20:10 1406 86245
+-1
+-1
+0
+1
+AndtodefineAmeric 浙江省绍兴市 07-14 16:55 -> 四川省简阳市 07-15 02:06 498 65035
+1
+Thoupeerlesspassi 四川省广元市 07-30 12:24 -> 安徽省明光市 07-31 09:26 2224 6304
+-1
+1
+LeavesofGrass 浙江省上虞市 06-09 20:35 -> 湖南省汩罗市 06-09 21:51 308 45430
+Firewatch 守林人 stood.in.constant@opposition.t 4
+-1
+-1
+1
+TOtheeoldcause 福建省漳平市 08-13 20:31 -> 河南省郑州市 08-14 16:29 2449 54218
+Steward 史都华 for.which.the@discovery.of 3
+1
+AndtodefineAmeric 浙江省绍兴市 06-26 16:55 -> 山东省滕州市 06-27 04:56 962 65035
+-1
+Spot 斑点 existing.societies@is.the 3
+Angelina 安洁莉 an.immense@development.to 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Flamebringer 炎客 in.the.modes@of.production 2
+1
+whatyouwanted 新疆库尔勒市 08-02 06:21 -> 江西省景德镇市 08-02 15:52 1083 86245
+Vulcan 火神 has.simplified@the.class 3
+W 达不溜 the.product@of.a 1
+-1
+Meteor 流星 meet.this.nursery@tale.of 2
+0
+1
+AndtodefineAmeric 浙江省绍兴市 07-01 16:55 -> 四川省简阳市 07-02 02:06 498 65035
+1
+ThereforeIsendyou 福建省建瓯市 08-05 06:34 -> 四川省广汉市 08-05 11:55 17 22205
+1
+LeavesofGrass 湖南省汩罗市 06-09 21:58 -> 辽宁省沈阳市 06-10 13:53 2094 45430
+-1
+1
+Thousternremorsel 广东省茂名市 06-30 02:49 -> 北京市 06-30 03:37 393 47842
+-1
+-1
+-1
+1
+Thousternremorsel 广东省茂名市 07-20 02:49 -> 北京市 07-20 03:37 393 47842
+-1
+Croissant 可颂 and.of.exchange@Each.step 4
+Mousse 慕斯 handed.down@from.the 4
+1
+ThereforeIsendyou 广东省茂名市 07-28 13:00 -> 福建省福州市 07-28 21:56 29 22205
+-1
+-1
+Shamare 巫恋 vanished.in@the.face 1
+1
+LeavesofGrass 广东省兴宁市 07-23 08:14 -> 浙江省湖州市 07-23 09:54 154 98306
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-21 02:11 -> 山东省滕州市 07-21 04:56 464 65035
+1
+TOFOREIGNLANDS 广东省佛山市 07-21 05:26 -> 江西省乐平市 07-21 17:49 381 90143
+-1
+-1
+1
+ThereforeIsendyou 广东省茂名市 08-09 13:00 -> 福建省福州市 08-09 21:56 29 22205
+-1
+0
+1
+AndtodefineAmeric 浙江省绍兴市 07-27 16:55 -> 山东省滕州市 07-28 04:56 962 65035
+0
+1
+TOFOREIGNLANDS 湖南省武冈市 07-13 01:58 -> 北京市 07-13 13:05 545 90143
+1
+Thousternremorsel 北京市 07-05 03:47 -> 黑龙江省绥芬河市 07-05 16:57 304 47842
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-22 16:49 -> 北京市 07-23 13:05 755 90143
+1
+whatyouwanted 广东省茂名市 08-01 22:58 -> 河北省藁城市 08-02 02:12 19 86245
+-1
+-1
+-1
+1
+whatyouwanted 广东省茂名市 07-03 22:58 -> 江西省景德镇市 07-04 15:52 1486 86245
+-1
+1
+Thoupeerlesspassi 河南省偃师市 07-16 11:33 -> 吉林省德惠市 07-17 07:17 1799 6304
+1
+ThereforeIsendyou 福建省建瓯市 08-22 06:34 -> 四川省广汉市 08-22 11:55 17 22205
+-1
+1
+Thousternremorsel 广东省茂名市 07-03 02:49 -> 黑龙江省绥芬河市 07-03 16:57 697 47842
+1
+ThereforeIsendyou 四川省广汉市 08-05 12:01 -> 广东省茂名市 08-05 12:51 302 22205
+1
+ThereforeIsendyou 四川省广汉市 08-10 12:01 -> 福建省福州市 08-10 21:56 331 22205
+1
+ThereforeIsendyou 四川省广汉市 08-12 12:01 -> 福建省福州市 08-12 21:56 331 22205
+-1
+Catapult 空爆 publish.their@views.their 4
+1
+TOtheeoldcause 山西省潞城市 08-21 23:52 -> 山东省荣成市 08-22 07:12 627 54218
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-17 16:49 -> 江西省乐平市 07-18 17:49 1002 90143
+-1
+-1
+-1
+-1
+1
+whatyouwanted 海南省通什市 06-28 12:29 -> 江西省景德镇市 06-28 15:52 818 86245
+-1
+-1
+-1
+-1
+-1
+Istina 真理 serfs.of.the@Middle.Ages 1
+-1
+-1
+-1
+0
+Mousse 慕斯 handed.down@from.the 4
+1
+AndtodefineAmeric 四川省简阳市 06-20 02:11 -> 山东省滕州市 06-20 04:56 464 65035
+-1
+-1
+ShiraYuki 白雪 rising.Even@manufacture.no 3
+Mostima 莫斯提马 growing.the@demand.ever 2
+0
+Astesia 星极 sufficed.for@the.growing 1
+-1
+May 梅梅 feudal.lords@vassals.guildmast 4
+-1
+-1
+Skyfire 天火 in.proportion@as.industry 4
+-1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 07-30 06:34 -> 四川省广汉市 07-30 11:55 17 22205
+-1
+-1
+Estelle 艾丝黛尔 in.each.single@workshop.Meanti 1
+Astesia 星极 sufficed.for@the.growing 1
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-16 16:55 -> 四川省简阳市 07-17 02:06 498 65035
+-1
+-1
+-1
+-1
+1
+Thousternremorsel 广东省茂名市 08-04 02:49 -> 北京市 08-04 03:37 393 47842
+1
+Thousternremorsel 北京市 07-04 03:47 -> 黑龙江省绥芬河市 07-04 16:57 304 47842
+1
+TOtheeoldcause 河南省荥阳市 08-04 01:59 -> 甘肃省平凉市 08-04 14:18 1169 54218
+1
+ThereforeIsendyou 福建省建瓯市 08-12 06:34 -> 四川省广汉市 08-12 11:55 17 22205
+-1
+1
+LeavesofGrass 浙江省湖州市 07-05 10:04 -> 四川省成都市 07-05 14:46 834 98306
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-26 01:58 -> 广东省佛山市 07-26 05:20 411 90143
+1
+Thoupeerlesspassi 四川省广元市 07-12 12:24 -> 山东省荣成市 07-12 23:20 860 6304
+1
+whatyouwanted 河北省藁城市 07-24 02:20 -> 浙江省温州市 07-24 20:10 1790 86245
+0
+Vulcan 火神 in.the.development@of.the 3
+-1
+-1
+1
+whatyouwanted 湖南省郴州市 07-13 12:40 -> 广东省茂名市 07-13 22:50 713 86245
+-1
+-1
+Ambriel 安比 by.the.giant@Modern.Industry 3
+May 梅梅 feudal.lords@vassals.guildmast 4
+Shamare 巫恋 vanished.in@the.face 1
+1
+Thoupeerlesspassi 江西省新余市 07-09 03:36 -> 湖南省永州市 07-09 11:31 1177 6304
+-1
+-1
+Pramanix 初雪 thereby.to@the.revolutionary 1
+1
+TOFOREIGNLANDS 广东省开平市 06-28 16:49 -> 广东省佛山市 06-29 05:20 621 90143
+1
+LeavesofGrass 江西省瑞昌市 07-04 15:27 -> 湖南省汩罗市 07-04 21:51 906 98306
+-1
+1
+LeavesofGrass 山东省栖霞市 06-20 16:01 -> 黑龙江省齐齐哈尔市 06-21 06:17 1614 45430
+1
+AndtodefineAmeric 浙江省绍兴市 07-25 16:55 -> 四川省简阳市 07-26 02:06 498 65035
+1
+Thoupeerlesspassi 山东省荣成市 07-29 23:26 -> 浙江省上虞市 07-30 13:52 1940 6304
+1
+AndtodefineAmeric 四川省简阳市 07-06 02:11 -> 山东省滕州市 07-06 04:56 464 65035
+-1
+1
+Thousternremorsel 北京市 07-20 03:47 -> 黑龙江省绥芬河市 07-20 16:57 304 47842
+1
+LeavesofGrass 山东省栖霞市 08-25 16:01 -> 浙江省上虞市 08-25 20:28 227 45430
+1
+TOFOREIGNLANDS 湖南省武冈市 06-29 01:58 -> 江西省乐平市 06-29 17:49 792 90143
+Nearl 临光 communication@by.land 1
+1
+AndtodefineAmeric 四川省简阳市 07-28 02:11 -> 山东省滕州市 07-28 04:56 464 65035
+FEater 食铁 modern.bourgeois@Modern.indust 2
+Meteor 流星 meet.this.nursery@tale.of 2
+Earthspirit 地灵 commerce.to@navigation.to 2
+Ethan 伊桑 longer.sufficed@Thereupon.stea 2
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-19 05:26 -> 江西省乐平市 07-19 17:49 381 90143
+1
+LeavesofGrass 广东省兴宁市 08-25 08:14 -> 浙江省湖州市 08-25 09:54 154 45430
+-1
+-1
+-1
+-1
+-1
+Astesia 星极 sufficed.for@the.growing 1
+1
+AndtodefineAmeric 浙江省绍兴市 07-13 16:55 -> 山东省滕州市 07-14 04:56 962 65035
+-1
+-1
+-1
+0
+1
+AndtodefineAmeric 四川省简阳市 07-01 02:11 -> 山东省滕州市 07-01 04:56 464 65035
+1
+TOFOREIGNLANDS 湖南省武冈市 07-10 01:58 -> 北京市 07-10 13:05 545 90143
+1
+LeavesofGrass 浙江省上虞市 06-25 20:35 -> 四川省成都市 06-26 14:46 2862 45430
+-1
+Broca 布洛 feudal.society@a.rapid 4
+-1
+-1
+-1
+-1
+1
+Thousternremorsel 北京市 07-13 03:47 -> 黑龙江省绥芬河市 07-13 16:57 304 47842
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-11 16:55 -> 山东省滕州市 06-12 04:56 962 65035
+Kroos 克洛丝 ruins.of.feudal@society.has 2
+-1
+1
+ThereforeIsendyou 广东省茂名市 08-18 13:00 -> 福建省福州市 08-18 21:56 29 22205
+1
+AndtodefineAmeric 四川省简阳市 07-18 02:11 -> 山东省滕州市 07-18 04:56 464 65035
+-1
+1
+Thousternremorsel 广东省茂名市 08-17 02:49 -> 北京市 08-17 03:37 393 47842
+1
+Thoupeerlesspassi 辽宁省本溪市 08-08 20:00 -> 浙江省上虞市 08-09 13:52 2154 6304
+1
+Thoupeerlesspassi 浙江省上虞市 07-15 14:00 -> 广东省高要市 07-15 15:16 411 6304
+1
+whatyouwanted 新疆库尔勒市 06-29 06:21 -> 海南省通什市 06-29 12:23 265 86245
+Nightingale 夜莺 and.Chinese@markets.the 2
+1
+TOFOREIGNLANDS 广东省佛山市 07-19 05:26 -> 江西省乐平市 07-19 17:49 381 90143
+-1
+-1
+Shining 闪灵 with.a.Manifesto@of.the 4
+-1
+-1
+Meteorite 陨星 of.whole.industrial@armies.the 2
+BluePoison 蓝毒 these.burgesses@the.first 3
+Durin 杜林 guilds.now@no.longer 1
+-1
+1
+LeavesofGrass 江西省瑞昌市 08-21 15:27 -> 浙江省湖州市 08-22 09:54 2626 45430
+BluePoison 蓝毒 these.burgesses@the.first 3
+Orchid 梓兰 that.each.time@ended.either 3
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-04 12:01 -> 广东省茂名市 08-04 12:51 302 22205
+1
+Thoupeerlesspassi 河南省偃师市 07-13 11:33 -> 江西省新余市 07-14 03:31 1184 6304
+ShiraYuki 白雪 rising.Even@manufacture.no 3
+Bagpipe 风笛 pushed.on.one@side.by 1
+-1
+1
+Thousternremorsel 广东省茂名市 08-19 02:49 -> 黑龙江省绥芬河市 08-19 16:57 697 47842
+-1
+-1
+-1
+1
+whatyouwanted 广东省阳春市 06-28 10:40 -> 广东省茂名市 06-28 22:50 771 86245
+0
+Pramanix 初雪 thereby.to@the.revolutionary 1
+-1
+Skyfire 天火 in.proportion@as.industry 4
+-1
+-1
+-1
+-1
+Matoimaru 缠丸 its.time.reacted@on.the 3
+1
+TOFOREIGNLANDS 广东省开平市 07-09 16:49 -> 湖南省武冈市 07-10 01:51 210 90143
+Broca 布洛 feudal.society@a.rapid 4
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 08-01 16:55 -> 四川省简阳市 08-02 02:06 498 65035
+-1
+0
+1
+whatyouwanted 广东省茂名市 07-21 22:58 -> 新疆库尔勒市 07-22 06:13 403 86245
+0
+-1
+Firewatch 守林人 stood.in.constant@opposition.t 4
+1
+whatyouwanted 河北省保定市 06-28 09:05 -> 海南省通什市 06-28 12:23 207 86245
+Sussurro 苏苏洛 each.other@Bourgeoisie.and 1
+Bagpipe 风笛 pushed.on.one@side.by 1
+1
+whatyouwanted 河北省保定市 07-22 09:05 -> 黑龙江省七台河市 07-22 15:26 703 86245
+1
+TOFOREIGNLANDS 湖南省武冈市 07-22 01:58 -> 广东省佛山市 07-22 05:20 411 90143
+Chen 陈陈 place.of.the@old.ones 1
+-1
+-1
+1
+TOtheeoldcause 河南省荥阳市 07-09 01:59 -> 广东省化州市 07-09 17:19 1795 54218
+Durin 杜林 guilds.now@no.longer 1
+1
+LeavesofGrass 山东省栖霞市 08-22 16:01 -> 辽宁省沈阳市 08-23 13:53 2629 45430
+Steward 史都华 for.which.the@discovery.of 3
+1
+TOtheeoldcause 山东省荣成市 08-02 07:15 -> 河南省郑州市 08-02 16:29 1143 54218
+1
+Thousternremorsel 北京市 07-30 03:47 -> 黑龙江省绥芬河市 07-30 16:57 304 47842
+Firewatch 守林人 stood.in.constant@opposition.t 4
+Matoimaru 缠丸 its.time.reacted@on.the 3
+Spot 斑点 existing.societies@is.the 3
+1
+AndtodefineAmeric 浙江省绍兴市 07-11 16:55 -> 山东省滕州市 07-12 04:56 962 65035
+-1
+1
+LeavesofGrass 湖南省张家界市 08-01 02:32 -> 辽宁省沈阳市 08-01 13:53 1333 98306
+1
+TOtheeoldcause 浙江省金华市 08-30 13:18 -> 甘肃省平凉市 08-30 14:18 302 54218
+Beehunter 猎蜂 nationalities@have.assembled 1
+Ethan 伊桑 longer.sufficed@Thereupon.stea 2
+Gavial 嘉维尔 PARTY.A.spectre@is.haunting 7
+-1
+Schwarz 黑黑 society.at@large.or 1
+1
+TOtheeoldcause 江苏省扬州市 08-28 18:47 -> 河南省郑州市 08-29 16:29 2518 54218
+1
+Thousternremorsel 广东省茂名市 08-21 02:49 -> 黑龙江省绥芬河市 08-21 16:57 697 47842
+-1
+Pramanix 初雪 thereby.to@the.revolutionary 1
+Hibiscus 芙蓉 history.we@find.almost 3
+Myrtle 桃金 BOURGEOIS.AND@PROLETARIANS.The 4
+W 达不溜 the.product@of.a 1
+1
+ThereforeIsendyou 福建省建瓯市 08-13 06:34 -> 四川省广汉市 08-13 11:55 17 22205
+1
+Thoupeerlesspassi 山东省章丘市 08-04 15:15 -> 浙江省上虞市 08-05 13:52 2305 6304
+1
+AndtodefineAmeric 浙江省绍兴市 07-13 16:55 -> 山东省滕州市 07-14 04:56 962 65035
+Durin 杜林 guilds.now@no.longer 1
+1
+LeavesofGrass 湖南省汩罗市 06-22 21:58 -> 辽宁省沈阳市 06-23 13:53 2094 45430
+Lappland 拉普兰德 adversaries@Two.things 4
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-29 02:11 -> 山东省滕州市 07-29 04:56 464 65035
+Vulcan 火神 in.the.development@of.the 3
+-1
+1
+TOtheeoldcause 山东省荣成市 08-21 07:15 -> 浙江省江山市 08-22 00:15 2592 54218
+-1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-20 16:49 -> 江西省乐平市 07-21 17:49 1002 90143
+0
+-1
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-08 05:26 -> 江西省乐平市 07-08 17:49 381 90143
+-1
+-1
+0
+-1
+-1
+-1
+1
+TOtheeoldcause 江苏省宜兴市 07-08 22:00 -> 浙江省江山市 07-09 00:15 397 54218
+-1
+1
+Afterastrangesad 广东省花都市 08-12 05:11 -> 山东省聊城市 08-12 15:00 625 60784
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-27 16:55 -> 山东省滕州市 06-28 04:56 962 65035
+1
+whatyouwanted 海南省通什市 07-29 12:29 -> 浙江省温州市 07-29 20:10 1141 86245
+-1
+1
+whatyouwanted 广东省阳春市 07-22 10:40 -> 北京市 07-22 19:18 307 86245
+1
+ThereforeIsendyou 福建省建瓯市 08-05 06:34 -> 四川省广汉市 08-05 11:55 17 22205
+Rangers 巡林者 one.another@carried.on 2
+1
+whatyouwanted 新疆库尔勒市 07-31 06:21 -> 黑龙江省七台河市 07-31 15:26 761 86245
+1
+Thoupeerlesspassi 山东省荣成市 07-12 23:26 -> 吉林省德惠市 07-13 07:17 923 6304
+Mayer 梅尔 division.of@labour.between 2
+Mostima 莫斯提马 growing.the@demand.ever 2
+1
+TOtheeoldcause 河北省河间市 08-31 18:21 -> 江苏省宜兴市 08-31 21:53 578 54218
+1
+TOFOREIGNLANDS 广东省开平市 06-26 16:49 -> 北京市 06-27 13:05 755 90143
+1
+LeavesofGrass 河北省霸州市 06-16 01:28 -> 黑龙江省齐齐哈尔市 06-16 06:17 716 45430
+1
+AndtodefineAmeric 浙江省绍兴市 07-16 16:55 -> 山东省滕州市 07-17 04:56 962 65035
+-1
+-1
+1
+Thousternremorsel 广东省茂名市 08-01 02:49 -> 北京市 08-01 03:37 393 47842
+Nightmare 夜魔 of.manufacture@was.taken 2
+1
+AndtodefineAmeric 浙江省绍兴市 07-29 16:55 -> 山东省滕州市 07-30 04:56 962 65035
+Sussurro 苏苏洛 each.other@Bourgeoisie.and 1
+Texas 德克 extension.of@industry.and 3
+-1
+1
+ThereforeIsendyou 广东省茂名市 08-23 13:00 -> 福建省福州市 08-23 21:56 29 22205
+-1
+Amiya 阿米 element.in@the.tottering 1
+1
+TOFOREIGNLANDS 广东省开平市 06-30 16:49 -> 江西省乐平市 07-01 17:49 1002 90143
+1
+Thoupeerlesspassi 河南省偃师市 07-09 11:33 -> 山东省荣成市 07-09 23:20 876 6304
+-1
+1
+TOtheeoldcause 吉林省临江市 07-07 23:15 -> 河南省郑州市 07-08 16:29 2263 54218
+0
+Broca 布洛 bourgeoisie@was.accompanied 4
+-1
+-1
+1
+LeavesofGrass 江西省瑞昌市 06-17 15:27 -> 浙江省上虞市 06-17 20:28 598 45430
+-1
+1
+Thoupeerlesspassi 北京市 08-01 00:25 -> 江西省新余市 08-01 03:31 109 6304
+0
+1
+TOFOREIGNLANDS 广东省佛山市 07-02 05:26 -> 江西省乐平市 07-02 17:49 381 90143
+-1
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 07-14 16:01 -> 河北省霸州市 07-15 01:21 898 98306
+Skyfire 天火 in.proportion@as.industry 4
+1
+whatyouwanted 北京市 08-17 19:23 -> 新疆库尔勒市 08-18 06:13 867 86245
+WaaiFu 槐琥 new.conditions@of.oppression 2
+-1
+Earthspirit 地灵 commerce.to@navigation.to 2
+1
+Afterastrangesad 海南省三亚市 07-27 10:05 -> 河南省荥阳市 07-27 12:36 437 60784
+1
+Afterastrangesad 海南省三亚市 07-25 10:05 -> 内蒙牙克石市 07-25 16:35 993 60784
+1
+AndtodefineAmeric 四川省简阳市 06-10 02:11 -> 山东省滕州市 06-10 04:56 464 65035
+-1
+1
+TOFOREIGNLANDS 广东省佛山市 07-07 05:26 -> 江西省乐平市 07-07 17:49 381 90143
+1
+Thoupeerlesspassi 安徽省明光市 07-25 09:32 -> 湖南省永州市 07-25 11:31 121 6304
+1
+Thousternremorsel 广东省茂名市 07-12 02:49 -> 北京市 07-12 03:37 393 47842
+-1
+-1
+-1
+-1
+-1
+Ceobe 刻俄 into.the.background@every.clas 3
+0
+-1
+1
+TOtheeoldcause 山西省潞城市 08-15 23:52 -> 浙江省平湖市 08-16 04:25 596 54218
+0
+Shamare 巫恋 by.a.corresponding@political.a 1
+1
+Afterastrangesad 广西贵港市 08-16 11:10 -> 内蒙牙克石市 08-16 16:35 755 60784
+-1
+-1
+1
+Thoupeerlesspassi 四川省广元市 08-01 12:24 -> 安徽省明光市 08-02 09:26 2224 6304
+1
+LeavesofGrass 江西省瑞昌市 07-13 15:27 -> 四川省成都市 07-14 14:46 3460 98306
+-1
+-1
+1
+LeavesofGrass 湖南省汩罗市 07-08 21:58 -> 广东省兴宁市 07-09 08:09 1566 98306
+1
+Thoupeerlesspassi 山东省章丘市 07-13 15:15 -> 浙江省宁波市 07-13 17:31 76 6304
+1
+AndtodefineAmeric 四川省简阳市 07-26 02:11 -> 山东省滕州市 07-26 04:56 464 65035
+1
+AndtodefineAmeric 浙江省绍兴市 06-13 16:55 -> 山东省滕州市 06-14 04:56 962 65035
+1
+Thousternremorsel 广东省茂名市 06-28 02:49 -> 黑龙江省绥芬河市 06-28 16:57 697 47842
+1
+TOtheeoldcause 甘肃省平凉市 07-19 14:25 -> 江苏省宜兴市 07-19 21:53 1257 54218
+-1
+1
+Thousternremorsel 北京市 07-27 03:47 -> 黑龙江省绥芬河市 07-27 16:57 304 47842
+Vulcan 火神 in.the.development@of.the 3
+-1
+-1
+1
+Thousternremorsel 北京市 07-13 03:47 -> 黑龙江省绥芬河市 07-13 16:57 304 47842
+-1
+1
+ThereforeIsendyou 广东省茂名市 08-14 13:00 -> 福建省福州市 08-14 21:56 29 22205
+1
+whatyouwanted 广东省茂名市 08-01 22:58 -> 河北省保定市 08-02 09:00 461 86245
+-1
+-1
+-1
+0
+1
+LeavesofGrass 江西省瑞昌市 08-10 15:27 -> 广东省兴宁市 08-11 08:09 2472 45430
+1
+Thoupeerlesspassi 辽宁省本溪市 07-30 20:00 -> 吉林省德惠市 07-31 07:17 1137 6304
+W 达不溜 the.product@of.a 1
+1
+Afterastrangesad 广东省花都市 07-21 05:11 -> 海南省三亚市 07-21 10:00 66 60784
+1
+Thoupeerlesspassi 浙江省宁波市 07-15 17:35 -> 浙江省上虞市 07-16 13:52 2229 6304
+-1
+Savage 暴行 branding.reproach@of.Communism 4
+-1
+1
+TOtheeoldcause 浙江省平湖市 07-24 04:35 -> 浙江省江山市 07-25 00:15 2623 54218
+-1
+-1
+-1
+Nightingale 夜莺 of.that.class@An.oppressed 2
+Angelina 安洁莉 an.immense@development.to 1
+0
+Glaucus 格劳克斯 This.development@has.in 2
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-18 01:58 -> 北京市 07-18 13:05 545 90143
+1
+TOFOREIGNLANDS 湖南省武冈市 07-19 01:58 -> 广东省佛山市 07-19 05:20 411 90143
+0
+1
+Afterastrangesad 广东省花都市 07-16 05:11 -> 广西贵港市 07-16 11:07 304 60784
+-1
+1
+Thousternremorsel 北京市 07-07 03:47 -> 黑龙江省绥芬河市 07-07 16:57 304 47842
+-1
+-1
+0
+1
+Afterastrangesad 广西贵港市 07-08 11:10 -> 湖北省汉川市 07-08 11:56 129 60784
+1
+LeavesofGrass 河北省霸州市 08-14 01:28 -> 四川省成都市 08-14 14:46 2191 45430
+1
+Afterastrangesad 广西贵港市 07-03 11:10 -> 湖北省汉川市 07-03 11:56 129 60784
+Mousse 慕斯 handed.down@from.the 4
+1
+whatyouwanted 河北省保定市 07-03 09:05 -> 海南省通什市 07-03 12:23 207 86245
+Orchid 梓兰 that.each.time@ended.either 3
+-1
+1
+Afterastrangesad 广东省花都市 06-28 05:11 -> 广西贵港市 06-28 11:07 304 60784
+-1
+Croissant 可颂 and.of.exchange@Each.step 4
+-1
+-1
+0
+-1
+Lappland 拉普兰 adversaries@Two.things 4
+0
+Hibiscus 芙蓉 history.we@find.almost 3
+-1
+-1
+-1
+Ansel 安赛 of.America@the.rounding 3
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-18 16:49 -> 江西省乐平市 07-19 17:49 1002 90143
+1
+whatyouwanted 黑龙江省黑河市 08-01 16:49 -> 广东省茂名市 08-01 22:50 541 86245
+-1
+1
+Thousternremorsel 广东省茂名市 07-13 02:49 -> 北京市 07-13 03:37 393 47842
+1
+Afterastrangesad 湖北省汉川市 07-23 12:00 -> 河南省荥阳市 07-23 12:36 70 60784
+1
+LeavesofGrass 广东省兴宁市 07-03 08:14 -> 浙江省湖州市 07-03 09:54 154 98306
+1
+whatyouwanted 河北省藁城市 07-03 02:20 -> 河北省保定市 07-03 09:00 442 86245
+1
+AndtodefineAmeric 浙江省绍兴市 06-27 16:55 -> 山东省滕州市 06-28 04:56 962 65035
+1
+Thoupeerlesspassi 四川省广元市 07-07 12:24 -> 安徽省明光市 07-08 09:26 2224 6304
+Durin 杜林 guilds.now@no.longer 1
+-1
+1
+TOFOREIGNLANDS 广东省开平市 07-30 16:49 -> 广东省佛山市 07-31 05:20 621 90143
+-1
+1
+TOtheeoldcause 湖北省武汉市 08-23 15:54 -> 河南省荥阳市 08-24 01:49 1235 54218
+Snowsant 雪雉 itself.a.Power@II.It 1
+1
+AndtodefineAmeric 四川省简阳市 06-17 02:11 -> 山东省滕州市 06-17 04:56 464 65035
+-1
+Skyfire 天火 in.proportion@as.industry 4
+Istina 真理 serfs.of.the@Middle.Ages 1
+0
+-1
+-1
+W 达不溜 the.product@of.a 1
+-1
+-1
+1
+whatyouwanted 黑龙江省黑河市 08-17 16:49 -> 江西省景德镇市 08-18 15:52 2027 86245
+-1
+-1
+-1
+-1
+-1
+Aak 阿阿 rank.In.ancient@Rome.we 4
+May 梅梅 feudal.lords@vassals.guildmast 4
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 07-14 16:55 -> 山东省滕州市 07-15 04:56 962 65035
+-1
+1
+Thoupeerlesspassi 山东省章丘市 08-06 15:15 -> 江西省新余市 08-07 03:31 673 6304
+1
+TOFOREIGNLANDS 北京市 07-09 13:09 -> 江西省乐平市 07-09 17:49 247 90143
+1
+TOtheeoldcause 福建省漳平市 08-22 20:31 -> 山东省荣成市 08-23 07:12 1306 54218
+1
+AndtodefineAmeric 浙江省绍兴市 06-16 16:55 -> 山东省滕州市 06-17 04:56 962 65035
+-1
+-1
+-1
+-1
+1
+TOtheeoldcause 北京市 08-29 11:50 -> 江苏省宜兴市 08-29 21:53 1742 54218
+1
+Thousternremorsel 广东省茂名市 08-03 02:49 -> 黑龙江省绥芬河市 08-03 16:57 697 47842
+-1
+Ambriel 安比 by.the.giant@Modern.Industry 3
+-1
+1
+LeavesofGrass 湖南省汩罗市 08-08 21:58 -> 浙江省湖州市 08-09 09:54 1720 45430
+-1
+-1
+1
+AndtodefineAmeric 四川省简阳市 07-15 02:11 -> 山东省滕州市 07-15 04:56 464 65035
+1
+ThereforeIsendyou 四川省广汉市 08-02 12:01 -> 广东省茂名市 08-02 12:51 302 22205
+-1
+1
+AndtodefineAmeric 四川省简阳市 06-10 02:11 -> 山东省滕州市 06-10 04:56 464 65035
+1
+Afterastrangesad 山东省聊城市 08-16 15:10 -> 内蒙牙克石市 08-16 16:35 434 60784
+-1
+Snowsant 雪雉 itself.a.Power@II.It 1
+-1
+-1
+1
+LeavesofGrass 山东省栖霞市 08-22 16:01 -> 河北省霸州市 08-23 01:21 898 45430
+1
+LeavesofGrass 江西省瑞昌市 07-25 15:27 -> 黑龙江省齐齐哈尔市 07-26 06:17 1985 98306
+0
+Estelle 艾丝黛尔 in.each.single@workshop.Meanti 1
+Matoimaru 缠丸 its.time.reacted@on.the 3
+1
+TOtheeoldcause 浙江省平湖市 08-13 04:35 -> 广东省化州市 08-13 17:19 1595 54218
+-1
+-1
+-1
+-1
+-1
+Orchid 梓兰 that.each.time@ended.either 3
+1
+TOFOREIGNLANDS 湖南省武冈市 07-10 01:58 -> 江西省乐平市 07-10 17:49 792 90143
+-1
+1
+Thousternremorsel 广东省茂名市 08-16 02:49 -> 北京市 08-16 03:37 393 47842
+Ceylon 锡兰 slaves.in.the@Middle.Ages 1
+1
+Thoupeerlesspassi 湖南省永州市 08-08 11:39 -> 浙江省上虞市 08-08 13:52 455 6304
+Rangers 巡林者 one.another@carried.on 2
+1
+LeavesofGrass 浙江省上虞市 08-05 20:35 -> 辽宁省沈阳市 08-06 13:53 2402 45430
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 08-01 16:55 -> 四川省简阳市 08-02 02:06 498 65035
+-1
+1
+ThereforeIsendyou 四川省广汉市 07-24 12:01 -> 广东省茂名市 07-24 12:51 302 22205
+-1
+-1
+May 梅梅 feudal.lords@vassals.guildmast 4
+1
+whatyouwanted 北京市 07-16 19:23 -> 新疆库尔勒市 07-17 06:13 867 86245
+GreyThroat 灰喉 classes.again@subordinate.grad 2
+Shamare 巫恋 by.a.corresponding@political.a 1
+-1
+-1
+1
+AndtodefineAmeric 浙江省绍兴市 06-28 16:55 -> 四川省简阳市 06-29 02:06 498 65035
+-1
+-1
+1
+whatyouwanted 黑龙江省七台河市 08-03 15:32 -> 江西省景德镇市 08-03 15:52 322 86245
+1
+TOtheeoldcause 吉林省临江市 07-17 23:15 -> 河南省荥阳市 07-18 01:49 889 54218
+-1
+Sideroca 铸铁 of.a.series@of.revolutions 2
+-1
+-1
+Bagpipe 风笛 pushed.on.one@side.by 1
+-1
+1
+Afterastrangesad 河南省荥阳市 07-02 12:39 -> 山东省聊城市 07-02 15:00 122 60784
+-1
+-1
+-1
+-1
+1
+TOFOREIGNLANDS 湖南省武冈市 07-15 01:58 -> 广东省佛山市 07-15 05:20 411 90143
+1
+AndtodefineAmeric 浙江省绍兴市 07-27 16:55 -> 山东省滕州市 07-28 04:56 962 65035
+-1
+0
+2
+Thoupeerlesspassi 山东省荣成市 07-12 23:26 -> 北京市 07-13 00:15 199 6304
+TOtheeoldcause 山东省荣成市 07-12 07:15 -> 北京市 07-12 11:46 453 54218
+-1
+-1
+-1
+Hibiscus 芙蓉 history.we@find.almost 3
+-1
+1
+Thousternremorsel 广东省茂名市 08-28 02:49 -> 黑龙江省绥芬河市 08-28 16:57 697 47842
+1
+Thoupeerlesspassi 陕西省商州市 08-05 05:38 -> 广东省高要市 08-05 15:16 1435 6304
+1
+whatyouwanted 广东省阳春市 06-25 10:40 -> 浙江省温州市 06-26 20:10 2580 86245
+1
+ThereforeIsendyou 广东省茂名市 08-24 13:00 -> 福建省福州市 08-24 21:56 29 22205
+-1
+1
+Afterastrangesad 广西贵港市 07-13 11:10 -> 河南省荥阳市 07-13 12:36 199 60784
+-1
+Cliffheart 崖心 of.division@of.labour 1
+-1
+1
+ThereforeIsendyou 四川省广汉市 08-04 12:01 -> 福建省福州市 08-04 21:56 331 22205
+Sora 空空 wants.of.the@new.markets 1
+-1
+1
+ThereforeIsendyou 福建省建瓯市 08-01 06:34 -> 福建省福州市 08-01 21:56 348 22205
+bye

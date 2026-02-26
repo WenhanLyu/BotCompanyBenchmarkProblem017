@@ -1,0 +1,81 @@
+============================================================
+COMPREHENSIVE QUERY_TICKET ANALYSIS
+============================================================
+
+
+============================================================
+Testing basic_3
+============================================================
+
+Extracting query_ticket results...
+Commands found: 1533
+
+basic_3 Results:
+  Total:  1533
+  Passed: 1222 (79%)
+  Failed: 311
+
+  First 3 failures:
+
+  [281] query_ticket -s 贵州省清镇市 -t 新疆米泉市 -d 06-26 -p time
+    Expected:
+  0
+    Actual:
+  (no output)
+
+  [282] query_ticket -s 河南省灵宝市 -t 新疆博乐市 -d 07-09 -p cost
+    Expected:
+  0
+    Actual:
+  (no output)
+
+  [283] query_ticket -s 河北省河间市 -t 广东省花都市 -d 07-07 -p time
+    Expected:
+  0
+    Actual:
+  (no output)
+
+  ... and 308 more failures
+
+============================================================
+Testing basic_4
+============================================================
+
+Extracting query_ticket results...
+Commands found: 6930
+
+basic_4 Results:
+  Total:  6930
+  Passed: 5917 (85%)
+  Failed: 1013
+
+  First 3 failures:
+
+  [408] query_ticket -s 广东省开平市 -t 湖南省武冈市 -d 07-05 -p time
+    Expected:
+  0
+    Actual:
+  (no output)
+
+  [409] query_ticket -s 湖南省武冈市 -t 北京市 -d 07-15 -p time
+    Expected:
+  0
+    Actual:
+  (no output)
+
+  [410] query_ticket -s 湖南省武冈市 -t 江西省乐平市 -d 07-23 -p time
+    Expected:
+  0
+    Actual:
+  (no output)
+
+  ... and 1010 more failures
+
+============================================================
+OVERALL SUMMARY
+============================================================
+Total query_ticket commands tested: 8463
+Passed: 7139 (84%)
+Failed: 1324
+============================================================
+❌ 1324 TESTS FAILED

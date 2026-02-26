@@ -1,0 +1,301 @@
+=========================================
+COMPREHENSIVE QUERY_TICKET TEST SUITE
+=========================================
+
+=========================================
+TESTING basic_3 (Query Ticket Focus)
+=========================================
+
+Testing basic_3/1...
+workspace/workspace/sam/test_query_ticket_comprehensive.sh: line 39: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/1.in: No such file or directory
+grep: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/1.in: No such file or directory
+awk: can't open file /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/1.out
+ source line number 1
+❌ FAIL: basic_3/1
+   First 5 differences:
+   0a1,280
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+Testing basic_3/2...
+workspace/workspace/sam/test_query_ticket_comprehensive.sh: line 39: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/2.in: No such file or directory
+grep: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/2.in: No such file or directory
+awk: can't open file /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/2.out
+ source line number 1
+❌ FAIL: basic_3/2
+   First 5 differences:
+   0a1,102
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+Testing basic_3/3...
+workspace/workspace/sam/test_query_ticket_comprehensive.sh: line 39: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/3.in: No such file or directory
+grep: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/3.in: No such file or directory
+awk: can't open file /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/3.out
+ source line number 1
+❌ FAIL: basic_3/3
+   First 5 differences:
+   0a1,69
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+Testing basic_3/4...
+workspace/workspace/sam/test_query_ticket_comprehensive.sh: line 39: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/4.in: No such file or directory
+grep: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/4.in: No such file or directory
+awk: can't open file /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/4.out
+ source line number 1
+❌ FAIL: basic_3/4
+   First 5 differences:
+   0a1,55
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+Testing basic_3/5...
+workspace/workspace/sam/test_query_ticket_comprehensive.sh: line 39: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/5.in: No such file or directory
+grep: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/5.in: No such file or directory
+awk: can't open file /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_3/5.out
+ source line number 1
+❌ FAIL: basic_3/5
+   First 5 differences:
+   0a1,58
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+=========================================
+TESTING basic_4 (Comprehensive)
+=========================================
+
+Testing basic_4/1...
+workspace/workspace/sam/test_query_ticket_comprehensive.sh: line 39: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/1.in: No such file or directory
+grep: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/1.in: No such file or directory
+awk: can't open file /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/1.out
+ source line number 1
+❌ FAIL: basic_4/1
+   First 5 differences:
+   0a1,33
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+Testing basic_4/2...
+workspace/workspace/sam/test_query_ticket_comprehensive.sh: line 39: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/2.in: No such file or directory
+grep: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/2.in: No such file or directory
+awk: can't open file /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/2.out
+ source line number 1
+❌ FAIL: basic_4/2
+   First 5 differences:
+   0a1,43
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+Testing basic_4/3...
+workspace/workspace/sam/test_query_ticket_comprehensive.sh: line 39: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/3.in: No such file or directory
+grep: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/3.in: No such file or directory
+awk: can't open file /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/3.out
+ source line number 1
+❌ FAIL: basic_4/3
+   First 5 differences:
+   0a1,25
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+Testing basic_4/4...
+workspace/workspace/sam/test_query_ticket_comprehensive.sh: line 39: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/4.in: No such file or directory
+grep: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/4.in: No such file or directory
+awk: can't open file /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/4.out
+ source line number 1
+❌ FAIL: basic_4/4
+   First 5 differences:
+   0a1,23
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+Testing basic_4/5...
+workspace/workspace/sam/test_query_ticket_comprehensive.sh: line 39: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/5.in: No such file or directory
+grep: /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/5.in: No such file or directory
+awk: can't open file /Users/wenhanlyu/.thebotcompany/dev/src/github.com/WenhanLyu/BotCompanyBenchmarkProblem017/workspace/data/basic_4/5.out
+ source line number 1
+❌ FAIL: basic_4/5
+   First 5 differences:
+   0a1,45
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+   > 0
+
+=========================================
+TEST SUMMARY
+=========================================
+Total Tests:  10
+Passed:       0
+Failed:       10
+Success Rate: 0%
+=========================================
+❌ SOME TESTS FAILED

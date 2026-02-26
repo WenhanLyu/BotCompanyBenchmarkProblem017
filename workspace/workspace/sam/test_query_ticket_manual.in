@@ -1,0 +1,12 @@
+add_user -c cur -u admin -p pass -n Admin -m admin@test.com -g 10
+login -u admin -p pass
+add_train -i TestTrain1 -n 5 -m 1000 -s 广东省开平市|湖南省武冈市|北京市 -p 100|200 -x 07-01 -t 10:00|11:00|12:00 -o 10:00|11:00|12:00 -d A -y N
+release_train -i TestTrain1
+query_ticket -s 广东省开平市 -t 湖南省武冈市 -d 07-01 -p time
+query_ticket -s 湖南省武冈市 -t 北京市 -d 07-01 -p cost
+query_ticket -s 广东省开平市 -t 北京市 -d 07-01 -p time
+query_ticket -s 北京市 -t 广东省开平市 -d 07-01 -p time
+buy_ticket -u admin -i TestTrain1 -d 07-01 -n 10 -f 广东省开平市 -t 湖南省武冈市 -q false
+query_ticket -s 广东省开平市 -t 湖南省武冈市 -d 07-01 -p time
+query_ticket -s 不存在站 -t 北京市 -d 07-01 -p time
+exit
