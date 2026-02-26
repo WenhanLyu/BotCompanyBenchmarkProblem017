@@ -1104,6 +1104,65 @@ int cmd_buy_ticket(const CommandParser& parser) {
     }
 }
 
+int cmd_query_order(const CommandParser& parser) {
+    const char* username = parser.get('u');
+
+    if (!username) {
+        return -1;
+    }
+
+    // Check if user is logged in
+    bool* is_logged_in = logged_in_users.find(username);
+    if (!is_logged_in || !(*is_logged_in)) {
+        return -1;
+    }
+
+    // Check if user exists
+    User* user = users.find(username);
+    if (!user) {
+        return -1;
+    }
+
+    // First count the orders
+    int count = 0;
+    queryUserOrders(username, [&](const Order& order) {
+        count++;
+    });
+
+    // If no orders, output 0 and return
+    if (count == 0) {
+        std::cout << "0" << std::endl;
+        return 0;
+    }
+
+    // Output count
+    std::cout << count << std::endl;
+
+    // Output each order
+    queryUserOrders(username, [&](const Order& order) {
+        // Format: [timestamp] [trainID] [from_station] [to_station] [status] [total_price] [ticket_count]
+        // Status: s=success, p=pending, r=refunded
+        const char* status_str;
+        if (order.status == 's') {
+            status_str = "success";
+        } else if (order.status == 'p') {
+            status_str = "pending";
+        } else {
+            status_str = "refunded";
+        }
+
+        std::cout << order.timestamp << " "
+                  << order.trainID << " "
+                  << order.from_station << " "
+                  << order.to_station << " "
+                  << status_str << " "
+                  << order.total_price << " "
+                  << order.ticket_count << std::endl;
+    });
+
+    return 0;
+}
+
 int main() {
     // Load user data from disk at startup
     load_users();
@@ -1192,6 +1251,14 @@ int main() {
             CommandParser parser;
             parser.parse(line);
             int result = cmd_buy_ticket(parser);
+            if (result == -1) {
+                std::cout << "-1" << std::endl;
+            }
+        } else if (command == "query_order") {
+            std::getline(std::cin, line);
+            CommandParser parser;
+            parser.parse(line);
+            int result = cmd_query_order(parser);
             if (result == -1) {
                 std::cout << "-1" << std::endl;
             }
