@@ -50,6 +50,7 @@ private:
     std::string filename;
     Header header;
     std::streampos header_pos;
+    mutable Node find_result_node;  // Cache for find() return value
 
     // Calculate position for node data (after header)
     std::streampos getNodePos(int node_id) const {
@@ -491,13 +492,12 @@ public:
         std::streampos leaf_pos = findLeaf(key);
         if (leaf_pos < 0) return nullptr;
 
-        static Node leaf;  // Static to return pointer
-        if (!loadNode(leaf, leaf_pos)) return nullptr;
+        if (!loadNode(find_result_node, leaf_pos)) return nullptr;
 
         // Binary search in leaf
-        for (int i = 0; i < leaf.key_count; i++) {
-            if (leaf.keys[i] == key) {
-                return &leaf.values[i];
+        for (int i = 0; i < find_result_node.key_count; i++) {
+            if (find_result_node.keys[i] == key) {
+                return &find_result_node.values[i];
             }
         }
 
