@@ -1092,6 +1092,12 @@ int cmd_buy_ticket(const CommandParser& parser) {
                        from_idx, to_idx, ticket_count, total_price, 's');
             std::cout << total_price << std::endl;
             return 0;
+        } else if (allow_queue) {
+            // reserveSeats failed but queue is allowed - queue instead
+            createOrder(username, trainID, start_date, from_station, to_station,
+                       from_idx, to_idx, ticket_count, total_price, 'p');
+            std::cout << "queue" << std::endl;
+            return 0;
         } else {
             return -1;
         }
