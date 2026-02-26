@@ -1141,7 +1141,12 @@ int cmd_query_order(const CommandParser& parser) {
     // Output count
     std::cout << order_list.size() << std::endl;
 
-    // Reverse to get newest-to-oldest (queryUserOrders returns oldest-to-newest)
+    // Sort by timestamp to ensure correct order (fix for issue #40)
+    std::sort(order_list.begin(), order_list.end(), [](const Order& a, const Order& b) {
+        return a.timestamp < b.timestamp;
+    });
+
+    // Reverse to get newest-to-oldest
     std::reverse(order_list.begin(), order_list.end());
 
     // Output each order with calculated times
@@ -1259,7 +1264,12 @@ int cmd_refund_ticket(const CommandParser& parser) {
         return -1;
     }
 
-    // Reverse to get newest-to-oldest (queryUserOrders returns oldest-to-newest)
+    // Sort by timestamp to ensure correct order (fix for issue #40)
+    std::sort(order_list.begin(), order_list.end(), [](const Order& a, const Order& b) {
+        return a.timestamp < b.timestamp;
+    });
+
+    // Reverse to get newest-to-oldest
     std::reverse(order_list.begin(), order_list.end());
 
     // Check if order_num is valid
