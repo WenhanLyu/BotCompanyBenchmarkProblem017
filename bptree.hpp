@@ -386,6 +386,8 @@ public:
     // Prevent copying (would corrupt file handles)
     BPTree(const BPTree&) = delete;
     BPTree& operator=(const BPTree&) = delete;
+    BPTree(BPTree&&) = delete;
+    BPTree& operator=(BPTree&&) = delete;
 
     // Open B+ tree file
     bool open(const std::string& fname) {
