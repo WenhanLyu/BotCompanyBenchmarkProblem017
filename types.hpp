@@ -257,4 +257,81 @@ struct DateTime {
     }
 };
 
+// Key type for trains (wraps char array to make it assignable)
+struct TrainKey {
+    char id[25];
+
+    TrainKey() {
+        id[0] = '\0';
+    }
+
+    explicit TrainKey(const char* str) {
+        strncpy(id, str, 24);
+        id[24] = '\0';
+    }
+
+    TrainKey& operator=(const TrainKey& other) {
+        if (this != &other) {
+            strncpy(id, other.id, 24);
+            id[24] = '\0';
+        }
+        return *this;
+    }
+
+    bool operator==(const TrainKey& other) const {
+        return strcmp(id, other.id) == 0;
+    }
+
+    bool operator<(const TrainKey& other) const {
+        return strcmp(id, other.id) < 0;
+    }
+
+    bool operator>(const TrainKey& other) const {
+        return strcmp(id, other.id) > 0;
+    }
+
+    bool operator>=(const TrainKey& other) const {
+        return !(*this < other);
+    }
+
+    bool operator<=(const TrainKey& other) const {
+        return !(*this > other);
+    }
+};
+
+// Train data structure
+struct Train {
+    char trainID[25];          // Train identifier (max 20 chars)
+    int stationNum;            // Number of stations (2-100)
+    int seatNum;               // Number of seats per train
+    Station stations[100];     // Array of stations (up to 100)
+    int prices[99];            // Price from station i to i+1 (up to 99)
+    Time startTime;            // Departure time from first station
+    int travelTimes[99];       // Travel time from station i to i+1 in minutes (up to 99)
+    int stopoverTimes[98];     // Stopover time at station i (1 to n-2, up to 98)
+    Date saleDate[2];          // Sale date range: [0]=start, [1]=end
+    char type;                 // Train type (single character)
+    bool released;             // Whether train has been released
+
+    Train() : stationNum(0), seatNum(0), type('\0'), released(false) {
+        trainID[0] = '\0';
+        for (int i = 0; i < 99; i++) {
+            prices[i] = 0;
+            travelTimes[i] = 0;
+            if (i < 98) stopoverTimes[i] = 0;
+        }
+    }
+
+    Train(const char* id, int stNum, int seNum, char t)
+        : stationNum(stNum), seatNum(seNum), type(t), released(false) {
+        strncpy(trainID, id, 24);
+        trainID[24] = '\0';
+        for (int i = 0; i < 99; i++) {
+            prices[i] = 0;
+            travelTimes[i] = 0;
+            if (i < 98) stopoverTimes[i] = 0;
+        }
+    }
+};
+
 #endif // TYPES_HPP
