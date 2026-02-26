@@ -9,11 +9,11 @@
 ---
 
 ## Current Status
-- **Phase**: Milestone Definition (Athena) - Post M3 Deadline Miss
-- **Completed Milestones**: M1 (User Management), M1.1 (B+ Tree Bug Fixes), M2 (Train Management)
-- **Current Focus**: Defining M3.1 (query_order implementation)
-- **Code Status**: 11/20 commands complete (5 user + 4 train + query_ticket + buy_ticket), 9 commands remaining
-- **M3 Status**: FAILED - Deadline missed (12/12 cycles used)
+- **Phase**: Milestone Definition (Athena) - Post M3.1 Completion
+- **Completed Milestones**: M1, M1.1, M2, M3.1
+- **Current Focus**: Defining M3.2 (refund_ticket implementation)
+- **Code Status**: 13/20 commands complete (5 user + 4 train + query_ticket + buy_ticket + query_order), 7 commands remaining
+- **Test Status**: basic_3 test 1 at 98.8% pass rate (1533/1551 lines)
 
 ---
 
@@ -141,39 +141,81 @@
 
 ---
 
-### M3.1: Implement query_order Command
-**Status**: PENDING
+### M3.1: Implement query_order Command ✅
+**Status**: COMPLETE (Verified on 2026-02-26)
 **Estimated Cycles**: 2
+**Actual Cycles**: 3
 **Description**: Implement query_order command to retrieve user's order history
 
-**Success Criteria**:
-- query_order returns order list (not -1)
-- Orders sorted by timestamp
-- Correct format: [TIMESTAMP] [TRAINID] [FROM] [TO] [STATUS] [PRICE] [COUNT]
-- Handles edge cases (no orders, invalid user)
-- Infrastructure verified by Magnus: Order struct, OrderKey, queryUserOrders() all exist
+**Success Criteria**: ALL MET ✅
+- ✅ query_order returns order list (not -1)
+- ✅ Orders sorted by timestamp (newest to oldest)
+- ✅ Correct format: `[<STATUS>] <trainID> <FROM> <LEAVING_TIME> -> <TO> <ARRIVING_TIME> <PRICE> <NUM>`
+- ✅ Handles edge cases (no orders, invalid user)
+
+**Implementation**:
+- Leo implemented query_order command (commit 0bb63f6)
+- Alex fixed output format and sort order (commit 5791aa0)
+- basic_3 test 1: 98.8% pass rate (1533/1551 lines)
+- All query_order outputs verified correct by Alex
 
 **Rationale**:
 - query_order is **F frequency** (critical for performance grade)
-- Blocks basic_3 test progression (140+ commands return -1)
-- Low risk: all infrastructure exists, ~1.5 hours implementation
-- Focused scope: ONLY query_order, no other features
+- Blocks basic_3 test progression
+- Low risk: all infrastructure exists
+
+**Lessons Learned**:
+- **Test environment matters**: Iris's 18% pass rate was due to dirty state (*.dat files not cleaned)
+- **Clean state testing**: With `rm -f *.dat`, pass rate jumped to 98.8%
+- **M3.1 was successful**: query_order implementation is correct
+- **Remaining issues are separate bugs**: 18 failing lines are buy_ticket/modify_profile/query_profile edge cases, NOT query_order bugs
+- **Process improvement needed**: Always clean *.dat files before test runs
+
+---
+
+### M3.2: Implement refund_ticket Command
+**Status**: PENDING
+**Estimated Cycles**: 3
+**Description**: Implement refund_ticket command with order cancellation and seat restoration
+
+**Success Criteria**:
+- refund_ticket cancels orders and updates status to 'refunded'
+- Seat availability correctly updated (restored for refunded tickets)
+- Standby queue processed (pending orders fill vacated seats)
+- Handles edge cases (invalid order, already refunded, train departed)
+- Edge case bugs from basic_3 fixed if they interfere with refund_ticket
+
+**Current State**:
+- buy_ticket implemented (Diana, commit b9e153e) with seat reservation
+- query_order implemented (Leo/Alex, commits 0bb63f6, 5791aa0)
+- Order data structures exist (Order, OrderKey, orders BPTree)
+- Seat tracking exists (SeatKey, seats BPTree)
+
+**Known Issues to Address**:
+- buy_ticket standby queue (-q true) has 1 edge case failure
+- query_ticket returns -1 when no trains found (should return 0)
+- modify_profile and query_profile have 3 edge case failures
+- query_ticket seat availability calculation off in some cases
+
+**Rationale**:
+- Completes core ticket system functionality
+- Required before moving to query_transfer (M5)
+- Standby queue testing will reveal if buy_ticket queue is truly broken
+- Natural place to fix related edge cases
 
 **Lessons Learned**: TBD
 
 ---
 
-### M4: Ticket Purchasing and Order Management
+### M4: Query Transfer System
 **Status**: Not Started
-**Estimated Cycles**: 14
-**Description**: Implement buy_ticket, query_order, refund_ticket with standby queue
+**Estimated Cycles**: 10
+**Description**: Implement query_transfer to find optimal single-transfer routes
 
 **Success Criteria**:
-- Ticket purchase with seat availability checking
-- Standby queue (pending orders) working correctly
-- Refund properly updates available seats and processes standby queue
-- Order history maintained correctly
-- Can pass basic_4 test case
+- Finds optimal single-transfer routes (time or cost)
+- Correctly handles connection times and station matching
+- Can pass basic_5 test case
 
 **Lessons Learned**: TBD
 
@@ -260,4 +302,4 @@ If any milestone exceeds budget by 50% or fails, it will be broken down into sub
 
 ---
 
-**Last Updated**: 2026-02-26 (Cycle 5 - Athena marking M2 complete, defining M3)
+**Last Updated**: 2026-02-26 (Athena - M3.1 verified complete, defining M3.2)

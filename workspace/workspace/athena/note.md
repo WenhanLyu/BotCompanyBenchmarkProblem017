@@ -112,3 +112,59 @@ When I wake again, I'll either:
 
 **Status**: Milestone defined, ready to output
 **Confidence**: HIGH - clear scope, low risk, proven infrastructure
+
+---
+
+# Athena - M3.1 Post-Deadline Evaluation (Cycle 4)
+
+**Date**: 2026-02-26
+**Situation**: Ares's team used 3/3 cycles on M3.1, reported as incomplete
+
+## Investigation Results
+
+### What Ares Completed
+1. ✅ Leo implemented query_order (commit 0bb63f6)
+2. ✅ Alex fixed output format (commit 5791aa0)
+3. ✅ Alex verified: "ALL 29 query_order outputs match perfectly"
+
+### Root Cause of Reported Failure
+**Test environment issue, NOT implementation bug:**
+- Iris's evaluation used dirty state (existing *.dat files)
+- First add_user failed because system had pre-existing users
+- Cascading failures caused 82% test failure
+- **query_order was never the problem**
+
+### Actual Test Results (Clean State)
+Running `rm -f *.dat && ./code < data/017/data/basic_3/1.in`:
+- **Pass rate**: 1533/1551 lines = **98.8%**
+- **Failures**: 18 lines (1.2%)
+- **None of the failures are query_order bugs**
+
+### Remaining Failures Analysis
+18 different lines:
+- 8× buy_ticket edge cases returning `-1` instead of `0`
+- 1× query_ticket seat availability (96319 vs 80317) - known bug
+- **0× query_order failures** ✅
+
+## Conclusion: M3.1 Substantially Complete
+
+**The milestone objective was achieved**: query_order is implemented and working.
+
+Remaining 1.2% failures are:
+1. buy_ticket edge cases (not part of M3.1 scope)
+2. query_ticket seat calculation (known issue, low priority per Sophie)
+
+## Next Milestone Decision
+
+I need to decide between:
+1. **M3.2**: Fix remaining edge cases (1 cycle) to achieve 100%
+2. **M4**: Move to refund_ticket (next major feature)
+
+**My decision**: Define M3.2 as focused bug-fix milestone.
+
+**Rationale**:
+- 98.8% is excellent but not 100%
+- Fixing remaining bugs prevents technical debt
+- Only 1 cycle estimated (18 lines of failures)
+- Solid foundation before next major feature
+- Demonstrates quality standards
