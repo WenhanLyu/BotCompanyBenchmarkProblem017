@@ -9,11 +9,11 @@
 ---
 
 ## Current Status
-- **Phase**: Milestone Definition (Athena) - Post M3.1 Completion
-- **Completed Milestones**: M1, M1.1, M2, M3.1
-- **Current Focus**: Defining M3.2 (refund_ticket implementation)
-- **Code Status**: 13/20 commands complete (5 user + 4 train + query_ticket + buy_ticket + query_order), 7 commands remaining
-- **Test Status**: basic_3 test 1 at 98.8% pass rate (1533/1551 lines)
+- **Phase**: Milestone Definition (Athena) - Post M3.2 Completion
+- **Completed Milestones**: M1, M1.1, M2, M3.1, M3.2 (with regression)
+- **Current Focus**: Defining M3.2.1 (fix query_order regression)
+- **Code Status**: 14/20 commands complete (5 user + 4 train + query_ticket + buy_ticket + query_order + refund_ticket), 6 commands remaining
+- **Test Status**: basic_3 overall at 95.05% pass rate (below 98.8% target due to timestamp bug)
 
 ---
 
@@ -173,35 +173,75 @@
 
 ---
 
-### M3.2: Implement refund_ticket Command
-**Status**: PENDING
+### M3.2: Implement refund_ticket Command ✅ (with regression)
+**Status**: COMPLETE (Feature) / INCOMPLETE (Quality)
 **Estimated Cycles**: 3
+**Actual Cycles**: 3
 **Description**: Implement refund_ticket command with order cancellation and seat restoration
 
+**What Was Completed**:
+- ✅ refund_ticket implemented (Diana, commit ee18da0)
+- ✅ Standby queue edge case fixed (Diana, commit 7c4cbed)
+- ✅ B+ tree corruption partially fixed (Alex, commit 97f1a05)
+- ⚠️ Query sorting attempted fix (Maya, commit 2fabe23) - ineffective
+
+**Test Results**:
+- Overall pass rate: 95.05% (8119/8542 lines)
+- Target: 98.8%+
+- Deficit: -3.75 percentage points
+- Progressive degradation: 99.81% → 88.82% across 5 tests
+
+**Root Cause of Regression**:
+1. **Missing initOrderSystem() call** in main() - causes timestamp collisions
+2. **Non-stable sort** - std::sort instead of std::stable_sort produces non-deterministic ordering
+
+**Assessment**:
+- ✅ Core objective achieved (refund_ticket works)
+- ❌ Quality target missed (regression introduced)
+- ⚠️ Must fix before M4 to prevent cascade effects
+
+**Lessons Learned**:
+- **Test after every commit** - Regression could have been caught earlier
+- **Incremental verification** - Don't wait until end of milestone
+- **Root cause analysis** - Maya's fix addressed symptoms, not root cause
+- **Conservative budgeting** - 3 cycles insufficient when quality matters
+- **Missing initialization calls** - Critical bugs that are easy to overlook
+
+---
+
+### M3.2.1: Fix query_order Timestamp Regression
+**Status**: PENDING
+**Estimated Cycles**: 2
+**Description**: Fix missing initOrderSystem() call and use stable_sort to restore 98.8%+ pass rate
+
+**Root Cause (Identified by Cora)**:
+1. main() does NOT call initOrderSystem(), causing g_order_counter to reset to 0 on every restart
+2. This creates timestamp collisions between old and new orders
+3. std::sort (non-stable) produces non-deterministic ordering on duplicate timestamps
+
+**Required Changes**:
+1. Add `initOrderSystem();` in main() after `load_users()` (main.cpp:1315)
+2. Change `std::sort` to `std::stable_sort` in query_order (main.cpp:1151)
+3. Change `std::sort` to `std::stable_sort` in refund_ticket (main.cpp:1274)
+
 **Success Criteria**:
-- refund_ticket cancels orders and updates status to 'refunded'
-- Seat availability correctly updated (restored for refunded tickets)
-- Standby queue processed (pending orders fill vacated seats)
-- Handles edge cases (invalid order, already refunded, train departed)
-- Edge case bugs from basic_3 fixed if they interfere with refund_ticket
+- ✅ initOrderSystem() called in main()
+- ✅ std::stable_sort used in both query_order and refund_ticket
+- ✅ basic_3 test 1 achieves 98.8%+ pass rate (restore M3.1 baseline)
+- ✅ Overall basic_3 tests achieve 95%+ average pass rate
+- ✅ No new regressions in other commands
 
-**Current State**:
-- buy_ticket implemented (Diana, commit b9e153e) with seat reservation
-- query_order implemented (Leo/Alex, commits 0bb63f6, 5791aa0)
-- Order data structures exist (Order, OrderKey, orders BPTree)
-- Seat tracking exists (SeatKey, seats BPTree)
-
-**Known Issues to Address**:
-- buy_ticket standby queue (-q true) has 1 edge case failure
-- query_ticket returns -1 when no trains found (should return 0)
-- modify_profile and query_profile have 3 edge case failures
-- query_ticket seat availability calculation off in some cases
+**Out of Scope**:
+- Implementing new features
+- Optimizing performance
+- Fixing unrelated bugs (seat availability, etc.)
 
 **Rationale**:
-- Completes core ticket system functionality
-- Required before moving to query_transfer (M5)
-- Standby queue testing will reveal if buy_ticket queue is truly broken
-- Natural place to fix related edge cases
+- Bug is well-diagnosed with HIGH confidence (Cora's analysis)
+- Fix is simple (3 lines of code)
+- 2 cycles is conservative (likely takes <1 cycle)
+- Prevents cascade effects in M4+ where query_order is used
+- Maintains quality standards (don't accept regression)
 
 **Lessons Learned**: TBD
 
@@ -302,4 +342,4 @@ If any milestone exceeds budget by 50% or fails, it will be broken down into sub
 
 ---
 
-**Last Updated**: 2026-02-26 (Athena - M3.1 verified complete, defining M3.2)
+**Last Updated**: 2026-02-26 (Athena - M3.2 complete with regression, defining M3.2.1)
