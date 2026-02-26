@@ -1090,12 +1090,14 @@ int cmd_buy_ticket(const CommandParser& parser) {
         if (reserveSeats(trainID, start_date, from_idx, to_idx, ticket_count)) {
             createOrder(username, trainID, start_date, from_station, to_station,
                        from_idx, to_idx, ticket_count, total_price, 's');
+            saveOrderCounter();
             std::cout << total_price << std::endl;
             return 0;
         } else if (allow_queue) {
             // reserveSeats failed but queue is allowed - queue instead
             createOrder(username, trainID, start_date, from_station, to_station,
                        from_idx, to_idx, ticket_count, total_price, 'p');
+            saveOrderCounter();
             std::cout << "queue" << std::endl;
             return 0;
         } else {
@@ -1105,6 +1107,7 @@ int cmd_buy_ticket(const CommandParser& parser) {
         // Not enough seats, but queuing is allowed
         createOrder(username, trainID, start_date, from_station, to_station,
                    from_idx, to_idx, ticket_count, total_price, 'p');
+        saveOrderCounter();
         std::cout << "queue" << std::endl;
         return 0;
     } else {
