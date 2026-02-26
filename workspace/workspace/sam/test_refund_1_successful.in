@@ -1,0 +1,16 @@
+add_user -c cur -u admin -p pass123 -n 管理员 -m admin@test.com -g 10
+login -u admin -p pass123
+add_user -c admin -u alice -p alice123 -n 爱丽丝 -m alice@test.com -g 5
+add_user -c admin -u bob -p bob123 -n 鲍勃 -m bob@test.com -g 5
+add_train -i T001 -n 5 -m 100 -s 南京市 -p 100 -x 06-10 -t 01:00 -s 上海市 -p 50 -x 06-10 -t 03:00 -s 杭州市 -p 50 -x 06-10 -t 05:00 -y S
+release_train -i T001
+login -u alice -p alice123
+query_ticket -s 南京市 -t 杭州市 -d 06-10 -p time
+buy_ticket -u alice -i T001 -d 06-10 -n 20 -f 南京市 -t 杭州市 -q false
+query_ticket -s 南京市 -t 杭州市 -d 06-10 -p time
+query_order -u alice
+refund_ticket -u alice -n 1
+query_ticket -s 南京市 -t 杭州市 -d 06-10 -p time
+query_order -u alice
+exit
+clean

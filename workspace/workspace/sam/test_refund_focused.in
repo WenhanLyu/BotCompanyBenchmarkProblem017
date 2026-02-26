@@ -1,0 +1,30 @@
+add_user -c cur -u admin -p pass123 -n 管理员 -m admin@test.com -g 10
+login -u admin -p pass123
+add_user -c admin -u alice -p alice123 -n 爱丽丝 -m alice@test.com -g 5
+add_user -c admin -u bob -p bob123 -n 鲍勃 -m bob@test.com -g 5
+add_train -i TRAIN01 -n 5 -m 100 -s 北京市|上海市|杭州市 -p 100|50 -x 01:00 -t 120|120 -o 06-10|06-20 -d 06-10|06-20 -y S
+release_train -i TRAIN01
+login -u alice -p alice123
+query_ticket -s 北京市 -t 杭州市 -d 06-10 -p time
+buy_ticket -u alice -i TRAIN01 -d 06-10 -n 20 -f 北京市 -t 杭州市 -q false
+query_ticket -s 北京市 -t 杭州市 -d 06-10 -p time
+query_order -u alice
+refund_ticket -u alice -n 1
+query_ticket -s 北京市 -t 杭州市 -d 06-10 -p time
+query_order -u alice
+login -u bob -p bob123
+buy_ticket -u bob -i TRAIN01 -d 06-10 -n 15 -f 北京市 -t 杭州市 -q false
+query_ticket -s 北京市 -t 杭州市 -d 06-10 -p time
+buy_ticket -u bob -i TRAIN01 -d 06-10 -n 30 -f 北京市 -t 杭州市 -q true
+query_order -u bob
+refund_ticket -u alice -n 1
+refund_ticket -u alice -n 1
+refund_ticket -u alice -n 2
+query_order -u bob
+logout -u bob
+refund_ticket -u bob -n 1
+login -u bob -p bob123
+refund_ticket -u bob -n 1
+query_order -u bob
+exit
+clean
