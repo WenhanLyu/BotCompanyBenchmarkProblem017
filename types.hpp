@@ -410,7 +410,7 @@ struct OrderKey {
 };
 
 // Seat availability tracking per train and date
-struct SeatAvailability {
+struct __attribute__((packed)) SeatAvailability {
     char trainID[25];
     Date date;
     int available[99];  // available[i] = seats available from station i to i+1
