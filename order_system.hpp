@@ -91,6 +91,25 @@ inline int checkAvailableSeats(const char* trainID, const Date& date,
     SeatKey key(trainID, date);
     SeatAvailability* seat_data = seats.find(key);
 
+#ifdef DEBUG_ISSUE_54
+    // Debug logging for specific train
+    if (strcmp(trainID, "puzzletheNewWorld") == 0) {
+        std::cerr << "[DEBUG checkAvailableSeats] Train: " << trainID
+                  << " | Date: " << (int)date.month << "-" << (int)date.day
+                  << " | Segments: " << from_idx << " to " << to_idx << std::endl;
+        if (seat_data) {
+            std::cerr << "[DEBUG checkAvailableSeats] Seat data found, num_segments: "
+                      << seat_data->num_segments << std::endl;
+            std::cerr << "[DEBUG checkAvailableSeats] Available seats per segment:" << std::endl;
+            for (int i = from_idx; i < to_idx && i < seat_data->num_segments; i++) {
+                std::cerr << "  Segment " << i << ": " << seat_data->available[i] << std::endl;
+            }
+        } else {
+            std::cerr << "[DEBUG checkAvailableSeats] NO SEAT DATA FOUND for this date!" << std::endl;
+        }
+    }
+#endif
+
     if (!seat_data) {
         return 0;  // No seat data available
     }
@@ -117,15 +136,34 @@ inline bool reserveSeats(const char* trainID, const Date& date,
     SeatAvailability* seat_data = seats.find(key);
 
     if (!seat_data) {
+#ifdef DEBUG_ISSUE_54
+        if (strcmp(trainID, "puzzletheNewWorld") == 0) {
+            std::cerr << "[DEBUG reserveSeats] FAILED: No seat data found" << std::endl;
+        }
+#endif
         return false;
     }
 
     // Check if enough seats available
     for (int i = from_idx; i < to_idx; i++) {
         if (seat_data->available[i] < count) {
+#ifdef DEBUG_ISSUE_54
+            if (strcmp(trainID, "puzzletheNewWorld") == 0) {
+                std::cerr << "[DEBUG reserveSeats] FAILED: Not enough seats at segment "
+                          << i << " (available: " << seat_data->available[i]
+                          << ", needed: " << count << ")" << std::endl;
+            }
+#endif
             return false;
         }
     }
+
+#ifdef DEBUG_ISSUE_54
+    if (strcmp(trainID, "puzzletheNewWorld") == 0) {
+        std::cerr << "[DEBUG reserveSeats] SUCCESS: Reserving " << count
+                  << " seats for segments " << from_idx << " to " << to_idx - 1 << std::endl;
+    }
+#endif
 
     // Reserve seats
     for (int i = from_idx; i < to_idx; i++) {

@@ -11,6 +11,9 @@
 #include "bptree.hpp"
 #include "order_system.hpp"
 
+// Debug logging flag for issue #54
+#define DEBUG_ISSUE_54 1
+
 // User database and session management
 StringHashTable<User> users;
 StringHashTable<bool> logged_in_users;  // Track logged-in users
@@ -268,22 +271,43 @@ int cmd_login(const CommandParser& parser) {
     // Check if user exists
     User* user = users.find(username);
     if (!user) {
+#if DEBUG_ISSUE_54
+        if (strcmp(username, "Mostima") == 0) {
+            std::cerr << "[DEBUG LOGIN] Mostima: user not found" << std::endl;
+        }
+#endif
         return -1;
     }
 
     // Check password
     if (!user->checkPassword(password)) {
+#if DEBUG_ISSUE_54
+        if (strcmp(username, "Mostima") == 0) {
+            std::cerr << "[DEBUG LOGIN] Mostima: password incorrect" << std::endl;
+        }
+#endif
         return -1;
     }
 
     // Check if already logged in (duplicate login not allowed)
     bool* is_logged_in = logged_in_users.find(username);
     if (is_logged_in && *is_logged_in) {
+#if DEBUG_ISSUE_54
+        if (strcmp(username, "Mostima") == 0) {
+            std::cerr << "[DEBUG LOGIN] Mostima: already logged in" << std::endl;
+        }
+#endif
         return -1;
     }
 
     // Log in user
     logged_in_users.insert(username, true);
+
+#if DEBUG_ISSUE_54
+    if (strcmp(username, "Mostima") == 0) {
+        std::cerr << "[DEBUG LOGIN] Mostima: LOGIN SUCCESS" << std::endl;
+    }
+#endif
 
     return 0;
 }
@@ -1347,6 +1371,15 @@ int cmd_query_transfer(const CommandParser& parser) {
 int cmd_buy_ticket(const CommandParser& parser) {
     const char* username = parser.get('u');
     const char* trainID = parser.get('i');
+#if DEBUG_ISSUE_54
+    bool is_target_cmd = false;
+    if (username && trainID && strcmp(username, "Mostima") == 0 && strcmp(trainID, "puzzletheNewWorld") == 0) {
+        is_target_cmd = true;
+        std::cerr << "[DEBUG] TARGET buy_ticket called!" << std::endl;
+    } else if (username && trainID) {
+        std::cerr << "[DEBUG] buy_ticket: u=" << username << " i=" << trainID << std::endl;
+    }
+#endif
     const char* date_str = parser.get('d');
     const char* num_str = parser.get('n');
     const char* from_station = parser.get('f');
@@ -1355,6 +1388,9 @@ int cmd_buy_ticket(const CommandParser& parser) {
 
     // Validate parameters
     if (!username || !trainID || !date_str || !num_str || !from_station || !to_station) {
+#if DEBUG_ISSUE_54
+        if (is_target_cmd) std::cerr << "[DEBUG TARGET] FAILED: parameter validation" << std::endl;
+#endif
         return -1;
     }
 
@@ -1373,6 +1409,9 @@ int cmd_buy_ticket(const CommandParser& parser) {
     // Check if user is logged in
     bool* is_logged_in = logged_in_users.find(username);
     if (!is_logged_in || !(*is_logged_in)) {
+#if DEBUG_ISSUE_54
+        if (is_target_cmd) std::cerr << "[DEBUG TARGET] FAILED: user not logged in" << std::endl;
+#endif
         return -1;
     }
 
@@ -1380,13 +1419,25 @@ int cmd_buy_ticket(const CommandParser& parser) {
     TrainKey key(trainID);
     Train* train = trains.find(key);
     if (!train) {
+#if DEBUG_ISSUE_54
+        if (is_target_cmd) std::cerr << "[DEBUG TARGET] FAILED: train not found" << std::endl;
+#endif
         return -1;
     }
 
     // Check if train is released
     if (!train->released) {
+#if DEBUG_ISSUE_54
+        if (is_target_cmd) std::cerr << "[DEBUG TARGET] FAILED: train not released" << std::endl;
+#endif
         return -1;
     }
+
+#if DEBUG_ISSUE_54
+    if (is_target_cmd) {
+        std::cerr << "[DEBUG TARGET] Passed basic checks, proceeding..." << std::endl;
+    }
+#endif
 
     // Find station indices
     int from_idx = -1;
@@ -1488,8 +1539,30 @@ int cmd_buy_ticket(const CommandParser& parser) {
     }
     int total_price = price_per_ticket * ticket_count;
 
+#if DEBUG_ISSUE_54
+    if (is_target_cmd) {
+        std::cerr << "\n========== ISSUE #54 SEAT CHECK ==========" << std::endl;
+        std::cerr << "[SEAT CHECK] About to check seats..." << std::endl;
+        std::cerr << "[SEAT CHECK] start_date: " << (int)start_date.month << "-" << (int)start_date.day << std::endl;
+        std::cerr << "[SEAT CHECK] from_idx: " << from_idx << ", to_idx: " << to_idx << std::endl;
+        std::cerr << "[SEAT CHECK] ticket_count: " << ticket_count << std::endl;
+    }
+#endif
+
     // Check seat availability
     int available = checkAvailableSeats(trainID, start_date, from_idx, to_idx);
+
+#if DEBUG_ISSUE_54
+    if (is_target_cmd) {
+        std::cerr << "\n========== ISSUE #54 RESULT ==========" << std::endl;
+        std::cerr << "[RESULT] Available seats: " << available << std::endl;
+        std::cerr << "[RESULT] Requested: " << ticket_count << std::endl;
+        std::cerr << "[RESULT] Train seatNum: " << train->seatNum << std::endl;
+        std::cerr << "[RESULT] Total price: " << total_price << std::endl;
+        std::cerr << "[RESULT] allow_queue: " << (allow_queue ? "true" : "false") << std::endl;
+        std::cerr << "[RESULT] Decision: " << (available >= ticket_count ? "RESERVE" : "QUEUE") << std::endl;
+    }
+#endif
 
     if (available >= ticket_count) {
         // Enough seats - reserve and create order
