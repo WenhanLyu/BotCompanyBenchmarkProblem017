@@ -292,9 +292,10 @@
 
 ---
 
-### M4: Implement query_transfer Command
-**Status**: Not Started
+### M4: Implement query_transfer Command ✅
+**Status**: COMPLETE (Verified by Athena on 2026-02-26)
 **Estimated Cycles**: 12
+**Actual Cycles**: 3 (Ares team completed in 3 cycles)
 **Description**: Implement the last remaining command - query_transfer - to find optimal single-transfer routes between stations
 
 **Command Details**:
@@ -354,24 +355,62 @@
 - High complexity requires dedicated focus (not bundled with other features)
 - Estimated 200-400 LOC, 8-13 hours coding + 4-6 hours testing
 
-**Lessons Learned**: TBD
+**Test Results**:
+- query_transfer success rate: 100% (12/12 commands in basic_3)
+- Overall system pass rate: 99.977% (8540/8542 lines)
+- No regression from M3.2.2 baseline (improved by +0.157 pp)
+- Feature completeness: 16/16 commands (100%)
+
+**Implementation Notes**:
+- Leo implemented query_transfer in commit 41be122 (main.cpp lines 977-1336)
+- Comprehensive algorithm with proper date arithmetic, seat checking, and optimization
+- Minor bug in travel_time2 calculation (line 1207) - no impact on test output
+- Two edge case bugs remain (order status, queue output format) affecting only 2 lines
+
+**Lessons Learned**:
+- **Efficient execution**: Completed in 3 cycles vs 12 estimated (25% of budget)
+- **Independent verification critical**: Ramon, Tessa, Cora verified with blind methodology
+- **High quality baseline**: Starting from 99.82% made final polish easier
+- **Test methodology matters**: Sequential execution with persistent state required for basic_3
+- **Minor bugs acceptable**: 99.977% quality sufficient for stress testing phase
+- **Breaking down works**: M3→M3.1→M3.2→M3.2.1→M3.2.2→M4 incremental approach successful
 
 ---
 
-### M5: Performance Optimization and Final Testing
+### M5: Stress Testing and Final Polish
 **Status**: Not Started
-**Estimated Cycles**: 10
-**Description**: Optimize performance, fix remaining edge cases, and prepare for OJ submission
-
-**Note**: This milestone was previously titled "Transfer Query System" but that was a duplicate of M4. Renamed to focus on optimization after query_transfer is implemented.
+**Estimated Cycles**: 6
+**Description**: Run stress tests (basic_4, basic_5), fix remaining edge cases, verify OJ readiness
 
 **Success Criteria**:
-- Address code quality issues identified by Sophie (bubble sort → stable_sort, buffer overflow fixes, complete cmd_clean)
-- Optimize performance bottlenecks if needed
-- Fix remaining 15 edge case failures in basic_3 (99.82% → 100%)
-- Run basic_4, basic_5 test suites successfully
-- Memory usage within limits (42-47 MiB)
-- All SF/F operations meet performance requirements
+- ✅ basic_4 test suite passes successfully (20,651 commands including 73 query_transfer)
+- ✅ basic_5 test suite passes successfully (41,265 commands including 137 query_transfer)
+- ✅ Fix 2 remaining bugs in basic_3 to achieve 100% pass rate:
+  - Bug #1: Order status display (Test 4, line 1418) - shows [success] instead of [pending]
+  - Bug #2: Queue output format (Test 5, line 1559) - outputs order ID instead of "queue"
+- ✅ Fix travel_time2 calculation bug (main.cpp:1207) for code quality
+- ✅ Verify memory usage within limits (42-47 MiB) during stress tests
+- ✅ Confirm all SF/F operations meet performance requirements (no timeouts)
+- ✅ Code quality review and cleanup (address any Sophie findings)
+
+**Out of Scope**:
+- basic_6 (defer to M6 - 112K commands, requires CI for 20+ min runs)
+- OJ submission (M6)
+- Performance optimization (only if bottlenecks found)
+
+**Test Strategy**:
+- Run basic_4 first (smaller stress test) to identify issues
+- Fix any bugs discovered in basic_4 before basic_5
+- Run basic_5 for comprehensive stress testing
+- Monitor memory usage and performance during both tests
+- Verify no regressions in basic_1-3
+
+**Rationale**:
+- System at 99.977% quality - ready for larger-scale testing
+- basic_4 and basic_5 have NO expected output files (must verify logic correctness)
+- 2 remaining bugs are well-understood edge cases (quick fixes)
+- Need to verify system handles 40K+ command workloads
+- Final validation before OJ submission preparation
 
 **Lessons Learned**: TBD
 
@@ -393,8 +432,8 @@
 
 ---
 
-## Total Estimated Cycles: 30 (remaining from M4-M6)
-## Total Used Cycles: 109 (through M3.2.2)
+## Total Estimated Cycles: 26 (remaining: M5=6 + M6=8 + buffer=12)
+## Total Used Cycles: 112 (M1-M3.2.2: 109 + M4: 3)
 
 ## Strategy Notes
 
@@ -431,11 +470,13 @@ If any milestone exceeds budget by 50% or fails, it will be broken down into sub
 
 ---
 
-**Last Updated**: 2026-02-26 (Athena - M3.2.2 verified complete at 99.82%, defining M4 to implement query_transfer)
+**Last Updated**: 2026-02-26 (Athena - M4 verified complete at 99.977%, defining M5 for stress testing)
 
 **Key Changes in This Update**:
-- ✅ Marked M3.2.2 as COMPLETE (99.82% pass rate, verified by Apollo)
-- ✅ Fixed command count: 15/16 complete (was incorrectly shown as 14/20)
-- ✅ Merged duplicate M4/M5 milestones (both were for query_transfer)
+- ✅ Marked M4 as COMPLETE (99.977% pass rate, 100% feature completeness achieved)
+- ✅ Updated M5 scope: stress testing (basic_4, basic_5) + fix 2 remaining bugs
+- ✅ Reduced M5 budget from 10 to 6 cycles (system nearly complete, focused scope)
+- ✅ Updated cycle tracking: 112 used (M1-M4), 26 estimated remaining
+- ✅ Recorded M4 lessons learned (efficient execution, independent verification)
 - ✅ Updated M5 to focus on optimization, M6 on final testing
 - ✅ Remaining work: M4 (12 cycles) + M5 (10 cycles) + M6 (8 cycles) = ~30 cycles to completion
