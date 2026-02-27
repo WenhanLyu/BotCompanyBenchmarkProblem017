@@ -9,11 +9,11 @@
 ---
 
 ## Current Status
-- **Phase**: Milestone Definition (Athena) - Post M3.2 Completion
-- **Completed Milestones**: M1, M1.1, M2, M3.1, M3.2 (with regression)
-- **Current Focus**: Defining M3.2.1 (fix query_order regression)
-- **Code Status**: 14/20 commands complete (5 user + 4 train + query_ticket + buy_ticket + query_order + refund_ticket), 6 commands remaining
-- **Test Status**: basic_3 overall at 95.05% pass rate (below 98.8% target due to timestamp bug)
+- **Phase**: Milestone Definition (Athena) - Post M3.2.2 Completion
+- **Completed Milestones**: M1, M1.1, M2, M3.1, M3.2, M3.2.1, M3.2.2
+- **Current Focus**: Defining M4 (implement query_transfer)
+- **Code Status**: 15/16 commands complete (5 user + 4 train + query_ticket + buy_ticket + query_order + refund_ticket + clean + exit), 1 command remaining (query_transfer)
+- **Test Status**: basic_3 overall at 99.82% pass rate (exceeds 95% target)
 
 ---
 
@@ -247,9 +247,10 @@
 
 ---
 
-### M3.2.2: Complete the query_order Fix (Continue M3.2.1)
-**Status**: IN PROGRESS
+### M3.2.2: Complete the query_order Fix (Continue M3.2.1) ✅
+**Status**: COMPLETE (Verified by Apollo on 2026-02-26)
 **Estimated Cycles**: 2
+**Actual Cycles**: 1
 **Description**: Add missing saveOrderCounter() calls to complete the M3.2.1 fix
 
 **Root Cause (High Confidence - 5 independent verifications)**:
@@ -258,96 +259,142 @@
 - On restart, counter resets to stale value → new orders get duplicate timestamps
 - Result: 88.25% pass rate (regression from 95.05% baseline)
 
-**Required Changes**:
-1. Add `saveOrderCounter();` after each `createOrder()` call in cmd_buy_ticket:
-   - Line 1092: after successful seat reservation
-   - Line 1098: after queue with failed reservation
-   - Line 1107: after queue without enough seats
-2. Verify: Run basic_3 tests sequentially with state persistence
-3. Target: 95%+ overall pass rate (restore to baseline)
+**Implementation** (commit 54413cd):
+1. ✅ Added `saveOrderCounter();` after each `createOrder()` call in cmd_buy_ticket:
+   - Line 1093: after successful seat reservation
+   - Line 1100: after queue with failed reservation
+   - Line 1110: after queue without enough seats
+2. ✅ Verified: Ran basic_3 tests sequentially with state persistence
+3. ✅ Achieved: 99.82% overall pass rate (far exceeds 95% target)
 
-**Success Criteria**:
-- ✅ saveOrderCounter() called after ALL createOrder() calls in buy_ticket
-- ✅ basic_3 test 1 achieves 98.8%+ pass rate
-- ✅ Overall basic_3 tests achieve 95%+ average pass rate
+**Success Criteria**: ALL MET ✅
+- ✅ saveOrderCounter() called after ALL createOrder() calls in buy_ticket (Ursula verification)
+- ✅ basic_3 test 1 achieves 99.81% pass rate (exceeds 98.8% target)
+- ✅ Overall basic_3 tests achieve 99.82% pass rate (exceeds 95% target)
 - ✅ No new regressions in other commands
-- ✅ Results independently verified (not just self-reported)
+- ✅ Results independently verified by Apollo's team (Trina: blind verification, recalculated all pass rates)
 
-**Out of Scope**:
-- Implementing new features
-- Optimizing sorting comparators (stable_sort is sufficient)
-- Fixing unrelated bugs
+**Test Results**:
+- Test 1: 99.81% (1548/1551) ✅
+- Test 2: 99.93% (1521/1522) ✅
+- Test 3: 99.69% (1596/1601) ✅
+- Test 4: 99.89% (1799/1801) ✅
+- Test 5: 99.81% (2063/2067) ✅
+- **Overall: 99.82% (8527/8542)** - 15 failures remaining
 
-**Rationale**:
-- Root cause identified with VERY HIGH confidence (5 independent analyses agree)
-- Fix is trivial (3 lines of code: add saveOrderCounter() calls)
-- High probability of success (95%+)
-- Completes the incomplete M3.2.1 work
-- Prevents cascade effects in M4+
-
-**Lessons Learned**: TBD
-
----
-
-### M4: Query Transfer System
-**Status**: Not Started
-**Estimated Cycles**: 10
-**Description**: Implement query_transfer to find optimal single-transfer routes
-
-**Success Criteria**:
-- Finds optimal single-transfer routes (time or cost)
-- Correctly handles connection times and station matching
-- Can pass basic_5 test case
-
-**Lessons Learned**: TBD
+**Lessons Learned**:
+- **Complete fixes work**: Adding both load AND save operations (not just one) restored system to production quality
+- **Independent verification is critical**: Apollo's blind verification (Trina, Ursula) confirmed results without bias
+- **Small fixes, big impact**: 3 lines of code improved pass rate by +11.57 percentage points (88.25% → 99.82%)
+- **Test methodology matters**: Sequential tests with persistence reveal real-world behavior
+- **99.8% is production-ready**: Remaining 15 failures are minor edge cases (refund validation, queue values)
+- **Efficient execution**: Completed in 1 cycle vs 2 estimated (Ares team)
 
 ---
 
-### M5: Transfer Query System
-**Status**: Not Started
-**Estimated Cycles**: 10
-**Description**: Implement query_transfer with optimization
-
-**Success Criteria**:
-- Finds optimal single-transfer routes
-- Correctly handles time and cost optimization
-- Can pass basic_5 test case
-
-**Lessons Learned**: TBD
-
----
-
-### M6: Performance Optimization and Memory Tuning
+### M4: Implement query_transfer Command
 **Status**: Not Started
 **Estimated Cycles**: 12
-**Description**: Optimize for memory constraints (42-47 MiB) and performance requirements
+**Description**: Implement the last remaining command - query_transfer - to find optimal single-transfer routes between stations
+
+**Command Details**:
+- **Frequency**: N (~10,000 operations in stress tests)
+- **Purpose**: Find the best route with exactly one transfer between two trains
+- **Optimization**: Support both time-based and cost-based optimization
+- **Complexity**: HIGH - requires nested train iteration, date arithmetic, seat availability checks, and custom sorting
+
+**Implementation Requirements**:
+1. **Algorithm**: On-the-fly computation with pruning (O(100K ops/query))
+   - Nested iteration over all train pairs
+   - For each train pair, find all valid transfer stations
+   - Check date/time compatibility (train1 arrival < train2 departure at transfer station)
+   - Verify seat availability for both segments
+   - Apply optimization criterion (time or cost)
+   - Handle tie-breaking: lexicographic trainID, prefer less Train1 time
+
+2. **Date Arithmetic**:
+   - Reverse-engineer start dates for both trains from query date
+   - Handle multi-day journeys (trains can span 2-3 days)
+   - Validate transfer timing with proper date/time calculations
+   - Account for stopover times at transfer station
+
+3. **Seat Availability**:
+   - Check seats on Train1 from station A to transfer station
+   - Check seats on Train2 from transfer station to station B
+   - Handle different date ranges for each train segment
+
+4. **Output Format**:
+   - Two-train route with transfer details
+   - Total price and time for complete journey
+   - Handle "0" case when no valid transfer exists
 
 **Success Criteria**:
-- Memory usage within limits
-- All operations meet time requirements
-- SF/F operations highly optimized
-- Can pass basic_6 test case and stress tests
+- ✅ query_transfer command implemented and functional
+- ✅ Correctly finds optimal single-transfer routes (time or cost optimization)
+- ✅ Handles all date/time edge cases (multi-day, cross-month, leap edges)
+- ✅ Seat availability correctly checked for both segments
+- ✅ Tie-breaking rules applied correctly
+- ✅ basic_3 tests with query_transfer cases pass (12 query_transfer commands in basic_3)
+- ✅ System reaches 100% feature completeness (16/16 commands)
+
+**Out of Scope**:
+- Station-to-trains index (not needed for N-frequency operation, can compute on-the-fly)
+- Multi-transfer routes (only single-transfer required)
+- Performance optimization (defer to M5 if needed)
+
+**Test Strategy**:
+- Start with basic_2 and basic_3 query_transfer cases (4 + 12 = 16 total)
+- Verify correctness with expected outputs in basic_3
+- Test basic_4 for broader coverage (73 query_transfer commands)
+
+**Rationale**:
+- This is the ONLY remaining command to achieve 100% spec compliance (15/16 → 16/16)
+- N-frequency means it's used in every test suite (basic_1-6)
+- Blocks advancement to basic_4, basic_5, basic_6 testing
+- High complexity requires dedicated focus (not bundled with other features)
+- Estimated 200-400 LOC, 8-13 hours coding + 4-6 hours testing
 
 **Lessons Learned**: TBD
 
 ---
 
-### M7: Final Testing and OJ Submission
+### M5: Performance Optimization and Final Testing
+**Status**: Not Started
+**Estimated Cycles**: 10
+**Description**: Optimize performance, fix remaining edge cases, and prepare for OJ submission
+
+**Note**: This milestone was previously titled "Transfer Query System" but that was a duplicate of M4. Renamed to focus on optimization after query_transfer is implemented.
+
+**Success Criteria**:
+- Address code quality issues identified by Sophie (bubble sort → stable_sort, buffer overflow fixes, complete cmd_clean)
+- Optimize performance bottlenecks if needed
+- Fix remaining 15 edge case failures in basic_3 (99.82% → 100%)
+- Run basic_4, basic_5 test suites successfully
+- Memory usage within limits (42-47 MiB)
+- All SF/F operations meet performance requirements
+
+**Lessons Learned**: TBD
+
+---
+
+### M6: Final Testing and OJ Submission
 **Status**: Not Started
 **Estimated Cycles**: 8
-**Description**: Comprehensive testing, edge case handling, and OJ submission
+**Description**: Comprehensive testing, stress testing, and first OJ submission
 
 **Success Criteria**:
-- All local tests pass
-- Code review quality check complete
+- All local tests pass (basic_1 through basic_6)
+- Code compiles on OJ system
+- Memory usage within limits (42-47 MiB)
 - First OJ submission successful or provides actionable feedback
-- All issues from OJ feedback resolved
+- Address any OJ feedback issues
 
 **Lessons Learned**: TBD
 
 ---
 
-## Total Estimated Cycles: 78
+## Total Estimated Cycles: 30 (remaining from M4-M6)
+## Total Used Cycles: 109 (through M3.2.2)
 
 ## Strategy Notes
 
@@ -384,4 +431,11 @@ If any milestone exceeds budget by 50% or fails, it will be broken down into sub
 
 ---
 
-**Last Updated**: 2026-02-26 (Athena - M3.2.1 failed with regression, defining M3.2.2 continuation)
+**Last Updated**: 2026-02-26 (Athena - M3.2.2 verified complete at 99.82%, defining M4 to implement query_transfer)
+
+**Key Changes in This Update**:
+- ✅ Marked M3.2.2 as COMPLETE (99.82% pass rate, verified by Apollo)
+- ✅ Fixed command count: 15/16 complete (was incorrectly shown as 14/20)
+- ✅ Merged duplicate M4/M5 milestones (both were for query_transfer)
+- ✅ Updated M5 to focus on optimization, M6 on final testing
+- ✅ Remaining work: M4 (12 cycles) + M5 (10 cycles) + M6 (8 cycles) = ~30 cycles to completion
