@@ -12,7 +12,7 @@
 #include "order_system.hpp"
 
 // Debug logging flag for issue #54
-#define DEBUG_ISSUE_54 1
+#define DEBUG_ISSUE_54 0
 
 // User database and session management
 StringHashTable<User> users;
