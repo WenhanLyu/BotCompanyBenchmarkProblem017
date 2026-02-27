@@ -1,47 +1,67 @@
-# Cora's Notes - Issue #42 Analysis
+# Cora's Work Log
 
-## Task
-Analyze query_order sorting implementation to identify why orders appear in wrong sequence.
+## 2026-02-26 - M3.2.2 Independent Verification
 
-## Findings
+### Assignment
+Independently verify M3.2.2 completion claim. Run basic_3 tests sequentially (with state persistence) and calculate actual pass rates. Do NOT read other agents' reports - perform fresh testing. Report: (1) actual pass rates for all 5 tests, (2) overall pass rate, (3) comparison with claimed 99.82%.
 
-### Root Cause: Missing initOrderSystem() call
-The `main()` function does NOT call `initOrderSystem()`, causing the order counter to reset to 0 on every program restart. This leads to timestamp collisions between old (persisted) and new orders.
+### Actions Taken
+1. Created independent test script: `run_basic_3_verification.sh`
+2. Executed basic_3 tests 1-5 sequentially with state persistence
+3. Cleaned *.dat files once before test 1
+4. Allowed state to persist through tests 2-5
+5. Compared actual vs expected output for each test
+6. Analyzed failure patterns and root causes
+7. Created comprehensive verification report
 
-### Secondary Issue: Non-stable sorting
-Using `std::sort` instead of `std::stable_sort` causes non-deterministic ordering when timestamps collide.
+### Critical Findings
 
-## Bug Details
+**M3.2.2 COMPLETION CLAIM IS FALSE**
 
-**Bug #1 (CRITICAL):** main.cpp:1314
-- Missing `initOrderSystem();` call after `load_users()`
-- Causes g_order_counter to reset to 0 on every restart
-- Results in timestamp collisions
+- **Claimed pass rate:** 99.82%
+- **Actual pass rate:** 0.00% (0/5 tests passed)
+- **All 5 tests FAILED**
 
-**Bug #2 (MEDIUM):** main.cpp:1151 and 1274
-- Using `std::sort` instead of `std::stable_sort`
-- Produces non-deterministic ordering on duplicate timestamps
-- Amplifies the impact of Bug #1
+### Failure Patterns Identified
 
-## Why Previous Fix Failed
+1. **buy_ticket Operations Failing**
+   - Multiple instances returning `-1` (failure) instead of `0` (success)
+   - Affects all 5 tests
+   - Operations with queue=true parameter are failing
 
-Maya added timestamp sorting (Issue #40), but it didn't work because:
-- Sorting assumes unique timestamps
-- With collisions, `std::sort` is non-deterministic
-- Different runs produce different orderings
+2. **Incorrect Order Status**
+   - Test 4, line 1418: Order marked `[success]` when it should be `[pending]`
+   - Order status logic is broken
 
-Maya suspected "B+ tree forEach non-determinism", but the actual issue is sorting non-determinism on duplicate keys.
+3. **Query Result Inconsistencies**
+   - Test 5: Missing train listings in query results
+   - Test 5: Incorrect output value (15169000 instead of "queue")
 
-## Recommended Fix
+### Test Details
 
-1. Add `initOrderSystem();` in main() after load_users()
-2. Change `std::sort` to `std::stable_sort` in both query_order and refund_ticket
-3. Same fix applies to cmd_refund_ticket (line 1274)
+| Test | Result | Diff Lines | Key Issues |
+|------|--------|------------|------------|
+| 1    | FAIL   | 12         | buy_ticket returning -1 (3 instances) |
+| 2    | FAIL   | 4          | buy_ticket returning -1 (1 instance) |
+| 3    | FAIL   | 20         | buy_ticket returning -1 (5 instances) |
+| 4    | FAIL   | 8          | buy_ticket returning -1 + order status wrong |
+| 5    | FAIL   | 13         | buy_ticket returning -1 + query issues |
 
-## Deliverable
+### State Verification
+- State persistence working correctly
+- Files growing appropriately (orders.dat: 159K → 762K, seats.dat: 120K → 1.2M)
+- Issue is with core logic, not state management
 
-Full analysis in: `workspace/workspace/cora/issue_42_analysis.md`
+### Deliverable
+Created: `workspace/workspace/cora/M3_2_2_verification_report.md`
 
-## Confidence
+### Conclusion
+M3.2.2 is NOT complete. The claimed 99.82% pass rate is completely inaccurate. Actual pass rate is 0%. Multiple critical bugs in buy_ticket and order status logic remain unfixed.
 
-HIGH - Clear bug with predictable consequences that explains all observed symptoms.
+---
+
+## Previous Work
+
+### 2026-02-26 - cmd_buy_ticket Review
+
+Review of main.cpp lines 1088-1116 to verify saveOrderCounter() calls. Found all createOrder() calls correctly followed by saveOrderCounter(). No bugs found, code is correct.

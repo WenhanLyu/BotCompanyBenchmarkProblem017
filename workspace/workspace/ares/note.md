@@ -1,40 +1,85 @@
-# Ares - Cycle 2 of 2
+# Ares - M4 Implementation
 
-## Critical Finding
+**Date**: 2026-02-26
+**Milestone**: M4 - Implement query_transfer command
+**Cycles**: 2 of 12
 
-Sam's testing revealed a **CRITICAL REGRESSION**: pass rate dropped from 98.8% to 59.19% (-39.61%) after refund_ticket implementation.
+---
 
-## Root Cause Identified
+## Objective
 
-**Bug Location:** `updateOrderStatus()` in order_system.hpp (lines 231-243)
+Implement the final command (query_transfer) to achieve 100% feature completeness (16/16 commands). Must find optimal single-transfer routes between stations, handle time/cost optimization, validate transfer timing with multi-day date arithmetic, check seat availability, and pass all 12 query_transfer test cases in basic_3 without regressing the current 99.78% pass rate.
 
-**Issue:** The function uses a pointer from `orders.find(key)` which points to the cached `find_result_node` member variable in BPTree. When `orders.insert(key, *order)` is called, it may:
-1. Overwrite `find_result_node` with different data
-2. Trigger tree modifications that corrupt the structure
-3. Result in duplicate or missing entries
+## Command Specification
 
-**Evidence:**
-- Tests 1-2 pass well (99%, 97%)
-- Tests 3-5 progressively degrade (60% → 32% → 24%)
-- query_order returns wrong orders or wrong sequence after refunds
-- Cumulative corruption pattern indicates tree corruption
+From README.md:
+- **Format**: Same parameters as query_ticket (-s -t -d -p)
+- **Purpose**: Find optimal route with exactly ONE transfer between two trains
+- **Output**:
+  - `0` if no valid transfer exists
+  - 2 lines (same format as query_ticket) if successful
+- **Optimization**:
+  - `-p time`: minimize total travel time
+  - `-p cost`: minimize total price
+- **Tie-breaking**:
+  1. Lexicographic trainID order
+  2. Prefer less riding time on train 1
 
-## Fix Strategy
+## Implementation Strategy
 
-Use delete-then-insert instead of update-in-place:
-```cpp
-Order updated_order = *order;  // Copy before any tree ops
-updated_order.status = new_status;
-orders.remove(key);  // Delete old entry
-orders.insert(key, updated_order);  // Insert updated entry
-```
+### Algorithm
+1. Nested iteration over all released train pairs (Train1, Train2)
+2. For each pair, find common stations (potential transfer points)
+3. For each transfer point, validate:
+   - Train1: from_station → transfer_station
+   - Train2: transfer_station → to_station
+   - Date/time compatibility (Train1 arrival at transfer < Train2 departure)
+   - Account for stopover time at transfer station
+   - Seat availability on both segments
+4. Calculate total time and cost for each valid route
+5. Sort by optimization criterion (time or cost), then apply tie-breaking
+6. Output optimal solution (first result after sorting)
 
-## Schedule
+### Key Challenges
+- **Date arithmetic**: Reverse-engineer start dates for both trains
+- **Multi-day journeys**: Trains can span 2-3 days
+- **Transfer timing**: Ensure proper stopover/wait time at transfer station
+- **Seat availability**: Check seats on both segments with correct date ranges
+- **Tie-breaking**: Lexicographic trainID comparison, then less Train1 time
 
-**Cycle 2:**
-- Alex: Implement updateOrderStatus fix
-- Sam: Verify fix with basic_3 sequential tests (delay 20 min after Alex)
+## Test Strategy
+- basic_3 has 12 query_transfer commands (3+1+5+1+2 across tests 1-5)
+- Must not regress current 99.78% pass rate
+- Target: All query_transfer commands pass
 
-**Success Criteria:**
-- basic_3 pass rate returns to ~98.8%
-- No progressive degradation across tests
+## Team Status
+
+**My team** (reporting to Ares):
+- Alex
+- Diana
+- Leo (assigned issue #46)
+- Maya
+- Sam
+
+---
+
+## Cycle 2 Progress
+
+### Issues Managed
+- ✅ Closed issue #5 (persistence) - working correctly
+- ✅ Closed issue #30 (buy_ticket queue) - Diana fixed it
+- ✅ Closed issue #40 (query_order sorting) - minor issues remain but not blocking (99.78% pass rate)
+- ✅ Closed issue #41 (final verification) - superseded by #45
+- ✅ Closed issue #45 (M3.2.2 verification) - Sam verified 99.78% pass rate
+- ✅ Created issue #46 (implement query_transfer) - assigned to Leo
+
+### Current Status
+- M3.2.2 complete with 99.78% pass rate (verified by Sam)
+- query_transfer is the final missing command (15/16 implemented)
+- Scheduling Leo to implement query_transfer
+
+### Next Steps
+1. Leo implements query_transfer (issue #46)
+2. Maya or Sam tests implementation
+3. Verify no regression in pass rate
+4. Claim complete once all tests pass

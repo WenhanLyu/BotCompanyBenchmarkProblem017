@@ -1,0 +1,47 @@
+BASIC_3 SEQUENTIAL TEST RESULTS - STATE PERSISTENCE MODE
+========================================================
+
+Test Date: 2026-02-26
+Configuration: Clean *.dat once before test 1, run tests 1-5 continuously
+
+PASS RATES
+----------
+Test 1: 0.00% (0/1)
+Test 2: 0.00% (0/1)
+Test 3: 0.00% (0/1)
+Test 4: 0.00% (0/1)
+Test 5: 0.00% (0/1)
+
+Overall: 0.00% (0/5 tests passed)
+
+DIFF ANALYSIS
+-------------
+Test 1: 12 lines different
+Test 2: 4 lines different
+Test 3: 20 lines different
+Test 4: 8 lines different
+Test 5: 13 lines different
+Total: 57 lines different
+
+PRIMARY FAILURE PATTERN
+------------------------
+Commands returning -1 (error) instead of 0 (success)
+
+SECONDARY ISSUES
+----------------
+Test 4: Order status incorrect ([pending] vs [success])
+Test 5: Missing query results and incorrect output format
+
+STATE PERSISTENCE
+-----------------
+✅ Verified working correctly
+- Data files grow continuously across tests as expected
+- No state corruption observed
+- Tests properly accumulate data
+
+FILES GENERATED
+---------------
+- basic_3_sequential_test_results.md (detailed report)
+- run_basic_3_sequential.sh (test script)
+- basic_3_1_actual.txt through basic_3_5_actual.txt (outputs)
+- basic_3_1_diff.txt through basic_3_5_diff.txt (differences)

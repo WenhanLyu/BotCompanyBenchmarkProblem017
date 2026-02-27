@@ -1,0 +1,9 @@
+add_user -c cur -u admin -p password123 -n 管理员 -m admin@test.com -g 10
+add_train -i T1 -n 3 -m 100 -s 上海|杭州|南京 -p 50|100 -x 08:00 -t 60|120 -o 10 -d 06-01|08-31 -y G
+add_train -i T2 -n 3 -m 100 -s 杭州|苏州|北京 -p 80|150 -x 10:00 -t 90|180 -o 15 -d 06-01|08-31 -y G
+release_train -i T1
+release_train -i T2
+query_ticket -s 上海 -t 杭州 -d 06-10
+query_ticket -s 杭州 -t 北京 -d 06-10
+query_transfer -s 上海 -t 北京 -d 06-10
+exit

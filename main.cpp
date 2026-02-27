@@ -711,6 +711,42 @@ bool compareByCost(const TicketResult& a, const TicketResult& b) {
     return strcmp(a.trainID, b.trainID) < 0;
 }
 
+// Transfer result structure for query_transfer
+struct TransferResult {
+    TicketResult train1;  // First train segment
+    TicketResult train2;  // Second train segment
+    int total_time;       // Total travel time in minutes
+    int total_price;      // Total price
+    int train1_time;      // Time on train1 (for tie-breaking)
+
+    TransferResult() : total_time(0), total_price(0), train1_time(0) {}
+};
+
+// Comparison functions for transfer results
+bool compareTransferByTime(const TransferResult& a, const TransferResult& b) {
+    if (a.total_time != b.total_time) {
+        return a.total_time < b.total_time;
+    }
+    int cmp1 = strcmp(a.train1.trainID, b.train1.trainID);
+    if (cmp1 != 0) return cmp1 < 0;
+    int cmp2 = strcmp(a.train2.trainID, b.train2.trainID);
+    if (cmp2 != 0) return cmp2 < 0;
+    // Prefer less time on train1
+    return a.train1_time < b.train1_time;
+}
+
+bool compareTransferByCost(const TransferResult& a, const TransferResult& b) {
+    if (a.total_price != b.total_price) {
+        return a.total_price < b.total_price;
+    }
+    int cmp1 = strcmp(a.train1.trainID, b.train1.trainID);
+    if (cmp1 != 0) return cmp1 < 0;
+    int cmp2 = strcmp(a.train2.trainID, b.train2.trainID);
+    if (cmp2 != 0) return cmp2 < 0;
+    // Prefer less time on train1
+    return a.train1_time < b.train1_time;
+}
+
 int cmd_query_ticket(const CommandParser& parser) {
     const char* from_station = parser.get('s');
     const char* to_station = parser.get('t');
@@ -934,6 +970,367 @@ int cmd_query_ticket(const CommandParser& parser) {
                   << results[i].price << " "
                   << results[i].seat << std::endl;
     }
+
+    return 0;
+}
+
+int cmd_query_transfer(const CommandParser& parser) {
+    const char* from_station = parser.get('s');
+    const char* to_station = parser.get('t');
+    const char* date_str = parser.get('d');
+    const char* sort_by = parser.get('p');
+
+    if (!from_station || !to_station || !date_str) {
+        return -1;
+    }
+
+    // Parse departure date from station -s
+    Date departure_date(date_str);
+
+    // Default sort by time if not specified
+    bool sort_by_time = true;
+    if (sort_by && strcmp(sort_by, "cost") == 0) {
+        sort_by_time = false;
+    }
+
+    // Collect all released trains
+    struct TrainInfo {
+        Train train;
+        TrainKey key;
+    };
+    TrainInfo all_trains[1000];
+    int train_count = 0;
+
+    trains.forEach([&](const TrainKey& key, const Train& train) {
+        if (train.released && train_count < 1000) {
+            all_trains[train_count].train = train;
+            all_trains[train_count].key = key;
+            train_count++;
+        }
+    });
+
+    // Collect valid transfer solutions
+    TransferResult results[5000];
+    int result_count = 0;
+
+    const int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
+    // Iterate through all train pairs
+    for (int i1 = 0; i1 < train_count; i1++) {
+        const Train& train1 = all_trains[i1].train;
+
+        // Find from_station in train1
+        int from_idx1 = -1;
+        for (int i = 0; i < train1.stationNum; i++) {
+            if (strcmp(train1.stations[i].name, from_station) == 0) {
+                from_idx1 = i;
+                break;
+            }
+        }
+        if (from_idx1 == -1) continue;
+
+        // For each other train
+        for (int i2 = 0; i2 < train_count; i2++) {
+            if (i1 == i2) continue;  // Same train - not allowed
+
+            const Train& train2 = all_trains[i2].train;
+
+            // Find to_station in train2
+            int to_idx2 = -1;
+            for (int i = 0; i < train2.stationNum; i++) {
+                if (strcmp(train2.stations[i].name, to_station) == 0) {
+                    to_idx2 = i;
+                    break;
+                }
+            }
+            if (to_idx2 == -1) continue;
+
+            // Find common transfer stations
+            for (int t1 = from_idx1 + 1; t1 < train1.stationNum; t1++) {
+                for (int t2 = 0; t2 < to_idx2; t2++) {
+                    if (strcmp(train1.stations[t1].name, train2.stations[t2].name) != 0) {
+                        continue;  // Not the same station
+                    }
+
+                    // Use do-while(false) pattern to allow break instead of goto
+                    do {
+                        // Found a potential transfer station
+                        const char* transfer_station = train1.stations[t1].name;
+
+                        // Calculate train1 segment: from_station -> transfer_station
+
+                        // Calculate minutes from start to DEPARTURE from from_station on train1
+                        int minutes_to_from1 = 0;
+                        for (int i = 0; i < from_idx1; i++) {
+                            minutes_to_from1 += train1.travelTimes[i];
+                            if (i > 0) {
+                                minutes_to_from1 += train1.stopoverTimes[i - 1];
+                            }
+                        }
+                        if (from_idx1 > 0) {
+                            minutes_to_from1 += train1.stopoverTimes[from_idx1 - 1];
+                        }
+
+                        // Calculate start_date for train1 by working backwards from departure_date
+                        int days_to_subtract = minutes_to_from1 / (24 * 60);
+                        Date start_date1 = departure_date;
+
+                        while (days_to_subtract > 0) {
+                            if (start_date1.day > days_to_subtract) {
+                                start_date1.day -= days_to_subtract;
+                                break;
+                            } else {
+                                days_to_subtract -= start_date1.day;
+                                start_date1.month--;
+                                if (start_date1.month < 6) {
+                                    break;  // Gone before June - invalid
+                                }
+                                start_date1.day = days_in_month[start_date1.month];
+                            }
+                        }
+                        if (start_date1.month < 6) break;  // Invalid start date
+
+                        // Fine-tune start_date1
+                        DateTime leaving_at_from1(start_date1, train1.startTime);
+                        leaving_at_from1.addMinutes(minutes_to_from1);
+
+                        while (leaving_at_from1.date < departure_date) {
+                            start_date1.day++;
+                            if (start_date1.day > days_in_month[start_date1.month]) {
+                                start_date1.day = 1;
+                                start_date1.month++;
+                                if (start_date1.month > 8) {
+                                    break;
+                                }
+                            }
+                            leaving_at_from1 = DateTime(start_date1, train1.startTime);
+                            leaving_at_from1.addMinutes(minutes_to_from1);
+                        }
+                        if (start_date1.month > 8) break;  // Invalid
+
+                        while (leaving_at_from1.date > departure_date) {
+                            start_date1.day--;
+                            if (start_date1.day < 1) {
+                                start_date1.month--;
+                                if (start_date1.month < 6) {
+                                    break;
+                                }
+                                start_date1.day = days_in_month[start_date1.month];
+                            }
+                            leaving_at_from1 = DateTime(start_date1, train1.startTime);
+                            leaving_at_from1.addMinutes(minutes_to_from1);
+                        }
+                        if (start_date1.month < 6) break;  // Invalid
+
+                        // Check if start_date1 is within sale range
+                        if (start_date1 < train1.saleDate[0] || start_date1 > train1.saleDate[1]) {
+                            break;
+                        }
+
+                        // Calculate arrival time at transfer_station on train1
+                        DateTime arriving_at_transfer1(start_date1, train1.startTime);
+                        int minutes_to_transfer1 = 0;
+                        for (int i = 0; i < t1; i++) {
+                            minutes_to_transfer1 += train1.travelTimes[i];
+                            if (i > 0) {
+                                minutes_to_transfer1 += train1.stopoverTimes[i - 1];
+                            }
+                        }
+                        arriving_at_transfer1.addMinutes(minutes_to_transfer1);
+
+                        // Calculate train2 segment: transfer_station -> to_station
+
+                        // Calculate minutes from train2 start to DEPARTURE from transfer_station
+                        int minutes_to_transfer2_depart = 0;
+                        for (int i = 0; i < t2; i++) {
+                            minutes_to_transfer2_depart += train2.travelTimes[i];
+                            if (i > 0) {
+                                minutes_to_transfer2_depart += train2.stopoverTimes[i - 1];
+                            }
+                        }
+                        if (t2 > 0) {
+                            minutes_to_transfer2_depart += train2.stopoverTimes[t2 - 1];
+                        }
+
+                        // Try all possible start dates for train2 within its sale range
+                        bool found_valid_train2 = false;
+                        Date start_date2;
+                        DateTime leaving_at_transfer2;
+
+                        for (Date try_date2 = train2.saleDate[0]; try_date2 <= train2.saleDate[1]; try_date2.day++) {
+                            if (try_date2.day > days_in_month[try_date2.month]) {
+                                try_date2.day = 1;
+                                try_date2.month++;
+                                if (try_date2.month > 8) break;
+                            }
+
+                            DateTime try_leaving2(try_date2, train2.startTime);
+                            try_leaving2.addMinutes(minutes_to_transfer2_depart);
+
+                            // Check if train2 departs AFTER train1 arrives
+                            if (arriving_at_transfer1 < try_leaving2) {
+                                start_date2 = try_date2;
+                                leaving_at_transfer2 = try_leaving2;
+                                found_valid_train2 = true;
+                                break;
+                            }
+                        }
+
+                        if (!found_valid_train2) {
+                            break;
+                        }
+
+                        // Calculate arrival time at to_station on train2
+                        DateTime arriving_at_to2(start_date2, train2.startTime);
+                        int minutes_to_to2 = 0;
+                        for (int i = 0; i < to_idx2; i++) {
+                            minutes_to_to2 += train2.travelTimes[i];
+                            if (i > 0) {
+                                minutes_to_to2 += train2.stopoverTimes[i - 1];
+                            }
+                        }
+                        arriving_at_to2.addMinutes(minutes_to_to2);
+
+                        // Calculate prices
+                        int price1 = 0;
+                        for (int i = from_idx1; i < t1; i++) {
+                            price1 += train1.prices[i];
+                        }
+
+                        int price2 = 0;
+                        for (int i = t2; i < to_idx2; i++) {
+                            price2 += train2.prices[i];
+                        }
+
+                        // Calculate travel times
+                        int travel_time1 = minutes_to_transfer1 - minutes_to_from1;
+                        int travel_time2 = minutes_to_to2 - (minutes_to_transfer2_depart - (t2 > 0 ? train2.stopoverTimes[t2 - 1] : 0));
+
+                        // Check seat availability
+                        SeatKey seat_key1(train1.trainID, start_date1);
+                        SeatAvailability* seat_data1 = seats.find(seat_key1);
+                        int avail1 = seat_data1 ? checkAvailableSeats(train1.trainID, start_date1, from_idx1, t1) : train1.seatNum;
+
+                        SeatKey seat_key2(train2.trainID, start_date2);
+                        SeatAvailability* seat_data2 = seats.find(seat_key2);
+                        int avail2 = seat_data2 ? checkAvailableSeats(train2.trainID, start_date2, t2, to_idx2) : train2.seatNum;
+
+                        // Store result
+                        if (result_count < 5000) {
+                            TransferResult& result = results[result_count++];
+
+                            // Train1 segment
+                            strncpy(result.train1.trainID, train1.trainID, 24);
+                            result.train1.trainID[24] = '\0';
+                            strncpy(result.train1.from, from_station, 34);
+                            result.train1.from[34] = '\0';
+                            strncpy(result.train1.to, transfer_station, 34);
+                            result.train1.to[34] = '\0';
+                            result.train1.leaving_time = leaving_at_from1;
+                            result.train1.arriving_time = arriving_at_transfer1;
+                            result.train1.price = price1;
+                            result.train1.seat = avail1;
+                            result.train1.travel_minutes = travel_time1;
+
+                            // Train2 segment
+                            strncpy(result.train2.trainID, train2.trainID, 24);
+                            result.train2.trainID[24] = '\0';
+                            strncpy(result.train2.from, transfer_station, 34);
+                            result.train2.from[34] = '\0';
+                            strncpy(result.train2.to, to_station, 34);
+                            result.train2.to[34] = '\0';
+                            result.train2.leaving_time = leaving_at_transfer2;
+                            result.train2.arriving_time = arriving_at_to2;
+                            result.train2.price = price2;
+                            result.train2.seat = avail2;
+                            result.train2.travel_minutes = travel_time2;
+
+                            // Calculate total metrics
+                            result.total_price = price1 + price2;
+
+                            // Total time = time from leaving from_station to arriving at to_station
+                            DateTime start_journey = leaving_at_from1;
+                            DateTime end_journey = arriving_at_to2;
+
+                            int total_minutes = 0;
+                            // Calculate day difference
+                            int day_diff = end_journey.date.toDayNumber() - start_journey.date.toDayNumber();
+                            total_minutes = day_diff * 24 * 60;
+                            // Add time difference
+                            total_minutes += end_journey.time.toMinutes() - start_journey.time.toMinutes();
+
+                            result.total_time = total_minutes;
+                            result.train1_time = travel_time1;
+                        }
+                    } while (false);
+                }
+            }
+        }
+    }
+
+    // Check if any transfers found
+    if (result_count == 0) {
+        std::cout << "0" << std::endl;
+        return 0;
+    }
+
+    // Sort results
+    if (sort_by_time) {
+        for (int i = 0; i < result_count - 1; i++) {
+            for (int j = 0; j < result_count - i - 1; j++) {
+                if (!compareTransferByTime(results[j], results[j + 1])) {
+                    TransferResult temp = results[j];
+                    results[j] = results[j + 1];
+                    results[j + 1] = temp;
+                }
+            }
+        }
+    } else {
+        for (int i = 0; i < result_count - 1; i++) {
+            for (int j = 0; j < result_count - i - 1; j++) {
+                if (!compareTransferByCost(results[j], results[j + 1])) {
+                    TransferResult temp = results[j];
+                    results[j] = results[j + 1];
+                    results[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    // Output best result only
+    TransferResult& best = results[0];
+
+    // Format and output train1
+    char leaving_date1[6], leaving_time1[6];
+    char arriving_date1[6], arriving_time1[6];
+    best.train1.leaving_time.date.format(leaving_date1);
+    best.train1.leaving_time.time.format(leaving_time1);
+    best.train1.arriving_time.date.format(arriving_date1);
+    best.train1.arriving_time.time.format(arriving_time1);
+
+    std::cout << best.train1.trainID << " "
+              << best.train1.from << " "
+              << leaving_date1 << " " << leaving_time1 << " -> "
+              << best.train1.to << " "
+              << arriving_date1 << " " << arriving_time1 << " "
+              << best.train1.price << " "
+              << best.train1.seat << std::endl;
+
+    // Format and output train2
+    char leaving_date2[6], leaving_time2[6];
+    char arriving_date2[6], arriving_time2[6];
+    best.train2.leaving_time.date.format(leaving_date2);
+    best.train2.leaving_time.time.format(leaving_time2);
+    best.train2.arriving_time.date.format(arriving_date2);
+    best.train2.arriving_time.time.format(arriving_time2);
+
+    std::cout << best.train2.trainID << " "
+              << best.train2.from << " "
+              << leaving_date2 << " " << leaving_time2 << " -> "
+              << best.train2.to << " "
+              << arriving_date2 << " " << arriving_time2 << " "
+              << best.train2.price << " "
+              << best.train2.seat << std::endl;
 
     return 0;
 }
@@ -1397,6 +1794,14 @@ int main() {
             CommandParser parser;
             parser.parse(line);
             int result = cmd_query_ticket(parser);
+            if (result == -1) {
+                std::cout << "-1" << std::endl;
+            }
+        } else if (command == "query_transfer") {
+            std::getline(std::cin, line);
+            CommandParser parser;
+            parser.parse(line);
+            int result = cmd_query_transfer(parser);
             if (result == -1) {
                 std::cout << "-1" << std::endl;
             }

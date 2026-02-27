@@ -1,0 +1,20 @@
+--- /Users/wenhanlyu/Documents/BotCompany/tbc_projdevbench_runs/tbc-pdb-017/data/017/data/basic_3/4.out	2026-02-26 13:42:43
++++ /Users/wenhanlyu/Documents/BotCompany/tbc_projdevbench_runs/tbc-pdb-017/workspace/workspace/sam/M3_2_2_test_4_actual.txt	2026-02-26 18:55:40
+@@ -118,7 +118,7 @@
+ LeavesofGrass 新疆博乐市 06-30 06:11 -> 新疆伊宁市 06-30 08:52 402 64109
+ -1
+ 7975680
+-0
++-1
+ -1
+ 1
+ ThereforeIsendyou 天津市 07-31 17:39 -> 山东省胶南市 08-01 10:01 1074 3759
+@@ -1415,7 +1415,7 @@
+ [pending] LeavesofGrass 浙江省平湖市 07-16 08:59 -> 河南省偃师市 07-17 03:28 3041 13100
+ [pending] LeavesofGrass 湖南省衡阳市 07-25 16:20 -> 浙江省慈溪市 07-26 09:48 2659 16438
+ [pending] LeavesofGrass 浙江省平湖市 07-02 08:59 -> 浙江省慈溪市 07-03 09:48 3706 22938
+-[pending] LeavesofGrass 河南省灵宝市 06-28 23:45 -> 河南省偃师市 06-29 03:28 346 15759
++[success] LeavesofGrass 河南省灵宝市 06-28 23:45 -> 河南省偃师市 06-29 03:28 346 15759
+ [success] IHEARDthatyouask 天津市 07-22 06:35 -> 四川省彭州市 07-22 23:13 249 22684
+ [success] IHEARDthatyouask 新疆吐鲁番市 07-10 05:55 -> 广东省云浮市 07-10 18:52 725 1192
+ [pending] LeavesofGrass 新疆塔城市 07-04 07:38 -> 陕西省安康市 07-04 17:15 1826 15136
