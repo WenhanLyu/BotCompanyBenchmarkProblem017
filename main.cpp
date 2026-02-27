@@ -1204,7 +1204,7 @@ int cmd_query_transfer(const CommandParser& parser) {
 
                         // Calculate travel times
                         int travel_time1 = minutes_to_transfer1 - minutes_to_from1;
-                        int travel_time2 = minutes_to_to2 - (minutes_to_transfer2_depart - (t2 > 0 ? train2.stopoverTimes[t2 - 1] : 0));
+                        int travel_time2 = minutes_to_to2 - minutes_to_transfer2_depart;
 
                         // Check seat availability
                         SeatKey seat_key1(train1.trainID, start_date1);

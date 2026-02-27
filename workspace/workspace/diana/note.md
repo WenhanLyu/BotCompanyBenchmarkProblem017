@@ -1,5 +1,38 @@
 # Diana's Implementation Notes
 
+## Issue #49: Fix travel_time2 Calculation Bug - FIXED ✅
+
+### Problem
+In `query_transfer` command, the `travel_time2` calculation (line 1207) incorrectly added the stopover time at the transfer station, inflating the reported travel time.
+
+**Buggy code:**
+```cpp
+int travel_time2 = minutes_to_to2 - (minutes_to_transfer2_depart - (t2 > 0 ? train2.stopoverTimes[t2 - 1] : 0));
+```
+
+This simplifies to: `travel_time2 = minutes_to_to2 - minutes_to_transfer2_depart + stopover_at_transfer`
+
+### Root Cause
+- `minutes_to_transfer2_depart` already includes the stopover (it's the DEPARTURE time from transfer)
+- `minutes_to_to2` is the ARRIVAL time at destination
+- The formula was subtracting the stopover again, which effectively ADDED it to the travel time
+
+### Fix Applied
+Simplified to match the pattern used for `travel_time1`:
+```cpp
+int travel_time2 = minutes_to_to2 - minutes_to_transfer2_depart;
+```
+
+### Impact
+- **Severity**: Code quality issue
+- **Test Impact**: No impact on test outputs (travel_time2 is stored but not used for sorting/comparison in current test cases)
+- **Correctness**: Now reports accurate travel time for the second segment of transfer journeys
+
+### Status
+✅ Fixed and tested (main.cpp:1207)
+
+---
+
 ## refund_ticket Implementation - COMPLETE ✅
 
 ### Summary
