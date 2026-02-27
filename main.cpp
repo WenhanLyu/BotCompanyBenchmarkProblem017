@@ -662,7 +662,16 @@ int cmd_query_train(const CommandParser& parser) {
 
         // Seats
         if (i < train.stationNum - 1) {
-            std::cout << train.seatNum;
+            // Check actual seat availability for this segment
+            SeatKey seat_key(train.trainID, query_date);
+            SeatAvailability* seat_data = seats.find(seat_key);
+            if (seat_data) {
+                // Seat tracking data exists, use actual availability for segment i
+                std::cout << seat_data->available[i];
+            } else {
+                // No seat tracking data yet (no tickets sold), use full capacity
+                std::cout << train.seatNum;
+            }
         } else {
             std::cout << "x";
         }
