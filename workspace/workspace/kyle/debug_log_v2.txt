@@ -1,0 +1,215 @@
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-5 | Segments: 1 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 46686
+  Segment 2: 47885
+  Segment 3: 47885
+  Segment 4: 47885
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-25 | Segments: 0 to 2
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-28 | Segments: 0 to 1
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-7 | Segments: 0 to 4
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+  Segment 2: 47885
+  Segment 3: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 6016 seats for segments 0 to 3
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-22 | Segments: 3 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 3: 40837
+  Segment 4: 42400
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-26 | Segments: 2 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 2: 37937
+[DEBUG reserveSeats] SUCCESS: Reserving 1220 seats for segments 2 to 2
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-16 | Segments: 0 to 1
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 4676 seats for segments 0 to 0
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-8 | Segments: 0 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 43263
+  Segment 1: 43263
+  Segment 2: 43263
+[DEBUG reserveSeats] SUCCESS: Reserving 10738 seats for segments 0 to 2
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-3 | Segments: 2 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 2: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 4645 seats for segments 2 to 2
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-7 | Segments: 2 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 2: 41869
+  Segment 3: 41869
+  Segment 4: 41640
+[DEBUG reserveSeats] SUCCESS: Reserving 6161 seats for segments 2 to 4
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-29 | Segments: 0 to 2
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-11 | Segments: 1 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 47885
+  Segment 2: 47885
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-3 | Segments: 3 to 4
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 3: 46807
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-17 | Segments: 3 to 4
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 3: 43488
+[DEBUG reserveSeats] SUCCESS: Reserving 4207 seats for segments 3 to 3
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-17 | Segments: 0 to 2
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-10 | Segments: 0 to 2
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-7 | Segments: 0 to 4
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 41869
+  Segment 1: 41869
+  Segment 2: 35708
+  Segment 3: 35708
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-18 | Segments: 0 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+  Segment 2: 47885
+  Segment 3: 47885
+  Segment 4: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 5789 seats for segments 0 to 4
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-7 | Segments: 0 to 4
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 41869
+  Segment 1: 41869
+  Segment 2: 35708
+  Segment 3: 35708
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-8 | Segments: 4 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 4: 43263
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-11 | Segments: 1 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 47885
+  Segment 2: 47885
+  Segment 3: 47885
+  Segment 4: 47885
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-6 | Segments: 1 to 2
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 5937 seats for segments 1 to 1
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-11 | Segments: 0 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+  Segment 2: 47885
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-24 | Segments: 4 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 4: 42568
+[DEBUG reserveSeats] SUCCESS: Reserving 3826 seats for segments 4 to 4
+[DEBUG LOGIN] Mostima: password incorrect
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-30 | Segments: 1 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 44116
+  Segment 2: 44116
+[DEBUG reserveSeats] SUCCESS: Reserving 8412 seats for segments 1 to 2
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-20 | Segments: 0 to 4
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 31813
+  Segment 2: 39953
+  Segment 3: 39953
+[DEBUG reserveSeats] SUCCESS: Reserving 337 seats for segments 0 to 3
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-29 | Segments: 0 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+  Segment 2: 47885
+  Segment 3: 47885
+  Segment 4: 47885
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-25 | Segments: 1 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 47885
+  Segment 2: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 5385 seats for segments 1 to 2
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-5 | Segments: 0 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+  Segment 2: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 4686 seats for segments 0 to 2
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-30 | Segments: 0 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 35704
+  Segment 2: 35704
+[DEBUG reserveSeats] SUCCESS: Reserving 3277 seats for segments 0 to 2
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-9 | Segments: 2 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 2: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 5677 seats for segments 2 to 2
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-22 | Segments: 1 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 46418
+  Segment 2: 39370
+  Segment 3: 40837
+  Segment 4: 42400
+[DEBUG reserveSeats] SUCCESS: Reserving 6381 seats for segments 1 to 4
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-20 | Segments: 1 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 47885
+  Segment 2: 47885
+  Segment 3: 47885
+  Segment 4: 47885
+
+========== BUG #2 TARGET COMMAND FOUND ==========
+[BUG2] buy_ticket -u Mostima -i puzzletheNewWorld -d 08-04 -n 1304
+[BUG2] queue_str: true
+[BUG2] Checking login status...
+[BUG2]   is_logged_in pointer: NULL
+[BUG2] FAILED: user not logged in - returning -1
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-29 | Segments: 1 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 39054
+  Segment 2: 31604
+  Segment 3: 39054
+  Segment 4: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 7859 seats for segments 1 to 4

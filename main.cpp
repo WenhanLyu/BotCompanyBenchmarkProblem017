@@ -1371,20 +1371,26 @@ int cmd_query_transfer(const CommandParser& parser) {
 int cmd_buy_ticket(const CommandParser& parser) {
     const char* username = parser.get('u');
     const char* trainID = parser.get('i');
-#if DEBUG_ISSUE_54
-    bool is_target_cmd = false;
-    if (username && trainID && strcmp(username, "Mostima") == 0 && strcmp(trainID, "puzzletheNewWorld") == 0) {
-        is_target_cmd = true;
-        std::cerr << "[DEBUG] TARGET buy_ticket called!" << std::endl;
-    } else if (username && trainID) {
-        std::cerr << "[DEBUG] buy_ticket: u=" << username << " i=" << trainID << std::endl;
-    }
-#endif
     const char* date_str = parser.get('d');
     const char* num_str = parser.get('n');
     const char* from_station = parser.get('f');
     const char* to_station = parser.get('t');
     const char* queue_str = parser.get('q');
+
+#if DEBUG_ISSUE_54
+    bool is_target_cmd = false;
+    // Check for the EXACT target command with all parameters
+    if (username && trainID && date_str && num_str &&
+        strcmp(username, "Mostima") == 0 &&
+        strcmp(trainID, "puzzletheNewWorld") == 0 &&
+        strcmp(date_str, "08-04") == 0 &&
+        strcmp(num_str, "1304") == 0) {
+        is_target_cmd = true;
+        std::cerr << "\n========== BUG #2 TARGET COMMAND FOUND ==========" << std::endl;
+        std::cerr << "[BUG2] buy_ticket -u Mostima -i puzzletheNewWorld -d 08-04 -n 1304" << std::endl;
+        std::cerr << "[BUG2] queue_str: " << (queue_str ? queue_str : "NULL") << std::endl;
+    }
+#endif
 
     // Validate parameters
     if (!username || !trainID || !date_str || !num_str || !from_station || !to_station) {
@@ -1408,9 +1414,18 @@ int cmd_buy_ticket(const CommandParser& parser) {
 
     // Check if user is logged in
     bool* is_logged_in = logged_in_users.find(username);
+#if DEBUG_ISSUE_54
+    if (is_target_cmd) {
+        std::cerr << "[BUG2] Checking login status..." << std::endl;
+        std::cerr << "[BUG2]   is_logged_in pointer: " << (is_logged_in ? "found" : "NULL") << std::endl;
+        if (is_logged_in) {
+            std::cerr << "[BUG2]   is_logged_in value: " << (*is_logged_in ? "true" : "false") << std::endl;
+        }
+    }
+#endif
     if (!is_logged_in || !(*is_logged_in)) {
 #if DEBUG_ISSUE_54
-        if (is_target_cmd) std::cerr << "[DEBUG TARGET] FAILED: user not logged in" << std::endl;
+        if (is_target_cmd) std::cerr << "[BUG2] FAILED: user not logged in - returning -1" << std::endl;
 #endif
         return -1;
     }
@@ -1541,11 +1556,13 @@ int cmd_buy_ticket(const CommandParser& parser) {
 
 #if DEBUG_ISSUE_54
     if (is_target_cmd) {
-        std::cerr << "\n========== ISSUE #54 SEAT CHECK ==========" << std::endl;
-        std::cerr << "[SEAT CHECK] About to check seats..." << std::endl;
-        std::cerr << "[SEAT CHECK] start_date: " << (int)start_date.month << "-" << (int)start_date.day << std::endl;
-        std::cerr << "[SEAT CHECK] from_idx: " << from_idx << ", to_idx: " << to_idx << std::endl;
-        std::cerr << "[SEAT CHECK] ticket_count: " << ticket_count << std::endl;
+        std::cerr << "\n========== BUG #2 SEAT CHECK ==========" << std::endl;
+        std::cerr << "[BUG2] About to check seat availability..." << std::endl;
+        std::cerr << "[BUG2] start_date: " << (int)start_date.month << "-" << (int)start_date.day << std::endl;
+        std::cerr << "[BUG2] from_idx: " << from_idx << ", to_idx: " << to_idx << std::endl;
+        std::cerr << "[BUG2] ticket_count: " << ticket_count << std::endl;
+        std::cerr << "[BUG2] allow_queue: " << (allow_queue ? "true" : "false") << std::endl;
+        std::cerr << "[BUG2] total_price: " << total_price << std::endl;
     }
 #endif
 
@@ -1554,13 +1571,12 @@ int cmd_buy_ticket(const CommandParser& parser) {
 
 #if DEBUG_ISSUE_54
     if (is_target_cmd) {
-        std::cerr << "\n========== ISSUE #54 RESULT ==========" << std::endl;
-        std::cerr << "[RESULT] Available seats: " << available << std::endl;
-        std::cerr << "[RESULT] Requested: " << ticket_count << std::endl;
-        std::cerr << "[RESULT] Train seatNum: " << train->seatNum << std::endl;
-        std::cerr << "[RESULT] Total price: " << total_price << std::endl;
-        std::cerr << "[RESULT] allow_queue: " << (allow_queue ? "true" : "false") << std::endl;
-        std::cerr << "[RESULT] Decision: " << (available >= ticket_count ? "RESERVE" : "QUEUE") << std::endl;
+        std::cerr << "\n========== BUG #2 RESULT ==========" << std::endl;
+        std::cerr << "[BUG2] Available seats returned: " << available << std::endl;
+        std::cerr << "[BUG2] Requested tickets: " << ticket_count << std::endl;
+        std::cerr << "[BUG2] Comparison: available (" << available << ") >= ticket_count (" << ticket_count << ") = "
+                  << (available >= ticket_count ? "TRUE" : "FALSE") << std::endl;
+        std::cerr << "[BUG2] Will take path: " << (available >= ticket_count ? "RESERVE (output price)" : "QUEUE (output 'queue')") << std::endl;
     }
 #endif
 

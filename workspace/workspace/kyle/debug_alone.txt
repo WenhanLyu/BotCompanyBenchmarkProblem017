@@ -1,0 +1,8 @@
+[DEBUG LOGIN] Mostima: user not found
+
+========== BUG #2 TARGET COMMAND FOUND ==========
+[BUG2] buy_ticket -u Mostima -i puzzletheNewWorld -d 08-04 -n 1304
+[BUG2] queue_str: true
+[BUG2] Checking login status...
+[BUG2]   is_logged_in pointer: NULL
+[BUG2] FAILED: user not logged in - returning -1

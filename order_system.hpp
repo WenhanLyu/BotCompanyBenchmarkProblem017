@@ -98,10 +98,9 @@ inline int checkAvailableSeats(const char* trainID, const Date& date,
                   << " | Date: " << (int)date.month << "-" << (int)date.day
                   << " | Segments: " << from_idx << " to " << to_idx << std::endl;
         if (seat_data) {
-            std::cerr << "[DEBUG checkAvailableSeats] Seat data found, num_segments: "
-                      << seat_data->num_segments << std::endl;
+            std::cerr << "[DEBUG checkAvailableSeats] Seat data found" << std::endl;
             std::cerr << "[DEBUG checkAvailableSeats] Available seats per segment:" << std::endl;
-            for (int i = from_idx; i < to_idx && i < seat_data->num_segments; i++) {
+            for (int i = from_idx; i < to_idx; i++) {
                 std::cerr << "  Segment " << i << ": " << seat_data->available[i] << std::endl;
             }
         } else {

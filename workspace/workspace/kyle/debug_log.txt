@@ -1,0 +1,526 @@
+[DEBUG] buy_ticket: u=GreyThroat i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Vanilla i=LeavesofGrass
+[DEBUG] buy_ticket: u=Jessica i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=GreyThroat i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Executor i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Executor i=LeavesofGrass
+[DEBUG] buy_ticket: u=Skyfire i=LeavesofGrass
+[DEBUG] buy_ticket: u=Grani i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Vanilla i=LeavesofGrass
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=Vanilla i=LeavesofGrass
+[DEBUG] buy_ticket: u=Vanilla i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Skyfire i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=FEater i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=GreyThroat i=LeavesofGrass
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=Vanilla i=INSCRIPTIONS
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-5 | Segments: 1 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 46686
+  Segment 2: 47885
+  Segment 3: 47885
+  Segment 4: 47885
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=Executor i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Vanilla i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Jessica i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=GreyThroat i=LeavesofGrass
+[DEBUG] buy_ticket: u=FEater i=LeavesofGrass
+[DEBUG] buy_ticket: u=Skyfire i=TOtheeoldcause
+[DEBUG] buy_ticket: u=Grani i=ThereforeIsendyou
+[DEBUG] buy_ticket: u=FEater i=LeavesofGrass
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-25 | Segments: 0 to 2
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+[DEBUG] buy_ticket: u=Executor i=LeavesofGrass
+[DEBUG] buy_ticket: u=Jessica i=LeavesofGrass
+[DEBUG] buy_ticket: u=GreyThroat i=LeavesofGrass
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=Vanilla i=LeavesofGrass
+[DEBUG] buy_ticket: u=Magallan i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=GreyThroat i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Chen i=AndtodefineAmeric
+[DEBUG] buy_ticket: u=FEater i=LeavesofGrass
+[DEBUG] buy_ticket: u=FEater i=LeavesofGrass
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-28 | Segments: 0 to 1
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+[DEBUG] buy_ticket: u=Executor i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Grani i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Grani i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Vanilla i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=Skyfire i=LeavesofGrass
+[DEBUG] buy_ticket: u=GreyThroat i=TOtheeoldcause
+[DEBUG] buy_ticket: u=Chen i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-7 | Segments: 0 to 4
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+  Segment 2: 47885
+  Segment 3: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 6016 seats for segments 0 to 3
+[DEBUG] buy_ticket: u=Chen i=LeavesofGrass
+[DEBUG] buy_ticket: u=Chen i=LeavesofGrass
+[DEBUG] buy_ticket: u=Jessica i=LeavesofGrass
+[DEBUG] buy_ticket: u=Executor i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Skyfire i=Afterastrangesad
+[DEBUG] buy_ticket: u=GreyThroat i=TOtheeoldcause
+[DEBUG] buy_ticket: u=Skyfire i=LeavesofGrass
+[DEBUG] buy_ticket: u=Vanilla i=LeavesofGrass
+[DEBUG] buy_ticket: u=Executor i=LeavesofGrass
+[DEBUG] buy_ticket: u=Chen i=LeavesofGrass
+[DEBUG] buy_ticket: u=Skyfire i=LeavesofGrass
+[DEBUG] buy_ticket: u=Jessica i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Vanilla i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Executor i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Chen i=LeavesofGrass
+[DEBUG] buy_ticket: u=Grani i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=Astesia i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Astesia i=LeavesofGrass
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=Astesia i=TOTHEEOLDCAUSE
+[DEBUG] buy_ticket: u=Executor i=LeavesofGrass
+[DEBUG] buy_ticket: u=Eyjafjalla i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-22 | Segments: 3 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 3: 40837
+  Segment 4: 42400
+[DEBUG] buy_ticket: u=Executor i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-26 | Segments: 2 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 2: 37937
+[DEBUG reserveSeats] SUCCESS: Reserving 1220 seats for segments 2 to 2
+[DEBUG] buy_ticket: u=Yato i=LeavesofGrass
+[DEBUG] buy_ticket: u=GreyThroat i=LeavesofGrass
+[DEBUG] buy_ticket: u=Chen i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Vanilla i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Grani i=LeavesofGrass
+[DEBUG] buy_ticket: u=Vanilla i=LeavesofGrass
+[DEBUG] buy_ticket: u=FEater i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-16 | Segments: 0 to 1
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 4676 seats for segments 0 to 0
+[DEBUG] buy_ticket: u=Jessica i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Grani i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-8 | Segments: 0 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 43263
+  Segment 1: 43263
+  Segment 2: 43263
+[DEBUG reserveSeats] SUCCESS: Reserving 10738 seats for segments 0 to 2
+[DEBUG] buy_ticket: u=NoirCorne i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-3 | Segments: 2 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 2: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 4645 seats for segments 2 to 2
+[DEBUG] buy_ticket: u=FEater i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Aak i=LeavesofGrass
+[DEBUG] buy_ticket: u=Sora i=Afterastrangesad
+[DEBUG] buy_ticket: u=Skyfire i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Aak i=LeavesofGrass
+[DEBUG] buy_ticket: u=Aak i=LeavesofGrass
+[DEBUG] buy_ticket: u=GreyThroat i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Skyfire i=LeavesofGrass
+[DEBUG] buy_ticket: u=Chen i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Skyfire i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Sora i=LeavesofGrass
+[DEBUG] buy_ticket: u=Skyfire i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Vanilla i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=FEater i=LeavesofGrass
+[DEBUG] buy_ticket: u=Jessica i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Skyfire i=LeavesofGrass
+[DEBUG] buy_ticket: u=Broca i=LeavesofGrass
+[DEBUG] buy_ticket: u=NoirCorne i=LeavesofGrass
+[DEBUG] buy_ticket: u=NoirCorne i=LeavesofGrass
+[DEBUG] buy_ticket: u=GreyThroat i=LeavesofGrass
+[DEBUG] buy_ticket: u=Grani i=LeavesofGrass
+[DEBUG] buy_ticket: u=Broca i=LeavesofGrass
+[DEBUG] buy_ticket: u=Chen i=LeavesofGrass
+[DEBUG] buy_ticket: u=Grani i=LeavesofGrass
+[DEBUG] buy_ticket: u=Aak i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Chen i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Vanilla i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-7 | Segments: 2 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 2: 41869
+  Segment 3: 41869
+  Segment 4: 41640
+[DEBUG reserveSeats] SUCCESS: Reserving 6161 seats for segments 2 to 4
+[DEBUG] buy_ticket: u=Aak i=LeavesofGrass
+[DEBUG] buy_ticket: u=Aak i=LeavesofGrass
+[DEBUG] buy_ticket: u=Executor i=LeavesofGrass
+[DEBUG] buy_ticket: u=Chen i=LeavesofGrass
+[DEBUG] buy_ticket: u=Eyjafjalla i=IHEARDthatyouask
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-29 | Segments: 0 to 2
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+[DEBUG] buy_ticket: u=Grani i=LeavesofGrass
+[DEBUG] buy_ticket: u=Chen i=LeavesofGrass
+[DEBUG] buy_ticket: u=Broca i=ThereforeIsendyou
+[DEBUG] buy_ticket: u=Grani i=LeavesofGrass
+[DEBUG] buy_ticket: u=Sora i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Chen i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=GreyThroat i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Chen i=IHEARDthatyouask
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-11 | Segments: 1 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 47885
+  Segment 2: 47885
+[DEBUG] buy_ticket: u=Aak i=LeavesofGrass
+[DEBUG] buy_ticket: u=Jessica i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Sora i=INSCRIPTIONS
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-3 | Segments: 3 to 4
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 3: 46807
+[DEBUG] buy_ticket: u=Aak i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Aak i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Sora i=LeavesofGrass
+[DEBUG] buy_ticket: u=Executor i=TOFOREIGNLANDS
+[DEBUG] buy_ticket: u=Chen i=TOFOREIGNLANDS
+[DEBUG] buy_ticket: u=GreyThroat i=LeavesofGrass
+[DEBUG] buy_ticket: u=Yato i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Yato i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-17 | Segments: 3 to 4
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 3: 43488
+[DEBUG reserveSeats] SUCCESS: Reserving 4207 seats for segments 3 to 3
+[DEBUG] buy_ticket: u=May i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Chen i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=FEater i=LeavesofGrass
+[DEBUG] buy_ticket: u=Broca i=LeavesofGrass
+[DEBUG] buy_ticket: u=GreyThroat i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Astesia i=TOTHEEOLDCAUSE
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-17 | Segments: 0 to 2
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+[DEBUG] buy_ticket: u=Executor i=AndtodefineAmeric
+[DEBUG] buy_ticket: u=Sora i=LeavesofGrass
+[DEBUG] buy_ticket: u=Grani i=whatyouwanted
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=Eyjafjalla i=Afterastrangesad
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-10 | Segments: 0 to 2
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+[DEBUG] buy_ticket: u=May i=TOFOREIGNLANDS
+[DEBUG] buy_ticket: u=NoirCorne i=LeavesofGrass
+[DEBUG] buy_ticket: u=Yato i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Skyfire i=LeavesofGrass
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-7 | Segments: 0 to 4
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 41869
+  Segment 1: 41869
+  Segment 2: 35708
+  Segment 3: 35708
+[DEBUG] buy_ticket: u=Astesia i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Yato i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Sora i=ThereforeIsendyou
+[DEBUG] buy_ticket: u=Aak i=LeavesofGrass
+[DEBUG] buy_ticket: u=GreyThroat i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Broca i=LeavesofGrass
+[DEBUG] buy_ticket: u=Vanilla i=LeavesofGrass
+[DEBUG] buy_ticket: u=Eyjafjalla i=LeavesofGrass
+[DEBUG] buy_ticket: u=GreyThroat i=whatyouwanted
+[DEBUG] buy_ticket: u=Yato i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-18 | Segments: 0 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+  Segment 2: 47885
+  Segment 3: 47885
+  Segment 4: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 5789 seats for segments 0 to 4
+[DEBUG] buy_ticket: u=Yato i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=NoirCorne i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Jessica i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=GreyThroat i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=FEater i=LeavesofGrass
+[DEBUG] buy_ticket: u=Yato i=whatyouwanted
+[DEBUG] buy_ticket: u=Astesia i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Eyjafjalla i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Lava i=LeavesofGrass
+[DEBUG] buy_ticket: u=Chen i=LeavesofGrass
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-7 | Segments: 0 to 4
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 41869
+  Segment 1: 41869
+  Segment 2: 35708
+  Segment 3: 35708
+[DEBUG] buy_ticket: u=May i=LeavesofGrass
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-8 | Segments: 4 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 4: 43263
+[DEBUG] buy_ticket: u=Executor i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Frostleaf i=LeavesofGrass
+[DEBUG] buy_ticket: u=Astesia i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Yato i=LeavesofGrass
+[DEBUG] buy_ticket: u=Eyjafjalla i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Lava i=LeavesofGrass
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-11 | Segments: 1 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 47885
+  Segment 2: 47885
+  Segment 3: 47885
+  Segment 4: 47885
+[DEBUG] buy_ticket: u=Broca i=LeavesofGrass
+[DEBUG] buy_ticket: u=Jessica i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Grani i=LeavesofGrass
+[DEBUG] buy_ticket: u=Chen i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=May i=LeavesofGrass
+[DEBUG] buy_ticket: u=Cliffheart i=Afterastrangesad
+[DEBUG] buy_ticket: u=Grani i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=GreyThroat i=LeavesofGrass
+[DEBUG] buy_ticket: u=Lava i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Bison i=LeavesofGrass
+[DEBUG] buy_ticket: u=FEater i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Bison i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Eyjafjalla i=LeavesofGrass
+[DEBUG] buy_ticket: u=Broca i=LeavesofGrass
+[DEBUG] buy_ticket: u=Frostleaf i=ThereforeIsendyou
+[DEBUG] buy_ticket: u=Cliffheart i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-6 | Segments: 1 to 2
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 5937 seats for segments 1 to 1
+[DEBUG] buy_ticket: u=Bison i=LeavesofGrass
+[DEBUG] buy_ticket: u=Aak i=LeavesofGrass
+[DEBUG] buy_ticket: u=Lava i=ThereforeIsendyou
+[DEBUG] buy_ticket: u=Executor i=LeavesofGrass
+[DEBUG] buy_ticket: u=Vanilla i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=NoirCorne i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Shining i=LeavesofGrass
+[DEBUG] buy_ticket: u=Sora i=LeavesofGrass
+[DEBUG] buy_ticket: u=Lava i=LeavesofGrass
+[DEBUG] buy_ticket: u=Yato i=LeavesofGrass
+[DEBUG] buy_ticket: u=Greyy i=Deathlessthroughout
+[DEBUG] buy_ticket: u=Greyy i=Deathlessthroughout
+[DEBUG] buy_ticket: u=Spot i=LeavesofGrass
+[DEBUG] buy_ticket: u=Specter i=AwarOsoldiersno
+[DEBUG] buy_ticket: u=Vanilla i=LeavesofGrass
+[DEBUG] buy_ticket: u=Hellagur i=LeavesofGrass
+[DEBUG] buy_ticket: u=Skyfire i=ThereforeIsendyou
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 8-11 | Segments: 0 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+  Segment 2: 47885
+[DEBUG] buy_ticket: u=Cliffheart i=Ithinkallwarthr
+[DEBUG] buy_ticket: u=FEater i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-24 | Segments: 4 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 4: 42568
+[DEBUG reserveSeats] SUCCESS: Reserving 3826 seats for segments 4 to 4
+[DEBUG] buy_ticket: u=Magallan i=everwillbereally
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=NoirCorne i=LeavesofGrass
+[DEBUG] buy_ticket: u=Skyfire i=LeavesofGrass
+[DEBUG] buy_ticket: u=Specter i=TOFOREIGNLANDS
+[DEBUG] buy_ticket: u=Greyy i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Shining i=LeavesofGrass
+[DEBUG] buy_ticket: u=Spot i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Greyy i=LeavesofGrass
+[DEBUG] buy_ticket: u=Shining i=LeavesofGrass
+[DEBUG LOGIN] Mostima: password incorrect
+[DEBUG] buy_ticket: u=Yato i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Cliffheart i=LeavesofGrass
+[DEBUG] buy_ticket: u=Greyy i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=Rangers i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Greyy i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Eyjafjalla i=LeavesofGrass
+[DEBUG] buy_ticket: u=Spot i=LeavesofGrass
+[DEBUG] buy_ticket: u=Sora i=LeavesofGrass
+[DEBUG] buy_ticket: u=Specter i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Lava i=LeavesofGrass
+[DEBUG] buy_ticket: u=Meteor i=LeavesofGrass
+[DEBUG] buy_ticket: u=Chen i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Aak i=AndtodefineAmeric
+[DEBUG] buy_ticket: u=Midnight i=LeavesofGrass
+[DEBUG] buy_ticket: u=Rangers i=LeavesofGrass
+[DEBUG] buy_ticket: u=Frostleaf i=LeavesofGrass
+[DEBUG] buy_ticket: u=Bison i=LeavesofGrass
+[DEBUG] buy_ticket: u=Shining i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Executor i=LeavesofGrass
+[DEBUG] buy_ticket: u=Indra i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-30 | Segments: 1 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 44116
+  Segment 2: 44116
+[DEBUG reserveSeats] SUCCESS: Reserving 8412 seats for segments 1 to 2
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=Executor i=LeavesofGrass
+[DEBUG] buy_ticket: u=Eyjafjalla i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-20 | Segments: 0 to 4
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 31813
+  Segment 2: 39953
+  Segment 3: 39953
+[DEBUG reserveSeats] SUCCESS: Reserving 337 seats for segments 0 to 3
+[DEBUG] buy_ticket: u=Indra i=LeavesofGrass
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-29 | Segments: 0 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+  Segment 2: 47885
+  Segment 3: 47885
+  Segment 4: 47885
+[DEBUG] buy_ticket: u=Catapult i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Grani i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-25 | Segments: 1 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 47885
+  Segment 2: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 5385 seats for segments 1 to 2
+[DEBUG] buy_ticket: u=Grani i=Ithinkallwarthr
+[DEBUG] buy_ticket: u=FEater i=LeavesofGrass
+[DEBUG] buy_ticket: u=Meteor i=Farfarmorestood
+[DEBUG] buy_ticket: u=Lava i=LeavesofGrass
+[DEBUG] buy_ticket: u=Chen i=LeavesofGrass
+[DEBUG] buy_ticket: u=Astesia i=LeavesofGrass
+[DEBUG] buy_ticket: u=Indra i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Jessica i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-5 | Segments: 0 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 47885
+  Segment 2: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 4686 seats for segments 0 to 2
+[DEBUG] buy_ticket: u=Vanilla i=ThereforeIsendyou
+[DEBUG] buy_ticket: u=Shining i=Deathlessthroughout
+[DEBUG] buy_ticket: u=Astesia i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Mostima i=LeavesofGrass
+[DEBUG] buy_ticket: u=Greyy i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Vanilla i=LeavesofGrass
+[DEBUG] buy_ticket: u=Sora i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=NoirCorne i=LeavesofGrass
+[DEBUG] buy_ticket: u=Mostima i=LeavesofGrass
+[DEBUG] buy_ticket: u=Chen i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Meteor i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Shining i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=GreyThroat i=LeavesofGrass
+[DEBUG] buy_ticket: u=Jessica i=LeavesofGrass
+[DEBUG] buy_ticket: u=Midnight i=LeavesofGrass
+[DEBUG] buy_ticket: u=Skyfire i=LeavesofGrass
+[DEBUG] buy_ticket: u=NoirCorne i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Yato i=LeavesofGrass
+[DEBUG] buy_ticket: u=Lava i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Spot i=LeavesofGrass
+[DEBUG] buy_ticket: u=Frostleaf i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Lava i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=ProjeKTRed i=LeavesofGrass
+[DEBUG] buy_ticket: u=Sora i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Catapult i=LeavesofGrass
+[DEBUG] buy_ticket: u=May i=LeavesofGrass
+[DEBUG] buy_ticket: u=Magallan i=LeavesofGrass
+[DEBUG] buy_ticket: u=Lava i=LeavesofGrass
+[DEBUG] buy_ticket: u=Lava i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Magallan i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Greyy i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Lava i=LeavesofGrass
+[DEBUG] buy_ticket: u=Bison i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-30 | Segments: 0 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 0: 47885
+  Segment 1: 35704
+  Segment 2: 35704
+[DEBUG reserveSeats] SUCCESS: Reserving 3277 seats for segments 0 to 2
+[DEBUG] buy_ticket: u=Ptilopsis i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Ptilopsis i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Frostleaf i=LeavesofGrass
+[DEBUG] buy_ticket: u=Astesia i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-9 | Segments: 2 to 3
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 2: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 5677 seats for segments 2 to 2
+[DEBUG] buy_ticket: u=Ptilopsis i=Afterastrangesad
+[DEBUG] buy_ticket: u=ProjeKTRed i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Rangers i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Spot i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-22 | Segments: 1 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 46418
+  Segment 2: 39370
+  Segment 3: 40837
+  Segment 4: 42400
+[DEBUG reserveSeats] SUCCESS: Reserving 6381 seats for segments 1 to 4
+[DEBUG] buy_ticket: u=Specter i=LeavesofGrass
+[DEBUG] buy_ticket: u=Hellagur i=Thesechantsforthe
+[DEBUG] buy_ticket: u=Vanilla i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Greyy i=LeavesofGrass
+[DEBUG] buy_ticket: u=Specter i=LeavesofGrass
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 6-20 | Segments: 1 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 47885
+  Segment 2: 47885
+  Segment 3: 47885
+  Segment 4: 47885
+[DEBUG] buy_ticket: u=Aak i=LeavesofGrass
+[DEBUG] buy_ticket: u=Eyjafjalla i=LeavesofGrass
+[DEBUG] buy_ticket: u=Frostleaf i=advanceinthisbook
+[DEBUG] buy_ticket: u=Frostleaf i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Vanilla i=LeavesofGrass
+[DEBUG] buy_ticket: u=Yato i=LeavesofGrass
+[DEBUG] buy_ticket: u=Spot i=INSCRIPTIONS
+[DEBUG] buy_ticket: u=Specter i=LeavesofGrass
+[DEBUG] buy_ticket: u=Catapult i=Thesechantsforthe
+[DEBUG] buy_ticket: u=NoirCorne i=LeavesofGrass
+[DEBUG] buy_ticket: u=Bison i=advanceinthisbook
+[DEBUG] buy_ticket: u=Jessica i=TOtheeoldcause
+[DEBUG] buy_ticket: u=Lava i=LeavesofGrass
+[DEBUG] buy_ticket: u=Eyjafjalla i=TOtheeoldcause
+[DEBUG] buy_ticket: u=Jessica i=LeavesofGrass
+[DEBUG] TARGET buy_ticket called!
+[DEBUG TARGET] FAILED: user not logged in
+[DEBUG] buy_ticket: u=Jessica i=IHEARDthatyouask
+[DEBUG] buy_ticket: u=Platinum i=puzzletheNewWorld
+[DEBUG checkAvailableSeats] Train: puzzletheNewWorld | Date: 7-29 | Segments: 1 to 5
+[DEBUG checkAvailableSeats] Seat data found
+[DEBUG checkAvailableSeats] Available seats per segment:
+  Segment 1: 39054
+  Segment 2: 31604
+  Segment 3: 39054
+  Segment 4: 47885
+[DEBUG reserveSeats] SUCCESS: Reserving 7859 seats for segments 1 to 4
